@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,319 @@
 
 ## 目录 (Table of Contents)
 
-1. [Filtered not Mixed: Filtering-Based Online Gating for Mixture of Large Language Models](#Filtered-not-Mixed-Filtering-Based-Online-Gating-for-Mixture-of-Large-Language-Models)
-2. [Looking Inward: Language Models Can Learn About Themselves by Introspection](#Looking-Inward-Language-Models-Can-Learn-About-Themselves-by-Introspection)
-3. [DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation](#DiffSplat-Repurposing-Image-Diffusion-Models-for-Scalable-Gaussian-Splat-Generation)
-4. [Mitigating Parameter Interference in Model Merging via Sharpness-Aware Fine-Tuning](#Mitigating-Parameter-Interference-in-Model-Merging-via-Sharpness-Aware-Fine-Tuning)
-5. [Offline RL with Smooth OOD Generalization in Convex Hull and its Neighborhood](#Offline-RL-with-Smooth-OOD-Generalization-in-Convex-Hull-and-its-Neighborhood)
-6. [How Does Vision-Language Adaptation Impact the Safety of Vision Language Models?](#How-Does-Vision-Language-Adaptation-Impact-the-Safety-of-Vision-Language-Models)
-7. [Multi-Resolution Decomposable Diffusion Model for Non-Stationary Time Series Anomaly Detection](#Multi-Resolution-Decomposable-Diffusion-Model-for-Non-Stationary-Time-Series-Anomaly-Detection)
-8. [Layerwise Recurrent Router for  Mixture-of-Experts](#Layerwise-Recurrent-Router-for-Mixture-of-Experts)
-9. [On Minimizing Adversarial Counterfactual Error in Adversarial Reinforcement Learning](#On-Minimizing-Adversarial-Counterfactual-Error-in-Adversarial-Reinforcement-Learning)
-10. [GraphRouter: A Graph-based Router for LLM Selections](#GraphRouter-A-Graph-based-Router-for-LLM-Selections)
-11. [Rethinking Audio-Visual Adversarial Vulnerability from Temporal and Modality Perspectives](#Rethinking-Audio-Visual-Adversarial-Vulnerability-from-Temporal-and-Modality-Perspectives)
-12. [Continuous Ensemble Weather Forecasting with Diffusion models](#Continuous-Ensemble-Weather-Forecasting-with-Diffusion-models)
-13. [Generating Physical Dynamics under Priors](#Generating-Physical-Dynamics-under-Priors)
-14. [DataMan: Data Manager for Pre-training Large Language Models](#DataMan-Data-Manager-for-Pre-training-Large-Language-Models)
-15. [Preserving Deep Representations in One-Shot Pruning: A Hessian-Free Second-Order Optimization Framework](#Preserving-Deep-Representations-in-One-Shot-Pruning-A-Hessian-Free-Second-Order-Optimization-Framework)
-16. [UniDetox: Universal Detoxification of Large Language Models via Dataset Distillation](#UniDetox-Universal-Detoxification-of-Large-Language-Models-via-Dataset-Distillation)
-17. [Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count](#Arithmetic-Transformers-Can-Length-Generalize-in-Both-Operand-Length-and-Count)
-18. [Look Before You Leap: Universal Emergent Mechanism for Retrieval in Language Models](#Look-Before-You-Leap-Universal-Emergent-Mechanism-for-Retrieval-in-Language-Models)
-19. [Matrix Product Sketching via Coordinated Sampling](#Matrix-Product-Sketching-via-Coordinated-Sampling)
-20. [3D-MolT5: Leveraging Discrete Structural Information for Molecule-Text Modeling](#3D-MolT5-Leveraging-Discrete-Structural-Information-for-Molecule-Text-Modeling)
-21. [Unveiling the Secret Recipe: A Guide For Supervised Fine-Tuning Small LLMs](#Unveiling-the-Secret-Recipe-A-Guide-For-Supervised-Fine-Tuning-Small-LLMs)
-22. [Learning Clustering-based Prototypes for Compositional Zero-Shot Learning](#Learning-Clustering-based-Prototypes-for-Compositional-Zero-Shot-Learning)
-23. [BadJudge: Backdoor Vulnerabilities of LLM-As-A-Judge](#BadJudge-Backdoor-Vulnerabilities-of-LLM-As-A-Judge)
-24. [Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling](#Ctrl-U-Robust-Conditional-Image-Generation-via-Uncertainty-aware-Reward-Modeling)
-25. [Pairwise Elimination with Instance-Dependent Guarantees for Bandits with Cost Subsidy](#Pairwise-Elimination-with-Instance-Dependent-Guarantees-for-Bandits-with-Cost-Subsidy)
-26. [Improved Techniques for Optimization-Based Jailbreaking on Large Language Models](#Improved-Techniques-for-Optimization-Based-Jailbreaking-on-Large-Language-Models)
-27. [Beyond Worst-Case Dimensionality Reduction for Sparse Vectors](#Beyond-Worst-Case-Dimensionality-Reduction-for-Sparse-Vectors)
-28. [PAD: Personalized Alignment of LLMs at Decoding-time](#PAD-Personalized-Alignment-of-LLMs-at-Decoding-time)
-29. [Dreamweaver: Learning Compositional World Models from Pixels](#Dreamweaver-Learning-Compositional-World-Models-from-Pixels)
-30. [Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model](#Policy-Decorator-Model-Agnostic-Online-Refinement-for-Large-Policy-Model)
-31. [Ensembling Diffusion Models via Adaptive Feature Aggregation](#Ensembling-Diffusion-Models-via-Adaptive-Feature-Aggregation)
-32. [Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models](#Eliminating-Oversaturation-and-Artifacts-of-High-Guidance-Scales-in-Diffusion-Models)
-33. [Efficient Reinforcement Learning with Large Language Model Priors](#Efficient-Reinforcement-Learning-with-Large-Language-Model-Priors)
-34. [Federated Residual Low-Rank Adaptation of Large Language Models](#Federated-Residual-Low-Rank-Adaptation-of-Large-Language-Models)
-35. [Convex Formulations for Training Two-Layer ReLU Neural Networks](#Convex-Formulations-for-Training-Two-Layer-ReLU-Neural-Networks)
-36. [RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph](#RepoGraph-Enhancing-AI-Software-Engineering-with-Repository-level-Code-Graph)
+1. [Diffusion Bridge Implicit Models](#Diffusion-Bridge-Implicit-Models)
+2. [Swiss Army Knife: Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learning](#Swiss-Army-Knife-Synergizing-Biases-in-Knowledge-from-Vision-Foundation-Models-for-Multi-Task-Learning)
+3. [A Meta-Learning Approach to Bayesian Causal Discovery](#A-Meta-Learning-Approach-to-Bayesian-Causal-Discovery)
+4. [TweedieMix: Improving Multi-Concept Fusion for Diffusion-based Image/Video Generation](#TweedieMix-Improving-Multi-Concept-Fusion-for-Diffusion-based-ImageVideo-Generation)
+5. [Learning Neural Networks with Distribution Shift: Efficiently Certifiable Guarantees](#Learning-Neural-Networks-with-Distribution-Shift-Efficiently-Certifiable-Guarantees)
+6. [Filtered not Mixed: Filtering-Based Online Gating for Mixture of Large Language Models](#Filtered-not-Mixed-Filtering-Based-Online-Gating-for-Mixture-of-Large-Language-Models)
+7. [Looking Inward: Language Models Can Learn About Themselves by Introspection](#Looking-Inward-Language-Models-Can-Learn-About-Themselves-by-Introspection)
+8. [DiffSplat: Repurposing Image Diffusion Models for Scalable Gaussian Splat Generation](#DiffSplat-Repurposing-Image-Diffusion-Models-for-Scalable-Gaussian-Splat-Generation)
+9. [Mitigating Parameter Interference in Model Merging via Sharpness-Aware Fine-Tuning](#Mitigating-Parameter-Interference-in-Model-Merging-via-Sharpness-Aware-Fine-Tuning)
+10. [Offline RL with Smooth OOD Generalization in Convex Hull and its Neighborhood](#Offline-RL-with-Smooth-OOD-Generalization-in-Convex-Hull-and-its-Neighborhood)
+11. [How Does Vision-Language Adaptation Impact the Safety of Vision Language Models?](#How-Does-Vision-Language-Adaptation-Impact-the-Safety-of-Vision-Language-Models)
+12. [Multi-Resolution Decomposable Diffusion Model for Non-Stationary Time Series Anomaly Detection](#Multi-Resolution-Decomposable-Diffusion-Model-for-Non-Stationary-Time-Series-Anomaly-Detection)
+13. [Layerwise Recurrent Router for  Mixture-of-Experts](#Layerwise-Recurrent-Router-for-Mixture-of-Experts)
+14. [On Minimizing Adversarial Counterfactual Error in Adversarial Reinforcement Learning](#On-Minimizing-Adversarial-Counterfactual-Error-in-Adversarial-Reinforcement-Learning)
+15. [GraphRouter: A Graph-based Router for LLM Selections](#GraphRouter-A-Graph-based-Router-for-LLM-Selections)
+16. [Rethinking Audio-Visual Adversarial Vulnerability from Temporal and Modality Perspectives](#Rethinking-Audio-Visual-Adversarial-Vulnerability-from-Temporal-and-Modality-Perspectives)
+17. [Continuous Ensemble Weather Forecasting with Diffusion models](#Continuous-Ensemble-Weather-Forecasting-with-Diffusion-models)
+18. [Generating Physical Dynamics under Priors](#Generating-Physical-Dynamics-under-Priors)
+19. [DataMan: Data Manager for Pre-training Large Language Models](#DataMan-Data-Manager-for-Pre-training-Large-Language-Models)
+20. [Preserving Deep Representations in One-Shot Pruning: A Hessian-Free Second-Order Optimization Framework](#Preserving-Deep-Representations-in-One-Shot-Pruning-A-Hessian-Free-Second-Order-Optimization-Framework)
+21. [UniDetox: Universal Detoxification of Large Language Models via Dataset Distillation](#UniDetox-Universal-Detoxification-of-Large-Language-Models-via-Dataset-Distillation)
+22. [Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count](#Arithmetic-Transformers-Can-Length-Generalize-in-Both-Operand-Length-and-Count)
+23. [Look Before You Leap: Universal Emergent Mechanism for Retrieval in Language Models](#Look-Before-You-Leap-Universal-Emergent-Mechanism-for-Retrieval-in-Language-Models)
+24. [Matrix Product Sketching via Coordinated Sampling](#Matrix-Product-Sketching-via-Coordinated-Sampling)
+25. [3D-MolT5: Leveraging Discrete Structural Information for Molecule-Text Modeling](#3D-MolT5-Leveraging-Discrete-Structural-Information-for-Molecule-Text-Modeling)
+26. [Unveiling the Secret Recipe: A Guide For Supervised Fine-Tuning Small LLMs](#Unveiling-the-Secret-Recipe-A-Guide-For-Supervised-Fine-Tuning-Small-LLMs)
+27. [Learning Clustering-based Prototypes for Compositional Zero-Shot Learning](#Learning-Clustering-based-Prototypes-for-Compositional-Zero-Shot-Learning)
+28. [BadJudge: Backdoor Vulnerabilities of LLM-As-A-Judge](#BadJudge-Backdoor-Vulnerabilities-of-LLM-As-A-Judge)
+29. [Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling](#Ctrl-U-Robust-Conditional-Image-Generation-via-Uncertainty-aware-Reward-Modeling)
+30. [Pairwise Elimination with Instance-Dependent Guarantees for Bandits with Cost Subsidy](#Pairwise-Elimination-with-Instance-Dependent-Guarantees-for-Bandits-with-Cost-Subsidy)
+31. [Improved Techniques for Optimization-Based Jailbreaking on Large Language Models](#Improved-Techniques-for-Optimization-Based-Jailbreaking-on-Large-Language-Models)
+32. [Beyond Worst-Case Dimensionality Reduction for Sparse Vectors](#Beyond-Worst-Case-Dimensionality-Reduction-for-Sparse-Vectors)
+33. [PAD: Personalized Alignment of LLMs at Decoding-time](#PAD-Personalized-Alignment-of-LLMs-at-Decoding-time)
+34. [Dreamweaver: Learning Compositional World Models from Pixels](#Dreamweaver-Learning-Compositional-World-Models-from-Pixels)
+35. [Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model](#Policy-Decorator-Model-Agnostic-Online-Refinement-for-Large-Policy-Model)
+36. [Ensembling Diffusion Models via Adaptive Feature Aggregation](#Ensembling-Diffusion-Models-via-Adaptive-Feature-Aggregation)
+37. [Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models](#Eliminating-Oversaturation-and-Artifacts-of-High-Guidance-Scales-in-Diffusion-Models)
 
 ---
 
 
-## Filtered not Mixed: Filtering-Based Online Gating for Mixture of Large Language Models
+## Diffusion Bridge Implicit Models
+
+### Images
+
+![2304f0192e0b9d46b0a16bf4d2a7ba537b639db1d6bf5b3e3f32663f06647a5b.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/2304f0192e0b9d46b0a16bf4d2a7ba537b639db1d6bf5b3e3f32663f06647a5b.jpg)
+
+![3d3879aa3abe7400e4f95dcf61e9695539ba30e3cc8a278505b61008656abfca.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/3d3879aa3abe7400e4f95dcf61e9695539ba30e3cc8a278505b61008656abfca.jpg)
+
+![5ba02de3b9c33d2339ca9eac4738001d8e02724eff082248a047f7e54d597cc3.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/5ba02de3b9c33d2339ca9eac4738001d8e02724eff082248a047f7e54d597cc3.jpg)
+
+![9f0e9f747acd15bd465b9dabc24a42775541aabd092940a8041f35b4547128db.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/9f0e9f747acd15bd465b9dabc24a42775541aabd092940a8041f35b4547128db.jpg)
+
+![b99069c0a6f35e3071f7500ad5a2ed2e7905ac84acb94cc711044250689cd53b.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/b99069c0a6f35e3071f7500ad5a2ed2e7905ac84acb94cc711044250689cd53b.jpg)
+
+![ba830eaed06e181a292ce54ccf3fcc114d03995b1b18d09fd80360a018d59ab5.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/ba830eaed06e181a292ce54ccf3fcc114d03995b1b18d09fd80360a018d59ab5.jpg)
+
+![d82aa432f075b75a2bd31e50612b54c6e7be808d66857fe3260608c1d325d167.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/d82aa432f075b75a2bd31e50612b54c6e7be808d66857fe3260608c1d325d167.jpg)
+
+![e3e7b8702853a91aabd93d37d42bc10e50f1f75018b6baf516dca29eb85776a4.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/images/e3e7b8702853a91aabd93d37d42bc10e50f1f75018b6baf516dca29eb85776a4.jpg)
+
+### Tables
+
+![0aa95c3badac7a106b3e1aa62571caf1131cc5f5307914f0e7ce3449d3d5b126.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/0aa95c3badac7a106b3e1aa62571caf1131cc5f5307914f0e7ce3449d3d5b126.jpg)
+
+![2f6e27226ac6a66736bcaa17ecb4253f4830f98582668fc67b918652cac0ea9f.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/2f6e27226ac6a66736bcaa17ecb4253f4830f98582668fc67b918652cac0ea9f.jpg)
+
+![32b380d8eaf70ef9b227a6dd9840acb085410e6ebb10793453da675ba1ca7664.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/32b380d8eaf70ef9b227a6dd9840acb085410e6ebb10793453da675ba1ca7664.jpg)
+
+![79204ff7af81a25e0593071fc6e1dfdbfc5aa26453f272bb7399e9324533becd.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/79204ff7af81a25e0593071fc6e1dfdbfc5aa26453f272bb7399e9324533becd.jpg)
+
+![d1b322fe03dfc9c571ba5d394faab6ec6fc5bbe9d23d10fc92579ca21ca45581.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/d1b322fe03dfc9c571ba5d394faab6ec6fc5bbe9d23d10fc92579ca21ca45581.jpg)
+
+![d274f2182f97d87dda4eaabbd7014681683dd48023f77bb071596f6981681d41.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/d274f2182f97d87dda4eaabbd7014681683dd48023f77bb071596f6981681d41.jpg)
+
+![e5e6cce94f1c696dac1a97b5382ae5d055ad4182dd931dcde5c646e701f7e2ab.jpg](../iclr_results/1676_Disentangled Representation Learning with the Gromov-Monge Gap/tables/e5e6cce94f1c696dac1a97b5382ae5d055ad4182dd931dcde5c646e701f7e2ab.jpg)
+
+## Diffusion Bridge Implicit Models
+
+
+### Images
+
+![2394216739f08636131bf4c8ef29a6adcd6eef8b0bd91f00a4bb33258a248575.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/2394216739f08636131bf4c8ef29a6adcd6eef8b0bd91f00a4bb33258a248575.jpg)
+
+![32125651a7fbcc2e588c0939ccc7c0b77ce038b5f10ed718733240093ca90859.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/32125651a7fbcc2e588c0939ccc7c0b77ce038b5f10ed718733240093ca90859.jpg)
+
+![60b8aa1da2951796de9b53b3369afb2fa09a42c65b35cfa410267d7b894248b9.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/60b8aa1da2951796de9b53b3369afb2fa09a42c65b35cfa410267d7b894248b9.jpg)
+
+![a73ae1883abbbb36400033f0ca9dadb4d9dcde8c73df059ce528b2beeb21567d.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/a73ae1883abbbb36400033f0ca9dadb4d9dcde8c73df059ce528b2beeb21567d.jpg)
+
+![b59aa8d75fe31d667884e9f29bd7cb4f27530b0f511e524fc655780f87989490.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/b59aa8d75fe31d667884e9f29bd7cb4f27530b0f511e524fc655780f87989490.jpg)
+
+![b67147d0fe7914cf1876b27937c9cf87a46edd8fbb716cd487d4b78156d313a8.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/b67147d0fe7914cf1876b27937c9cf87a46edd8fbb716cd487d4b78156d313a8.jpg)
+
+![ef3d96bcfbe0198ca02d2bfe04d99aa6daa6b13fd183cc26fc0206b8237f4357.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/ef3d96bcfbe0198ca02d2bfe04d99aa6daa6b13fd183cc26fc0206b8237f4357.jpg)
+
+![fb320cc4687aef6a3db1c4b8ead9202f63f7325e29d84a87e27cc856e07220c2.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/images/fb320cc4687aef6a3db1c4b8ead9202f63f7325e29d84a87e27cc856e07220c2.jpg)
+
+### Tables
+
+![1094d86ae17a1617d66b771bc38ab603c6512ff7a6c208d5049f6417c03578b6.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/1094d86ae17a1617d66b771bc38ab603c6512ff7a6c208d5049f6417c03578b6.jpg)
+
+![464e30ef2764691d65697b9736a595221d5ff9203ade28c1f66b8fa962559d4f.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/464e30ef2764691d65697b9736a595221d5ff9203ade28c1f66b8fa962559d4f.jpg)
+
+![7173df857000160b9ea78043f277e403ad11809ae36919ffd2e4d0001970c22e.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/7173df857000160b9ea78043f277e403ad11809ae36919ffd2e4d0001970c22e.jpg)
+
+![89e03669d54c4aaf94d9dfb19d3ecc965cd29d63f1845ed6d2f927c16dd701b2.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/89e03669d54c4aaf94d9dfb19d3ecc965cd29d63f1845ed6d2f927c16dd701b2.jpg)
+
+![958776444671c87c48294d8f3072d2368f04e857a4db2806d6c34f75e6c5dfdc.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/958776444671c87c48294d8f3072d2368f04e857a4db2806d6c34f75e6c5dfdc.jpg)
+
+![a632806537f3954579a4c10a06f77c76c136b783d93af83530e918268c07cdf5.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/a632806537f3954579a4c10a06f77c76c136b783d93af83530e918268c07cdf5.jpg)
+
+![dd3057b0cfcc8a41d4b00fd2b5cf03bd0367ba8934b471cd17b64da4b84829c7.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/dd3057b0cfcc8a41d4b00fd2b5cf03bd0367ba8934b471cd17b64da4b84829c7.jpg)
+
+![edeae7e045ee06538ad1393c6605526c696da8c170983743d49bbb10706f05a6.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/edeae7e045ee06538ad1393c6605526c696da8c170983743d49bbb10706f05a6.jpg)
+
+![f4aae120157f1087659287be944abe6bd753d469c3ea630af3825994592f5b12.jpg](../iclr_results/1677_Diffusion Bridge Implicit Models/tables/f4aae120157f1087659287be944abe6bd753d469c3ea630af3825994592f5b12.jpg)
+
+## Swiss Army Knife: Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learning
+
+
+### Images
+
+![008a0f3321f53930377d8c617c652f356a0acfbb0172df0a9a65ecc0fe04ad7b.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/008a0f3321f53930377d8c617c652f356a0acfbb0172df0a9a65ecc0fe04ad7b.jpg)
+
+![30d9ceb716df436c6fcebb1007c5379e5dff61b0bd5676fef3b0f1542644f42f.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/30d9ceb716df436c6fcebb1007c5379e5dff61b0bd5676fef3b0f1542644f42f.jpg)
+
+![34a02128531bc86cb3452afa30e9ce3f9980b3a35e085a071b66bbd2fffb4211.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/34a02128531bc86cb3452afa30e9ce3f9980b3a35e085a071b66bbd2fffb4211.jpg)
+
+![4daccdc43c7fa8fa28897ea394e4f3e60c0a6479f76b43d72a01ea3922dede15.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/4daccdc43c7fa8fa28897ea394e4f3e60c0a6479f76b43d72a01ea3922dede15.jpg)
+
+![4ec4b39f770058e472c85b487b4b8ad5c820a53d21c76865ee0987381581026f.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/4ec4b39f770058e472c85b487b4b8ad5c820a53d21c76865ee0987381581026f.jpg)
+
+![5836841c84d59c23d76900a7b9b2f45d9d3fc31b814fdddd3db2fe047ce9fb94.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/5836841c84d59c23d76900a7b9b2f45d9d3fc31b814fdddd3db2fe047ce9fb94.jpg)
+
+![6e4304a31ab63b04a05a6fad3714f5d488fdf8952e9b4bb58b7ff32139968bee.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/6e4304a31ab63b04a05a6fad3714f5d488fdf8952e9b4bb58b7ff32139968bee.jpg)
+
+![749c29dfe82f82536c2b4dfc4788e0faec2cccca6bd709437dfb88026713affa.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/749c29dfe82f82536c2b4dfc4788e0faec2cccca6bd709437dfb88026713affa.jpg)
+
+![79614d95ad20e0433f00d45214e65d294ee71df920c68745eed33e285be31d50.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/79614d95ad20e0433f00d45214e65d294ee71df920c68745eed33e285be31d50.jpg)
+
+![f58eafa66c73839f60efecf63c11874e1817d8094d07aec9da111e05b19a5fa6.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/f58eafa66c73839f60efecf63c11874e1817d8094d07aec9da111e05b19a5fa6.jpg)
+
+![fabc350aefdc444840119422aa275f127c7b755b02e3168e8173c12e32f3a245.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/images/fabc350aefdc444840119422aa275f127c7b755b02e3168e8173c12e32f3a245.jpg)
+
+### Tables
+
+![054cbd547d22110896d50f01149ee8006954a2151c36966f256550d331e25da7.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/054cbd547d22110896d50f01149ee8006954a2151c36966f256550d331e25da7.jpg)
+
+![07e1fefd47ddd56dae2430b000513149b68cb225609f4dcfe71d375ab31673a0.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/07e1fefd47ddd56dae2430b000513149b68cb225609f4dcfe71d375ab31673a0.jpg)
+
+![0a4e96fb03e15c2980a2f2731188b73c29bd7364af1b6bff200654ac86e42b54.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/0a4e96fb03e15c2980a2f2731188b73c29bd7364af1b6bff200654ac86e42b54.jpg)
+
+![1f23890326b231121e8d4957a0506cd989e08289ef691b5acfe7752a847f5ea4.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/1f23890326b231121e8d4957a0506cd989e08289ef691b5acfe7752a847f5ea4.jpg)
+
+![25d012c276674fd39c6a9e3e0f0872ec5d1c6926c38a2653b6cf4c9a4d0b1cbe.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/25d012c276674fd39c6a9e3e0f0872ec5d1c6926c38a2653b6cf4c9a4d0b1cbe.jpg)
+
+![2d6f9d2618b44e213ee5437df518b41d280977844f68b59da1b1baa802952ea5.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/2d6f9d2618b44e213ee5437df518b41d280977844f68b59da1b1baa802952ea5.jpg)
+
+![2e8b33f27237cfa6aba69432062f85fed99b260ecab5eebb031cd22cbe9a1028.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/2e8b33f27237cfa6aba69432062f85fed99b260ecab5eebb031cd22cbe9a1028.jpg)
+
+![44b88953cd52aa20926d41f5355ad2699530d0b62e0c25c40e1e2650ce737408.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/44b88953cd52aa20926d41f5355ad2699530d0b62e0c25c40e1e2650ce737408.jpg)
+
+![458bf2dc8abf5f2541065af2c37c72de7e2738550f1e0b7d2a98c0e336855333.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/458bf2dc8abf5f2541065af2c37c72de7e2738550f1e0b7d2a98c0e336855333.jpg)
+
+![46b83cce59cb2e92fbb6b2a31355517bf3e2d33bcd1e9b4cca107c8341158549.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/46b83cce59cb2e92fbb6b2a31355517bf3e2d33bcd1e9b4cca107c8341158549.jpg)
+
+![49e43b653294ac7fb1f8367087fe88f617e403f46ce14aafc51c763668996322.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/49e43b653294ac7fb1f8367087fe88f617e403f46ce14aafc51c763668996322.jpg)
+
+![4b225de5efd9071fb077143afecb4bfd97728080fde31af5a43cb4ceb26cfec5.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/4b225de5efd9071fb077143afecb4bfd97728080fde31af5a43cb4ceb26cfec5.jpg)
+
+![5ba39f4165e236dfd16254c1d869b0ae6da5f1c5cf2284c52e8c9d94977d8617.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/5ba39f4165e236dfd16254c1d869b0ae6da5f1c5cf2284c52e8c9d94977d8617.jpg)
+
+![5d7d3d9ef84100b27a2315b40588c9f8972eaa57cf6d3ba7081ab2b0946fbb75.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/5d7d3d9ef84100b27a2315b40588c9f8972eaa57cf6d3ba7081ab2b0946fbb75.jpg)
+
+![6c11405292375d847d6fe13f1f66b60a60fb08557fa40444b4ef2ea727e994dc.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/6c11405292375d847d6fe13f1f66b60a60fb08557fa40444b4ef2ea727e994dc.jpg)
+
+![7432a68201de10174d9669b5785d8f79ec8f288985ea5c5b0c87420c978ab007.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/7432a68201de10174d9669b5785d8f79ec8f288985ea5c5b0c87420c978ab007.jpg)
+
+![74c773bfda446188ed7121df0cd70f687d2aa7dc3de3dd71ce58f4f0d5e5a7b5.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/74c773bfda446188ed7121df0cd70f687d2aa7dc3de3dd71ce58f4f0d5e5a7b5.jpg)
+
+![7fae2bd71e9fe914b20c0d244ae5fc9d6b03d0506219519a3c7fd06b259ca54d.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/7fae2bd71e9fe914b20c0d244ae5fc9d6b03d0506219519a3c7fd06b259ca54d.jpg)
+
+![8b32ff93376a7cb0cba255fe774c99920bd7062946f35c41dce9aa1d192eb5ff.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/8b32ff93376a7cb0cba255fe774c99920bd7062946f35c41dce9aa1d192eb5ff.jpg)
+
+![936834c54daec2016b09fcee321cdf001c1ec39da03d35fe7b990af4016cce8c.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/936834c54daec2016b09fcee321cdf001c1ec39da03d35fe7b990af4016cce8c.jpg)
+
+![954b6752e4654168037cdc9076d5df0b3a39e2050b7696a61c3680a786f211ee.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/954b6752e4654168037cdc9076d5df0b3a39e2050b7696a61c3680a786f211ee.jpg)
+
+![b0e96f9afbc1f01b3876445a3e2caa3c14bbbbb99b98a3df9865715172064f37.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/b0e96f9afbc1f01b3876445a3e2caa3c14bbbbb99b98a3df9865715172064f37.jpg)
+
+![c65ed9a9ba6e7cd2020359c5779284eec08077591d550f18cad57a5f3e98b8b9.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/c65ed9a9ba6e7cd2020359c5779284eec08077591d550f18cad57a5f3e98b8b9.jpg)
+
+![c9cd782abf22554ff01a706d51b0779f91a23471388d2fe2bf3b08a53cb4b894.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/c9cd782abf22554ff01a706d51b0779f91a23471388d2fe2bf3b08a53cb4b894.jpg)
+
+![ce23ba3a1dbe69d1e113900a86c1b1cdb6928b4752b715b9513b5cbe03b9282d.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/ce23ba3a1dbe69d1e113900a86c1b1cdb6928b4752b715b9513b5cbe03b9282d.jpg)
+
+![dc50b9df758d175f6c47fa649104976ac4798fd42767514564274ee970f812f8.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/dc50b9df758d175f6c47fa649104976ac4798fd42767514564274ee970f812f8.jpg)
+
+![e5f1c2d2145ae7f5fbb25e88a0131746d510026eb296a61af9c9405dc4490d8d.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/e5f1c2d2145ae7f5fbb25e88a0131746d510026eb296a61af9c9405dc4490d8d.jpg)
+
+![eeabfa90fe2cccecb4e92e97d680e42d8909aaf91e9292a675e3020a9c594ff7.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/eeabfa90fe2cccecb4e92e97d680e42d8909aaf91e9292a675e3020a9c594ff7.jpg)
+
+![f4438c0a738f3485e3ef938f07279d0fadbfedfd78708ba5b2df39037f30b276.jpg](../iclr_results/1678_Swiss Army Knife_ Synergizing Biases in Knowledge from Vision Foundation Models for Multi-Task Learn/tables/f4438c0a738f3485e3ef938f07279d0fadbfedfd78708ba5b2df39037f30b276.jpg)
+
+## A Meta-Learning Approach to Bayesian Causal Discovery
+
+
+### Images
+
+![04df11a8bf8d0054652e2097a72d72c59657544ee30f79acff7810609cc5d5b1.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/images/04df11a8bf8d0054652e2097a72d72c59657544ee30f79acff7810609cc5d5b1.jpg)
+
+![b07db81429c401aae8e15942fd07708722602e09fa108fbb691b9dee11ef2127.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/images/b07db81429c401aae8e15942fd07708722602e09fa108fbb691b9dee11ef2127.jpg)
+
+### Tables
+
+![135e09fa01ffdd8f9d40e7fc06b13852d6637b2a33fd920a533ce5b35e738298.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/135e09fa01ffdd8f9d40e7fc06b13852d6637b2a33fd920a533ce5b35e738298.jpg)
+
+![215fd93ed26038bb66f408e5c55d3a9742b8cbae8e22f9208ef05ce39a2915a4.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/215fd93ed26038bb66f408e5c55d3a9742b8cbae8e22f9208ef05ce39a2915a4.jpg)
+
+![219f5cded8a4aa6a8807ebd7d899880ea2ed158d45fb7efac7f0370f6375cf01.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/219f5cded8a4aa6a8807ebd7d899880ea2ed158d45fb7efac7f0370f6375cf01.jpg)
+
+![23a5b738baa87b126151199517eb4078074a51db74ae71a84456ff6ce8ae0fed.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/23a5b738baa87b126151199517eb4078074a51db74ae71a84456ff6ce8ae0fed.jpg)
+
+![314839924ce5dd67a47915e1b9c0f30083871eff81d955e6d045e130d51d611e.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/314839924ce5dd67a47915e1b9c0f30083871eff81d955e6d045e130d51d611e.jpg)
+
+![3dda11313ff38fa6813079e89ee7eb0da78024c18fda1c28edce485d82c6eb39.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/3dda11313ff38fa6813079e89ee7eb0da78024c18fda1c28edce485d82c6eb39.jpg)
+
+![4d1d4f8cc841e614bc34e3ea3e886b44dd07ecf6d89cd2ef2d548c1af0e6d0f8.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/4d1d4f8cc841e614bc34e3ea3e886b44dd07ecf6d89cd2ef2d548c1af0e6d0f8.jpg)
+
+![5073828e002344b6814bcb0c4c2adfb226ad23ca720417fd981d432c6a41b807.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/5073828e002344b6814bcb0c4c2adfb226ad23ca720417fd981d432c6a41b807.jpg)
+
+![7c30606a008b0ac404e556bad60d04407b71c088eab7b9bdff5f719c144ab84f.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/7c30606a008b0ac404e556bad60d04407b71c088eab7b9bdff5f719c144ab84f.jpg)
+
+![83c0cdf5d4a08de481007212bad87da1de2b44a8ac686642fe5905929cbc6af8.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/83c0cdf5d4a08de481007212bad87da1de2b44a8ac686642fe5905929cbc6af8.jpg)
+
+![896e10d5963ffaa8d41d707f200061121a5a6fca0093dce6c8f48984dbaa4da0.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/896e10d5963ffaa8d41d707f200061121a5a6fca0093dce6c8f48984dbaa4da0.jpg)
+
+![8ab525aaab4abffe7ead08ce1615493d04f567e73d889295e3cd3c4578b980f3.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/8ab525aaab4abffe7ead08ce1615493d04f567e73d889295e3cd3c4578b980f3.jpg)
+
+![926b9f65c793d1f04d64f885155c9b2eeac2a4f3aa0123cb87f8785b5ad5ce80.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/926b9f65c793d1f04d64f885155c9b2eeac2a4f3aa0123cb87f8785b5ad5ce80.jpg)
+
+![9fb78126f1bf3fecf486c931c8a06dd0d37b4eb6f7d9619d6c3c90d324865e1c.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/9fb78126f1bf3fecf486c931c8a06dd0d37b4eb6f7d9619d6c3c90d324865e1c.jpg)
+
+![a1e8763ac2e3e8c1c9ee67a0b73f1a9fead0bf3efd21dda89584ce33f1cfd691.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/a1e8763ac2e3e8c1c9ee67a0b73f1a9fead0bf3efd21dda89584ce33f1cfd691.jpg)
+
+![b3cf87ae263eb9119d9c651ae131b46e2e620f1752b968f31e4f34eb917a9f28.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/b3cf87ae263eb9119d9c651ae131b46e2e620f1752b968f31e4f34eb917a9f28.jpg)
+
+![bfb01f0ebf2813bac00498cf943fc029a7a7cb628814b378a76ee992031c0352.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/bfb01f0ebf2813bac00498cf943fc029a7a7cb628814b378a76ee992031c0352.jpg)
+
+![c9488bea0cf969389cb4da97bcaf982cd5dafeafe88e8b1cdbb55e280ec9e50a.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/c9488bea0cf969389cb4da97bcaf982cd5dafeafe88e8b1cdbb55e280ec9e50a.jpg)
+
+![cd6bb01d102f5f1635db4cc2577db80611dda32c82bba458121059806892cec1.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/cd6bb01d102f5f1635db4cc2577db80611dda32c82bba458121059806892cec1.jpg)
+
+![d1bce392283b407b28958446e1432eb5ae874d765ed09764d5af92be5f5fd9b2.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/d1bce392283b407b28958446e1432eb5ae874d765ed09764d5af92be5f5fd9b2.jpg)
+
+![d29bf68ad996208f291f2b7734eeb91a55ee064dcb6a85d1390dff55959e6573.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/d29bf68ad996208f291f2b7734eeb91a55ee064dcb6a85d1390dff55959e6573.jpg)
+
+![e6f356a27eeba0ac57cb0a88146acd77ca99c9fd26146cad645e194726f069a6.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/e6f356a27eeba0ac57cb0a88146acd77ca99c9fd26146cad645e194726f069a6.jpg)
+
+![f3151014905e82955acb77bb348fb158b0d816dd7fe30971df6999045ca7e94e.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/f3151014905e82955acb77bb348fb158b0d816dd7fe30971df6999045ca7e94e.jpg)
+
+![f641278b63a71a529be46d38e489881b2fd20fb2adfc1966c7a5ec47a086cce8.jpg](../iclr_results/1679_A Meta-Learning Approach to Bayesian Causal Discovery/tables/f641278b63a71a529be46d38e489881b2fd20fb2adfc1966c7a5ec47a086cce8.jpg)
+
+## TweedieMix: Improving Multi-Concept Fusion for Diffusion-based Image/Video Generation
+
+
+### Images
+
+![058aa70ce86556f83e3087c1c2a28b90438150d6caf715e9fa9d4daf99fa71b8.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/058aa70ce86556f83e3087c1c2a28b90438150d6caf715e9fa9d4daf99fa71b8.jpg)
+
+![19a1e7b70ef80f9384565942b3a4cb92e54ba2093e1d2b887c1e20e52f8b210e.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/19a1e7b70ef80f9384565942b3a4cb92e54ba2093e1d2b887c1e20e52f8b210e.jpg)
+
+![1cf5af69f313d3a890f11953a3c89e4401d5c416fbf5941aa4dcc98e79031a56.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/1cf5af69f313d3a890f11953a3c89e4401d5c416fbf5941aa4dcc98e79031a56.jpg)
+
+![336b7a5a90341a10225be3ba2751ca0b5ef96d7ed150a6b380f889697cf3145b.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/336b7a5a90341a10225be3ba2751ca0b5ef96d7ed150a6b380f889697cf3145b.jpg)
+
+![3d18bbd48db0073fb66467e78efef6ebd2898cebdc3726872899acea82ff3279.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/3d18bbd48db0073fb66467e78efef6ebd2898cebdc3726872899acea82ff3279.jpg)
+
+![3f6821c7e4608a54b31071afd1e109aec863378dd5756ac0643cc55254c5b554.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/3f6821c7e4608a54b31071afd1e109aec863378dd5756ac0643cc55254c5b554.jpg)
+
+![53d3c55d0bbdea7298a36b5d748bb633fac024938dfed7aa7a224fc251e3a33f.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/53d3c55d0bbdea7298a36b5d748bb633fac024938dfed7aa7a224fc251e3a33f.jpg)
+
+![63499f38d78640a20a2fcafa3e90f132c82cad3fd79b47d831d2f6d2081cee41.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/63499f38d78640a20a2fcafa3e90f132c82cad3fd79b47d831d2f6d2081cee41.jpg)
+
+![7014363112fa973c016d7d4b594019b59736a8c2d5ecd9d683bf0590f39ed443.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/7014363112fa973c016d7d4b594019b59736a8c2d5ecd9d683bf0590f39ed443.jpg)
+
+![71fb964f2914715b9007bc44deaedb1c9a28ef3cce7bf832b2b787cacbfb5cff.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/71fb964f2914715b9007bc44deaedb1c9a28ef3cce7bf832b2b787cacbfb5cff.jpg)
+
+![7ef9f2cc457f6c86d71211011abcdae62d10807aa6a6b830e4dd42732e4412b6.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/7ef9f2cc457f6c86d71211011abcdae62d10807aa6a6b830e4dd42732e4412b6.jpg)
+
+![bc6281e98f8ffd6c4ac434ae4348f965d703cd2a730aa9fee2095cb6e8e8d834.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/bc6281e98f8ffd6c4ac434ae4348f965d703cd2a730aa9fee2095cb6e8e8d834.jpg)
+
+![cba570d289f02366e37710741b885b8e56a3fb590af12a5f0b6970734e27364a.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/cba570d289f02366e37710741b885b8e56a3fb590af12a5f0b6970734e27364a.jpg)
+
+![ce72be9c7c685e073db79c57aa8ee6db42e6a7164f023dab52de41a64b52a8db.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/ce72be9c7c685e073db79c57aa8ee6db42e6a7164f023dab52de41a64b52a8db.jpg)
+
+![ea35f088c5e9d4f40cd36cb9219c16778db4cc86a51cd2d22aff9ee21877e4bd.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/ea35f088c5e9d4f40cd36cb9219c16778db4cc86a51cd2d22aff9ee21877e4bd.jpg)
+
+![fcb1dafa136d29dad2228a196e7b5666e11b23d63c3248610cb6fec523e73d7b.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/fcb1dafa136d29dad2228a196e7b5666e11b23d63c3248610cb6fec523e73d7b.jpg)
+
+![ff175c6622b479fdee5eb017805e2f6d2f463e85c7c0aec2a8d4a9cf50d5bc19.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/ff175c6622b479fdee5eb017805e2f6d2f463e85c7c0aec2a8d4a9cf50d5bc19.jpg)
+
+![ff410b351952a1eca9568ea8fe2ed4ed21b426bb2fb23aaaef51a7304c6c43f3.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/images/ff410b351952a1eca9568ea8fe2ed4ed21b426bb2fb23aaaef51a7304c6c43f3.jpg)
+
+### Tables
+
+![7781b0b8168abe87f85254702b7903c5527de50e11aa37d6578536e31eb8aa32.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/tables/7781b0b8168abe87f85254702b7903c5527de50e11aa37d6578536e31eb8aa32.jpg)
+
+![7ea35f0fe184c7647f3ca3421e4e38d08b870d1cf4eae86f096d2105fe13623a.jpg](../iclr_results/1680_TweedieMix_ Improving Multi-Concept Fusion for Diffusion-based Image_Video Generation/tables/7ea35f0fe184c7647f3ca3421e4e38d08b870d1cf4eae86f096d2105fe13623a.jpg)
+
+## Learning Neural Networks with Distribution Shift: Efficiently Certifiable Guarantees
+
 
 ### Tables
 
@@ -1794,7 +2066,6 @@
 
 ## Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models
 
-
 ### Images
 
 ![121d2fbce3a723c2a738899e7cb82ec0b8805865783db200a2d8a34b57731300.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/121d2fbce3a723c2a738899e7cb82ec0b8805865783db200a2d8a34b57731300.jpg)
@@ -1872,168 +2143,3 @@
 ![d278604584eb20622719a47170ab873a9d7ec326261cd094e17b035b4d4c62e8.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/d278604584eb20622719a47170ab873a9d7ec326261cd094e17b035b4d4c62e8.jpg)
 
 ![e79e9524129ca187d7d9b325d341db1a4967f8b410169bace240fde669c98cd8.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/e79e9524129ca187d7d9b325d341db1a4967f8b410169bace240fde669c98cd8.jpg)
-
-## Efficient Reinforcement Learning with Large Language Model Priors
-
-
-### Images
-
-![1e5c5bcced01398604a3bfb58820f46f4b09068be2d680573a6b9355031d3f01.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/1e5c5bcced01398604a3bfb58820f46f4b09068be2d680573a6b9355031d3f01.jpg)
-
-![29070b0a4c6aeebaf81033c0051ce88e4c2069774595060cb855fde01f188c19.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/29070b0a4c6aeebaf81033c0051ce88e4c2069774595060cb855fde01f188c19.jpg)
-
-![2c96947741ffc529eaa210832e9748d188ebc59092974ba0e049fe96fc248012.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/2c96947741ffc529eaa210832e9748d188ebc59092974ba0e049fe96fc248012.jpg)
-
-![33001e63cba5659baec0ae8795a8d3801a77033be1e67371c435b317c9f1a381.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/33001e63cba5659baec0ae8795a8d3801a77033be1e67371c435b317c9f1a381.jpg)
-
-![61aa9eca2a6f750ad31e8b6efba0801682653f696d5a2a9768bc1b22a3714516.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/61aa9eca2a6f750ad31e8b6efba0801682653f696d5a2a9768bc1b22a3714516.jpg)
-
-![839f4930ea561c936e1bd9d12b5adf76dfcd7875d87a389cc91d995f9bddf370.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/839f4930ea561c936e1bd9d12b5adf76dfcd7875d87a389cc91d995f9bddf370.jpg)
-
-![c25c6f3983bc83a7cc58c49393d694200978ede40cc4b114a4e66f65dbfbf374.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/c25c6f3983bc83a7cc58c49393d694200978ede40cc4b114a4e66f65dbfbf374.jpg)
-
-![c745fbab22981cab9a880ffb4747312ff029c8d0287704fbcb3d3179928704ee.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/c745fbab22981cab9a880ffb4747312ff029c8d0287704fbcb3d3179928704ee.jpg)
-
-![e1a3e9548bde09dd500b9781c84fba3c04be095c616b27d28a37f52494f1e704.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/e1a3e9548bde09dd500b9781c84fba3c04be095c616b27d28a37f52494f1e704.jpg)
-
-### Tables
-
-![0220d77ed19e2040c3cbf4b7cb837a40a87e4e364ab1f5fd0bba6d3e8512d994.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/0220d77ed19e2040c3cbf4b7cb837a40a87e4e364ab1f5fd0bba6d3e8512d994.jpg)
-
-![107816d2f2f4b8d8c8d5693e1d9b94793d07e3e5053fc0cee326dff3e44b83fb.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/107816d2f2f4b8d8c8d5693e1d9b94793d07e3e5053fc0cee326dff3e44b83fb.jpg)
-
-![24d894c3bbcfb19ba4878f4df0654a3cc5da9a21146f0166a58e1793755e2ed1.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/24d894c3bbcfb19ba4878f4df0654a3cc5da9a21146f0166a58e1793755e2ed1.jpg)
-
-![33e657396d14bc85650ee25074ef161f2bd2ae2c74582284b747fd214b943c7c.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/33e657396d14bc85650ee25074ef161f2bd2ae2c74582284b747fd214b943c7c.jpg)
-
-![4a8f9141a59b38104b2c3921eb03263252f7aaa953dc540bc59a2ba981dd10bd.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/4a8f9141a59b38104b2c3921eb03263252f7aaa953dc540bc59a2ba981dd10bd.jpg)
-
-![528036353d6a076ccf3d653e2045f0d71f27a7db670646a27dab6ae9d22b85ff.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/528036353d6a076ccf3d653e2045f0d71f27a7db670646a27dab6ae9d22b85ff.jpg)
-
-![6084238ccfdf1fa0595f25fee88561d36b1e33ef22eec4836678fb207ffff198.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/6084238ccfdf1fa0595f25fee88561d36b1e33ef22eec4836678fb207ffff198.jpg)
-
-![6ee03262737cc791e24eb3c272a4971f312dce6cf56db123026b0db66ad60bef.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/6ee03262737cc791e24eb3c272a4971f312dce6cf56db123026b0db66ad60bef.jpg)
-
-![8b5d7dc95fae88ef57701baad7f90c200de0e57ed2262e2f578749b131c00dbf.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8b5d7dc95fae88ef57701baad7f90c200de0e57ed2262e2f578749b131c00dbf.jpg)
-
-![8ddc880490ca91b9f4d13251d7df5b48965de85bdfebd2e1be338482230cdc0f.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8ddc880490ca91b9f4d13251d7df5b48965de85bdfebd2e1be338482230cdc0f.jpg)
-
-![8e3e1eff33560266b7e492c1e696513b9692e50cd06b882f0b22d926a80f29b9.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8e3e1eff33560266b7e492c1e696513b9692e50cd06b882f0b22d926a80f29b9.jpg)
-
-![9914260f90b0d2c9639e6838a775c7b8ccd8a29816d0f7a5553107d378eb581e.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/9914260f90b0d2c9639e6838a775c7b8ccd8a29816d0f7a5553107d378eb581e.jpg)
-
-![bf083bf5d0aab0f6e9ae6b3668046701f12394afc8fb6f5cfc727f8cc5a590cf.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/bf083bf5d0aab0f6e9ae6b3668046701f12394afc8fb6f5cfc727f8cc5a590cf.jpg)
-
-## Federated Residual Low-Rank Adaptation of Large Language Models
-
-
-### Images
-
-![5de59e76740992e52bb61a64b01902fbd02084cfe77735b9ccd747999631eaa1.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/5de59e76740992e52bb61a64b01902fbd02084cfe77735b9ccd747999631eaa1.jpg)
-
-![9d6852556325c7cf591a2d695cb6102c8b35f658ab30908d6e2ea9534e3161bb.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/9d6852556325c7cf591a2d695cb6102c8b35f658ab30908d6e2ea9534e3161bb.jpg)
-
-![e0dc4453eb88c0d91086094ad5af6419cd4abe2b5260dfca237997ca6bbd23a7.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/e0dc4453eb88c0d91086094ad5af6419cd4abe2b5260dfca237997ca6bbd23a7.jpg)
-
-![f3842169bdc058b2bca33447c18894776e23f95b48fb12f365f5e874a9c084ac.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/f3842169bdc058b2bca33447c18894776e23f95b48fb12f365f5e874a9c084ac.jpg)
-
-### Tables
-
-![1cb047c5b5ddac7f0f88b0b474915b954dd6ee24e45a8f18f04a283d2ee4e374.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/1cb047c5b5ddac7f0f88b0b474915b954dd6ee24e45a8f18f04a283d2ee4e374.jpg)
-
-![22a82de910f20211b6fed9ffb064e58a215ac016011d24004e4e035939db1767.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/22a82de910f20211b6fed9ffb064e58a215ac016011d24004e4e035939db1767.jpg)
-
-![30f706d0a50c2c1dfc0b70fab7c46baf53bafdcf8e1e09deb75ebadffabf8ac1.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/30f706d0a50c2c1dfc0b70fab7c46baf53bafdcf8e1e09deb75ebadffabf8ac1.jpg)
-
-![4b001322d95e34b27e4a634d33c45ecaa900953a0fac64e07bc2fe5c92494e3b.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/4b001322d95e34b27e4a634d33c45ecaa900953a0fac64e07bc2fe5c92494e3b.jpg)
-
-![5189fc15e503153127b2e7139e688946b3584f06750c27e1c7eee8d5a80bca23.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/5189fc15e503153127b2e7139e688946b3584f06750c27e1c7eee8d5a80bca23.jpg)
-
-![9d2260ca2a582ae144432ef771ce240c1b593db6281342850736ae440800ed97.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/9d2260ca2a582ae144432ef771ce240c1b593db6281342850736ae440800ed97.jpg)
-
-![a91a581c381ef6573cbb2670cd853e34f609b0b2a09197458cb4541b396d6fd9.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/a91a581c381ef6573cbb2670cd853e34f609b0b2a09197458cb4541b396d6fd9.jpg)
-
-![aabfa7ec543c610c07fc4070b6ffbee9039d4c8b674afadb33fedcabf7d86561.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/aabfa7ec543c610c07fc4070b6ffbee9039d4c8b674afadb33fedcabf7d86561.jpg)
-
-![aadae6d8f4507d5425ebb93ecd59c9d142281e431dd9e31dd1cfd635f22652bd.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/aadae6d8f4507d5425ebb93ecd59c9d142281e431dd9e31dd1cfd635f22652bd.jpg)
-
-![afbd03f329573045015c9c4fda5b74c39ea922f5f4fbc35f58a00899167fe66a.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/afbd03f329573045015c9c4fda5b74c39ea922f5f4fbc35f58a00899167fe66a.jpg)
-
-![cfb52dae9b1cce27bb633a0ee8630b3ea06db026f5b6712a75538d27f49bc828.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/cfb52dae9b1cce27bb633a0ee8630b3ea06db026f5b6712a75538d27f49bc828.jpg)
-
-![d34594483046ae76b3d1fd73465379ba9832b72956abc13a61871b3a404b373a.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/d34594483046ae76b3d1fd73465379ba9832b72956abc13a61871b3a404b373a.jpg)
-
-![ed7cb842f3b55ebf7336e314341311921e76b23b2295b476d70e18311f694ac6.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/ed7cb842f3b55ebf7336e314341311921e76b23b2295b476d70e18311f694ac6.jpg)
-
-![f105dac9c85ec569930a187b78da981b65ae60f3cb3795a93dcc256ad1cc4fb3.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/f105dac9c85ec569930a187b78da981b65ae60f3cb3795a93dcc256ad1cc4fb3.jpg)
-
-## Convex Formulations for Training Two-Layer ReLU Neural Networks
-
-
-### Images
-
-![39356921a39a7452e2b2660251ea6b9d83a1636e2f19311bbb6a933f038067bb.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/images/39356921a39a7452e2b2660251ea6b9d83a1636e2f19311bbb6a933f038067bb.jpg)
-
-![d007dd326129ed73514d40355e69a68d32e0cdf607f27af5988344406aa07e52.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/images/d007dd326129ed73514d40355e69a68d32e0cdf607f27af5988344406aa07e52.jpg)
-
-### Tables
-
-![4606e545d15bbaeec33459c03641fc8e113a0069eb8d221f2c620473d8efc75d.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/4606e545d15bbaeec33459c03641fc8e113a0069eb8d221f2c620473d8efc75d.jpg)
-
-![48fe050f2383262071b8f9791bfc261d5bba43b018b85323bb0de3fb66257bfb.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/48fe050f2383262071b8f9791bfc261d5bba43b018b85323bb0de3fb66257bfb.jpg)
-
-![55278b6f14e37b60bc242d325f235cfc0254e5f33b054def1fd1797084f18fdd.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/55278b6f14e37b60bc242d325f235cfc0254e5f33b054def1fd1797084f18fdd.jpg)
-
-![5caa09d55f95648234b98dca8252c8cc819eea6fda026af31379e0b3d6e98716.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/5caa09d55f95648234b98dca8252c8cc819eea6fda026af31379e0b3d6e98716.jpg)
-
-![aa46f46813f0d1d882aae323fb22db7cdcad01df0ad622ecc2b874eecf14fd15.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/aa46f46813f0d1d882aae323fb22db7cdcad01df0ad622ecc2b874eecf14fd15.jpg)
-
-## RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph
-
-### Images
-
-![2dcaa00b75d5313baaf8fc87c34e2a737510b1d54afc0a58a5e751218361267e.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/2dcaa00b75d5313baaf8fc87c34e2a737510b1d54afc0a58a5e751218361267e.jpg)
-
-![2f4c644317e461779fbb84582cee78cd7e34d6437f92e4c33cdb57e28b4531f9.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/2f4c644317e461779fbb84582cee78cd7e34d6437f92e4c33cdb57e28b4531f9.jpg)
-
-![390a8f7e669f0265f6a69da7189b63fb2da3f45f9d82e5b58f5a39019c76f783.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/390a8f7e669f0265f6a69da7189b63fb2da3f45f9d82e5b58f5a39019c76f783.jpg)
-
-![4f8baa78ddb060cd30990bc2e83f7fc9cb2cfc342a51144bbdc86da13c1dc3ab.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/4f8baa78ddb060cd30990bc2e83f7fc9cb2cfc342a51144bbdc86da13c1dc3ab.jpg)
-
-![6ea65fcefb655f13872d5de60a693aa86c2d78f60eea94fcf48f457afcd0be53.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/6ea65fcefb655f13872d5de60a693aa86c2d78f60eea94fcf48f457afcd0be53.jpg)
-
-![6ec78852908353d5a9288e67034c11cfeb26ccb2147cf9b47496c38fcaa761d0.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/6ec78852908353d5a9288e67034c11cfeb26ccb2147cf9b47496c38fcaa761d0.jpg)
-
-![995520783ed25124b2368fdc1e496b205ff4d1c769947bf83ef4f2f306147e9d.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/995520783ed25124b2368fdc1e496b205ff4d1c769947bf83ef4f2f306147e9d.jpg)
-
-![c39b72f03f1252873709701e27a9ed3392746acf301bd81f1942d6cb58dc757f.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/c39b72f03f1252873709701e27a9ed3392746acf301bd81f1942d6cb58dc757f.jpg)
-
-![c4e1c199156e9d9a76e4d9f8e13a21383030dd67375b2a3d220495a7aa3d51d6.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/c4e1c199156e9d9a76e4d9f8e13a21383030dd67375b2a3d220495a7aa3d51d6.jpg)
-
-![d66f0adb89f30b722811532909957ed19b3648f07e7f11054c0839e257d22ce0.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/d66f0adb89f30b722811532909957ed19b3648f07e7f11054c0839e257d22ce0.jpg)
-
-![d67916a1d7bbc2df5a26fd40254f1a8c4d7efa0d34bc0c826cc852f8296ea83b.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/d67916a1d7bbc2df5a26fd40254f1a8c4d7efa0d34bc0c826cc852f8296ea83b.jpg)
-
-![e9550dfc3626f33b02c80d1c45ccbe2d75c61533b0a83027d5e527fe7f48717c.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/e9550dfc3626f33b02c80d1c45ccbe2d75c61533b0a83027d5e527fe7f48717c.jpg)
-
-![f9cc740577c29dffcea859ec3cc94247c0088dad4d6d2b098796a24656c982af.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/images/f9cc740577c29dffcea859ec3cc94247c0088dad4d6d2b098796a24656c982af.jpg)
-
-### Tables
-
-![6a9001deade76079ddefd7cf827b93f70fe7ea985860ee55a91a812bcd22e108.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/6a9001deade76079ddefd7cf827b93f70fe7ea985860ee55a91a812bcd22e108.jpg)
-
-![73606a43c73c0f6f5bd6af2213baa692bd4d1d091fa94f9c7b70cfab91a071be.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/73606a43c73c0f6f5bd6af2213baa692bd4d1d091fa94f9c7b70cfab91a071be.jpg)
-
-![85e6481099742b46af47929674fdf8343581caf0875553a56e7249368b28da31.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/85e6481099742b46af47929674fdf8343581caf0875553a56e7249368b28da31.jpg)
-
-![91f2f810492534c8de12653de4599adb8a1ebffc2c08db1c1b555f20c1491e9d.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/91f2f810492534c8de12653de4599adb8a1ebffc2c08db1c1b555f20c1491e9d.jpg)
-
-![c7d021b7f891e071b4b637b001588fff6430a9d7ba84e250fb6b6478704b4d74.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/c7d021b7f891e071b4b637b001588fff6430a9d7ba84e250fb6b6478704b4d74.jpg)
-
-![d75c8fd08d8ccee3aa75eae3f42e953cb9fb01b5fcfdc8c9c0e2ee3ac4c199d6.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/d75c8fd08d8ccee3aa75eae3f42e953cb9fb01b5fcfdc8c9c0e2ee3ac4c199d6.jpg)
-
-![d908457a5b17a9a24fcb451fed9e68f0c09efe1be72fd0f7074dad5b3f895e9d.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/d908457a5b17a9a24fcb451fed9e68f0c09efe1be72fd0f7074dad5b3f895e9d.jpg)
-
-![ea0b63bade7d9be5d2e1fb383433d3d18a3ed715ed4170c79e9081a66556e45f.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/ea0b63bade7d9be5d2e1fb383433d3d18a3ed715ed4170c79e9081a66556e45f.jpg)
-
-![fc53a002359eb9ee1c6e9d92d060b9239d327ba402c332ff9f167687a36c3499.jpg](../iclr_results/1717_RepoGraph_ Enhancing AI Software Engineering with Repository-level Code Graph/tables/fc53a002359eb9ee1c6e9d92d060b9239d327ba402c332ff9f167687a36c3499.jpg)

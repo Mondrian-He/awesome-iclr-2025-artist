@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,216 +13,48 @@
 
 ## 目录 (Table of Contents)
 
-1. [Text2PDE: Latent Diffusion Models for Accessible Physics Simulation](#Text2PDE-Latent-Diffusion-Models-for-Accessible-Physics-Simulation)
-2. [On the Expressive Power of Sparse Geometric MPNNs](#On-the-Expressive-Power-of-Sparse-Geometric-MPNNs)
-3. [Evaluating Semantic Variation in Text-to-Image Synthesis: A Causal Perspective](#Evaluating-Semantic-Variation-in-Text-to-Image-Synthesis-A-Causal-Perspective)
-4. [ActionReasoningBench: Reasoning about Actions with and without Ramification Constraints](#ActionReasoningBench-Reasoning-about-Actions-with-and-without-Ramification-Constraints)
-5. [EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](#EffoVPR-Effective-Foundation-Model-Utilization-for-Visual-Place-Recognition)
-6. [Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](#Efficiently-Learning-at-Test-Time-Active-Fine-Tuning-of-LLMs)
-7. [Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning](#Beyond-Autoregression-Discrete-Diffusion-for-Complex-Reasoning-and-Planning)
-8. [Preserving Diversity in Supervised Fine-Tuning of Large Language Models](#Preserving-Diversity-in-Supervised-Fine-Tuning-of-Large-Language-Models)
-9. [Zero-shot Imputation with Foundation Inference Models for Dynamical Systems](#Zero-shot-Imputation-with-Foundation-Inference-Models-for-Dynamical-Systems)
-10. [CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding](#CBraMod-A-Criss-Cross-Brain-Foundation-Model-for-EEG-Decoding)
-11. [Nonconvex Stochastic Optimization under Heavy-Tailed Noises: Optimal Convergence without Gradient Clipping](#Nonconvex-Stochastic-Optimization-under-Heavy-Tailed-Noises-Optimal-Convergence-without-Gradient-Clipping)
-12. [Dynamic Modeling of Patients, Modalities and Tasks via Multi-modal Multi-task Mixture of Experts](#Dynamic-Modeling-of-Patients-Modalities-and-Tasks-via-Multi-modal-Multi-task-Mixture-of-Experts)
-13. [Plastic Learning with Deep Fourier Features](#Plastic-Learning-with-Deep-Fourier-Features)
-14. [It Helps to Take a Second Opinion: Teaching Smaller LLMs To Deliberate Mutually via Selective Rationale Optimisation](#It-Helps-to-Take-a-Second-Opinion-Teaching-Smaller-LLMs-To-Deliberate-Mutually-via-Selective-Rationale-Optimisation)
-15. [On the Learn-to-Optimize Capabilities of Transformers in In-Context Sparse Recovery](#On-the-Learn-to-Optimize-Capabilities-of-Transformers-in-In-Context-Sparse-Recovery)
-16. [Long-Short Decision Transformer: Bridging Global and Local Dependencies for Generalized Decision-Making](#Long-Short-Decision-Transformer-Bridging-Global-and-Local-Dependencies-for-Generalized-Decision-Making)
-17. [Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis](#Generalization-in-VAE-and-Diffusion-Models-A-Unified-Information-Theoretic-Analysis)
-18. [AdaWM: Adaptive World Model based Planning for Autonomous Driving](#AdaWM-Adaptive-World-Model-based-Planning-for-Autonomous-Driving)
-19. [Weighted Multi-Prompt Learning with Description-free Large Language Model Distillation](#Weighted-Multi-Prompt-Learning-with-Description-free-Large-Language-Model-Distillation)
-20. [The Same but Different: Structural Similarities and Differences in Multilingual Language Modeling](#The-Same-but-Different-Structural-Similarities-and-Differences-in-Multilingual-Language-Modeling)
-21. [Learning to Help in Multi-Class Settings](#Learning-to-Help-in-Multi-Class-Settings)
-22. [Online Clustering with Nearly Optimal Consistency](#Online-Clustering-with-Nearly-Optimal-Consistency)
-23. [On the Almost Sure Convergence of the Stochastic Three Points Algorithm](#On-the-Almost-Sure-Convergence-of-the-Stochastic-Three-Points-Algorithm)
-24. [Chain-of-Thought Provably Enables Learning the (Otherwise) Unlearnable](#Chain-of-Thought-Provably-Enables-Learning-the-Otherwise-Unlearnable)
-25. [Outlier Synthesis via Hamiltonian Monte Carlo for Out-of-Distribution Detection](#Outlier-Synthesis-via-Hamiltonian-Monte-Carlo-for-Out-of-Distribution-Detection)
-26. [Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models](#Fiddler-CPU-GPU-Orchestration-for-Fast-Inference-of-Mixture-of-Experts-Models)
-27. [IDA-VLM: Towards Movie Understanding via ID-Aware Large Vision-Language Model](#IDA-VLM-Towards-Movie-Understanding-via-ID-Aware-Large-Vision-Language-Model)
-28. [Learning-Augmented Search Data Structures](#Learning-Augmented-Search-Data-Structures)
-29. [Weak to Strong Generalization for Large Language Models with Multi-capabilities](#Weak-to-Strong-Generalization-for-Large-Language-Models-with-Multi-capabilities)
-30. [On the Adversarial Vulnerability of Label-Free Test-Time Adaptation](#On-the-Adversarial-Vulnerability-of-Label-Free-Test-Time-Adaptation)
-31. [Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking](#Style-Outweighs-Substance-Failure-Modes-of-LLM-Judges-in-Alignment-Benchmarking)
-32. [SEBRA : Debiasing through Self-Guided Bias Ranking](#SEBRA-Debiasing-through-Self-Guided-Bias-Ranking)
-33. [Discovering Clone Negatives via Adaptive Contrastive Learning for Image-Text Matching](#Discovering-Clone-Negatives-via-Adaptive-Contrastive-Learning-for-Image-Text-Matching)
-34. [NNsight and NDIF: Democratizing Access to Open-Weight Foundation Model Internals](#NNsight-and-NDIF-Democratizing-Access-to-Open-Weight-Foundation-Model-Internals)
-35. [Continuity-Preserving  Convolutional Autoencoders for Learning Continuous Latent Dynamical Models from Images](#Continuity-Preserving-Convolutional-Autoencoders-for-Learning-Continuous-Latent-Dynamical-Models-from-Images)
-36. [MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations](#MamBEV-Enabling-State-Space-Models-to-Learn-Birds-Eye-View-Representations)
+1. [ActionReasoningBench: Reasoning about Actions with and without Ramification Constraints](#ActionReasoningBench-Reasoning-about-Actions-with-and-without-Ramification-Constraints)
+2. [EffoVPR: Effective Foundation Model Utilization for Visual Place Recognition](#EffoVPR-Effective-Foundation-Model-Utilization-for-Visual-Place-Recognition)
+3. [Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs](#Efficiently-Learning-at-Test-Time-Active-Fine-Tuning-of-LLMs)
+4. [Beyond Autoregression: Discrete Diffusion for Complex Reasoning and Planning](#Beyond-Autoregression-Discrete-Diffusion-for-Complex-Reasoning-and-Planning)
+5. [Preserving Diversity in Supervised Fine-Tuning of Large Language Models](#Preserving-Diversity-in-Supervised-Fine-Tuning-of-Large-Language-Models)
+6. [Zero-shot Imputation with Foundation Inference Models for Dynamical Systems](#Zero-shot-Imputation-with-Foundation-Inference-Models-for-Dynamical-Systems)
+7. [CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding](#CBraMod-A-Criss-Cross-Brain-Foundation-Model-for-EEG-Decoding)
+8. [Nonconvex Stochastic Optimization under Heavy-Tailed Noises: Optimal Convergence without Gradient Clipping](#Nonconvex-Stochastic-Optimization-under-Heavy-Tailed-Noises-Optimal-Convergence-without-Gradient-Clipping)
+9. [Dynamic Modeling of Patients, Modalities and Tasks via Multi-modal Multi-task Mixture of Experts](#Dynamic-Modeling-of-Patients-Modalities-and-Tasks-via-Multi-modal-Multi-task-Mixture-of-Experts)
+10. [Plastic Learning with Deep Fourier Features](#Plastic-Learning-with-Deep-Fourier-Features)
+11. [It Helps to Take a Second Opinion: Teaching Smaller LLMs To Deliberate Mutually via Selective Rationale Optimisation](#It-Helps-to-Take-a-Second-Opinion-Teaching-Smaller-LLMs-To-Deliberate-Mutually-via-Selective-Rationale-Optimisation)
+12. [On the Learn-to-Optimize Capabilities of Transformers in In-Context Sparse Recovery](#On-the-Learn-to-Optimize-Capabilities-of-Transformers-in-In-Context-Sparse-Recovery)
+13. [Long-Short Decision Transformer: Bridging Global and Local Dependencies for Generalized Decision-Making](#Long-Short-Decision-Transformer-Bridging-Global-and-Local-Dependencies-for-Generalized-Decision-Making)
+14. [Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis](#Generalization-in-VAE-and-Diffusion-Models-A-Unified-Information-Theoretic-Analysis)
+15. [AdaWM: Adaptive World Model based Planning for Autonomous Driving](#AdaWM-Adaptive-World-Model-based-Planning-for-Autonomous-Driving)
+16. [Weighted Multi-Prompt Learning with Description-free Large Language Model Distillation](#Weighted-Multi-Prompt-Learning-with-Description-free-Large-Language-Model-Distillation)
+17. [The Same but Different: Structural Similarities and Differences in Multilingual Language Modeling](#The-Same-but-Different-Structural-Similarities-and-Differences-in-Multilingual-Language-Modeling)
+18. [Learning to Help in Multi-Class Settings](#Learning-to-Help-in-Multi-Class-Settings)
+19. [Online Clustering with Nearly Optimal Consistency](#Online-Clustering-with-Nearly-Optimal-Consistency)
+20. [On the Almost Sure Convergence of the Stochastic Three Points Algorithm](#On-the-Almost-Sure-Convergence-of-the-Stochastic-Three-Points-Algorithm)
+21. [Chain-of-Thought Provably Enables Learning the (Otherwise) Unlearnable](#Chain-of-Thought-Provably-Enables-Learning-the-Otherwise-Unlearnable)
+22. [Outlier Synthesis via Hamiltonian Monte Carlo for Out-of-Distribution Detection](#Outlier-Synthesis-via-Hamiltonian-Monte-Carlo-for-Out-of-Distribution-Detection)
+23. [Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models](#Fiddler-CPU-GPU-Orchestration-for-Fast-Inference-of-Mixture-of-Experts-Models)
+24. [IDA-VLM: Towards Movie Understanding via ID-Aware Large Vision-Language Model](#IDA-VLM-Towards-Movie-Understanding-via-ID-Aware-Large-Vision-Language-Model)
+25. [Learning-Augmented Search Data Structures](#Learning-Augmented-Search-Data-Structures)
+26. [Weak to Strong Generalization for Large Language Models with Multi-capabilities](#Weak-to-Strong-Generalization-for-Large-Language-Models-with-Multi-capabilities)
+27. [On the Adversarial Vulnerability of Label-Free Test-Time Adaptation](#On-the-Adversarial-Vulnerability-of-Label-Free-Test-Time-Adaptation)
+28. [Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking](#Style-Outweighs-Substance-Failure-Modes-of-LLM-Judges-in-Alignment-Benchmarking)
+29. [SEBRA : Debiasing through Self-Guided Bias Ranking](#SEBRA-Debiasing-through-Self-Guided-Bias-Ranking)
+30. [Discovering Clone Negatives via Adaptive Contrastive Learning for Image-Text Matching](#Discovering-Clone-Negatives-via-Adaptive-Contrastive-Learning-for-Image-Text-Matching)
+31. [NNsight and NDIF: Democratizing Access to Open-Weight Foundation Model Internals](#NNsight-and-NDIF-Democratizing-Access-to-Open-Weight-Foundation-Model-Internals)
+32. [Continuity-Preserving  Convolutional Autoencoders for Learning Continuous Latent Dynamical Models from Images](#Continuity-Preserving-Convolutional-Autoencoders-for-Learning-Continuous-Latent-Dynamical-Models-from-Images)
+33. [MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations](#MamBEV-Enabling-State-Space-Models-to-Learn-Birds-Eye-View-Representations)
+34. [MetaDesigner: Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordArt Synthesis](#MetaDesigner-Advancing-Artistic-Typography-through-AI-Driven-User-Centric-and-Multilingual-WordArt-Synthesis)
+35. [BP-Modified Local Loss for Efficient Training of Deep Neural Networks](#BP-Modified-Local-Loss-for-Efficient-Training-of-Deep-Neural-Networks)
+36. [ALLaM: Large Language Models for Arabic and English](#ALLaM-Large-Language-Models-for-Arabic-and-English)
+37. [Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models](#Efficient-Perplexity-Bound-and-Ratio-Matching-in-Discrete-Diffusion-Language-Models)
 
 ---
 
 
-## Text2PDE: Latent Diffusion Models for Accessible Physics Simulation
-
-### Images
-
-![22fd30f4bd21235cb83b3a6a8e1f345d1810e0d1528de84b93df6a73bf6e8e3f.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/22fd30f4bd21235cb83b3a6a8e1f345d1810e0d1528de84b93df6a73bf6e8e3f.jpg)
-
-![244470ed1a660334905790c3ba949a71704d70ce0385f60d94d923b755252529.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/244470ed1a660334905790c3ba949a71704d70ce0385f60d94d923b755252529.jpg)
-
-![44f7dce0872ce78687e233b079664202f95bada1d4b508b036745888c91529b8.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/44f7dce0872ce78687e233b079664202f95bada1d4b508b036745888c91529b8.jpg)
-
-![72ee3a821383d949c52b06e4e99a82a58d554ca254c4b34c4103b69e20d74d45.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/72ee3a821383d949c52b06e4e99a82a58d554ca254c4b34c4103b69e20d74d45.jpg)
-
-![83b01c211adab2ce59e33c0d614fe595b078ecc9816560802c879fdb60a2ce85.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/83b01c211adab2ce59e33c0d614fe595b078ecc9816560802c879fdb60a2ce85.jpg)
-
-![87a6a5cb3933476833d67a33d62de24ffbe34165dff776f30fe43d4a9431737e.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/87a6a5cb3933476833d67a33d62de24ffbe34165dff776f30fe43d4a9431737e.jpg)
-
-![884ab3f84de956a703b905f0678b73b19006aa3ec1772ebce0a7961b0d0d6c4b.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/884ab3f84de956a703b905f0678b73b19006aa3ec1772ebce0a7961b0d0d6c4b.jpg)
-
-![c84976be82f4d39d7c7e26c6a7d90ed2306cfd78db2a610170846fdc00dd5d36.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/c84976be82f4d39d7c7e26c6a7d90ed2306cfd78db2a610170846fdc00dd5d36.jpg)
-
-![f20182a0634aa70a2fd6d7743c9e4307e99ceaa133640428a98be33132467d5c.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/f20182a0634aa70a2fd6d7743c9e4307e99ceaa133640428a98be33132467d5c.jpg)
-
-### Tables
-
-![06b0c268a5b2d65aa349cbf5806c923bda87637d0657b4490132faf80d1f64d6.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/06b0c268a5b2d65aa349cbf5806c923bda87637d0657b4490132faf80d1f64d6.jpg)
-
-![0c374a71803f25cbc625c26ada0b50405f974ab0e24016e8b1645773f157568c.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/0c374a71803f25cbc625c26ada0b50405f974ab0e24016e8b1645773f157568c.jpg)
-
-![11d277e086b58f70ab326aef96a1b486781cb6a5bc790a60f397fc5c7029ca71.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/11d277e086b58f70ab326aef96a1b486781cb6a5bc790a60f397fc5c7029ca71.jpg)
-
-![171ada992524bb57b88d47cbbf9e3f958d09bc8d8b142728c985789f5f27e85e.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/171ada992524bb57b88d47cbbf9e3f958d09bc8d8b142728c985789f5f27e85e.jpg)
-
-![3e4efa5ecedecfbbb83e4760c926020c83fca8005bb2d7754e8bf900abbcab0a.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/3e4efa5ecedecfbbb83e4760c926020c83fca8005bb2d7754e8bf900abbcab0a.jpg)
-
-![827db61e56e6befad5b695d9c4afa67d91ec17ade321a04815e8b9231f0b4d30.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/827db61e56e6befad5b695d9c4afa67d91ec17ade321a04815e8b9231f0b4d30.jpg)
-
-![8f3687bfc312abb6b9f7cc3a31fd52ef30f33ecf7949289eaf9faaf8aeec8576.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/8f3687bfc312abb6b9f7cc3a31fd52ef30f33ecf7949289eaf9faaf8aeec8576.jpg)
-
-![aaa7545103fde56558ffb6efeb33cf0982df8f23d95f1feff1e2dee4abea4800.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/aaa7545103fde56558ffb6efeb33cf0982df8f23d95f1feff1e2dee4abea4800.jpg)
-
-![bb546f426a78140c5fae9fbffe2b57c48eec6ff1c05b9bdbb71793e18fac95ee.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/bb546f426a78140c5fae9fbffe2b57c48eec6ff1c05b9bdbb71793e18fac95ee.jpg)
-
-![c785012b04d94c4085d6a5e875b3d78ed83e0b9151dc0c3bf1c50a85128d44ca.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/c785012b04d94c4085d6a5e875b3d78ed83e0b9151dc0c3bf1c50a85128d44ca.jpg)
-
-![d4b5eace50d15ede4026d92ddd3cc2b59a8af8173f33f7a3241fbcdc052179e7.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/d4b5eace50d15ede4026d92ddd3cc2b59a8af8173f33f7a3241fbcdc052179e7.jpg)
-
-![e4a8763d71ffa7fe31d75afc919272593ec3193125d0bbc6b3b17f7849865179.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/e4a8763d71ffa7fe31d75afc919272593ec3193125d0bbc6b3b17f7849865179.jpg)
-
-![ef4a0d39b268affd9fc44804d7babe36714dbeb86c47c35dcdea6e8474ce7374.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/ef4a0d39b268affd9fc44804d7babe36714dbeb86c47c35dcdea6e8474ce7374.jpg)
-
-![fa26bd923ee4b81bd94a039cdc56c92c896560b6c73b8cddca48c4edca92d5ec.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/fa26bd923ee4b81bd94a039cdc56c92c896560b6c73b8cddca48c4edca92d5ec.jpg)
-
-## Text2PDE: Latent Diffusion Models for Accessible Physics Simulation
-
-
-### Images
-
-![0b1a1544a82de5f30d45fb02e17c1cb7363111e600dbe0c954f18eeeedb684c8.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/0b1a1544a82de5f30d45fb02e17c1cb7363111e600dbe0c954f18eeeedb684c8.jpg)
-
-![117f677967330a48f8035497a36a1a4258dba38d53c69631c37b703c134ec0d9.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/117f677967330a48f8035497a36a1a4258dba38d53c69631c37b703c134ec0d9.jpg)
-
-![179e690862b61922b9dbfd8ff6eae075eb987983340151a67cecaae37e0ba034.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/179e690862b61922b9dbfd8ff6eae075eb987983340151a67cecaae37e0ba034.jpg)
-
-![3001479a6d3e0edd4d6e3b5b16c703501939a1dc8817b0a0e4c86907fc0d2fcf.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3001479a6d3e0edd4d6e3b5b16c703501939a1dc8817b0a0e4c86907fc0d2fcf.jpg)
-
-![3521ea7fa1a9d3d08517abe40d71f624a4b21c2084dadcfe18a7746155f63135.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3521ea7fa1a9d3d08517abe40d71f624a4b21c2084dadcfe18a7746155f63135.jpg)
-
-![35805bcebaba44d6dc6ef83c073ba99c88ac3841e4038a2bddc109ca3e123d98.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/35805bcebaba44d6dc6ef83c073ba99c88ac3841e4038a2bddc109ca3e123d98.jpg)
-
-![3c6b62afea8b3797419b13f51d9d218ce7e205f7db02c9c6763265846184d5dd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3c6b62afea8b3797419b13f51d9d218ce7e205f7db02c9c6763265846184d5dd.jpg)
-
-![3fa80f010fb3c39a684cef270bc0c0c8e0f921b427aebcb61d972f6b1fba2e72.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3fa80f010fb3c39a684cef270bc0c0c8e0f921b427aebcb61d972f6b1fba2e72.jpg)
-
-![3ffb420c5144935888cef99b0da720d5596248d984a38ff3c93f4d02eaecf3ac.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3ffb420c5144935888cef99b0da720d5596248d984a38ff3c93f4d02eaecf3ac.jpg)
-
-![42cc2c84a28890bc5560692c658f6bfaa91463b11305440d4f7298b9738a9f75.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/42cc2c84a28890bc5560692c658f6bfaa91463b11305440d4f7298b9738a9f75.jpg)
-
-![448e64a7065ac37b17fef03817025f73b649cbd96e6459f31ff18573ca8890c5.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/448e64a7065ac37b17fef03817025f73b649cbd96e6459f31ff18573ca8890c5.jpg)
-
-![4838156511c671c9b5fed894349a98a12a1c9908ed2779e6df63eaec1b18e6da.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/4838156511c671c9b5fed894349a98a12a1c9908ed2779e6df63eaec1b18e6da.jpg)
-
-![4d8aa4221f38ff43ec02bb8fd6968f09aa68c22137b8477b1affd0f2c4ebce10.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/4d8aa4221f38ff43ec02bb8fd6968f09aa68c22137b8477b1affd0f2c4ebce10.jpg)
-
-![6dc1090d5659f5d9edcdb6368ed2ae7fc69329099849e520aa41b9c34ddaca67.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/6dc1090d5659f5d9edcdb6368ed2ae7fc69329099849e520aa41b9c34ddaca67.jpg)
-
-![7db049ea5f4341c383fdef6c44215149231d9f48a695b625824d4dfc8458e327.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/7db049ea5f4341c383fdef6c44215149231d9f48a695b625824d4dfc8458e327.jpg)
-
-![831c02c16a0e3bc7d8ca4665f1bd8d599e1064e18c828d640c5c3024fb94fe0f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/831c02c16a0e3bc7d8ca4665f1bd8d599e1064e18c828d640c5c3024fb94fe0f.jpg)
-
-![83b6fc24933e4b13a347949eeb6758146c48b3edc2ab5f738583df4e8aa9624f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/83b6fc24933e4b13a347949eeb6758146c48b3edc2ab5f738583df4e8aa9624f.jpg)
-
-![88f074dc98f0a53b739500d8476bfc95fe5573f2e1609f7a9641197584c23abc.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/88f074dc98f0a53b739500d8476bfc95fe5573f2e1609f7a9641197584c23abc.jpg)
-
-![9d10d97f014b4b28dec11f3e2d711dde92c02595da11306454c8627f9cbfb94c.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/9d10d97f014b4b28dec11f3e2d711dde92c02595da11306454c8627f9cbfb94c.jpg)
-
-![9d40dcb128c03b578c6aae6699886cfc5de13422e01be2f568dee42e4977a1bf.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/9d40dcb128c03b578c6aae6699886cfc5de13422e01be2f568dee42e4977a1bf.jpg)
-
-![adb00ad03bb6e0c524678b7cb42450007636c80216a60314fdbf58be5a8ff071.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/adb00ad03bb6e0c524678b7cb42450007636c80216a60314fdbf58be5a8ff071.jpg)
-
-![bf08727842e6e95986a3f714b8645fff7b0004075e22ec8c72c23b1e210dfa2f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/bf08727842e6e95986a3f714b8645fff7b0004075e22ec8c72c23b1e210dfa2f.jpg)
-
-![c5896d05c6383c4fa12c2f442e326f3162ed63d294fc4878fc70b8d78c232dfd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/c5896d05c6383c4fa12c2f442e326f3162ed63d294fc4878fc70b8d78c232dfd.jpg)
-
-![d98824247ef0d9c34ac4a7e38e170dc327602dcc283d83175e3717e57b99df33.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/d98824247ef0d9c34ac4a7e38e170dc327602dcc283d83175e3717e57b99df33.jpg)
-
-![dc745337cfeb2735655fb62c902c426fceba7ac4d64ae2bd9005d63215facf41.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/dc745337cfeb2735655fb62c902c426fceba7ac4d64ae2bd9005d63215facf41.jpg)
-
-### Tables
-
-![1b98506382d81139cf22cdedb543b304e34c0870cc705e41fb9efd92ecdc9754.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/1b98506382d81139cf22cdedb543b304e34c0870cc705e41fb9efd92ecdc9754.jpg)
-
-![2e7baf56989e8d7917c798f767956a39046afba63e2578b13b67110b51dfc8b6.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/2e7baf56989e8d7917c798f767956a39046afba63e2578b13b67110b51dfc8b6.jpg)
-
-![40ff46501e799e739f858b85661afb7e095893dcd954bd3f5bd86bccb6bf2ebd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/40ff46501e799e739f858b85661afb7e095893dcd954bd3f5bd86bccb6bf2ebd.jpg)
-
-![4672fc0159f11748fb761e38259cdfaf629b4a4b9e1130f1806704907cb4dc99.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/4672fc0159f11748fb761e38259cdfaf629b4a4b9e1130f1806704907cb4dc99.jpg)
-
-![565125c08e013a160db92f75a0f62d3697310193aafea9d76d5cbabf37103607.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/565125c08e013a160db92f75a0f62d3697310193aafea9d76d5cbabf37103607.jpg)
-
-![6bf20269517e03d10fa3c9a608a4a185a24419b15cfdcbecc3d805464e6db0e9.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/6bf20269517e03d10fa3c9a608a4a185a24419b15cfdcbecc3d805464e6db0e9.jpg)
-
-![813f58b1c55576e1b1d660299dd4c0b64d01da7e2802ca699b1767b9ba4cb33d.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/813f58b1c55576e1b1d660299dd4c0b64d01da7e2802ca699b1767b9ba4cb33d.jpg)
-
-![931d76f399a215692b65dfb67a14b1195d6964c0fa850be0e5e02338c28c8840.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/931d76f399a215692b65dfb67a14b1195d6964c0fa850be0e5e02338c28c8840.jpg)
-
-![9cb977f511cea0a671904f81c1f1d8b57a0ca69fdeb5977c46c26d9e76b20ad0.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/9cb977f511cea0a671904f81c1f1d8b57a0ca69fdeb5977c46c26d9e76b20ad0.jpg)
-
-![a1443fcc03a29bb30d92ffc3ae14dfad44cfd00689a7c2151f0d605afec8f399.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/a1443fcc03a29bb30d92ffc3ae14dfad44cfd00689a7c2151f0d605afec8f399.jpg)
-
-![a9193b0c76791f5cd7919a8d62c647a50d3125029a58a435787229c22dc0adb7.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/a9193b0c76791f5cd7919a8d62c647a50d3125029a58a435787229c22dc0adb7.jpg)
-
-![b8cf68be0018e0e684817090fdc78a5843df0dcb7a3842ca41a737e23224a4c5.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/b8cf68be0018e0e684817090fdc78a5843df0dcb7a3842ca41a737e23224a4c5.jpg)
-
-![c7a1fb20ba3c99ca73897d312cf5bf7ede349ffbfd418387951f9217ca6e030a.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/c7a1fb20ba3c99ca73897d312cf5bf7ede349ffbfd418387951f9217ca6e030a.jpg)
-
-![e78f1fe7c466304e4ae74f0f6f2cd26a4344538a53b26c1455d85c477eae3723.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/e78f1fe7c466304e4ae74f0f6f2cd26a4344538a53b26c1455d85c477eae3723.jpg)
-
-![ea09f28fc47a71b2dfe2d77102e04f166de530f5e923de0248ce00056888e7c4.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/ea09f28fc47a71b2dfe2d77102e04f166de530f5e923de0248ce00056888e7c4.jpg)
-
-![eab4486d6557375748f22294f6462d986ec00e64f4f1f4139e0116dd02a610d0.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/eab4486d6557375748f22294f6462d986ec00e64f4f1f4139e0116dd02a610d0.jpg)
-
-## On the Expressive Power of Sparse Geometric MPNNs
-
-
-### Images
-
-![e61c6b6424d18dbebcc3d0664e16d3e55b5ba40fb5a51784e2674a6090cadc93.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/images/e61c6b6424d18dbebcc3d0664e16d3e55b5ba40fb5a51784e2674a6090cadc93.jpg)
-
-![eace1303a8efa60490ae954591f87970861f788b0e635a8cbd0dedd775ea23f2.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/images/eace1303a8efa60490ae954591f87970861f788b0e635a8cbd0dedd775ea23f2.jpg)
-
-### Tables
-
-![06f56ea8a42a4ed01a7330cbeadab5181f5e46c3782b425913b9777b52b0bc89.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/06f56ea8a42a4ed01a7330cbeadab5181f5e46c3782b425913b9777b52b0bc89.jpg)
-
-![2904ccbb6f9839ad028f03e5385c57a47f422eb64ac28fb0d16d6c52218a4f4a.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/2904ccbb6f9839ad028f03e5385c57a47f422eb64ac28fb0d16d6c52218a4f4a.jpg)
-
-![3df96b8ab93fdd06fd94ac9e2e6c89061fa22e4a36d36e30a186298ff9c95251.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/3df96b8ab93fdd06fd94ac9e2e6c89061fa22e4a36d36e30a186298ff9c95251.jpg)
-
-![7a6128f9385025a211619065248e73acecce83cd9d0e2dc5fa0949127eb764de.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/7a6128f9385025a211619065248e73acecce83cd9d0e2dc5fa0949127eb764de.jpg)
-
-![950d021a3dc5532f78a10a0b0b8e57463a5cada057f6df12226d59d48a3649c2.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/950d021a3dc5532f78a10a0b0b8e57463a5cada057f6df12226d59d48a3649c2.jpg)
-
-![a4b7c91365028efa4cddd1cc9892a2ebcb07ec40be0f7d676ee4a356b0989152.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/a4b7c91365028efa4cddd1cc9892a2ebcb07ec40be0f7d676ee4a356b0989152.jpg)
-
-![ae5f5180919d12074a1eba96a2aa492fb5cf529940a060d8bff765e5982acd33.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/ae5f5180919d12074a1eba96a2aa492fb5cf529940a060d8bff765e5982acd33.jpg)
-
-![b118ca7258f51dba96942a5c31c3646d7f9c995710c84494ed21fa2dd3b3c767.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/b118ca7258f51dba96942a5c31c3646d7f9c995710c84494ed21fa2dd3b3c767.jpg)
-
-## Evaluating Semantic Variation in Text-to-Image Synthesis: A Causal Perspective
-
+## ActionReasoningBench: Reasoning about Actions with and without Ramification Constraints
 
 ### Images
 
@@ -2152,6 +1984,7 @@
 
 ## MamBEV: Enabling State Space Models to Learn Birds-Eye-View Representations
 
+
 ### Images
 
 ![07361787c0011587ecfadf4cc48113de1ba61f968c5bd7317ff487c597b7e262.jpg](../iclr_results/2525_MamBEV_ Enabling State Space Models to Learn Birds-Eye-View Representations/images/07361787c0011587ecfadf4cc48113de1ba61f968c5bd7317ff487c597b7e262.jpg)
@@ -2203,3 +2036,214 @@
 ![fd425bf546948b63ab2c09536ff9859be944ca5d4d8ac596db55d9c60839abe3.jpg](../iclr_results/2525_MamBEV_ Enabling State Space Models to Learn Birds-Eye-View Representations/tables/fd425bf546948b63ab2c09536ff9859be944ca5d4d8ac596db55d9c60839abe3.jpg)
 
 ![feb3c47b05b27b33c64800e16dd64369c1944b5802311c2f26b5407cad423889.jpg](../iclr_results/2525_MamBEV_ Enabling State Space Models to Learn Birds-Eye-View Representations/tables/feb3c47b05b27b33c64800e16dd64369c1944b5802311c2f26b5407cad423889.jpg)
+
+## MetaDesigner: Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordArt Synthesis
+
+
+### Images
+
+![013ca91f119cbf3a1d72f910a099fe9bf176fae255554ec7d32a86cb7d4b30f9.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/013ca91f119cbf3a1d72f910a099fe9bf176fae255554ec7d32a86cb7d4b30f9.jpg)
+
+![08eeab4beff8cb365791732b29af5614e52facda3d36b8e2ea1e4036e23a6ac9.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/08eeab4beff8cb365791732b29af5614e52facda3d36b8e2ea1e4036e23a6ac9.jpg)
+
+![12da5770e05d83ff1280e0d214a93cb2a7d26187caf8f028453b44c36bf87b7b.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/12da5770e05d83ff1280e0d214a93cb2a7d26187caf8f028453b44c36bf87b7b.jpg)
+
+![1514a0f9649a8507b700ed1e02a4e108957c5182e3809f91d5a934ae301342d5.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/1514a0f9649a8507b700ed1e02a4e108957c5182e3809f91d5a934ae301342d5.jpg)
+
+![1a3b3255b77d06bbf862e9af5f6c95d4619936a84910de55453f05971e200008.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/1a3b3255b77d06bbf862e9af5f6c95d4619936a84910de55453f05971e200008.jpg)
+
+![3120678384bb5cc906871ddd9d84042341fedb0845e8e72ae0a1cae8d67ca961.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/3120678384bb5cc906871ddd9d84042341fedb0845e8e72ae0a1cae8d67ca961.jpg)
+
+![3f2bc897e9ee0565cd114b2de45327a7248adf69fccd7cbc24bc3c0ed5dca47b.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/3f2bc897e9ee0565cd114b2de45327a7248adf69fccd7cbc24bc3c0ed5dca47b.jpg)
+
+![431ca8cbfa12ef284ed68ef95fc023d0b4daabf0e8b4aea1a3334efb95acb69e.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/431ca8cbfa12ef284ed68ef95fc023d0b4daabf0e8b4aea1a3334efb95acb69e.jpg)
+
+![44fb392956a2ac1ed9ea1a0f646d34924e65e6a6d7990f41b7819c28ded62c66.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/44fb392956a2ac1ed9ea1a0f646d34924e65e6a6d7990f41b7819c28ded62c66.jpg)
+
+![514f9e1db74ce74595d598ad613205de54dc10b9d896aab35fe10ea1a1b9ee4c.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/514f9e1db74ce74595d598ad613205de54dc10b9d896aab35fe10ea1a1b9ee4c.jpg)
+
+![63f2d5110992d3831f8a28ce583d409c412619b63eb6725d4da3c6e87dac2764.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/63f2d5110992d3831f8a28ce583d409c412619b63eb6725d4da3c6e87dac2764.jpg)
+
+![64042bd27a4a676a58039d94427507c4af3a6a0efc84f416be74ffca8d199760.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/64042bd27a4a676a58039d94427507c4af3a6a0efc84f416be74ffca8d199760.jpg)
+
+![6d822932ef2df6d4bdee7dbe4cfeb2e5bb5f18cb8429aaee95215b31789fc4cf.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/6d822932ef2df6d4bdee7dbe4cfeb2e5bb5f18cb8429aaee95215b31789fc4cf.jpg)
+
+![881d565264d85821000a52f7d02b0b3695b2bd7615549bd56a2d3b88e292926a.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/881d565264d85821000a52f7d02b0b3695b2bd7615549bd56a2d3b88e292926a.jpg)
+
+![a4884208c8ca40e1b0d9acbac413651daa67e337bf071e9f284b63dcc0f7218e.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/a4884208c8ca40e1b0d9acbac413651daa67e337bf071e9f284b63dcc0f7218e.jpg)
+
+![a56053e05d9ec4535abcc1e64a7ae90f2effc5db6f7b763e9a1ffc9cfa184f57.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/a56053e05d9ec4535abcc1e64a7ae90f2effc5db6f7b763e9a1ffc9cfa184f57.jpg)
+
+![a71876c312ea9eb20a2b459c043acb71de5c21f20ea24bd0b7df10fe7cafaf41.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/a71876c312ea9eb20a2b459c043acb71de5c21f20ea24bd0b7df10fe7cafaf41.jpg)
+
+![b585a39f165dca7828c1885f720dbe42df9078099b8e37cc4e6314587c5f5757.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/b585a39f165dca7828c1885f720dbe42df9078099b8e37cc4e6314587c5f5757.jpg)
+
+![ba93335c4658411aeeb9cfd0b2f79e600155d44bd7a257a513d08c2b6a5c1620.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/ba93335c4658411aeeb9cfd0b2f79e600155d44bd7a257a513d08c2b6a5c1620.jpg)
+
+![c9e8825ee9c8bafff9b6bacc32db3778710fa9942a93218dcea3fa241f1a5ac8.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/c9e8825ee9c8bafff9b6bacc32db3778710fa9942a93218dcea3fa241f1a5ac8.jpg)
+
+![ddbd5fafd052f5afa7727ce155553b0df0bae0185ab3c13bff6e62a992555522.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/ddbd5fafd052f5afa7727ce155553b0df0bae0185ab3c13bff6e62a992555522.jpg)
+
+![e373c574b316ea7da24410dd99f9077e3b302aa7e9423ca523a12168e2e3cfbb.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/e373c574b316ea7da24410dd99f9077e3b302aa7e9423ca523a12168e2e3cfbb.jpg)
+
+![e61ac1a8c8dc12694176467906d87362624cb15a58d269339a5717e8a25130ff.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/e61ac1a8c8dc12694176467906d87362624cb15a58d269339a5717e8a25130ff.jpg)
+
+![f3c42c1fed73ecbea60399bb9203ff060534965fbbc15c1ce573055dbed601a9.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/images/f3c42c1fed73ecbea60399bb9203ff060534965fbbc15c1ce573055dbed601a9.jpg)
+
+### Tables
+
+![10c1f5b7ccb30a2565444f22907bd2006d8f649752a6282346a605bf097a7587.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/tables/10c1f5b7ccb30a2565444f22907bd2006d8f649752a6282346a605bf097a7587.jpg)
+
+![22583bfbc4de52b39d5dd5d771fb95410603ac0318a291bf58fdeec58badaa16.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/tables/22583bfbc4de52b39d5dd5d771fb95410603ac0318a291bf58fdeec58badaa16.jpg)
+
+![295c16a24187b0e9f2b6ccbe8ee285860b95c778907dc8d862c2f79ecebeb13d.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/tables/295c16a24187b0e9f2b6ccbe8ee285860b95c778907dc8d862c2f79ecebeb13d.jpg)
+
+![54db139b32487f1a64cd41066395b7e9887d1d25f410ce6b18e40385fd22f5a4.jpg](../iclr_results/2526_MetaDesigner_ Advancing Artistic Typography through AI-Driven, User-Centric, and Multilingual WordAr/tables/54db139b32487f1a64cd41066395b7e9887d1d25f410ce6b18e40385fd22f5a4.jpg)
+
+## BP-Modified Local Loss for Efficient Training of Deep Neural Networks
+
+
+### Images
+
+![16681d41482136f33d40ffaa83db1fcd56a4fb9e0543eb81b44ec2e6739bfb95.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/images/16681d41482136f33d40ffaa83db1fcd56a4fb9e0543eb81b44ec2e6739bfb95.jpg)
+
+### Tables
+
+![02e8dd80f30fd2579c0de0b3770730e42cc3a3fdd65471630afa84e07b9dcd37.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/02e8dd80f30fd2579c0de0b3770730e42cc3a3fdd65471630afa84e07b9dcd37.jpg)
+
+![15dda3f3b7931648fe10b607b0817d9fc861627e2ff067f52fbd274e73ac98d7.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/15dda3f3b7931648fe10b607b0817d9fc861627e2ff067f52fbd274e73ac98d7.jpg)
+
+![363b8b12969873405a023ca7b0afcf89f5a82dddb40b4d04bfd55bce7883825c.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/363b8b12969873405a023ca7b0afcf89f5a82dddb40b4d04bfd55bce7883825c.jpg)
+
+![54d3eb1fdf160340fb31b4998128585ea8f2243a14f277e25ad958c0644e616d.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/54d3eb1fdf160340fb31b4998128585ea8f2243a14f277e25ad958c0644e616d.jpg)
+
+![9c1a13120880a98c5540ca695c1030bbf3a83544a079dde7a5287ee5e2c3d0a1.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/9c1a13120880a98c5540ca695c1030bbf3a83544a079dde7a5287ee5e2c3d0a1.jpg)
+
+![a1e06cb8126e318bb3e9cee7f6bf7388b12c4957a73000144e5434b3ca24456d.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/a1e06cb8126e318bb3e9cee7f6bf7388b12c4957a73000144e5434b3ca24456d.jpg)
+
+![ae802c4f1098a8751f7c78a754c305105701caf3577014a421b3de7fcdb965d4.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/ae802c4f1098a8751f7c78a754c305105701caf3577014a421b3de7fcdb965d4.jpg)
+
+![b7bc31b468300b0323eea40faed073f02085a300085dab46e142f9cc7ce54ff6.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/b7bc31b468300b0323eea40faed073f02085a300085dab46e142f9cc7ce54ff6.jpg)
+
+![b81ea36e5dbcf52609e6ac82bab55fd302b388942381c4f285da34ea40ac8620.jpg](../iclr_results/2527_BP-Modified Local Loss for Efficient Training of Deep Neural Networks/tables/b81ea36e5dbcf52609e6ac82bab55fd302b388942381c4f285da34ea40ac8620.jpg)
+
+## ALLaM: Large Language Models for Arabic and English
+
+
+### Images
+
+![121cc826c5b903b77c910a69dedd5ec330bc625779655d2df043afb726ceb8b0.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/121cc826c5b903b77c910a69dedd5ec330bc625779655d2df043afb726ceb8b0.jpg)
+
+![6e9d3b4a5867c057d9111ab789e29158b6c8b9ae0335b03b5a7d25c4bc1a979a.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/6e9d3b4a5867c057d9111ab789e29158b6c8b9ae0335b03b5a7d25c4bc1a979a.jpg)
+
+![6eb45465fb286edc7d30fb7d86e215e8c8f60169932b1b56f8e56e0c4b322be8.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/6eb45465fb286edc7d30fb7d86e215e8c8f60169932b1b56f8e56e0c4b322be8.jpg)
+
+![8e36d7d29942c9aef012316fff3b04087fee84d45df22c45cdfa3ba1dcb004ab.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/8e36d7d29942c9aef012316fff3b04087fee84d45df22c45cdfa3ba1dcb004ab.jpg)
+
+![ba58157b4f754c0560242e271e1af7d0fb41d1ab8e29cdc9d0016df1cf4888f4.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/ba58157b4f754c0560242e271e1af7d0fb41d1ab8e29cdc9d0016df1cf4888f4.jpg)
+
+![ccecbac3547515bd1555ce49e0260188ccfa028cdfa7814d9d022b3417a9ac8d.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/ccecbac3547515bd1555ce49e0260188ccfa028cdfa7814d9d022b3417a9ac8d.jpg)
+
+![d6df3098a94a5eb290dcdae830e66fbf8d38ddfbd3155ffea62de7494c8343a6.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/d6df3098a94a5eb290dcdae830e66fbf8d38ddfbd3155ffea62de7494c8343a6.jpg)
+
+![d9140d0fd5e7f138c621afffc89cfcd356432d5aa44c65ef6f703e2c3a41d9e7.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/d9140d0fd5e7f138c621afffc89cfcd356432d5aa44c65ef6f703e2c3a41d9e7.jpg)
+
+![db48cd5390dd3b75333f198cfc7d6a7248827dc8aeb462fc1860eb260993fa82.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/db48cd5390dd3b75333f198cfc7d6a7248827dc8aeb462fc1860eb260993fa82.jpg)
+
+![e7b1bae2472326f103fa715a2a8172300c193276b68c124315fdf46a2ab99ff1.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/e7b1bae2472326f103fa715a2a8172300c193276b68c124315fdf46a2ab99ff1.jpg)
+
+![f0c3ee220f8392a0eba1a895b70d9ced07737a0b8b396bd138fbc5c4e92045f4.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/f0c3ee220f8392a0eba1a895b70d9ced07737a0b8b396bd138fbc5c4e92045f4.jpg)
+
+![fbdbfbd59d53d2bfcd7edfb795a7e6fc0759effa787991996f56d02ada209343.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/fbdbfbd59d53d2bfcd7edfb795a7e6fc0759effa787991996f56d02ada209343.jpg)
+
+![feb0d0579dbc3b7da86eb06b013bae6ff756435757ee2d829b8f149c66b2490d.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/images/feb0d0579dbc3b7da86eb06b013bae6ff756435757ee2d829b8f149c66b2490d.jpg)
+
+### Tables
+
+![0eccfb316efd309d1cbe7a9b0fac869a1809a52ddfecbab7f6529df30eafc3d3.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/0eccfb316efd309d1cbe7a9b0fac869a1809a52ddfecbab7f6529df30eafc3d3.jpg)
+
+![0f68340e7c7cba28016277f73fbfeb5de04e01c64e04892be78b20d803a5af73.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/0f68340e7c7cba28016277f73fbfeb5de04e01c64e04892be78b20d803a5af73.jpg)
+
+![16a88569f3fe57e456811340b8c99be617b9909e3a92b34355ac2095105b8e29.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/16a88569f3fe57e456811340b8c99be617b9909e3a92b34355ac2095105b8e29.jpg)
+
+![19721f173b4f72fdb9ed751b071625a0fb5121b83ed9354f81af280ac84615ff.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/19721f173b4f72fdb9ed751b071625a0fb5121b83ed9354f81af280ac84615ff.jpg)
+
+![213c5bfb085610b27e46c69f88d315efce3a77930debb512acb6ef6e5a98bdde.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/213c5bfb085610b27e46c69f88d315efce3a77930debb512acb6ef6e5a98bdde.jpg)
+
+![2d833a8483ba88b5c36b6499ec5b7d41a6170437cddf2ce636087468175431f7.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/2d833a8483ba88b5c36b6499ec5b7d41a6170437cddf2ce636087468175431f7.jpg)
+
+![31bf5ed3b76b03352b1a90cc56760dfdb9e6d847ea0da5ad31990ebcc5d7cd9d.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/31bf5ed3b76b03352b1a90cc56760dfdb9e6d847ea0da5ad31990ebcc5d7cd9d.jpg)
+
+![60f193e5bafb8a9077d045e1b15c2611a48381eaa39b421d991865a82155f8bc.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/60f193e5bafb8a9077d045e1b15c2611a48381eaa39b421d991865a82155f8bc.jpg)
+
+![84bfd7534d838438614c604e229171083a9be02859fc61bd64e6a60bcb474f7a.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/84bfd7534d838438614c604e229171083a9be02859fc61bd64e6a60bcb474f7a.jpg)
+
+![aa5d1dde22cb16513f7c36e7cbedea39efae9477373030e8cf8df9e7e9a20057.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/aa5d1dde22cb16513f7c36e7cbedea39efae9477373030e8cf8df9e7e9a20057.jpg)
+
+![c4aada7d7cb65b46a29a65e137b9f6c6c6d3957d4f55999d714378cf3d19e034.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/c4aada7d7cb65b46a29a65e137b9f6c6c6d3957d4f55999d714378cf3d19e034.jpg)
+
+![eb2b0b9bec2d603fc0d95fc1607caa98e2e8851477b57791a32046b9f05ac2b1.jpg](../iclr_results/2528_ALLaM_ Large Language Models for Arabic and English/tables/eb2b0b9bec2d603fc0d95fc1607caa98e2e8851477b57791a32046b9f05ac2b1.jpg)
+
+## Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models
+
+### Images
+
+![01e1423fbb8929d89013640b355b4e086815f3e28b92508549983fa6daca6b9e.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/01e1423fbb8929d89013640b355b4e086815f3e28b92508549983fa6daca6b9e.jpg)
+
+![3399ca3543c0ed53cfe0b70942e1aff0b2557b0198591117a90c232f8dbd49a0.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/3399ca3543c0ed53cfe0b70942e1aff0b2557b0198591117a90c232f8dbd49a0.jpg)
+
+![341824dd967cd8d33f4a6f6f8f340ddda86e334c0edc2a4d7c26fca48655d184.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/341824dd967cd8d33f4a6f6f8f340ddda86e334c0edc2a4d7c26fca48655d184.jpg)
+
+![9f93ec88d429e674806e7a451aa6bf5b1fbeb02e839534cf5cfe36a91db41b44.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/9f93ec88d429e674806e7a451aa6bf5b1fbeb02e839534cf5cfe36a91db41b44.jpg)
+
+![a7b0440fde8de76d5fd405c610b13f03cbcb45ce2e3c356e4efc2e0873746648.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/a7b0440fde8de76d5fd405c610b13f03cbcb45ce2e3c356e4efc2e0873746648.jpg)
+
+![ab14eed38431de6a575b533001119c4514706dceaf411e3e9bf2d55ac9e56519.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/ab14eed38431de6a575b533001119c4514706dceaf411e3e9bf2d55ac9e56519.jpg)
+
+![b1c284dfd99bd807352ed49adc3d7afeaf04dc4f637cdb9f498faefccd3a3776.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/b1c284dfd99bd807352ed49adc3d7afeaf04dc4f637cdb9f498faefccd3a3776.jpg)
+
+![ef514da91377d8eb84ceaa502cd6f993ec5d701111911644c0353eb873a95d92.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/images/ef514da91377d8eb84ceaa502cd6f993ec5d701111911644c0353eb873a95d92.jpg)
+
+### Tables
+
+![0233e3be8ddbe5a52ebaf45f89eeb2c7129a2ba82997e041bac217b0ff471590.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/0233e3be8ddbe5a52ebaf45f89eeb2c7129a2ba82997e041bac217b0ff471590.jpg)
+
+![0c9a54d817a540855cc5611f9e3e2d186cdb92ee4f2d1bcf64fc813d18e34993.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/0c9a54d817a540855cc5611f9e3e2d186cdb92ee4f2d1bcf64fc813d18e34993.jpg)
+
+![1ec59f64884b8996e534f5ba7ff91fed664cc103181a43667ea36d6f66998aee.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/1ec59f64884b8996e534f5ba7ff91fed664cc103181a43667ea36d6f66998aee.jpg)
+
+![20bc0b04daf82b8231387b94166acdf40a7db169f264e6029237f6c4058121ba.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/20bc0b04daf82b8231387b94166acdf40a7db169f264e6029237f6c4058121ba.jpg)
+
+![26e35fbecb07257f35ce22c2c26a7d2361f4a0163dac49b870baaff0beba9638.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/26e35fbecb07257f35ce22c2c26a7d2361f4a0163dac49b870baaff0beba9638.jpg)
+
+![2aafa6169a2a8f2ad66d54adfee8a45bbeda5881ff44acd7ea59545c7005a0f4.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/2aafa6169a2a8f2ad66d54adfee8a45bbeda5881ff44acd7ea59545c7005a0f4.jpg)
+
+![333ed9203473c6e9005b3c9e206a7925b5c12189bad5ef3b349cda47cdb5d640.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/333ed9203473c6e9005b3c9e206a7925b5c12189bad5ef3b349cda47cdb5d640.jpg)
+
+![389f3d0b607916168e7ac2d1b058ed9a5605ff7695a24a6bee7f8a5862d66e4b.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/389f3d0b607916168e7ac2d1b058ed9a5605ff7695a24a6bee7f8a5862d66e4b.jpg)
+
+![39454d8f94d8ae1049b0175cf92b0ad212086355f5c68fc0de89849ff9841a70.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/39454d8f94d8ae1049b0175cf92b0ad212086355f5c68fc0de89849ff9841a70.jpg)
+
+![3d7a0e4712d87948c40f587a9e7c525d2c7dd6ee26bf659cf109bfe2ba9a6b98.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/3d7a0e4712d87948c40f587a9e7c525d2c7dd6ee26bf659cf109bfe2ba9a6b98.jpg)
+
+![450ea636e02f76b26f0a1e78a06cd7b7bcf1d113c7cd7ac5d6c038a1567ab4f1.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/450ea636e02f76b26f0a1e78a06cd7b7bcf1d113c7cd7ac5d6c038a1567ab4f1.jpg)
+
+![6d05030a3a69b6e5c780f0b5d0fd629eea02c565fda5b0dc81a05fcc3e2de891.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/6d05030a3a69b6e5c780f0b5d0fd629eea02c565fda5b0dc81a05fcc3e2de891.jpg)
+
+![7d3d7cfac5e8ff3c4d4db3abdd3d4eadeaeecec9852371c7f721174644c853b1.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/7d3d7cfac5e8ff3c4d4db3abdd3d4eadeaeecec9852371c7f721174644c853b1.jpg)
+
+![8b9d0b8127213b4e0fdbfb340157b1ea202dd3763f8ed51bd8830f801f23722d.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/8b9d0b8127213b4e0fdbfb340157b1ea202dd3763f8ed51bd8830f801f23722d.jpg)
+
+![a29bbed3107ce9517ac1946ce4ee34811d2f9fd3c99394b489888599bc2eae34.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/a29bbed3107ce9517ac1946ce4ee34811d2f9fd3c99394b489888599bc2eae34.jpg)
+
+![cdfa8dc7afefc62f12bd6a3529f07b7b0a53e3afe5f8ce29135da60e07cbb459.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/cdfa8dc7afefc62f12bd6a3529f07b7b0a53e3afe5f8ce29135da60e07cbb459.jpg)
+
+![d18c79a435559153ad4e6595fe9cfc3513a27d4706c676581d2dde7d5af69de3.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/d18c79a435559153ad4e6595fe9cfc3513a27d4706c676581d2dde7d5af69de3.jpg)
+
+![d243d0e4c23cd099dc2e2a0e5cd1ef5f76b5022d7392408ed2f31163bbe54b50.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/d243d0e4c23cd099dc2e2a0e5cd1ef5f76b5022d7392408ed2f31163bbe54b50.jpg)
+
+![da7c80aa5e3dee160d13a53c936614a38e1091d7c2e58c58240516f524c72cd1.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/da7c80aa5e3dee160d13a53c936614a38e1091d7c2e58c58240516f524c72cd1.jpg)
+
+![e5df48654af3643dde8dc81a030cd0d1dc3818666dddecc135d38d61befaa0f3.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/e5df48654af3643dde8dc81a030cd0d1dc3818666dddecc135d38d61befaa0f3.jpg)
+
+![fbf7dbfa4e0c25da46461090d86e4be155daee499416c1898041a25d37d24f50.jpg](../iclr_results/2529_Efficient Perplexity Bound and Ratio Matching in Discrete Diffusion Language Models/tables/fbf7dbfa4e0c25da46461090d86e4be155daee499416c1898041a25d37d24f50.jpg)

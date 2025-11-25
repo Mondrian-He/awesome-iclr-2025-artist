@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,216 @@
 
 ## 目录 (Table of Contents)
 
-1. [Merging LoRAs like Playing LEGO: Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering](#Merging-LoRAs-like-Playing-LEGO-Pushing-the-Modularity-of-LoRA-to-Extremes-Through-Rank-Wise-Clustering)
-2. [Optimizing importance weighting in the presence of sub-population shifts](#Optimizing-importance-weighting-in-the-presence-of-sub-population-shifts)
-3. [Temporal Difference Learning: Why It Can Be Fast and How It Will Be Faster](#Temporal-Difference-Learning-Why-It-Can-Be-Fast-and-How-It-Will-Be-Faster)
-4. [Scaling Diffusion Language Models via Adaptation from Autoregressive Models](#Scaling-Diffusion-Language-Models-via-Adaptation-from-Autoregressive-Models)
-5. [WeatherGFM: Learning a Weather Generalist Foundation Model via In-context Learning](#WeatherGFM-Learning-a-Weather-Generalist-Foundation-Model-via-In-context-Learning)
-6. [Noisy Test-Time Adaptation in Vision-Language Models](#Noisy-Test-Time-Adaptation-in-Vision-Language-Models)
-7. [CoRNStack: High-Quality Contrastive Data for Better Code Retrieval and Reranking](#CoRNStack-High-Quality-Contrastive-Data-for-Better-Code-Retrieval-and-Reranking)
-8. [Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting](#Building-Interactable-Replicas-of-Complex-Articulated-Objects-via-Gaussian-Splatting)
-9. [Autonomous Evaluation of LLMs for Truth Maintenance and Reasoning Tasks](#Autonomous-Evaluation-of-LLMs-for-Truth-Maintenance-and-Reasoning-Tasks)
-10. [Action abstractions for amortized sampling](#Action-abstractions-for-amortized-sampling)
-11. [Risk-Sensitive Variational Actor-Critic: A Model-Based Approach](#Risk-Sensitive-Variational-Actor-Critic-A-Model-Based-Approach)
-12. [Leveraging Submodule Linearity Enhances Task Arithmetic Performance in LLMs](#Leveraging-Submodule-Linearity-Enhances-Task-Arithmetic-Performance-in-LLMs)
-13. [Connecting Federated ADMM to Bayes](#Connecting-Federated-ADMM-to-Bayes)
-14. [Proactive Privacy Amnesia for Large Language Models: Safeguarding PII with Negligible Impact on Model Utility](#Proactive-Privacy-Amnesia-for-Large-Language-Models-Safeguarding-PII-with-Negligible-Impact-on-Model-Utility)
-15. [M^3PC: Test-time Model Predictive Control using Pretrained Masked Trajectory Model](#M3PC-Test-time-Model-Predictive-Control-using-Pretrained-Masked-Trajectory-Model)
-16. [Adversarial Training Can Provably Improve Robustness: Theoretical Analysis of Feature Learning Process Under Structured Data](#Adversarial-Training-Can-Provably-Improve-Robustness-Theoretical-Analysis-of-Feature-Learning-Process-Under-Structured-Data)
-17. [Sparse autoencoders reveal selective remapping of visual concepts during adaptation](#Sparse-autoencoders-reveal-selective-remapping-of-visual-concepts-during-adaptation)
-18. [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](#AndroidWorld-A-Dynamic-Benchmarking-Environment-for-Autonomous-Agents)
-19. [The Value of Sensory Information to a Robot](#The-Value-of-Sensory-Information-to-a-Robot)
-20. [Representational Similarity via Interpretable Visual Concepts](#Representational-Similarity-via-Interpretable-Visual-Concepts)
-21. [SafeDiffuser: Safe Planning with Diffusion Probabilistic Models](#SafeDiffuser-Safe-Planning-with-Diffusion-Probabilistic-Models)
-22. [Fast and Accurate Blind Flexible Docking](#Fast-and-Accurate-Blind-Flexible-Docking)
-23. [Pareto Low-Rank Adapters: Efficient Multi-Task Learning with Preferences](#Pareto-Low-Rank-Adapters-Efficient-Multi-Task-Learning-with-Preferences)
-24. [Uncertainty and Influence aware Reward Model Refinement for Reinforcement Learning from Human Feedback](#Uncertainty-and-Influence-aware-Reward-Model-Refinement-for-Reinforcement-Learning-from-Human-Feedback)
-25. [THE ROBUSTNESS OF DIFFERENTIABLE CAUSAL DISCOVERY IN MISSPECIFIED SCENARIOS](#THE-ROBUSTNESS-OF-DIFFERENTIABLE-CAUSAL-DISCOVERY-IN-MISSPECIFIED-SCENARIOS)
-26. [Uncertainty modeling for fine-tuned implicit functions](#Uncertainty-modeling-for-fine-tuned-implicit-functions)
-27. [Language models scale reliably with over-training and on downstream tasks](#Language-models-scale-reliably-with-over-training-and-on-downstream-tasks)
-28. [PaCA: Partial Connection Adaptation for Efficient Fine-Tuning](#PaCA-Partial-Connection-Adaptation-for-Efficient-Fine-Tuning)
-29. [End-to-end Learning of Gaussian Mixture Priors for Diffusion Sampler](#End-to-end-Learning-of-Gaussian-Mixture-Priors-for-Diffusion-Sampler)
-30. [Mind the GAP: Glimpse-based Active Perception improves generalization and sample efficiency of visual reasoning](#Mind-the-GAP-Glimpse-based-Active-Perception-improves-generalization-and-sample-efficiency-of-visual-reasoning)
-31. [REMEDY: Recipe Merging Dynamics in Large Vision-Language Models](#REMEDY-Recipe-Merging-Dynamics-in-Large-Vision-Language-Models)
-32. [Selective Aggregation for Low-Rank Adaptation in Federated Learning](#Selective-Aggregation-for-Low-Rank-Adaptation-in-Federated-Learning)
-33. [DeciMamba: Exploring the Length Extrapolation Potential of Mamba](#DeciMamba-Exploring-the-Length-Extrapolation-Potential-of-Mamba)
-34. [LLaRA: Supercharging Robot Learning Data for Vision-Language Policy](#LLaRA-Supercharging-Robot-Learning-Data-for-Vision-Language-Policy)
-35. [Can We Talk Models Into Seeing the World Differently?](#Can-We-Talk-Models-Into-Seeing-the-World-Differently)
-36. [ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance](#ClassDiffusion-More-Aligned-Personalization-Tuning-with-Explicit-Class-Guidance)
+1. [Attribute-based Visual Reprogramming for Vision-Language Models](#Attribute-based-Visual-Reprogramming-for-Vision-Language-Models)
+2. [Minimalistic Predictions for Online Class Constraint Scheduling](#Minimalistic-Predictions-for-Online-Class-Constraint-Scheduling)
+3. [Diffusion-based Neural Network Weights Generation](#Diffusion-based-Neural-Network-Weights-Generation)
+4. [OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation](#OpenVid-1M-A-Large-Scale-High-Quality-Dataset-for-Text-to-video-Generation)
+5. [Merging LoRAs like Playing LEGO: Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering](#Merging-LoRAs-like-Playing-LEGO-Pushing-the-Modularity-of-LoRA-to-Extremes-Through-Rank-Wise-Clustering)
+6. [Optimizing importance weighting in the presence of sub-population shifts](#Optimizing-importance-weighting-in-the-presence-of-sub-population-shifts)
+7. [Temporal Difference Learning: Why It Can Be Fast and How It Will Be Faster](#Temporal-Difference-Learning-Why-It-Can-Be-Fast-and-How-It-Will-Be-Faster)
+8. [Scaling Diffusion Language Models via Adaptation from Autoregressive Models](#Scaling-Diffusion-Language-Models-via-Adaptation-from-Autoregressive-Models)
+9. [WeatherGFM: Learning a Weather Generalist Foundation Model via In-context Learning](#WeatherGFM-Learning-a-Weather-Generalist-Foundation-Model-via-In-context-Learning)
+10. [Noisy Test-Time Adaptation in Vision-Language Models](#Noisy-Test-Time-Adaptation-in-Vision-Language-Models)
+11. [CoRNStack: High-Quality Contrastive Data for Better Code Retrieval and Reranking](#CoRNStack-High-Quality-Contrastive-Data-for-Better-Code-Retrieval-and-Reranking)
+12. [Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting](#Building-Interactable-Replicas-of-Complex-Articulated-Objects-via-Gaussian-Splatting)
+13. [Autonomous Evaluation of LLMs for Truth Maintenance and Reasoning Tasks](#Autonomous-Evaluation-of-LLMs-for-Truth-Maintenance-and-Reasoning-Tasks)
+14. [Action abstractions for amortized sampling](#Action-abstractions-for-amortized-sampling)
+15. [Risk-Sensitive Variational Actor-Critic: A Model-Based Approach](#Risk-Sensitive-Variational-Actor-Critic-A-Model-Based-Approach)
+16. [Leveraging Submodule Linearity Enhances Task Arithmetic Performance in LLMs](#Leveraging-Submodule-Linearity-Enhances-Task-Arithmetic-Performance-in-LLMs)
+17. [Connecting Federated ADMM to Bayes](#Connecting-Federated-ADMM-to-Bayes)
+18. [Proactive Privacy Amnesia for Large Language Models: Safeguarding PII with Negligible Impact on Model Utility](#Proactive-Privacy-Amnesia-for-Large-Language-Models-Safeguarding-PII-with-Negligible-Impact-on-Model-Utility)
+19. [M^3PC: Test-time Model Predictive Control using Pretrained Masked Trajectory Model](#M3PC-Test-time-Model-Predictive-Control-using-Pretrained-Masked-Trajectory-Model)
+20. [Adversarial Training Can Provably Improve Robustness: Theoretical Analysis of Feature Learning Process Under Structured Data](#Adversarial-Training-Can-Provably-Improve-Robustness-Theoretical-Analysis-of-Feature-Learning-Process-Under-Structured-Data)
+21. [Sparse autoencoders reveal selective remapping of visual concepts during adaptation](#Sparse-autoencoders-reveal-selective-remapping-of-visual-concepts-during-adaptation)
+22. [AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents](#AndroidWorld-A-Dynamic-Benchmarking-Environment-for-Autonomous-Agents)
+23. [The Value of Sensory Information to a Robot](#The-Value-of-Sensory-Information-to-a-Robot)
+24. [Representational Similarity via Interpretable Visual Concepts](#Representational-Similarity-via-Interpretable-Visual-Concepts)
+25. [SafeDiffuser: Safe Planning with Diffusion Probabilistic Models](#SafeDiffuser-Safe-Planning-with-Diffusion-Probabilistic-Models)
+26. [Fast and Accurate Blind Flexible Docking](#Fast-and-Accurate-Blind-Flexible-Docking)
+27. [Pareto Low-Rank Adapters: Efficient Multi-Task Learning with Preferences](#Pareto-Low-Rank-Adapters-Efficient-Multi-Task-Learning-with-Preferences)
+28. [Uncertainty and Influence aware Reward Model Refinement for Reinforcement Learning from Human Feedback](#Uncertainty-and-Influence-aware-Reward-Model-Refinement-for-Reinforcement-Learning-from-Human-Feedback)
+29. [THE ROBUSTNESS OF DIFFERENTIABLE CAUSAL DISCOVERY IN MISSPECIFIED SCENARIOS](#THE-ROBUSTNESS-OF-DIFFERENTIABLE-CAUSAL-DISCOVERY-IN-MISSPECIFIED-SCENARIOS)
+30. [Uncertainty modeling for fine-tuned implicit functions](#Uncertainty-modeling-for-fine-tuned-implicit-functions)
+31. [Language models scale reliably with over-training and on downstream tasks](#Language-models-scale-reliably-with-over-training-and-on-downstream-tasks)
+32. [PaCA: Partial Connection Adaptation for Efficient Fine-Tuning](#PaCA-Partial-Connection-Adaptation-for-Efficient-Fine-Tuning)
+33. [End-to-end Learning of Gaussian Mixture Priors for Diffusion Sampler](#End-to-end-Learning-of-Gaussian-Mixture-Priors-for-Diffusion-Sampler)
+34. [Mind the GAP: Glimpse-based Active Perception improves generalization and sample efficiency of visual reasoning](#Mind-the-GAP-Glimpse-based-Active-Perception-improves-generalization-and-sample-efficiency-of-visual-reasoning)
+35. [REMEDY: Recipe Merging Dynamics in Large Vision-Language Models](#REMEDY-Recipe-Merging-Dynamics-in-Large-Vision-Language-Models)
+36. [Selective Aggregation for Low-Rank Adaptation in Federated Learning](#Selective-Aggregation-for-Low-Rank-Adaptation-in-Federated-Learning)
+37. [DeciMamba: Exploring the Length Extrapolation Potential of Mamba](#DeciMamba-Exploring-the-Length-Extrapolation-Potential-of-Mamba)
 
 ---
 
 
-## Merging LoRAs like Playing LEGO: Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering
+## Attribute-based Visual Reprogramming for Vision-Language Models
+
+### Images
+
+![479aa53a25bc299c37138efc8c988b2e2556a05d6eea84dfbc2a8112c8cf834f.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/images/479aa53a25bc299c37138efc8c988b2e2556a05d6eea84dfbc2a8112c8cf834f.jpg)
+
+![63f94d9d00041bd3eb507c463e71c67a2398b1f16e3a590bab4ea0b0a4ed3a05.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/images/63f94d9d00041bd3eb507c463e71c67a2398b1f16e3a590bab4ea0b0a4ed3a05.jpg)
+
+![6ce5a4f5bdea211d639d7eb74cb4b68e412b94e1962e27eea1f32bc609c10957.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/images/6ce5a4f5bdea211d639d7eb74cb4b68e412b94e1962e27eea1f32bc609c10957.jpg)
+
+![b53dcec6b42cb7e3f59a79ccdc4b60b0917fca2ace16923438004cbc24610b5d.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/images/b53dcec6b42cb7e3f59a79ccdc4b60b0917fca2ace16923438004cbc24610b5d.jpg)
+
+### Tables
+
+![03cd6114d913274143d6309d44289f05ec80de4483f14b956cada3e3f527604e.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/03cd6114d913274143d6309d44289f05ec80de4483f14b956cada3e3f527604e.jpg)
+
+![28fdc083c6b3a7893c9f00cd63d4c8eba0d31ec227496a2b0438f40631425318.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/28fdc083c6b3a7893c9f00cd63d4c8eba0d31ec227496a2b0438f40631425318.jpg)
+
+![36cc8ffb566bc36a834f92213ed64ea6300f67c8369f688c5afd8308dfe50e98.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/36cc8ffb566bc36a834f92213ed64ea6300f67c8369f688c5afd8308dfe50e98.jpg)
+
+![45cd5e5fd12f0099d9a4dd33add2a879af12b36181a5770be3c8d4b8a4bf782f.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/45cd5e5fd12f0099d9a4dd33add2a879af12b36181a5770be3c8d4b8a4bf782f.jpg)
+
+![8d50304594b791828b59e9689b3222c9801e2c858a9ba5735c19f663988e98e9.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/8d50304594b791828b59e9689b3222c9801e2c858a9ba5735c19f663988e98e9.jpg)
+
+![d2f7ef853bee44a22ba5d5b7868bc181fe2a697a645a1014079124d738249adc.jpg](../iclr_results/1453_ZETA_ Leveraging $Z$-order Curves for Efficient Top-$k$ Attention/tables/d2f7ef853bee44a22ba5d5b7868bc181fe2a697a645a1014079124d738249adc.jpg)
+
+## Attribute-based Visual Reprogramming for Vision-Language Models
+
+
+### Images
+
+![14775e40548adf58c33db0a03721fd69f6721a6a208271586bb537d8e58de252.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/14775e40548adf58c33db0a03721fd69f6721a6a208271586bb537d8e58de252.jpg)
+
+![1cef77ab3a658c08095f88aa53e41c6da6fb173e27813f3e1e7d63a28aee1fa0.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/1cef77ab3a658c08095f88aa53e41c6da6fb173e27813f3e1e7d63a28aee1fa0.jpg)
+
+![2b431bda7208053f28da1486f1d7cd14cf1c6c6383bc3d4996b8aaa2a16f8332.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/2b431bda7208053f28da1486f1d7cd14cf1c6c6383bc3d4996b8aaa2a16f8332.jpg)
+
+![51a9851dec99c6a2198325e6910470ca330d1cc30b3a436bb1da9c2ba3428bc6.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/51a9851dec99c6a2198325e6910470ca330d1cc30b3a436bb1da9c2ba3428bc6.jpg)
+
+![694b794d957478d3d23de52a7cfbbb62cbcdfac15a3d4d7b785ae649db1b543e.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/694b794d957478d3d23de52a7cfbbb62cbcdfac15a3d4d7b785ae649db1b543e.jpg)
+
+![8e5abd350d1a98ffbf6730bcc79335a69e7cd242be0655b99e4b4e51addf3c8c.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/8e5abd350d1a98ffbf6730bcc79335a69e7cd242be0655b99e4b4e51addf3c8c.jpg)
+
+![9a021591bef1d7f98d7b1d525a9c2f6cf5fd703e41e4925eeb4cf6f742f7bd1d.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/9a021591bef1d7f98d7b1d525a9c2f6cf5fd703e41e4925eeb4cf6f742f7bd1d.jpg)
+
+![9c9da6b9022ba053c1af9728607fc0aef6f8fc3ad89d2dfa8b18b7a2d1b0f6e7.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/9c9da6b9022ba053c1af9728607fc0aef6f8fc3ad89d2dfa8b18b7a2d1b0f6e7.jpg)
+
+![b296546ba9391758e2cbd42339c1bf6c72f003b8d6fd3ad9208325bc6af2fc8d.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/b296546ba9391758e2cbd42339c1bf6c72f003b8d6fd3ad9208325bc6af2fc8d.jpg)
+
+![ebedf9d59fcaeba9e4efb2ab7630cbe96293306daf80bbac30d12e8c6d2c3b46.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/ebedf9d59fcaeba9e4efb2ab7630cbe96293306daf80bbac30d12e8c6d2c3b46.jpg)
+
+![fe80c08074d5b184a14200d87c4764190bcc33eccb99ec87bba8af592384c634.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/images/fe80c08074d5b184a14200d87c4764190bcc33eccb99ec87bba8af592384c634.jpg)
+
+### Tables
+
+![12c0ea22bf7e5d11b4a440ccd58a3243655bd5a7f39cbe521e8ddba3c8714593.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/12c0ea22bf7e5d11b4a440ccd58a3243655bd5a7f39cbe521e8ddba3c8714593.jpg)
+
+![1dd724c9d33552da21f59ce2e343570d3cf1e27335c08b2868cad6c6a14cd67d.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/1dd724c9d33552da21f59ce2e343570d3cf1e27335c08b2868cad6c6a14cd67d.jpg)
+
+![256f2011261b3765e22e6485c3080691501ea07f4215643832c147cad16f6048.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/256f2011261b3765e22e6485c3080691501ea07f4215643832c147cad16f6048.jpg)
+
+![3b23da4a14d10b95b18bd5f9223ccdde8438c9840b4f7918d551b348b65601b2.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/3b23da4a14d10b95b18bd5f9223ccdde8438c9840b4f7918d551b348b65601b2.jpg)
+
+![4f4de057c8af9544505e0c7536b1a771dbdb0cdea55a086d2ba36f419443d25a.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/4f4de057c8af9544505e0c7536b1a771dbdb0cdea55a086d2ba36f419443d25a.jpg)
+
+![50ff69a93dd5cb7e55155aba4890d7942d4ee22ec1ca3c1dead0409a604f39b4.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/50ff69a93dd5cb7e55155aba4890d7942d4ee22ec1ca3c1dead0409a604f39b4.jpg)
+
+![70db071ba5f1dd620c68370f79c31e284f2319bc6269aa236592bd79457db3f8.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/70db071ba5f1dd620c68370f79c31e284f2319bc6269aa236592bd79457db3f8.jpg)
+
+![83443aa104452dc20613284b1ce1ba05db2f40175050643ab363867438882bb5.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/83443aa104452dc20613284b1ce1ba05db2f40175050643ab363867438882bb5.jpg)
+
+![8a832a7b76c25b6844d351f37c549d45fb8c899e6da5037a642a73c7babf2982.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/8a832a7b76c25b6844d351f37c549d45fb8c899e6da5037a642a73c7babf2982.jpg)
+
+![97156e60464d2039cc0c348759c7049a90029098b83a88c08d47ee8f85b2a9f8.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/97156e60464d2039cc0c348759c7049a90029098b83a88c08d47ee8f85b2a9f8.jpg)
+
+![c8b44d090d2b3400aae33b7f72d05486a0e3c5f327908e999b4457ed69c45c77.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/c8b44d090d2b3400aae33b7f72d05486a0e3c5f327908e999b4457ed69c45c77.jpg)
+
+![ca7a4ed4d2c351fe5acb6b2f48223ea587891e74bac52982b7087ab93980210f.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/ca7a4ed4d2c351fe5acb6b2f48223ea587891e74bac52982b7087ab93980210f.jpg)
+
+![f66a13042c42b1cc626de3832bd9000f8f890b0ef16718037d6dadce19ca7ee8.jpg](../iclr_results/1454_Attribute-based Visual Reprogramming for Vision-Language Models/tables/f66a13042c42b1cc626de3832bd9000f8f890b0ef16718037d6dadce19ca7ee8.jpg)
+
+## Minimalistic Predictions for Online Class Constraint Scheduling
+
+
+### Images
+
+![0243ebc226634b1f8879e5e7048febf23d984a2b7bb0775e9e92ea7c42625a6e.jpg](../iclr_results/1455_Minimalistic Predictions for Online Class Constraint Scheduling/images/0243ebc226634b1f8879e5e7048febf23d984a2b7bb0775e9e92ea7c42625a6e.jpg)
+
+![72917b6b7dcfb3081dec96be334b9a208d0cb4d771d1ebb712364505d6993427.jpg](../iclr_results/1455_Minimalistic Predictions for Online Class Constraint Scheduling/images/72917b6b7dcfb3081dec96be334b9a208d0cb4d771d1ebb712364505d6993427.jpg)
+
+## Diffusion-based Neural Network Weights Generation
+
+
+### Images
+
+![1b48b5e1493c58d91320fa31d3ecba213e3b41dd66284c12b97d5d127bae16a8.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/1b48b5e1493c58d91320fa31d3ecba213e3b41dd66284c12b97d5d127bae16a8.jpg)
+
+![6177d81e3cd4d042968ba027f451f779a76013dac8aabbda95aeeee6deffd2dd.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/6177d81e3cd4d042968ba027f451f779a76013dac8aabbda95aeeee6deffd2dd.jpg)
+
+![7c5de54ceabc02c63d1bb0c0cdf6ad945dcab81b77ea451d9eb52ccbc0160333.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/7c5de54ceabc02c63d1bb0c0cdf6ad945dcab81b77ea451d9eb52ccbc0160333.jpg)
+
+![8653ebb97d8bfcc4062c2f61a33588cf821352027da897afeff22a21af92551a.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/8653ebb97d8bfcc4062c2f61a33588cf821352027da897afeff22a21af92551a.jpg)
+
+![93a55692b3f07b1353f45019db657912baad1ae7f9b7cdd96bdda046d9be9985.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/93a55692b3f07b1353f45019db657912baad1ae7f9b7cdd96bdda046d9be9985.jpg)
+
+![a4ea7db5725496a251c1d61a73c3b51aa881d4ef0d7d5382160cdc65118db741.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/a4ea7db5725496a251c1d61a73c3b51aa881d4ef0d7d5382160cdc65118db741.jpg)
+
+![c25060c621917128044f016fb26c0ee1733eeaa2936f4da6ce4e76f9228fbce5.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/c25060c621917128044f016fb26c0ee1733eeaa2936f4da6ce4e76f9228fbce5.jpg)
+
+![eb00207d0d11ed0fbb953b9603d16e15b3b1a83cedb3669cb674873d53cf6575.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/eb00207d0d11ed0fbb953b9603d16e15b3b1a83cedb3669cb674873d53cf6575.jpg)
+
+![f84d53df53a970f362449716c2c924e343d94c238227805278920297184f4b04.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/f84d53df53a970f362449716c2c924e343d94c238227805278920297184f4b04.jpg)
+
+![fd0c14103ca93e4a8682ad6437a1c91c5482b9e251b11a1882d277b6b5f18cec.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/images/fd0c14103ca93e4a8682ad6437a1c91c5482b9e251b11a1882d277b6b5f18cec.jpg)
+
+### Tables
+
+![06b79be380ae40bb8c95e7158516519e4818dff0987d56e7b2558bbe53ed5689.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/06b79be380ae40bb8c95e7158516519e4818dff0987d56e7b2558bbe53ed5689.jpg)
+
+![110d61b6f0c68c4805b7ea947b8234d0a842a2546eeca9a7318e7b6fcc63591e.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/110d61b6f0c68c4805b7ea947b8234d0a842a2546eeca9a7318e7b6fcc63591e.jpg)
+
+![13feea19526bd711c827fe5500f0ef27de37a6bcdc0c8d2098ddcc1dc8056e4d.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/13feea19526bd711c827fe5500f0ef27de37a6bcdc0c8d2098ddcc1dc8056e4d.jpg)
+
+![1c63f0249edcb5376621908d2d26f13b0ecfa167270d1f91def5c5e392c80fe8.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/1c63f0249edcb5376621908d2d26f13b0ecfa167270d1f91def5c5e392c80fe8.jpg)
+
+![1de14cf87f2cbae23185de01b9a12b4570066f365c821ffd4428deeccca2125a.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/1de14cf87f2cbae23185de01b9a12b4570066f365c821ffd4428deeccca2125a.jpg)
+
+![2514acec14a51d746a6b60e1b501c216487b3f165a873da166980eb9d9e232b2.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/2514acec14a51d746a6b60e1b501c216487b3f165a873da166980eb9d9e232b2.jpg)
+
+![38b25fb465e7445a8deb18361bca11a49e01b7223ba6175438c3a57d84f61f33.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/38b25fb465e7445a8deb18361bca11a49e01b7223ba6175438c3a57d84f61f33.jpg)
+
+![47c9a9cfcaecf786386cf583219a623d6fb7f7ec6ccb14aa9463dd3e7d90c1ed.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/47c9a9cfcaecf786386cf583219a623d6fb7f7ec6ccb14aa9463dd3e7d90c1ed.jpg)
+
+![5aa6bcab0ce43d8ee3096cf2da3ac0fe226479b20e0b5eeb7cc99a48d7f9c33b.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/5aa6bcab0ce43d8ee3096cf2da3ac0fe226479b20e0b5eeb7cc99a48d7f9c33b.jpg)
+
+![6030cfd105d76cba678262f9c92619e681bdf047875d4752a43887e41ea798c6.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/6030cfd105d76cba678262f9c92619e681bdf047875d4752a43887e41ea798c6.jpg)
+
+![630d0484554d618502bc39a1c20818874ebe00423f2bb4148e1e46bc1988cff2.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/630d0484554d618502bc39a1c20818874ebe00423f2bb4148e1e46bc1988cff2.jpg)
+
+![64128b7876df007dc100637212b0461dd69e74a91d196851bd1524b50fd971e1.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/64128b7876df007dc100637212b0461dd69e74a91d196851bd1524b50fd971e1.jpg)
+
+![68fbed0e723f1cb1ffd1017bb8a65f32eb17b845c9d785d23660ae03fcc2bc45.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/68fbed0e723f1cb1ffd1017bb8a65f32eb17b845c9d785d23660ae03fcc2bc45.jpg)
+
+![6a73cd8a60e81359018213202a0c7d543e4540ab306769b52b3b98bdb1398d7a.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/6a73cd8a60e81359018213202a0c7d543e4540ab306769b52b3b98bdb1398d7a.jpg)
+
+![6afb88151ff0baceea2a534146237a9ab853cba63da5ead7e74d6e61262fd322.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/6afb88151ff0baceea2a534146237a9ab853cba63da5ead7e74d6e61262fd322.jpg)
+
+![6b3909e3cdd4fdcd7cc88e18c73b3cb926088673f32e657622d4b901dede0972.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/6b3909e3cdd4fdcd7cc88e18c73b3cb926088673f32e657622d4b901dede0972.jpg)
+
+![8393758fce3e9a1de88396b49683dde68a22c709bdf2792cf7bd985e86677c3d.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/8393758fce3e9a1de88396b49683dde68a22c709bdf2792cf7bd985e86677c3d.jpg)
+
+![a411c3405af062d7dc57ee42b3b2c7d2e435e12ce3dc737bb85af28dedd9d2d3.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/a411c3405af062d7dc57ee42b3b2c7d2e435e12ce3dc737bb85af28dedd9d2d3.jpg)
+
+![ba6d31825c120b4c26def46921e5484e7b1f4e731b7691113d665bbcc9411206.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/ba6d31825c120b4c26def46921e5484e7b1f4e731b7691113d665bbcc9411206.jpg)
+
+![bf08db18d63f940e0a72b3a7ba4c77a25d1412dd98e75a01e5155f93004b0f70.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/bf08db18d63f940e0a72b3a7ba4c77a25d1412dd98e75a01e5155f93004b0f70.jpg)
+
+![c4334b70cfe0d70746a012d58cfea6b44b6b755eea84660f26f69b5a67e8f36e.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/c4334b70cfe0d70746a012d58cfea6b44b6b755eea84660f26f69b5a67e8f36e.jpg)
+
+![cfdf87b382fb922f5ac3d9bd338a8a4d8e5ac04af56dd65df17cc42f2233107b.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/cfdf87b382fb922f5ac3d9bd338a8a4d8e5ac04af56dd65df17cc42f2233107b.jpg)
+
+![de277ec4ddbaa314d697229a3c3c30a39719613c8134dd363e1989d45e62cc03.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/de277ec4ddbaa314d697229a3c3c30a39719613c8134dd363e1989d45e62cc03.jpg)
+
+![ee23363596ca35a7fd16b9c3e9a0506d3534a9de8aa12cf9717f9597c2b9d04c.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/ee23363596ca35a7fd16b9c3e9a0506d3534a9de8aa12cf9717f9597c2b9d04c.jpg)
+
+![ffd18c04ba51d0c477a948058fc556d74e7f4b7849716c230da6c8d6d97716a4.jpg](../iclr_results/1456_Diffusion-based Neural Network Weights Generation/tables/ffd18c04ba51d0c477a948058fc556d74e7f4b7849716c230da6c8d6d97716a4.jpg)
+
+## OpenVid-1M: A Large-Scale High-Quality Dataset for Text-to-video Generation
+
 
 ### Images
 
@@ -1635,7 +1804,6 @@
 
 ## DeciMamba: Exploring the Length Extrapolation Potential of Mamba
 
-
 ### Images
 
 ![03a76a9463259e7da53011791d7d3f0f339cbda79c24fba4db853574f24ac20a.jpg](../iclr_results/1490_DeciMamba_ Exploring the Length Extrapolation Potential of Mamba/images/03a76a9463259e7da53011791d7d3f0f339cbda79c24fba4db853574f24ac20a.jpg)
@@ -1681,205 +1849,3 @@
 ![e1de42d12b02521a8ea6fa886d306906d449ed4218826b725ab40a46f98eb88a.jpg](../iclr_results/1490_DeciMamba_ Exploring the Length Extrapolation Potential of Mamba/tables/e1de42d12b02521a8ea6fa886d306906d449ed4218826b725ab40a46f98eb88a.jpg)
 
 ![ff4a88778b32843cb618ee5124cfa163e798081eb4afb16b381da1b4f74507c5.jpg](../iclr_results/1490_DeciMamba_ Exploring the Length Extrapolation Potential of Mamba/tables/ff4a88778b32843cb618ee5124cfa163e798081eb4afb16b381da1b4f74507c5.jpg)
-
-## LLaRA: Supercharging Robot Learning Data for Vision-Language Policy
-
-
-### Images
-
-![02637d634fb842a53334187e97f7334ab68b485806e91e295b52e606f7551e07.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/02637d634fb842a53334187e97f7334ab68b485806e91e295b52e606f7551e07.jpg)
-
-![0b1786056e6b7870e3867bb672e4e30d0b9df96f4c06ad46a0a4b9b4b9a272c9.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/0b1786056e6b7870e3867bb672e4e30d0b9df96f4c06ad46a0a4b9b4b9a272c9.jpg)
-
-![236c97fa4cdf96c4a4cb24cefa879de8cf54fefa5abd236e54f091086993cafa.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/236c97fa4cdf96c4a4cb24cefa879de8cf54fefa5abd236e54f091086993cafa.jpg)
-
-![31f6041dbb53fd033fa3ecc73e01e67a8113b52cf25df9f4f0d863eaf7d5538f.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/31f6041dbb53fd033fa3ecc73e01e67a8113b52cf25df9f4f0d863eaf7d5538f.jpg)
-
-![3378a60eee458452a2e9707dec889dea846ee55005ed14799617bd769f41e134.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/3378a60eee458452a2e9707dec889dea846ee55005ed14799617bd769f41e134.jpg)
-
-![45301348e019d72542343d83190b1c30bac6dd30dbda7e008cb52d8c1480f57b.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/45301348e019d72542343d83190b1c30bac6dd30dbda7e008cb52d8c1480f57b.jpg)
-
-![5209e4349dae9c8cc84f075b8707e38b2a791efe88c66eb3fc052e6d65caa7c6.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/5209e4349dae9c8cc84f075b8707e38b2a791efe88c66eb3fc052e6d65caa7c6.jpg)
-
-![5a86200d6e0396e1ac88586097afe77023724b7466e84c4de63cc7c7c77948d6.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/5a86200d6e0396e1ac88586097afe77023724b7466e84c4de63cc7c7c77948d6.jpg)
-
-![6072714b4f7dbe518dfb8e8758004baadcdd6d2635937c1568a29754758e6d92.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/6072714b4f7dbe518dfb8e8758004baadcdd6d2635937c1568a29754758e6d92.jpg)
-
-![72e9de2018904894c5e9e970d7cc1896e1f8e4bbb3f1dc0c9a4c46dfe0325c1b.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/72e9de2018904894c5e9e970d7cc1896e1f8e4bbb3f1dc0c9a4c46dfe0325c1b.jpg)
-
-![7ac3490feac56d81cd80ccc312545e84acc78357739f0c92232593e81b6aa577.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/7ac3490feac56d81cd80ccc312545e84acc78357739f0c92232593e81b6aa577.jpg)
-
-![89f5e569bafd34b26890a24fb1ec724a6084c646acf597a95fbcd4f5a9bc244a.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/89f5e569bafd34b26890a24fb1ec724a6084c646acf597a95fbcd4f5a9bc244a.jpg)
-
-![9cd0a010d713d9c310bc7e92f50b201df762a5e80c3b56c280b8212b3c46e207.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/9cd0a010d713d9c310bc7e92f50b201df762a5e80c3b56c280b8212b3c46e207.jpg)
-
-![9f89a2d41bf53af78ef2a44ca32886e29dc290d0f11e4f81db5338025bb2548e.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/9f89a2d41bf53af78ef2a44ca32886e29dc290d0f11e4f81db5338025bb2548e.jpg)
-
-![a0e0ab65ae47aed541392ae698268795aae858d419421a642c622766194f3391.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/a0e0ab65ae47aed541392ae698268795aae858d419421a642c622766194f3391.jpg)
-
-![a859f9143513ff333f57fdb70c67402872a1ab71f579db7c43d7c37530995971.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/a859f9143513ff333f57fdb70c67402872a1ab71f579db7c43d7c37530995971.jpg)
-
-![c2940229c1186c0692e52957e6f83eb36863f638da6063c0318943bb103fe855.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/c2940229c1186c0692e52957e6f83eb36863f638da6063c0318943bb103fe855.jpg)
-
-![d74389b9d5ab929600ebc373452c8123f7c73e364d546917c5d1d984391d0459.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/images/d74389b9d5ab929600ebc373452c8123f7c73e364d546917c5d1d984391d0459.jpg)
-
-### Tables
-
-![00009ee42da05110b6c8a91f5738272428b32c76aa947d733ff03594873df7fb.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/00009ee42da05110b6c8a91f5738272428b32c76aa947d733ff03594873df7fb.jpg)
-
-![0b93e52acda466eee6a036e53e80340db21e0e7f140025e96f9559b605b3386b.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/0b93e52acda466eee6a036e53e80340db21e0e7f140025e96f9559b605b3386b.jpg)
-
-![1a7e0ba6982ca681f52631c850fb0220e3ceddc2d76bba996e864877b9808b4d.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/1a7e0ba6982ca681f52631c850fb0220e3ceddc2d76bba996e864877b9808b4d.jpg)
-
-![2a575e8d2cef1410bf246827b89baa66f93f09adb0571334004dc57673befd00.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/2a575e8d2cef1410bf246827b89baa66f93f09adb0571334004dc57673befd00.jpg)
-
-![2f304c6a162847751e5a1056121d9fd4981e23df9d1d4f3abc6379443cb0b07a.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/2f304c6a162847751e5a1056121d9fd4981e23df9d1d4f3abc6379443cb0b07a.jpg)
-
-![329bf12ac4ec6c5c4962de450834098ae64e64df26f950e21a1b56269fac28ec.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/329bf12ac4ec6c5c4962de450834098ae64e64df26f950e21a1b56269fac28ec.jpg)
-
-![50e9000e850af5c29c10e1a043198a8093425c9914326ceab0c62fad0b816121.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/50e9000e850af5c29c10e1a043198a8093425c9914326ceab0c62fad0b816121.jpg)
-
-![5a3d1acd180a5e1c77e638bab2238d6be054800c98ed372cbc637aa26636291c.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/5a3d1acd180a5e1c77e638bab2238d6be054800c98ed372cbc637aa26636291c.jpg)
-
-![61a245d65353b2304fdd3b87b25c958a74ccb957a70dcb5a61a352e1dd055f5a.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/61a245d65353b2304fdd3b87b25c958a74ccb957a70dcb5a61a352e1dd055f5a.jpg)
-
-![6b27cbb65abbb6b4a934c031a68124b06e51422137674e44d12e17a6f4cbc5c6.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/6b27cbb65abbb6b4a934c031a68124b06e51422137674e44d12e17a6f4cbc5c6.jpg)
-
-![6b3e5d536c3ca26ffde9b15eb36681c1edd598422ce7c731d3eb3feb4d282dd8.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/6b3e5d536c3ca26ffde9b15eb36681c1edd598422ce7c731d3eb3feb4d282dd8.jpg)
-
-![6e502611fa0c5b45c48369bb4a4289f767fa1a58a84c10d9006262a64c8376c0.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/6e502611fa0c5b45c48369bb4a4289f767fa1a58a84c10d9006262a64c8376c0.jpg)
-
-![6fd73e137399af627f5129d81592cef5012faa2eed53bb39e0421caecb281f98.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/6fd73e137399af627f5129d81592cef5012faa2eed53bb39e0421caecb281f98.jpg)
-
-![70e251b76678292276ed30ebd8ea0393e826d107131a2766312a8d321b45620b.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/70e251b76678292276ed30ebd8ea0393e826d107131a2766312a8d321b45620b.jpg)
-
-![9bfed2fa11082fac2f4ac2ecb75b82525cdc5767572c49f2ba1602126228ea5f.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/9bfed2fa11082fac2f4ac2ecb75b82525cdc5767572c49f2ba1602126228ea5f.jpg)
-
-![a390ee3551bc5d3a07db9843cff8ccd4111ceb3a563360dac9c930036f090909.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/a390ee3551bc5d3a07db9843cff8ccd4111ceb3a563360dac9c930036f090909.jpg)
-
-![a7b96f3763237cff88fe40e8f0143cbfaec88af88b2e2caa0437b55a242149df.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/a7b96f3763237cff88fe40e8f0143cbfaec88af88b2e2caa0437b55a242149df.jpg)
-
-![ae88c54f2b06bedadfdaeeb78c318304e6e9f11226191a74e3fa23b356063d6a.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/ae88c54f2b06bedadfdaeeb78c318304e6e9f11226191a74e3fa23b356063d6a.jpg)
-
-![aea4984ea36c3f88e40dfe1997bd8e953b8621f55d17b44707fe463c5a03d0d0.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/aea4984ea36c3f88e40dfe1997bd8e953b8621f55d17b44707fe463c5a03d0d0.jpg)
-
-![b355a5ce3334e3392663b0f6cc4b79ecb128b79448a2926638070e9f417c23d0.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/b355a5ce3334e3392663b0f6cc4b79ecb128b79448a2926638070e9f417c23d0.jpg)
-
-![b9bc6df5f2c0cd5539633a791b9b9097d3fd636fc8efe2c7b2aa42254883bc46.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/b9bc6df5f2c0cd5539633a791b9b9097d3fd636fc8efe2c7b2aa42254883bc46.jpg)
-
-![c54b4b38ca284600e943f8810ea83e9fa72f400716571bfcfbcd465076051237.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/c54b4b38ca284600e943f8810ea83e9fa72f400716571bfcfbcd465076051237.jpg)
-
-![cc8425a9b653f9684a3ee5eff00c33225c191fe320e6c1cc6eb763748a4aa7cf.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/cc8425a9b653f9684a3ee5eff00c33225c191fe320e6c1cc6eb763748a4aa7cf.jpg)
-
-![d1b55088708c15275d22a752609c7b5b538b39066b0a42bc3e65d0ad34f67610.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/d1b55088708c15275d22a752609c7b5b538b39066b0a42bc3e65d0ad34f67610.jpg)
-
-![d55f3661d83ed590160b143d2b4ecbba9bb82510d97dead122901a1478e6f29b.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/d55f3661d83ed590160b143d2b4ecbba9bb82510d97dead122901a1478e6f29b.jpg)
-
-![e15ec850ab3345961ca8186e5b2aeb62fa883566a0cf36c4e9921f19efb0250e.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/e15ec850ab3345961ca8186e5b2aeb62fa883566a0cf36c4e9921f19efb0250e.jpg)
-
-![e42c8c0ab30d5d0b99b4fb804c63a5502e5907d728fbe5a67a31435f6fa29fdf.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/e42c8c0ab30d5d0b99b4fb804c63a5502e5907d728fbe5a67a31435f6fa29fdf.jpg)
-
-![fb7da552293fc5a0493aeda288a17773fad211f34422968c428606f6d65d1114.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/fb7da552293fc5a0493aeda288a17773fad211f34422968c428606f6d65d1114.jpg)
-
-![fdcbcd3460eeda3c98b0a7bfa7fb94dc76df34500044c8c624afde64bc7758fc.jpg](../iclr_results/1491_LLaRA_ Supercharging Robot Learning Data for Vision-Language Policy/tables/fdcbcd3460eeda3c98b0a7bfa7fb94dc76df34500044c8c624afde64bc7758fc.jpg)
-
-## Can We Talk Models Into Seeing the World Differently?
-
-
-### Images
-
-![25df196a58956bee2b0b05c7f55491d19a47fb0ee3622ae4e00b0bdfd5bfce9d.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/25df196a58956bee2b0b05c7f55491d19a47fb0ee3622ae4e00b0bdfd5bfce9d.jpg)
-
-![3f235b7efb4cb2eb4d4bc2288ad956169b0d688710f506b541c27eeb1071e38b.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/3f235b7efb4cb2eb4d4bc2288ad956169b0d688710f506b541c27eeb1071e38b.jpg)
-
-![537f323a210a4d7b7fcaf3f37297e3b3e356dfc4deea4512ab6b648f973994b0.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/537f323a210a4d7b7fcaf3f37297e3b3e356dfc4deea4512ab6b648f973994b0.jpg)
-
-![5dd9c74e648ad03af004425f0282790a8df64048e483e299ce7e60dfc3a04c53.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/5dd9c74e648ad03af004425f0282790a8df64048e483e299ce7e60dfc3a04c53.jpg)
-
-![6deb7c08a90e66d85a2c7e2fc853e4ec3c5160a45116604ad92df84003236829.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/6deb7c08a90e66d85a2c7e2fc853e4ec3c5160a45116604ad92df84003236829.jpg)
-
-![75a820b613cb109ea37eabcf0efe46469d8db04ae7e73f17596c0a4a1e1bfa64.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/75a820b613cb109ea37eabcf0efe46469d8db04ae7e73f17596c0a4a1e1bfa64.jpg)
-
-![80aa5796d21296681d9ac75b4f36741548abf3b1611a9e542c11ce33c989216b.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/80aa5796d21296681d9ac75b4f36741548abf3b1611a9e542c11ce33c989216b.jpg)
-
-![82e9ee4e358d915a765554f56e959f76c6642ae4c2cf434ae2dc5c37ad4c76de.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/82e9ee4e358d915a765554f56e959f76c6642ae4c2cf434ae2dc5c37ad4c76de.jpg)
-
-![959382a383166bb0dd6922838657fcd490178943d53592d6c8a8d9c77ee15373.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/959382a383166bb0dd6922838657fcd490178943d53592d6c8a8d9c77ee15373.jpg)
-
-![cf33f4a011d1ef9e03a94922013b6f7f27f80492aa3e08a6676964ca28fc86e9.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/cf33f4a011d1ef9e03a94922013b6f7f27f80492aa3e08a6676964ca28fc86e9.jpg)
-
-![dc1ac84b60f108280f8e7ef4382806b266ec08ee2c27a5b8f598b2ced3e01767.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/dc1ac84b60f108280f8e7ef4382806b266ec08ee2c27a5b8f598b2ced3e01767.jpg)
-
-![f304ed3eddb0600d4654da1e10c5208f44f35dc71e33a08714397e9c10c4cfa5.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/f304ed3eddb0600d4654da1e10c5208f44f35dc71e33a08714397e9c10c4cfa5.jpg)
-
-![fbb0a53cfdd5ecbff1bcbea03e8338158e4f62f2b71b36e4a04d02e9b0819dc8.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/images/fbb0a53cfdd5ecbff1bcbea03e8338158e4f62f2b71b36e4a04d02e9b0819dc8.jpg)
-
-### Tables
-
-![1704fbb0af04b2c82abd9192cb80bf15b90ceee2d3600a16168361d00d70490b.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/1704fbb0af04b2c82abd9192cb80bf15b90ceee2d3600a16168361d00d70490b.jpg)
-
-![1c60b87e0257ea795d172e0483d37b5fd68fb7039c585c704f0357a90b963bc0.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/1c60b87e0257ea795d172e0483d37b5fd68fb7039c585c704f0357a90b963bc0.jpg)
-
-![1f87be2e6a46aa51628c4409bdf49960ef3ce28a025cd72b3f485c09ac44e411.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/1f87be2e6a46aa51628c4409bdf49960ef3ce28a025cd72b3f485c09ac44e411.jpg)
-
-![294e2a7f6a9fb773993f67250c0b8dff735414bfb02fb8876d73dff286c4aca0.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/294e2a7f6a9fb773993f67250c0b8dff735414bfb02fb8876d73dff286c4aca0.jpg)
-
-![2a6c425a0e1bc7bc3e3255931bd093af0d1588d78fa5b29740e81812579bc51c.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/2a6c425a0e1bc7bc3e3255931bd093af0d1588d78fa5b29740e81812579bc51c.jpg)
-
-![5ab58923991c398852c556182670ba6a49aec5fe8f759eeef57bf74bf378a0e0.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/5ab58923991c398852c556182670ba6a49aec5fe8f759eeef57bf74bf378a0e0.jpg)
-
-![67a21daef7aaada761585fc84abbac0a1b673c744e2606c9fe11f4b0bc93bd6e.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/67a21daef7aaada761585fc84abbac0a1b673c744e2606c9fe11f4b0bc93bd6e.jpg)
-
-![ba7656f63a7cdab37ea275e206d376d1d0a1bafa88d568efafe08f34434ae8ca.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/ba7656f63a7cdab37ea275e206d376d1d0a1bafa88d568efafe08f34434ae8ca.jpg)
-
-![bb585f6fa69ae25e68f20bba1aa805a91d8c081499180d50b2d8d6c9527509d8.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/bb585f6fa69ae25e68f20bba1aa805a91d8c081499180d50b2d8d6c9527509d8.jpg)
-
-![f1dbd50da2c0d3c1badad9d1787b21bb9159babcfbb2b52e75041437e2c765b3.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/f1dbd50da2c0d3c1badad9d1787b21bb9159babcfbb2b52e75041437e2c765b3.jpg)
-
-![ff437f62dac4efe625e51995aa962d4f840d5e09c4f606b7a75fb982b6eb8dd8.jpg](../iclr_results/1492_Can We Talk Models Into Seeing the World Differently_/tables/ff437f62dac4efe625e51995aa962d4f840d5e09c4f606b7a75fb982b6eb8dd8.jpg)
-
-## ClassDiffusion: More Aligned Personalization Tuning with Explicit Class Guidance
-
-### Images
-
-![06cf70e4839a4a6989c2ffc42180b6451200d9564e3fb211e2a9b0a5f344b297.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/06cf70e4839a4a6989c2ffc42180b6451200d9564e3fb211e2a9b0a5f344b297.jpg)
-
-![0b52f74b4fcd13c6b2b146931e29c272e14f6ba4c96b1186de81b3c865c11d01.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/0b52f74b4fcd13c6b2b146931e29c272e14f6ba4c96b1186de81b3c865c11d01.jpg)
-
-![0e776400ac8817b3761fc2fbc772c15caaa36af0b3e7ea5e9ff3f97e6915d3d5.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/0e776400ac8817b3761fc2fbc772c15caaa36af0b3e7ea5e9ff3f97e6915d3d5.jpg)
-
-![51b1b2c07210322f7da80bd1d5240b7c6ae2e1068598573dce0f3ffbf3a2b7de.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/51b1b2c07210322f7da80bd1d5240b7c6ae2e1068598573dce0f3ffbf3a2b7de.jpg)
-
-![54943739288dc312e32d09dcec395a087fdac6e7ac6bd6dfab86cfdb4d5c2eb7.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/54943739288dc312e32d09dcec395a087fdac6e7ac6bd6dfab86cfdb4d5c2eb7.jpg)
-
-![5ec74038b026a5550cef1410930f38fcfa1647105df2bbae82fd73b3c339ea6c.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/5ec74038b026a5550cef1410930f38fcfa1647105df2bbae82fd73b3c339ea6c.jpg)
-
-![5f6fbccb352fc6e821063f218d21e6f8d4279f3249e81759c6d52b381b1bb8e1.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/5f6fbccb352fc6e821063f218d21e6f8d4279f3249e81759c6d52b381b1bb8e1.jpg)
-
-![743ebb67f76cd9499350e2b09e5400e85f29bc16409d4638bb06578803f578c4.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/743ebb67f76cd9499350e2b09e5400e85f29bc16409d4638bb06578803f578c4.jpg)
-
-![785b673ae8233712a26dbbf15a5b2653e602153d8d569480221a7895518a11d7.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/785b673ae8233712a26dbbf15a5b2653e602153d8d569480221a7895518a11d7.jpg)
-
-![81f11152990f771755b2abdb70888ec4ab2acb33c58978ae2699c30fbb7b6c7b.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/81f11152990f771755b2abdb70888ec4ab2acb33c58978ae2699c30fbb7b6c7b.jpg)
-
-![92bcc29dee6b0604362da47a8f1e2cbbf26f43d052f03aa6ac8494ca68cf2bec.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/92bcc29dee6b0604362da47a8f1e2cbbf26f43d052f03aa6ac8494ca68cf2bec.jpg)
-
-![a27d0d410176554d653b75eefa7dd97f410b066416c7caa04fa7f3e539f7e540.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/a27d0d410176554d653b75eefa7dd97f410b066416c7caa04fa7f3e539f7e540.jpg)
-
-![a3e4289bd58abd97ee2dcdc0af6f5828946f51b088872fc7503dfefc50af4e5c.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/a3e4289bd58abd97ee2dcdc0af6f5828946f51b088872fc7503dfefc50af4e5c.jpg)
-
-![bc79c9970ec4e8c0d188153d969ac8c48f80e8d85272106d86d4aaf015eef906.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/bc79c9970ec4e8c0d188153d969ac8c48f80e8d85272106d86d4aaf015eef906.jpg)
-
-![cace14eef8a87e824fffdee7ccbc24cc9eb92a5db3e68921b551fb3c23a35a2e.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/cace14eef8a87e824fffdee7ccbc24cc9eb92a5db3e68921b551fb3c23a35a2e.jpg)
-
-![eadbd05a9c8929ac2eab9481dba7130d58b5cd4e4dff617d6e52f4d102dd4e86.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/images/eadbd05a9c8929ac2eab9481dba7130d58b5cd4e4dff617d6e52f4d102dd4e86.jpg)
-
-### Tables
-
-![3df835458ae7f1c41cbcfc072d9ffbce74ec3c622f7912bfd176503651a4425f.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/tables/3df835458ae7f1c41cbcfc072d9ffbce74ec3c622f7912bfd176503651a4425f.jpg)
-
-![4a5f54d1d00c9a6fb3578833f23abe3a00bd88caf68535c9a2bd316319aa183d.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/tables/4a5f54d1d00c9a6fb3578833f23abe3a00bd88caf68535c9a2bd316319aa183d.jpg)
-
-![4f5a6d182ba60c09b945e14fa0e6a9c9ffbf2179e3ccf39c13c5e0a77748118b.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/tables/4f5a6d182ba60c09b945e14fa0e6a9c9ffbf2179e3ccf39c13c5e0a77748118b.jpg)
-
-![c4581094cc03a0e062dad1504328d689d2e7700c4ff3b0ddb84871a1d1a79295.jpg](../iclr_results/1493_ClassDiffusion_ More Aligned Personalization Tuning with Explicit Class Guidance/tables/c4581094cc03a0e062dad1504328d689d2e7700c4ff3b0ddb84871a1d1a79295.jpg)

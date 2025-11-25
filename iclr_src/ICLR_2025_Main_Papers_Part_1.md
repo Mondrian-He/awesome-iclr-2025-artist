@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -17,38 +17,39 @@
 2. [Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks](#Kinetix-Investigating-the-Training-of-General-Agents-through-Open-Ended-Physics-Based-Control-Tasks)
 3. [Joint Graph Rewiring and Feature Denoising via Spectral Resonance](#Joint-Graph-Rewiring-and-Feature-Denoising-via-Spectral-Resonance)
 4. [AFlow: Automating Agentic Workflow Generation](#AFlow-Automating-Agentic-Workflow-Generation)
-5. [Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo](#Syntactic-and-Semantic-Control-of-Large-Language-Models-via-Sequential-Monte-Carlo)
-6. [Can a MISL Fly? Analysis and Ingredients for Mutual Information Skill Learning](#Can-a-MISL-Fly-Analysis-and-Ingredients-for-Mutual-Information-Skill-Learning)
-7. [OLMoE: Open Mixture-of-Experts Language Models](#OLMoE-Open-Mixture-of-Experts-Language-Models)
-8. [Learning to Discretize Denoising Diffusion ODEs](#Learning-to-Discretize-Denoising-Diffusion-ODEs)
-9. [When Selection Meets Intervention: Additional Complexities in Causal Discovery](#When-Selection-Meets-Intervention-Additional-Complexities-in-Causal-Discovery)
-10. [Scaling Laws for Precision](#Scaling-Laws-for-Precision)
-11. [Loopy: Taming Audio-Driven Portrait Avatar with Long-Term Motion Dependency](#Loopy-Taming-Audio-Driven-Portrait-Avatar-with-Long-Term-Motion-Dependency)
-12. [Progressive distillation induces an implicit curriculum](#Progressive-distillation-induces-an-implicit-curriculum)
-13. [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](#Diffusion-Based-Planning-for-Autonomous-Driving-with-Flexible-Guidance)
-14. [Open-World Reinforcement Learning over Long Short-Term Imagination](#Open-World-Reinforcement-Learning-over-Long-Short-Term-Imagination)
-15. [Faster Cascades via Speculative Decoding](#Faster-Cascades-via-Speculative-Decoding)
-16. [DEPT: Decoupled Embeddings for Pre-training Language Models](#DEPT-Decoupled-Embeddings-for-Pre-training-Language-Models)
-17. [When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers](#When-is-Task-Vector-Provably-Effective-for-Model-Editing-A-Generalization-Analysis-of-Nonlinear-Transformers)
-18. [Learning to Search from Demonstration Sequences](#Learning-to-Search-from-Demonstration-Sequences)
-19. [Learning Distributions of Complex Fluid Simulations with Diffusion Graph Networks](#Learning-Distributions-of-Complex-Fluid-Simulations-with-Diffusion-Graph-Networks)
-20. [Capturing the Temporal Dependence of Training Data Influence](#Capturing-the-Temporal-Dependence-of-Training-Data-Influence)
-21. [Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Models](#Two-Effects-One-Trigger-On-the-Modality-Gap-Object-Bias-and-Information-Imbalance-in-Contrastive-Vision-Language-Models)
-22. [Scaling In-the-Wild Training for Diffusion-based Illumination Harmonization and Editing by Imposing Consistent Light Transport](#Scaling-In-the-Wild-Training-for-Diffusion-based-Illumination-Harmonization-and-Editing-by-Imposing-Consistent-Light-Transport)
-23. [Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](#Block-Diffusion-Interpolating-Between-Autoregressive-and-Diffusion-Language-Models)
-24. [Robustness Inspired Graph Backdoor Defense](#Robustness-Inspired-Graph-Backdoor-Defense)
-25. [Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective](#Flow-Matching-with-General-Discrete-Paths-A-Kinetic-Optimal-Perspective)
-26. [Scaling and evaluating sparse autoencoders](#Scaling-and-evaluating-sparse-autoencoders)
-27. [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](#Cybench-A-Framework-for-Evaluating-Cybersecurity-Capabilities-and-Risks-of-Language-Models)
-28. [Booster: Tackling Harmful Fine-tuning for Large Language Models via Attenuating Harmful Perturbation](#Booster-Tackling-Harmful-Fine-tuning-for-Large-Language-Models-via-Attenuating-Harmful-Perturbation)
-29. [Learning Dynamics of LLM Finetuning](#Learning-Dynamics-of-LLM-Finetuning)
-30. [Classic but Everlasting: Traditional Gradient-Based Algorithms Converge Fast Even in Time-Varying Multi-Player Games](#Classic-but-Everlasting-Traditional-Gradient-Based-Algorithms-Converge-Fast-Even-in-Time-Varying-Multi-Player-Games)
-31. [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](#MoE-Accelerating-Mixture-of-Experts-Methods-with-Zero-Computation-Experts)
-32. [Cheating Automatic LLM Benchmarks: Null Models Achieve High Win Rates](#Cheating-Automatic-LLM-Benchmarks-Null-Models-Achieve-High-Win-Rates)
-33. [Tractable Multi-Agent Reinforcement Learning through Behavioral Economics](#Tractable-Multi-Agent-Reinforcement-Learning-through-Behavioral-Economics)
-34. [Do as We Do, Not as You Think: the Conformity of Large Language Models](#Do-as-We-Do-Not-as-You-Think-the-Conformity-of-Large-Language-Models)
-35. [Linear Representations of Political Perspective Emerge in Large Language Models](#Linear-Representations-of-Political-Perspective-Emerge-in-Large-Language-Models)
-36. [Rethinking Reward Modeling in Preference-based Large Language Model Alignment](#Rethinking-Reward-Modeling-in-Preference-based-Large-Language-Model-Alignment)
+5. [DSPO: Direct Score Preference Optimization for Diffusion Model Alignment](#DSPO-Direct-Score-Preference-Optimization-for-Diffusion-Model-Alignment)
+6. [Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo](#Syntactic-and-Semantic-Control-of-Large-Language-Models-via-Sequential-Monte-Carlo)
+7. [Can a MISL Fly? Analysis and Ingredients for Mutual Information Skill Learning](#Can-a-MISL-Fly-Analysis-and-Ingredients-for-Mutual-Information-Skill-Learning)
+8. [OLMoE: Open Mixture-of-Experts Language Models](#OLMoE-Open-Mixture-of-Experts-Language-Models)
+9. [Learning to Discretize Denoising Diffusion ODEs](#Learning-to-Discretize-Denoising-Diffusion-ODEs)
+10. [When Selection Meets Intervention: Additional Complexities in Causal Discovery](#When-Selection-Meets-Intervention-Additional-Complexities-in-Causal-Discovery)
+11. [Scaling Laws for Precision](#Scaling-Laws-for-Precision)
+12. [Loopy: Taming Audio-Driven Portrait Avatar with Long-Term Motion Dependency](#Loopy-Taming-Audio-Driven-Portrait-Avatar-with-Long-Term-Motion-Dependency)
+13. [Progressive distillation induces an implicit curriculum](#Progressive-distillation-induces-an-implicit-curriculum)
+14. [Diffusion-Based Planning for Autonomous Driving with Flexible Guidance](#Diffusion-Based-Planning-for-Autonomous-Driving-with-Flexible-Guidance)
+15. [Open-World Reinforcement Learning over Long Short-Term Imagination](#Open-World-Reinforcement-Learning-over-Long-Short-Term-Imagination)
+16. [Faster Cascades via Speculative Decoding](#Faster-Cascades-via-Speculative-Decoding)
+17. [DEPT: Decoupled Embeddings for Pre-training Language Models](#DEPT-Decoupled-Embeddings-for-Pre-training-Language-Models)
+18. [CyberHost: A One-stage Diffusion Framework for Audio-driven Talking Body Generation](#CyberHost-A-One-stage-Diffusion-Framework-for-Audio-driven-Talking-Body-Generation)
+19. [When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers](#When-is-Task-Vector-Provably-Effective-for-Model-Editing-A-Generalization-Analysis-of-Nonlinear-Transformers)
+20. [Learning to Search from Demonstration Sequences](#Learning-to-Search-from-Demonstration-Sequences)
+21. [Learning Distributions of Complex Fluid Simulations with Diffusion Graph Networks](#Learning-Distributions-of-Complex-Fluid-Simulations-with-Diffusion-Graph-Networks)
+22. [Capturing the Temporal Dependence of Training Data Influence](#Capturing-the-Temporal-Dependence-of-Training-Data-Influence)
+23. [Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Models](#Two-Effects-One-Trigger-On-the-Modality-Gap-Object-Bias-and-Information-Imbalance-in-Contrastive-Vision-Language-Models)
+24. [Scaling In-the-Wild Training for Diffusion-based Illumination Harmonization and Editing by Imposing Consistent Light Transport](#Scaling-In-the-Wild-Training-for-Diffusion-based-Illumination-Harmonization-and-Editing-by-Imposing-Consistent-Light-Transport)
+25. [Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](#Block-Diffusion-Interpolating-Between-Autoregressive-and-Diffusion-Language-Models)
+26. [Robustness Inspired Graph Backdoor Defense](#Robustness-Inspired-Graph-Backdoor-Defense)
+27. [Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective](#Flow-Matching-with-General-Discrete-Paths-A-Kinetic-Optimal-Perspective)
+28. [Scaling and evaluating sparse autoencoders](#Scaling-and-evaluating-sparse-autoencoders)
+29. [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](#Cybench-A-Framework-for-Evaluating-Cybersecurity-Capabilities-and-Risks-of-Language-Models)
+30. [Booster: Tackling Harmful Fine-tuning for Large Language Models via Attenuating Harmful Perturbation](#Booster-Tackling-Harmful-Fine-tuning-for-Large-Language-Models-via-Attenuating-Harmful-Perturbation)
+31. [Learning Dynamics of LLM Finetuning](#Learning-Dynamics-of-LLM-Finetuning)
+32. [Classic but Everlasting: Traditional Gradient-Based Algorithms Converge Fast Even in Time-Varying Multi-Player Games](#Classic-but-Everlasting-Traditional-Gradient-Based-Algorithms-Converge-Fast-Even-in-Time-Varying-Multi-Player-Games)
+33. [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](#MoE-Accelerating-Mixture-of-Experts-Methods-with-Zero-Computation-Experts)
+34. [Cheating Automatic LLM Benchmarks: Null Models Achieve High Win Rates](#Cheating-Automatic-LLM-Benchmarks-Null-Models-Achieve-High-Win-Rates)
+35. [Tractable Multi-Agent Reinforcement Learning through Behavioral Economics](#Tractable-Multi-Agent-Reinforcement-Learning-through-Behavioral-Economics)
+36. [Do as We Do, Not as You Think: the Conformity of Large Language Models](#Do-as-We-Do-Not-as-You-Think-the-Conformity-of-Large-Language-Models)
+37. [Linear Representations of Political Perspective Emerge in Large Language Models](#Linear-Representations-of-Political-Perspective-Emerge-in-Large-Language-Models)
 
 ---
 
@@ -348,6 +349,43 @@
 ![b80541550696137e96a47dbcc6cbfdaaaa190f9dcb744aea107eb9d21af306e3.jpg](../iclr_results/4_AFlow_ Automating Agentic Workflow Generation/tables/b80541550696137e96a47dbcc6cbfdaaaa190f9dcb744aea107eb9d21af306e3.jpg)
 
 ![d64a6cc1d87f3fe33f0eeaedb2f02b7f13363fe4088860d4fc832934dd3d2218.jpg](../iclr_results/4_AFlow_ Automating Agentic Workflow Generation/tables/d64a6cc1d87f3fe33f0eeaedb2f02b7f13363fe4088860d4fc832934dd3d2218.jpg)
+
+## DSPO: Direct Score Preference Optimization for Diffusion Model Alignment
+
+
+### Images
+
+![01d211750632780b5c49b516b69fc5a5ec691b922c6ad28bb62f0e8311c32eeb.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/01d211750632780b5c49b516b69fc5a5ec691b922c6ad28bb62f0e8311c32eeb.jpg)
+
+![1267316c06718a3ba19c52179514a92faddf15092f0fef4d19a41d200d8521ed.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/1267316c06718a3ba19c52179514a92faddf15092f0fef4d19a41d200d8521ed.jpg)
+
+![4034c6a0186518cacbbb70a530729f3f3f6c7cabffeae6c9039c138676ec41f7.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/4034c6a0186518cacbbb70a530729f3f3f6c7cabffeae6c9039c138676ec41f7.jpg)
+
+![47e8a2253d759ceff12e7fcdeb89914eb99e3ad17acb3bf5166b0ef6eb762958.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/47e8a2253d759ceff12e7fcdeb89914eb99e3ad17acb3bf5166b0ef6eb762958.jpg)
+
+![83aeef1738dc1ac284714cc0e6289985c8283d0b69568b119c7b29d37579035d.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/83aeef1738dc1ac284714cc0e6289985c8283d0b69568b119c7b29d37579035d.jpg)
+
+![94be20638ca92d3b19f1625219d71570ebf075952ad21e20d0d8eddb085c94bb.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/94be20638ca92d3b19f1625219d71570ebf075952ad21e20d0d8eddb085c94bb.jpg)
+
+![a6b1f08db96ef756d1327031df9a1845b96f988c73cac22e831c1f23d5b87e9c.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/a6b1f08db96ef756d1327031df9a1845b96f988c73cac22e831c1f23d5b87e9c.jpg)
+
+![a884e6e7058235a159b2855df964884da6127600de4783333ba0ad0cb4ee1586.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/a884e6e7058235a159b2855df964884da6127600de4783333ba0ad0cb4ee1586.jpg)
+
+![ac05946ea55e4d388cf17c59782553bfed59023b84afaa9630c308cc3fd706b4.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/images/ac05946ea55e4d388cf17c59782553bfed59023b84afaa9630c308cc3fd706b4.jpg)
+
+### Tables
+
+![19d7555661a692319ecb209ac137f1f4f8444c9e50a48ba3c038dcc7f3aaeaaf.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/19d7555661a692319ecb209ac137f1f4f8444c9e50a48ba3c038dcc7f3aaeaaf.jpg)
+
+![225830796f4a363b21f0fe5f5d5dbbb921b61c348f146f7b91ef3ab828c30257.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/225830796f4a363b21f0fe5f5d5dbbb921b61c348f146f7b91ef3ab828c30257.jpg)
+
+![4b129b46f774b1a435b94e09fc49c3a6dce7624c36dc91b9579a0f46b5612297.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/4b129b46f774b1a435b94e09fc49c3a6dce7624c36dc91b9579a0f46b5612297.jpg)
+
+![694b4458d12238e837d7b95c1e8c18d4f65e9a2da820350e20588c193d123cf1.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/694b4458d12238e837d7b95c1e8c18d4f65e9a2da820350e20588c193d123cf1.jpg)
+
+![73aea9418d324fbb77df3d378c55f49f54642b50716d21c5a80219b7b43773b5.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/73aea9418d324fbb77df3d378c55f49f54642b50716d21c5a80219b7b43773b5.jpg)
+
+![cd724ab72316a939a73827f09b1a1c3656f280bf920ba20342d01985013f0cc7.jpg](../iclr_results/5_DSPO_ Direct Score Preference Optimization for Diffusion Model Alignment/tables/cd724ab72316a939a73827f09b1a1c3656f280bf920ba20342d01985013f0cc7.jpg)
 
 ## Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo
 
@@ -1032,6 +1070,59 @@
 ![f62fcb79e11641d344d44566d9d3a1f16bfca6b6ae3e147d1460e5c1e4311dcb.jpg](../iclr_results/17_DEPT_ Decoupled Embeddings for Pre-training Language Models/tables/f62fcb79e11641d344d44566d9d3a1f16bfca6b6ae3e147d1460e5c1e4311dcb.jpg)
 
 ![fa83fd8557d60723f09b7e8d64fd026048168010b7d761308f9dd871fef92363.jpg](../iclr_results/17_DEPT_ Decoupled Embeddings for Pre-training Language Models/tables/fa83fd8557d60723f09b7e8d64fd026048168010b7d761308f9dd871fef92363.jpg)
+
+## CyberHost: A One-stage Diffusion Framework for Audio-driven Talking Body Generation
+
+
+### Images
+
+![0b7b3a0d00e2ea52c6374afccca5da1e09fcf5b2426b58c95c37b99491a95737.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/0b7b3a0d00e2ea52c6374afccca5da1e09fcf5b2426b58c95c37b99491a95737.jpg)
+
+![16eb1e9179025cedf2137afb13535b4b624cac5ad6d8921b3511a9dd47b6d5d0.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/16eb1e9179025cedf2137afb13535b4b624cac5ad6d8921b3511a9dd47b6d5d0.jpg)
+
+![263fe1f36d7c7ca866070955912af696e802bbd154c4340b667a91810e5fc4e7.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/263fe1f36d7c7ca866070955912af696e802bbd154c4340b667a91810e5fc4e7.jpg)
+
+![3279b9f383093fda1cc9c6f77a4b9a1308d1fedad69e97a89e099cd33fa6a015.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/3279b9f383093fda1cc9c6f77a4b9a1308d1fedad69e97a89e099cd33fa6a015.jpg)
+
+![3dc1d8d81b4ecf440f75afcfa3b4ed14a0b44a75e7763db59e70ab9f1e94f704.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/3dc1d8d81b4ecf440f75afcfa3b4ed14a0b44a75e7763db59e70ab9f1e94f704.jpg)
+
+![497c83287ff786487b7adcaeb67d9614f7303741854e495de46cf93057c310d8.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/497c83287ff786487b7adcaeb67d9614f7303741854e495de46cf93057c310d8.jpg)
+
+![6d04b9d5b1bcf48779f796c5659d5ad9059243f90f80f9aa2e6ff9730f155a59.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/6d04b9d5b1bcf48779f796c5659d5ad9059243f90f80f9aa2e6ff9730f155a59.jpg)
+
+![b03a90aa3081d3b5bb8328e758837b87d8cdeca7a609bd2983725fef63bdfa00.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/b03a90aa3081d3b5bb8328e758837b87d8cdeca7a609bd2983725fef63bdfa00.jpg)
+
+![c3dc229f697f640a06bb1f94fad6177143c9996686189c1a687e7e9991099077.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/c3dc229f697f640a06bb1f94fad6177143c9996686189c1a687e7e9991099077.jpg)
+
+![cd679215f4dff72e9de895dd57412e0704d9308f6142c311f2ed7f4d4a1b3514.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/cd679215f4dff72e9de895dd57412e0704d9308f6142c311f2ed7f4d4a1b3514.jpg)
+
+![dd990847a3c1f2ccdb548f90585b9e19e645a61f1bae4789f3b8e7a44a0bf19f.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/dd990847a3c1f2ccdb548f90585b9e19e645a61f1bae4789f3b8e7a44a0bf19f.jpg)
+
+![e3e6b7a8ac5f2165e4c7b12a19688014ba33bce6029397aa2360a2c416690a13.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/e3e6b7a8ac5f2165e4c7b12a19688014ba33bce6029397aa2360a2c416690a13.jpg)
+
+![f772feeaf38a0a46a960c69f630abf52e39c2feaf712c0f6c52fe43b20945f4e.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/f772feeaf38a0a46a960c69f630abf52e39c2feaf712c0f6c52fe43b20945f4e.jpg)
+
+![fca8a0d37474230db182c93bb1d43030bff64fab14d77a107e312fa6cb2a4bfd.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/images/fca8a0d37474230db182c93bb1d43030bff64fab14d77a107e312fa6cb2a4bfd.jpg)
+
+### Tables
+
+![03fe882bdfc2f0d7f968b50658f0055b1713865996eae501a3558c1bccef095f.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/03fe882bdfc2f0d7f968b50658f0055b1713865996eae501a3558c1bccef095f.jpg)
+
+![1683897eec1ea09007707b1c666de5c79ed7725cd88ec2ef1ca84f3d49331f01.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/1683897eec1ea09007707b1c666de5c79ed7725cd88ec2ef1ca84f3d49331f01.jpg)
+
+![54eb49a93988375fdb4bc6eab2814594a69b5569b88d1db0aeab0913baef3c17.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/54eb49a93988375fdb4bc6eab2814594a69b5569b88d1db0aeab0913baef3c17.jpg)
+
+![8fb301a882829bad8e8532065012164ce11ee72185f5e0fc6cedad0860f16c3f.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/8fb301a882829bad8e8532065012164ce11ee72185f5e0fc6cedad0860f16c3f.jpg)
+
+![a06e117d73b9a944dc8c0f03bd16655387eb2d038e67d9788d364fc7f24bce7c.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/a06e117d73b9a944dc8c0f03bd16655387eb2d038e67d9788d364fc7f24bce7c.jpg)
+
+![a371ccddc97508746077748da118cd9c7d448a7328cd2e448307fe0ecfd85aab.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/a371ccddc97508746077748da118cd9c7d448a7328cd2e448307fe0ecfd85aab.jpg)
+
+![a42364a664a445e35adc0232303277223fa25a10590cc9279a7b8216541e91d7.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/a42364a664a445e35adc0232303277223fa25a10590cc9279a7b8216541e91d7.jpg)
+
+![a5ee20fceeb4443c345d273026d57c89f44893851e691c7079dac4fb6e807aa6.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/a5ee20fceeb4443c345d273026d57c89f44893851e691c7079dac4fb6e807aa6.jpg)
+
+![aa715bae9c535a7f94ad16afc7f65aabf1eb5c2afbcf8ea3a4bc55ba3ea28405.jpg](../iclr_results/18_CyberHost_ A One-stage Diffusion Framework for Audio-driven Talking Body Generation/tables/aa715bae9c535a7f94ad16afc7f65aabf1eb5c2afbcf8ea3a4bc55ba3ea28405.jpg)
 
 ## When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers
 
@@ -2015,7 +2106,6 @@
 
 ## Linear Representations of Political Perspective Emerge in Large Language Models
 
-
 ### Images
 
 ![20940972f9344a8257f1070c547b499988915e6f345c16ff226ffe5d6ba42cd3.jpg](../iclr_results/38_Linear Representations of Political Perspective Emerge in Large Language Models/images/20940972f9344a8257f1070c547b499988915e6f345c16ff226ffe5d6ba42cd3.jpg)
@@ -2063,69 +2153,3 @@
 ![a3f3a0671f9132d6de636d635173b89191fc14d0f7f93f1445ba79d5151ebb41.jpg](../iclr_results/38_Linear Representations of Political Perspective Emerge in Large Language Models/tables/a3f3a0671f9132d6de636d635173b89191fc14d0f7f93f1445ba79d5151ebb41.jpg)
 
 ![a84021d2409fbb1e050055edceef51d8ae30e814dfade152fe40ceb92687dabe.jpg](../iclr_results/38_Linear Representations of Political Perspective Emerge in Large Language Models/tables/a84021d2409fbb1e050055edceef51d8ae30e814dfade152fe40ceb92687dabe.jpg)
-
-## Rethinking Reward Modeling in Preference-based Large Language Model Alignment
-
-### Images
-
-![17d926f785d4626bdf36393d1e0ce92f0926f3786acbbd0ecdaaaa0ed44e6adb.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/17d926f785d4626bdf36393d1e0ce92f0926f3786acbbd0ecdaaaa0ed44e6adb.jpg)
-
-![3162b28d13d3e703738b56acf8c96057bbd12fafcb283db8f95876982c3853f2.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/3162b28d13d3e703738b56acf8c96057bbd12fafcb283db8f95876982c3853f2.jpg)
-
-![4bc76dbcb53d7cd551c3a2365a432ef9a135db2582f7862d8538aef8bc18166c.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/4bc76dbcb53d7cd551c3a2365a432ef9a135db2582f7862d8538aef8bc18166c.jpg)
-
-![51e5ee4b6730ff35fa3ff29080a82a536d3021c91cf5f51795c6a2c580edcd47.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/51e5ee4b6730ff35fa3ff29080a82a536d3021c91cf5f51795c6a2c580edcd47.jpg)
-
-![51f6e5b985e79fcd0e3f5b1f84bc4f6dea1c9b4f4a0c508a4911f6334f5d5a74.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/51f6e5b985e79fcd0e3f5b1f84bc4f6dea1c9b4f4a0c508a4911f6334f5d5a74.jpg)
-
-![53cb5870ee184a2c7b9c19701e69773ce94eb01aa9fb6dff2ede791bae29af7c.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/53cb5870ee184a2c7b9c19701e69773ce94eb01aa9fb6dff2ede791bae29af7c.jpg)
-
-![55c3af1622f5c2660ce9473f8c544d342c72364826c2e02ff39f92d42bdebbdd.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/55c3af1622f5c2660ce9473f8c544d342c72364826c2e02ff39f92d42bdebbdd.jpg)
-
-![5f0c3eb731b7581f26155325ac35d9dd0d8e8e12a0a772e2f64464b891bd9d11.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/5f0c3eb731b7581f26155325ac35d9dd0d8e8e12a0a772e2f64464b891bd9d11.jpg)
-
-![72be06683921d3387355ee50820dd6d81c5e9cdd2a4dd1e888d1396e759e9c9a.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/72be06683921d3387355ee50820dd6d81c5e9cdd2a4dd1e888d1396e759e9c9a.jpg)
-
-![7971c6fa1baf8d5fb8fd2d9cbddcc6c9fe97bdc084f9d8c01483aa24e2a4818e.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/7971c6fa1baf8d5fb8fd2d9cbddcc6c9fe97bdc084f9d8c01483aa24e2a4818e.jpg)
-
-![7ad0b647ebad47018aceec52cc49fd726319fa3a5a46e7e668edcca7365d82f8.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/7ad0b647ebad47018aceec52cc49fd726319fa3a5a46e7e668edcca7365d82f8.jpg)
-
-![7c01f9129a0500320e094ab028d8d0b4ee3b62424d6cabd1e7697b2d5842457f.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/7c01f9129a0500320e094ab028d8d0b4ee3b62424d6cabd1e7697b2d5842457f.jpg)
-
-![7d9b8a7903dc080f534bd20776d8c4a87f84ce04538e4ffc4ad9dec415de1002.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/7d9b8a7903dc080f534bd20776d8c4a87f84ce04538e4ffc4ad9dec415de1002.jpg)
-
-![924f1552e14e5eaadb22b06239ae8ab0073be4945d33c84057f06cd49f83b58d.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/924f1552e14e5eaadb22b06239ae8ab0073be4945d33c84057f06cd49f83b58d.jpg)
-
-![a9e383e251d662b01955ba52c0307ca7a1d06b14c9bbb7f124244ba7cb4fe96a.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/a9e383e251d662b01955ba52c0307ca7a1d06b14c9bbb7f124244ba7cb4fe96a.jpg)
-
-![b78dd5f70fe8def14336b62ab054d94d291f6651a8fba0d57b686ad07d256be3.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/b78dd5f70fe8def14336b62ab054d94d291f6651a8fba0d57b686ad07d256be3.jpg)
-
-![b87061257e4b7dd6410225188ac967f8bf5c5b31129293740bb27a05649e3a8d.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/b87061257e4b7dd6410225188ac967f8bf5c5b31129293740bb27a05649e3a8d.jpg)
-
-![be96504e8ef5308d457ea73f8d8a31405a8a7505b021a6966fee79104833cdd2.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/be96504e8ef5308d457ea73f8d8a31405a8a7505b021a6966fee79104833cdd2.jpg)
-
-![c4fbe49db277c72a49bc80f5bb02163cdd48fc8c9681494cd48aad5ad09ab380.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/c4fbe49db277c72a49bc80f5bb02163cdd48fc8c9681494cd48aad5ad09ab380.jpg)
-
-![d1cd5e343fc6f2ae5196ac22cd5e9c95033e61c27209b228f16292cabfa8077f.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/d1cd5e343fc6f2ae5196ac22cd5e9c95033e61c27209b228f16292cabfa8077f.jpg)
-
-![da626c790add449959d9dc094046f6ffd05facb2c411cd0ac69c59f4992c63a9.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/da626c790add449959d9dc094046f6ffd05facb2c411cd0ac69c59f4992c63a9.jpg)
-
-![df57b1ba1adc697576b53e7ef52cab0d51050ce5b34d3db1042d6be14345e0b6.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/df57b1ba1adc697576b53e7ef52cab0d51050ce5b34d3db1042d6be14345e0b6.jpg)
-
-![e09378e41ac0b06fe05a8baeae2e50103f3e72c2268524fc415f3a829b90b22f.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/e09378e41ac0b06fe05a8baeae2e50103f3e72c2268524fc415f3a829b90b22f.jpg)
-
-![e7dd9aa2fbf79e2d0ad90e51c8d6cb63525ca5de10e1852f0b94676e69778b0f.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/e7dd9aa2fbf79e2d0ad90e51c8d6cb63525ca5de10e1852f0b94676e69778b0f.jpg)
-
-![ee75985c80b509cac4f07cebf5d913eb548196acada1012243b880a34b9e7787.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/ee75985c80b509cac4f07cebf5d913eb548196acada1012243b880a34b9e7787.jpg)
-
-![f6d07d60ff02c570d201f0a14a9f79a4fe75aeb06530f7d6282b54eb402e749f.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/f6d07d60ff02c570d201f0a14a9f79a4fe75aeb06530f7d6282b54eb402e749f.jpg)
-
-![fedfbdc603ccff7d3f85bce875f465fa711e1f7563dc896e603c5050fa1eb713.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/fedfbdc603ccff7d3f85bce875f465fa711e1f7563dc896e603c5050fa1eb713.jpg)
-
-![fefb35af84cf0f0e64d7e8e15556616be53f77ec31ea93703098e19de930e240.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/images/fefb35af84cf0f0e64d7e8e15556616be53f77ec31ea93703098e19de930e240.jpg)
-
-### Tables
-
-![14b8e54569ae3fe0132fd43bef4a9b13e82df2562d0e63704affdb1a8b794b8a.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/tables/14b8e54569ae3fe0132fd43bef4a9b13e82df2562d0e63704affdb1a8b794b8a.jpg)
-
-![982975ad0ad24df165e5ba9fd20edc0a23bbecfd3a8bdc4ba375139848300345.jpg](../iclr_results/39_Rethinking Reward Modeling in Preference-based Large Language Model Alignment/tables/982975ad0ad24df165e5ba9fd20edc0a23bbecfd3a8bdc4ba375139848300345.jpg)

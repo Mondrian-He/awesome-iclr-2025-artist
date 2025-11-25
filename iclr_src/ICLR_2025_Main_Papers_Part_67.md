@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,137 +13,48 @@
 
 ## 目录 (Table of Contents)
 
-1. [Self-supervised contrastive learning performs non-linear system identification](#Self-supervised-contrastive-learning-performs-non-linear-system-identification)
-2. [SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration](#SageAttention-Accurate-8-Bit-Attention-for-Plug-and-play-Inference-Acceleration)
-3. [SIM: Surface-based fMRI Analysis for Inter-Subject Multimodal Decoding from Movie-Watching Experiments](#SIM-Surface-based-fMRI-Analysis-for-Inter-Subject-Multimodal-Decoding-from-Movie-Watching-Experiments)
-4. [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](#OpenHands-An-Open-Platform-for-AI-Software-Developers-as-Generalist-Agents)
-5. [Procedural Synthesis of Synthesizable Molecules](#Procedural-Synthesis-of-Synthesizable-Molecules)
-6. [Resolution Attack: Exploiting Image Compression to Deceive Deep Neural Networks](#Resolution-Attack-Exploiting-Image-Compression-to-Deceive-Deep-Neural-Networks)
-7. [Oryx MLLM: On-Demand Spatial-Temporal Understanding at Arbitrary Resolution](#Oryx-MLLM-On-Demand-Spatial-Temporal-Understanding-at-Arbitrary-Resolution)
-8. [A Sanity Check for AI-generated Image Detection](#A-Sanity-Check-for-AI-generated-Image-Detection)
-9. [Deep Random Features for Scalable Interpolation of Spatiotemporal Data](#Deep-Random-Features-for-Scalable-Interpolation-of-Spatiotemporal-Data)
-10. [Meta-Continual Learning of Neural Fields](#Meta-Continual-Learning-of-Neural-Fields)
-11. [SmartRAG: Jointly Learn RAG-Related Tasks From the Environment Feedback](#SmartRAG-Jointly-Learn-RAG-Related-Tasks-From-the-Environment-Feedback)
-12. [Erasing Concept Combination from Text-to-Image Diffusion Model](#Erasing-Concept-Combination-from-Text-to-Image-Diffusion-Model)
-13. [SparsyFed: Sparse Adaptive Federated Learning](#SparsyFed-Sparse-Adaptive-Federated-Learning)
-14. [Model-based Offline Reinforcement Learning with Lower Expectile Q-Learning](#Model-based-Offline-Reinforcement-Learning-with-Lower-Expectile-Q-Learning)
-15. [Maintaining Structural Integrity in Parameter Spaces for Parameter Efficient Fine-tuning](#Maintaining-Structural-Integrity-in-Parameter-Spaces-for-Parameter-Efficient-Fine-tuning)
-16. [Arithmetic Without Algorithms: Language Models Solve Math with a Bag of Heuristics](#Arithmetic-Without-Algorithms-Language-Models-Solve-Math-with-a-Bag-of-Heuristics)
-17. [Bayesian Treatment of the Spectrum of the Empirical Kernel in (Sub)Linear-Width Neural Networks](#Bayesian-Treatment-of-the-Spectrum-of-the-Empirical-Kernel-in-SubLinear-Width-Neural-Networks)
-18. [Few for Many: Tchebycheff Set Scalarization for Many-Objective Optimization](#Few-for-Many-Tchebycheff-Set-Scalarization-for-Many-Objective-Optimization)
-19. [TPO: Aligning Large Language Models with Multi-branch & Multi-step Preference Trees](#TPO-Aligning-Large-Language-Models-with-Multi-branch-Multi-step-Preference-Trees)
-20. [Direct Distributional Optimization for Provable Alignment of Diffusion Models](#Direct-Distributional-Optimization-for-Provable-Alignment-of-Diffusion-Models)
-21. [TRENDy: Temporal Regression of Effective Nonlinear Dynamics](#TRENDy-Temporal-Regression-of-Effective-Nonlinear-Dynamics)
-22. [Equivariant Masked Position Prediction for Efficient Molecular Representation](#Equivariant-Masked-Position-Prediction-for-Efficient-Molecular-Representation)
-23. [Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs](#Decoupled-Graph-Energy-based-Model-for-Node-Out-of-Distribution-Detection-on-Heterophilic-Graphs)
-24. [Where Am I and What Will I See: An Auto-Regressive Model for Spatial Localization and View Prediction](#Where-Am-I-and-What-Will-I-See-An-Auto-Regressive-Model-for-Spatial-Localization-and-View-Prediction)
-25. [From Search to Sampling: Generative Models for Robust Algorithmic Recourse](#From-Search-to-Sampling-Generative-Models-for-Robust-Algorithmic-Recourse)
-26. [Optimal Flow Transport and its Entropic Regularization: a GPU-friendly Matrix Iterative Algorithm for Flow Balance Satisfaction](#Optimal-Flow-Transport-and-its-Entropic-Regularization-a-GPU-friendly-Matrix-Iterative-Algorithm-for-Flow-Balance-Satisfaction)
-27. [Aligned LLMs Are Not Aligned Browser Agents](#Aligned-LLMs-Are-Not-Aligned-Browser-Agents)
-28. [ProtPainter: Draw or Drag Protein via Topology-guided Diffusion](#ProtPainter-Draw-or-Drag-Protein-via-Topology-guided-Diffusion)
-29. [Learning Mask Invariant Mutual Information for Masked Image Modeling](#Learning-Mask-Invariant-Mutual-Information-for-Masked-Image-Modeling)
-30. [Understanding Virtual Nodes: Oversquashing and Node Heterogeneity](#Understanding-Virtual-Nodes-Oversquashing-and-Node-Heterogeneity)
-31. [A Watermark for Order-Agnostic Language Models](#A-Watermark-for-Order-Agnostic-Language-Models)
-32. [Hyperbolic Genome Embeddings](#Hyperbolic-Genome-Embeddings)
-33. [RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code](#RefactorBench-Evaluating-Stateful-Reasoning-in-Language-Agents-Through-Code)
-34. [Probabilistic Conformal Prediction with Approximate Conditional Validity](#Probabilistic-Conformal-Prediction-with-Approximate-Conditional-Validity)
-35. [Measuring And Improving Persuasiveness Of Large Language Models](#Measuring-And-Improving-Persuasiveness-Of-Large-Language-Models)
-36. [Many-Objective Multi-Solution Transport](#Many-Objective-Multi-Solution-Transport)
+1. [SIM: Surface-based fMRI Analysis for Inter-Subject Multimodal Decoding from Movie-Watching Experiments](#SIM-Surface-based-fMRI-Analysis-for-Inter-Subject-Multimodal-Decoding-from-Movie-Watching-Experiments)
+2. [OpenHands: An Open Platform for AI Software Developers as Generalist Agents](#OpenHands-An-Open-Platform-for-AI-Software-Developers-as-Generalist-Agents)
+3. [Procedural Synthesis of Synthesizable Molecules](#Procedural-Synthesis-of-Synthesizable-Molecules)
+4. [Resolution Attack: Exploiting Image Compression to Deceive Deep Neural Networks](#Resolution-Attack-Exploiting-Image-Compression-to-Deceive-Deep-Neural-Networks)
+5. [Oryx MLLM: On-Demand Spatial-Temporal Understanding at Arbitrary Resolution](#Oryx-MLLM-On-Demand-Spatial-Temporal-Understanding-at-Arbitrary-Resolution)
+6. [A Sanity Check for AI-generated Image Detection](#A-Sanity-Check-for-AI-generated-Image-Detection)
+7. [Deep Random Features for Scalable Interpolation of Spatiotemporal Data](#Deep-Random-Features-for-Scalable-Interpolation-of-Spatiotemporal-Data)
+8. [Meta-Continual Learning of Neural Fields](#Meta-Continual-Learning-of-Neural-Fields)
+9. [SmartRAG: Jointly Learn RAG-Related Tasks From the Environment Feedback](#SmartRAG-Jointly-Learn-RAG-Related-Tasks-From-the-Environment-Feedback)
+10. [Erasing Concept Combination from Text-to-Image Diffusion Model](#Erasing-Concept-Combination-from-Text-to-Image-Diffusion-Model)
+11. [SparsyFed: Sparse Adaptive Federated Learning](#SparsyFed-Sparse-Adaptive-Federated-Learning)
+12. [Model-based Offline Reinforcement Learning with Lower Expectile Q-Learning](#Model-based-Offline-Reinforcement-Learning-with-Lower-Expectile-Q-Learning)
+13. [Maintaining Structural Integrity in Parameter Spaces for Parameter Efficient Fine-tuning](#Maintaining-Structural-Integrity-in-Parameter-Spaces-for-Parameter-Efficient-Fine-tuning)
+14. [Arithmetic Without Algorithms: Language Models Solve Math with a Bag of Heuristics](#Arithmetic-Without-Algorithms-Language-Models-Solve-Math-with-a-Bag-of-Heuristics)
+15. [Bayesian Treatment of the Spectrum of the Empirical Kernel in (Sub)Linear-Width Neural Networks](#Bayesian-Treatment-of-the-Spectrum-of-the-Empirical-Kernel-in-SubLinear-Width-Neural-Networks)
+16. [Few for Many: Tchebycheff Set Scalarization for Many-Objective Optimization](#Few-for-Many-Tchebycheff-Set-Scalarization-for-Many-Objective-Optimization)
+17. [TPO: Aligning Large Language Models with Multi-branch & Multi-step Preference Trees](#TPO-Aligning-Large-Language-Models-with-Multi-branch-Multi-step-Preference-Trees)
+18. [Direct Distributional Optimization for Provable Alignment of Diffusion Models](#Direct-Distributional-Optimization-for-Provable-Alignment-of-Diffusion-Models)
+19. [TRENDy: Temporal Regression of Effective Nonlinear Dynamics](#TRENDy-Temporal-Regression-of-Effective-Nonlinear-Dynamics)
+20. [Equivariant Masked Position Prediction for Efficient Molecular Representation](#Equivariant-Masked-Position-Prediction-for-Efficient-Molecular-Representation)
+21. [Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs](#Decoupled-Graph-Energy-based-Model-for-Node-Out-of-Distribution-Detection-on-Heterophilic-Graphs)
+22. [Where Am I and What Will I See: An Auto-Regressive Model for Spatial Localization and View Prediction](#Where-Am-I-and-What-Will-I-See-An-Auto-Regressive-Model-for-Spatial-Localization-and-View-Prediction)
+23. [From Search to Sampling: Generative Models for Robust Algorithmic Recourse](#From-Search-to-Sampling-Generative-Models-for-Robust-Algorithmic-Recourse)
+24. [Optimal Flow Transport and its Entropic Regularization: a GPU-friendly Matrix Iterative Algorithm for Flow Balance Satisfaction](#Optimal-Flow-Transport-and-its-Entropic-Regularization-a-GPU-friendly-Matrix-Iterative-Algorithm-for-Flow-Balance-Satisfaction)
+25. [Aligned LLMs Are Not Aligned Browser Agents](#Aligned-LLMs-Are-Not-Aligned-Browser-Agents)
+26. [ProtPainter: Draw or Drag Protein via Topology-guided Diffusion](#ProtPainter-Draw-or-Drag-Protein-via-Topology-guided-Diffusion)
+27. [Learning Mask Invariant Mutual Information for Masked Image Modeling](#Learning-Mask-Invariant-Mutual-Information-for-Masked-Image-Modeling)
+28. [Understanding Virtual Nodes: Oversquashing and Node Heterogeneity](#Understanding-Virtual-Nodes-Oversquashing-and-Node-Heterogeneity)
+29. [A Watermark for Order-Agnostic Language Models](#A-Watermark-for-Order-Agnostic-Language-Models)
+30. [Hyperbolic Genome Embeddings](#Hyperbolic-Genome-Embeddings)
+31. [RefactorBench: Evaluating Stateful Reasoning in Language Agents Through Code](#RefactorBench-Evaluating-Stateful-Reasoning-in-Language-Agents-Through-Code)
+32. [Probabilistic Conformal Prediction with Approximate Conditional Validity](#Probabilistic-Conformal-Prediction-with-Approximate-Conditional-Validity)
+33. [Measuring And Improving Persuasiveness Of Large Language Models](#Measuring-And-Improving-Persuasiveness-Of-Large-Language-Models)
+34. [Many-Objective Multi-Solution Transport](#Many-Objective-Multi-Solution-Transport)
+35. [Text2PDE: Latent Diffusion Models for Accessible Physics Simulation](#Text2PDE-Latent-Diffusion-Models-for-Accessible-Physics-Simulation)
+36. [On the Expressive Power of Sparse Geometric MPNNs](#On-the-Expressive-Power-of-Sparse-Geometric-MPNNs)
+37. [Evaluating Semantic Variation in Text-to-Image Synthesis: A Causal Perspective](#Evaluating-Semantic-Variation-in-Text-to-Image-Synthesis-A-Causal-Perspective)
 
 ---
 
 
-## Self-supervised contrastive learning performs non-linear system identification
-
-### Images
-
-![1cc8f3e5cd32fd6c40e5aaee967909876b7ec1bb2f702288777b108018738ffc.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/1cc8f3e5cd32fd6c40e5aaee967909876b7ec1bb2f702288777b108018738ffc.jpg)
-
-![3949946f7f55bb0074f5e06ad9c7fc3c221c313a94c3f3fc4da99bf226484762.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/3949946f7f55bb0074f5e06ad9c7fc3c221c313a94c3f3fc4da99bf226484762.jpg)
-
-![4c4aa4b6620aa7954ac74c43b12eb127ecad123f61e019ed10ec746b64beb601.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/4c4aa4b6620aa7954ac74c43b12eb127ecad123f61e019ed10ec746b64beb601.jpg)
-
-![5b5e87313b65f7c665045e03ee3d80ac2af345749428be0bc887d2c6838bc8d1.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/5b5e87313b65f7c665045e03ee3d80ac2af345749428be0bc887d2c6838bc8d1.jpg)
-
-![75ff2712fba80c4437ceb2548c51385b328a9a44d4bf575db37dc7b410826b1d.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/75ff2712fba80c4437ceb2548c51385b328a9a44d4bf575db37dc7b410826b1d.jpg)
-
-![c779d26dc87dbfcbb64e2f101b08f5d69581573663246ec32a374d23f18d0f33.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/c779d26dc87dbfcbb64e2f101b08f5d69581573663246ec32a374d23f18d0f33.jpg)
-
-![d2a58788eb53608b8c437d22c43aad09341f3442525109297a78aafd9f1f46ea.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/d2a58788eb53608b8c437d22c43aad09341f3442525109297a78aafd9f1f46ea.jpg)
-
-![e8cfb9261cfe246d8370fbe93f53876f9d10b25d76ff18704e03bf23c1255aa3.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/e8cfb9261cfe246d8370fbe93f53876f9d10b25d76ff18704e03bf23c1255aa3.jpg)
-
-### Tables
-
-![0b78f3f5ec84a6728f44afb2bdf76f1098ba721c7a477e76e3bd2a9f898be9b3.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/0b78f3f5ec84a6728f44afb2bdf76f1098ba721c7a477e76e3bd2a9f898be9b3.jpg)
-
-![0ffe4ed33a9eae5300e0fbdbccc02c689ac728696f261d9b5ea6c028d5742ff3.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/0ffe4ed33a9eae5300e0fbdbccc02c689ac728696f261d9b5ea6c028d5742ff3.jpg)
-
-![a9935e314697497c78f4ba7862fbc5d891512a6b9e90a1505587c0953f1fa4fb.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/a9935e314697497c78f4ba7862fbc5d891512a6b9e90a1505587c0953f1fa4fb.jpg)
-
-![ad8f3d2d96d708e24b387955d46d1816a37fa22447c4060c62155be800b4de29.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/ad8f3d2d96d708e24b387955d46d1816a37fa22447c4060c62155be800b4de29.jpg)
-
-![be961a1f122756bbecdb1ff5a20543a0ffed1c891e2fc774d0498342cada2f4e.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/be961a1f122756bbecdb1ff5a20543a0ffed1c891e2fc774d0498342cada2f4e.jpg)
-
-![f941340aca4dead457cf53e4f115d0955733ea135ff76b5ac70b8f285d8d1a66.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/f941340aca4dead457cf53e4f115d0955733ea135ff76b5ac70b8f285d8d1a66.jpg)
-
-## Self-supervised contrastive learning performs non-linear system identification
-
-
-### Images
-
-![055237baeb0ab4c60e80a89c4b764b9dbd63d743202c8edbf2f2a5224a7462a3.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/055237baeb0ab4c60e80a89c4b764b9dbd63d743202c8edbf2f2a5224a7462a3.jpg)
-
-![1c04fe04abb2aad2c12c86e579d62bd5ffc65cc87b3652aea9b988683c078031.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/1c04fe04abb2aad2c12c86e579d62bd5ffc65cc87b3652aea9b988683c078031.jpg)
-
-![2e01549b94033d53abb1eff6a276e487b5fff502908c741ecbfb46d0a1760516.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/2e01549b94033d53abb1eff6a276e487b5fff502908c741ecbfb46d0a1760516.jpg)
-
-![2f9162a645b0d03d9313c70e179230a0ff34e1639707d7ebf35f8b19dafa998c.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/2f9162a645b0d03d9313c70e179230a0ff34e1639707d7ebf35f8b19dafa998c.jpg)
-
-![45d3003237307036f907278daddc3fe9bdda2fe9dab377d68ac5b95fc351115a.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/45d3003237307036f907278daddc3fe9bdda2fe9dab377d68ac5b95fc351115a.jpg)
-
-![670dab82a8998359db759095f1ab2f8fefa4c674485175d24e3ef71edeaa7510.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/670dab82a8998359db759095f1ab2f8fefa4c674485175d24e3ef71edeaa7510.jpg)
-
-![6f8a788eda5bcdf7fa3282383bb146c18f4b0604abc1df527807185b0d84ac3d.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/6f8a788eda5bcdf7fa3282383bb146c18f4b0604abc1df527807185b0d84ac3d.jpg)
-
-![71f1e1de8f0d586446c1c96bf4157ae908d5154289d0bccebf7b12d3c80de896.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/71f1e1de8f0d586446c1c96bf4157ae908d5154289d0bccebf7b12d3c80de896.jpg)
-
-![8da90e9adb19ae12526f67254100945c8d4a49842012083fef09f7218d9cfb4b.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/8da90e9adb19ae12526f67254100945c8d4a49842012083fef09f7218d9cfb4b.jpg)
-
-![8f025c5490bea03a24a60bb70ec44cd7ce05a3af8b76a9260373aa6612529167.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/8f025c5490bea03a24a60bb70ec44cd7ce05a3af8b76a9260373aa6612529167.jpg)
-
-![9a6fb0bfad313c60be931e40af1acc1863e26b59baf327db9953fe7b09f4bb63.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/9a6fb0bfad313c60be931e40af1acc1863e26b59baf327db9953fe7b09f4bb63.jpg)
-
-![b1239efede8f42df66fb951cea8f64dcd576a22db5ef9d6f946fc09e4056a12b.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b1239efede8f42df66fb951cea8f64dcd576a22db5ef9d6f946fc09e4056a12b.jpg)
-
-![b7931d74b8a44b7f78aeae5a318c16fe7f1dfc560ba01aae0ab474704df4be37.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b7931d74b8a44b7f78aeae5a318c16fe7f1dfc560ba01aae0ab474704df4be37.jpg)
-
-![b9f4ed6e872972b95dfd3fe55a5e89e917e10ae71d4979e5378014b8f6165c35.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b9f4ed6e872972b95dfd3fe55a5e89e917e10ae71d4979e5378014b8f6165c35.jpg)
-
-![c55623318fd0c59e1e2cf96c0665df90291de1e059f377863e12701083f32cb4.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/c55623318fd0c59e1e2cf96c0665df90291de1e059f377863e12701083f32cb4.jpg)
-
-![f1353999123d98f74d68370822f1725c48871ab422788d9c636b1f823e9cd72a.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/f1353999123d98f74d68370822f1725c48871ab422788d9c636b1f823e9cd72a.jpg)
-
-![fc75e59067877c303f3a98a2dbd7a4a0a5b9cabb8179aa5904dd5904db152706.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/fc75e59067877c303f3a98a2dbd7a4a0a5b9cabb8179aa5904dd5904db152706.jpg)
-
-### Tables
-
-![072510fc015abba1dc78f98499609adfac5d970517ef5bb81590a667a3743b74.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/072510fc015abba1dc78f98499609adfac5d970517ef5bb81590a667a3743b74.jpg)
-
-![55c0ea9178cb552461ffae646bbf35e300f9fd02cb6624139cf453bdf11c6851.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/55c0ea9178cb552461ffae646bbf35e300f9fd02cb6624139cf453bdf11c6851.jpg)
-
-![9f7d99cc5ef10e31fff7d74c21bb3c6c34fe38dff92a4fcc3b6ae16c7a6c9d5f.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/9f7d99cc5ef10e31fff7d74c21bb3c6c34fe38dff92a4fcc3b6ae16c7a6c9d5f.jpg)
-
-![c491a31153e66f12f49c91eab562e24e01ae539ad13ea5a020d9e04265cf9347.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/c491a31153e66f12f49c91eab562e24e01ae539ad13ea5a020d9e04265cf9347.jpg)
-
-![dc3493e9f57d07bdbcb905027b077dc88ec2b6952ba6097f5605b02655328a7c.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/dc3493e9f57d07bdbcb905027b077dc88ec2b6952ba6097f5605b02655328a7c.jpg)
-
-![de4f25e1cecd25548b215dd49f134abeaed6d2ae46bf095d997a78b13b12ec9f.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/de4f25e1cecd25548b215dd49f134abeaed6d2ae46bf095d997a78b13b12ec9f.jpg)
-
-![f6f88aef48497393eeafc36d8627ecf8cf235f8421e4d110beeb7bc114787986.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/f6f88aef48497393eeafc36d8627ecf8cf235f8421e4d110beeb7bc114787986.jpg)
-
-## SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration
-
+## SIM: Surface-based fMRI Analysis for Inter-Subject Multimodal Decoding from Movie-Watching Experiments
 
 ### Images
 
@@ -1690,6 +1601,7 @@
 
 ## Many-Objective Multi-Solution Transport
 
+
 ### Images
 
 ![22fd30f4bd21235cb83b3a6a8e1f345d1810e0d1528de84b93df6a73bf6e8e3f.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/images/22fd30f4bd21235cb83b3a6a8e1f345d1810e0d1528de84b93df6a73bf6e8e3f.jpg)
@@ -1739,3 +1651,631 @@
 ![ef4a0d39b268affd9fc44804d7babe36714dbeb86c47c35dcdea6e8474ce7374.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/ef4a0d39b268affd9fc44804d7babe36714dbeb86c47c35dcdea6e8474ce7374.jpg)
 
 ![fa26bd923ee4b81bd94a039cdc56c92c896560b6c73b8cddca48c4edca92d5ec.jpg](../iclr_results/2489_Many-Objective Multi-Solution Transport/tables/fa26bd923ee4b81bd94a039cdc56c92c896560b6c73b8cddca48c4edca92d5ec.jpg)
+
+## Text2PDE: Latent Diffusion Models for Accessible Physics Simulation
+
+
+### Images
+
+![0b1a1544a82de5f30d45fb02e17c1cb7363111e600dbe0c954f18eeeedb684c8.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/0b1a1544a82de5f30d45fb02e17c1cb7363111e600dbe0c954f18eeeedb684c8.jpg)
+
+![117f677967330a48f8035497a36a1a4258dba38d53c69631c37b703c134ec0d9.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/117f677967330a48f8035497a36a1a4258dba38d53c69631c37b703c134ec0d9.jpg)
+
+![179e690862b61922b9dbfd8ff6eae075eb987983340151a67cecaae37e0ba034.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/179e690862b61922b9dbfd8ff6eae075eb987983340151a67cecaae37e0ba034.jpg)
+
+![3001479a6d3e0edd4d6e3b5b16c703501939a1dc8817b0a0e4c86907fc0d2fcf.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3001479a6d3e0edd4d6e3b5b16c703501939a1dc8817b0a0e4c86907fc0d2fcf.jpg)
+
+![3521ea7fa1a9d3d08517abe40d71f624a4b21c2084dadcfe18a7746155f63135.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3521ea7fa1a9d3d08517abe40d71f624a4b21c2084dadcfe18a7746155f63135.jpg)
+
+![35805bcebaba44d6dc6ef83c073ba99c88ac3841e4038a2bddc109ca3e123d98.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/35805bcebaba44d6dc6ef83c073ba99c88ac3841e4038a2bddc109ca3e123d98.jpg)
+
+![3c6b62afea8b3797419b13f51d9d218ce7e205f7db02c9c6763265846184d5dd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3c6b62afea8b3797419b13f51d9d218ce7e205f7db02c9c6763265846184d5dd.jpg)
+
+![3fa80f010fb3c39a684cef270bc0c0c8e0f921b427aebcb61d972f6b1fba2e72.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3fa80f010fb3c39a684cef270bc0c0c8e0f921b427aebcb61d972f6b1fba2e72.jpg)
+
+![3ffb420c5144935888cef99b0da720d5596248d984a38ff3c93f4d02eaecf3ac.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/3ffb420c5144935888cef99b0da720d5596248d984a38ff3c93f4d02eaecf3ac.jpg)
+
+![42cc2c84a28890bc5560692c658f6bfaa91463b11305440d4f7298b9738a9f75.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/42cc2c84a28890bc5560692c658f6bfaa91463b11305440d4f7298b9738a9f75.jpg)
+
+![448e64a7065ac37b17fef03817025f73b649cbd96e6459f31ff18573ca8890c5.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/448e64a7065ac37b17fef03817025f73b649cbd96e6459f31ff18573ca8890c5.jpg)
+
+![4838156511c671c9b5fed894349a98a12a1c9908ed2779e6df63eaec1b18e6da.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/4838156511c671c9b5fed894349a98a12a1c9908ed2779e6df63eaec1b18e6da.jpg)
+
+![4d8aa4221f38ff43ec02bb8fd6968f09aa68c22137b8477b1affd0f2c4ebce10.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/4d8aa4221f38ff43ec02bb8fd6968f09aa68c22137b8477b1affd0f2c4ebce10.jpg)
+
+![6dc1090d5659f5d9edcdb6368ed2ae7fc69329099849e520aa41b9c34ddaca67.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/6dc1090d5659f5d9edcdb6368ed2ae7fc69329099849e520aa41b9c34ddaca67.jpg)
+
+![7db049ea5f4341c383fdef6c44215149231d9f48a695b625824d4dfc8458e327.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/7db049ea5f4341c383fdef6c44215149231d9f48a695b625824d4dfc8458e327.jpg)
+
+![831c02c16a0e3bc7d8ca4665f1bd8d599e1064e18c828d640c5c3024fb94fe0f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/831c02c16a0e3bc7d8ca4665f1bd8d599e1064e18c828d640c5c3024fb94fe0f.jpg)
+
+![83b6fc24933e4b13a347949eeb6758146c48b3edc2ab5f738583df4e8aa9624f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/83b6fc24933e4b13a347949eeb6758146c48b3edc2ab5f738583df4e8aa9624f.jpg)
+
+![88f074dc98f0a53b739500d8476bfc95fe5573f2e1609f7a9641197584c23abc.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/88f074dc98f0a53b739500d8476bfc95fe5573f2e1609f7a9641197584c23abc.jpg)
+
+![9d10d97f014b4b28dec11f3e2d711dde92c02595da11306454c8627f9cbfb94c.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/9d10d97f014b4b28dec11f3e2d711dde92c02595da11306454c8627f9cbfb94c.jpg)
+
+![9d40dcb128c03b578c6aae6699886cfc5de13422e01be2f568dee42e4977a1bf.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/9d40dcb128c03b578c6aae6699886cfc5de13422e01be2f568dee42e4977a1bf.jpg)
+
+![adb00ad03bb6e0c524678b7cb42450007636c80216a60314fdbf58be5a8ff071.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/adb00ad03bb6e0c524678b7cb42450007636c80216a60314fdbf58be5a8ff071.jpg)
+
+![bf08727842e6e95986a3f714b8645fff7b0004075e22ec8c72c23b1e210dfa2f.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/bf08727842e6e95986a3f714b8645fff7b0004075e22ec8c72c23b1e210dfa2f.jpg)
+
+![c5896d05c6383c4fa12c2f442e326f3162ed63d294fc4878fc70b8d78c232dfd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/c5896d05c6383c4fa12c2f442e326f3162ed63d294fc4878fc70b8d78c232dfd.jpg)
+
+![d98824247ef0d9c34ac4a7e38e170dc327602dcc283d83175e3717e57b99df33.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/d98824247ef0d9c34ac4a7e38e170dc327602dcc283d83175e3717e57b99df33.jpg)
+
+![dc745337cfeb2735655fb62c902c426fceba7ac4d64ae2bd9005d63215facf41.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/images/dc745337cfeb2735655fb62c902c426fceba7ac4d64ae2bd9005d63215facf41.jpg)
+
+### Tables
+
+![1b98506382d81139cf22cdedb543b304e34c0870cc705e41fb9efd92ecdc9754.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/1b98506382d81139cf22cdedb543b304e34c0870cc705e41fb9efd92ecdc9754.jpg)
+
+![2e7baf56989e8d7917c798f767956a39046afba63e2578b13b67110b51dfc8b6.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/2e7baf56989e8d7917c798f767956a39046afba63e2578b13b67110b51dfc8b6.jpg)
+
+![40ff46501e799e739f858b85661afb7e095893dcd954bd3f5bd86bccb6bf2ebd.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/40ff46501e799e739f858b85661afb7e095893dcd954bd3f5bd86bccb6bf2ebd.jpg)
+
+![4672fc0159f11748fb761e38259cdfaf629b4a4b9e1130f1806704907cb4dc99.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/4672fc0159f11748fb761e38259cdfaf629b4a4b9e1130f1806704907cb4dc99.jpg)
+
+![565125c08e013a160db92f75a0f62d3697310193aafea9d76d5cbabf37103607.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/565125c08e013a160db92f75a0f62d3697310193aafea9d76d5cbabf37103607.jpg)
+
+![6bf20269517e03d10fa3c9a608a4a185a24419b15cfdcbecc3d805464e6db0e9.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/6bf20269517e03d10fa3c9a608a4a185a24419b15cfdcbecc3d805464e6db0e9.jpg)
+
+![813f58b1c55576e1b1d660299dd4c0b64d01da7e2802ca699b1767b9ba4cb33d.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/813f58b1c55576e1b1d660299dd4c0b64d01da7e2802ca699b1767b9ba4cb33d.jpg)
+
+![931d76f399a215692b65dfb67a14b1195d6964c0fa850be0e5e02338c28c8840.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/931d76f399a215692b65dfb67a14b1195d6964c0fa850be0e5e02338c28c8840.jpg)
+
+![9cb977f511cea0a671904f81c1f1d8b57a0ca69fdeb5977c46c26d9e76b20ad0.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/9cb977f511cea0a671904f81c1f1d8b57a0ca69fdeb5977c46c26d9e76b20ad0.jpg)
+
+![a1443fcc03a29bb30d92ffc3ae14dfad44cfd00689a7c2151f0d605afec8f399.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/a1443fcc03a29bb30d92ffc3ae14dfad44cfd00689a7c2151f0d605afec8f399.jpg)
+
+![a9193b0c76791f5cd7919a8d62c647a50d3125029a58a435787229c22dc0adb7.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/a9193b0c76791f5cd7919a8d62c647a50d3125029a58a435787229c22dc0adb7.jpg)
+
+![b8cf68be0018e0e684817090fdc78a5843df0dcb7a3842ca41a737e23224a4c5.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/b8cf68be0018e0e684817090fdc78a5843df0dcb7a3842ca41a737e23224a4c5.jpg)
+
+![c7a1fb20ba3c99ca73897d312cf5bf7ede349ffbfd418387951f9217ca6e030a.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/c7a1fb20ba3c99ca73897d312cf5bf7ede349ffbfd418387951f9217ca6e030a.jpg)
+
+![e78f1fe7c466304e4ae74f0f6f2cd26a4344538a53b26c1455d85c477eae3723.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/e78f1fe7c466304e4ae74f0f6f2cd26a4344538a53b26c1455d85c477eae3723.jpg)
+
+![ea09f28fc47a71b2dfe2d77102e04f166de530f5e923de0248ce00056888e7c4.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/ea09f28fc47a71b2dfe2d77102e04f166de530f5e923de0248ce00056888e7c4.jpg)
+
+![eab4486d6557375748f22294f6462d986ec00e64f4f1f4139e0116dd02a610d0.jpg](../iclr_results/2490_Text2PDE_ Latent Diffusion Models for Accessible Physics Simulation/tables/eab4486d6557375748f22294f6462d986ec00e64f4f1f4139e0116dd02a610d0.jpg)
+
+## On the Expressive Power of Sparse Geometric MPNNs
+
+
+### Images
+
+![e61c6b6424d18dbebcc3d0664e16d3e55b5ba40fb5a51784e2674a6090cadc93.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/images/e61c6b6424d18dbebcc3d0664e16d3e55b5ba40fb5a51784e2674a6090cadc93.jpg)
+
+![eace1303a8efa60490ae954591f87970861f788b0e635a8cbd0dedd775ea23f2.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/images/eace1303a8efa60490ae954591f87970861f788b0e635a8cbd0dedd775ea23f2.jpg)
+
+### Tables
+
+![06f56ea8a42a4ed01a7330cbeadab5181f5e46c3782b425913b9777b52b0bc89.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/06f56ea8a42a4ed01a7330cbeadab5181f5e46c3782b425913b9777b52b0bc89.jpg)
+
+![2904ccbb6f9839ad028f03e5385c57a47f422eb64ac28fb0d16d6c52218a4f4a.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/2904ccbb6f9839ad028f03e5385c57a47f422eb64ac28fb0d16d6c52218a4f4a.jpg)
+
+![3df96b8ab93fdd06fd94ac9e2e6c89061fa22e4a36d36e30a186298ff9c95251.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/3df96b8ab93fdd06fd94ac9e2e6c89061fa22e4a36d36e30a186298ff9c95251.jpg)
+
+![7a6128f9385025a211619065248e73acecce83cd9d0e2dc5fa0949127eb764de.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/7a6128f9385025a211619065248e73acecce83cd9d0e2dc5fa0949127eb764de.jpg)
+
+![950d021a3dc5532f78a10a0b0b8e57463a5cada057f6df12226d59d48a3649c2.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/950d021a3dc5532f78a10a0b0b8e57463a5cada057f6df12226d59d48a3649c2.jpg)
+
+![a4b7c91365028efa4cddd1cc9892a2ebcb07ec40be0f7d676ee4a356b0989152.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/a4b7c91365028efa4cddd1cc9892a2ebcb07ec40be0f7d676ee4a356b0989152.jpg)
+
+![ae5f5180919d12074a1eba96a2aa492fb5cf529940a060d8bff765e5982acd33.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/ae5f5180919d12074a1eba96a2aa492fb5cf529940a060d8bff765e5982acd33.jpg)
+
+![b118ca7258f51dba96942a5c31c3646d7f9c995710c84494ed21fa2dd3b3c767.jpg](../iclr_results/2491_On the Expressive Power of Sparse Geometric MPNNs/tables/b118ca7258f51dba96942a5c31c3646d7f9c995710c84494ed21fa2dd3b3c767.jpg)
+
+## Evaluating Semantic Variation in Text-to-Image Synthesis: A Causal Perspective
+
+### Images
+
+![0196d2ca8958670d7bdacff4dda1332646294ff77650d7d816fa8e557defdc6c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/0196d2ca8958670d7bdacff4dda1332646294ff77650d7d816fa8e557defdc6c.jpg)
+
+![01d49081411a4218e068f261108bd7ba885d1304ce536efd572d91e3bb986531.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/01d49081411a4218e068f261108bd7ba885d1304ce536efd572d91e3bb986531.jpg)
+
+![01fb605510f86446a8a42139269fba5b1fdc535250b2a524621eec3f80224e1e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/01fb605510f86446a8a42139269fba5b1fdc535250b2a524621eec3f80224e1e.jpg)
+
+![054bcd2c59b27eab201441d56a645f4e88011b63c30d9addaa7f46bd40564682.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/054bcd2c59b27eab201441d56a645f4e88011b63c30d9addaa7f46bd40564682.jpg)
+
+![06a13356dde8493f31d20d0d305bfa1b628cc70b692fc1ba5b3f28c1f81c5962.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/06a13356dde8493f31d20d0d305bfa1b628cc70b692fc1ba5b3f28c1f81c5962.jpg)
+
+![09513c5fd8697460a31d261feb0b5695f652c46a836636dd1104d9f07752d40b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/09513c5fd8697460a31d261feb0b5695f652c46a836636dd1104d9f07752d40b.jpg)
+
+![09d84746499fdcf9f62cc2c4cf3be4e1a381991e89a607ab836a166b3d720fe9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/09d84746499fdcf9f62cc2c4cf3be4e1a381991e89a607ab836a166b3d720fe9.jpg)
+
+![0be7a472ea7c5dbfe03f23bf1cba5e0eeab26dae17ba37c196ea025d3befca11.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/0be7a472ea7c5dbfe03f23bf1cba5e0eeab26dae17ba37c196ea025d3befca11.jpg)
+
+![0d9ee792d434e03478dfc0f1f305ac0576d9263251a35c7cc1b1f0554607fc44.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/0d9ee792d434e03478dfc0f1f305ac0576d9263251a35c7cc1b1f0554607fc44.jpg)
+
+![0ef6b8d16672360eecf9bb6d7946ddfb3b7f38e50684250fb3a2d85b78abf67c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/0ef6b8d16672360eecf9bb6d7946ddfb3b7f38e50684250fb3a2d85b78abf67c.jpg)
+
+![0f58b05de6c4a6f59a70ba45e7483d898597d20b201cd2482781255e99bc909f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/0f58b05de6c4a6f59a70ba45e7483d898597d20b201cd2482781255e99bc909f.jpg)
+
+![12052677ad3157e0182d425a82f8856092d3e87c1029618864ee4a4464320387.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/12052677ad3157e0182d425a82f8856092d3e87c1029618864ee4a4464320387.jpg)
+
+![129f43fdc97fb21ef11474434af786f7475a6063abcff09fcce21100808c2994.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/129f43fdc97fb21ef11474434af786f7475a6063abcff09fcce21100808c2994.jpg)
+
+![12a4e565ec7383128caabb3e72a625cdc3f399423d7979db8ee078908a2773f9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/12a4e565ec7383128caabb3e72a625cdc3f399423d7979db8ee078908a2773f9.jpg)
+
+![14188cee55402052e8a6cd51a1688773c6e5018dbd0880ecd29435614390d9b7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/14188cee55402052e8a6cd51a1688773c6e5018dbd0880ecd29435614390d9b7.jpg)
+
+![16c09c92daa616ecd062f3f1ba547a29e92f891e0168d59c028df69b73a281bf.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/16c09c92daa616ecd062f3f1ba547a29e92f891e0168d59c028df69b73a281bf.jpg)
+
+![16e04bc108f5c0f0ac8b6a2f378f536127739b2ca56da73f85ef31ef4f6311fe.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/16e04bc108f5c0f0ac8b6a2f378f536127739b2ca56da73f85ef31ef4f6311fe.jpg)
+
+![178e7de687f37cb5217f127a822133e44aff9e2a50b06213f9a1fc653f56039a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/178e7de687f37cb5217f127a822133e44aff9e2a50b06213f9a1fc653f56039a.jpg)
+
+![19024e97129d5aaa21ec0f1a5c10ef5c5a6d62cab09b73686572ed0995bbbde6.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/19024e97129d5aaa21ec0f1a5c10ef5c5a6d62cab09b73686572ed0995bbbde6.jpg)
+
+![1b426316bc6d7d4aa8979ce8407f04ff0c76b1d3686e66e0dbc3027d57f748fb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1b426316bc6d7d4aa8979ce8407f04ff0c76b1d3686e66e0dbc3027d57f748fb.jpg)
+
+![1c074d62f32966965a649992905efe2e40fe8099412236689ad2c942a582160d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1c074d62f32966965a649992905efe2e40fe8099412236689ad2c942a582160d.jpg)
+
+![1c664b9558b765cbfa550db214b67c8b673a7a1c791344adfe34fef80459330b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1c664b9558b765cbfa550db214b67c8b673a7a1c791344adfe34fef80459330b.jpg)
+
+![1cb3bb252b79f882c8720999c4a480bc68eeced9a5427f9d2368f08dc2d939ab.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1cb3bb252b79f882c8720999c4a480bc68eeced9a5427f9d2368f08dc2d939ab.jpg)
+
+![1d75f90fb90d09a1ec2a1261ba43d9068f0c13c4ccd4187b8cebb1e9c88de2b0.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1d75f90fb90d09a1ec2a1261ba43d9068f0c13c4ccd4187b8cebb1e9c88de2b0.jpg)
+
+![1da09e71162a211e46edda530a0af40aa6b8fe26379ac17bae1dfb64a84ea027.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1da09e71162a211e46edda530a0af40aa6b8fe26379ac17bae1dfb64a84ea027.jpg)
+
+![1e0529141801f10203334eee7c0ef14cb37af34fb099db9ae9464abfafb10697.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1e0529141801f10203334eee7c0ef14cb37af34fb099db9ae9464abfafb10697.jpg)
+
+![1ff80b63d285e0ac3333b21958d7c5c5a0ce5e44b5c8b03044cb2636d69452cf.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/1ff80b63d285e0ac3333b21958d7c5c5a0ce5e44b5c8b03044cb2636d69452cf.jpg)
+
+![21021251038f247abb1251fa1b6200d0910f65caf276637b11d47a462936d575.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/21021251038f247abb1251fa1b6200d0910f65caf276637b11d47a462936d575.jpg)
+
+![24a57e70a2a57e77883c5db4d86ceb2d4bdfc0dce3cf71bdc2e2664d02037718.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/24a57e70a2a57e77883c5db4d86ceb2d4bdfc0dce3cf71bdc2e2664d02037718.jpg)
+
+![24be1a6a653df068b0a3438460c3f0328efd558b0680f2ff67733f912f64236c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/24be1a6a653df068b0a3438460c3f0328efd558b0680f2ff67733f912f64236c.jpg)
+
+![258bc8ad40deb710c3576a3bafdc67c659c65772bd83ff3fb1fe809f22978112.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/258bc8ad40deb710c3576a3bafdc67c659c65772bd83ff3fb1fe809f22978112.jpg)
+
+![25a15570b72d85aa312a10034ec3cc448d1dd3a2f0a797ad044caa07813b94a8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/25a15570b72d85aa312a10034ec3cc448d1dd3a2f0a797ad044caa07813b94a8.jpg)
+
+![275e979eb7db934d608babad7525d347623dd18874a886b027e25822682b8dc7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/275e979eb7db934d608babad7525d347623dd18874a886b027e25822682b8dc7.jpg)
+
+![296a2f188fa88f4632a189280f59d5702155c874f618b8fd5ac0d355c2b27cbb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/296a2f188fa88f4632a189280f59d5702155c874f618b8fd5ac0d355c2b27cbb.jpg)
+
+![29ddf30851764261864841e82b381b0d4a0bf7e69a323714efc406af5cef4261.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/29ddf30851764261864841e82b381b0d4a0bf7e69a323714efc406af5cef4261.jpg)
+
+![2a60bf15dfa24d63bb4202b0a59cd7890c00cc44032acdf7b721a0569a949036.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2a60bf15dfa24d63bb4202b0a59cd7890c00cc44032acdf7b721a0569a949036.jpg)
+
+![2a97b6d9a66ca815b9d0b1fb0dd21e421728de568b81ad9d5cea27556aa06c50.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2a97b6d9a66ca815b9d0b1fb0dd21e421728de568b81ad9d5cea27556aa06c50.jpg)
+
+![2b0e8d1da341fedac4f21e317e7af7727bbce3294f9cd1e1edfd70a6b7308d8a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2b0e8d1da341fedac4f21e317e7af7727bbce3294f9cd1e1edfd70a6b7308d8a.jpg)
+
+![2b5fd4dc6137e032f2571298c2747a637bd8411d515cd6ee5a01afe3dfa51360.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2b5fd4dc6137e032f2571298c2747a637bd8411d515cd6ee5a01afe3dfa51360.jpg)
+
+![2bb85cc40cf0b8c012d678b54bb9d82a84c4f4c5bb1499a4e46b140025c61034.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2bb85cc40cf0b8c012d678b54bb9d82a84c4f4c5bb1499a4e46b140025c61034.jpg)
+
+![2cf3346e4a4c4ede344f4c2875de86889e306d886c5aae1aac0d47860685e6fe.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2cf3346e4a4c4ede344f4c2875de86889e306d886c5aae1aac0d47860685e6fe.jpg)
+
+![2f209ad0a7a2265a932d2026898808942d0dbfa9d3ecdfe999d07f7ab16ee0a2.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2f209ad0a7a2265a932d2026898808942d0dbfa9d3ecdfe999d07f7ab16ee0a2.jpg)
+
+![2f2c0a6a6012cf39524b00e3489630848e4431a8b732e6a1f7c67c2bc0de725c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2f2c0a6a6012cf39524b00e3489630848e4431a8b732e6a1f7c67c2bc0de725c.jpg)
+
+![2f52d8d79ed7bfb180db8159ff920b2fab6012198460e3c7ffbcada68d33686a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/2f52d8d79ed7bfb180db8159ff920b2fab6012198460e3c7ffbcada68d33686a.jpg)
+
+![303650b9ac8212498ae5d643df1c9a1bf51f030514b0b42ebe516a8f602d01d5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/303650b9ac8212498ae5d643df1c9a1bf51f030514b0b42ebe516a8f602d01d5.jpg)
+
+![314c8092875501abc8bdf07e17fc91ebf3cc86c1be86203c8a5d3209ff56716b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/314c8092875501abc8bdf07e17fc91ebf3cc86c1be86203c8a5d3209ff56716b.jpg)
+
+![324866ed3199d3593d3bc845b3f1f449908f13f9ae4e868dd86e8b6b23437850.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/324866ed3199d3593d3bc845b3f1f449908f13f9ae4e868dd86e8b6b23437850.jpg)
+
+![33c70362d3be4320f77b606c333708865be041db7b796ef4c93ae0f294834864.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/33c70362d3be4320f77b606c333708865be041db7b796ef4c93ae0f294834864.jpg)
+
+![34a3653b1a1a56813d2fa6e7060bf4edde3aeb9cd3e18eb125ce7cda9f7e27d5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/34a3653b1a1a56813d2fa6e7060bf4edde3aeb9cd3e18eb125ce7cda9f7e27d5.jpg)
+
+![3636bc204082dbb6d52456da70dd15dcb810ce67de072bb6f18b23166603fbe2.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/3636bc204082dbb6d52456da70dd15dcb810ce67de072bb6f18b23166603fbe2.jpg)
+
+![36fadc64a75b9a409db652b9af24d86798f86f0a095bc7d20b5037d6406bb6a0.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/36fadc64a75b9a409db652b9af24d86798f86f0a095bc7d20b5037d6406bb6a0.jpg)
+
+![374fe812af3be6467b7713634671326e24b1256e20b1cf2af8c71b8f600dbef5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/374fe812af3be6467b7713634671326e24b1256e20b1cf2af8c71b8f600dbef5.jpg)
+
+![3abd4376d29731e240e0e106c6b44e49724f696a5893da717ab9e3c9885a807b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/3abd4376d29731e240e0e106c6b44e49724f696a5893da717ab9e3c9885a807b.jpg)
+
+![3dcb41a427510fda80e7d2ca664b147fa7fe0451e02a6d4695a0c4bd25e9576f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/3dcb41a427510fda80e7d2ca664b147fa7fe0451e02a6d4695a0c4bd25e9576f.jpg)
+
+![41960cb4c5c55afe6cfcd815e9487efe0db92154a4c8286948fa1e382bab21a8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/41960cb4c5c55afe6cfcd815e9487efe0db92154a4c8286948fa1e382bab21a8.jpg)
+
+![4279d905de29926a37f1ce18c990120bab20f6617b5d3d68a4054416496782a5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4279d905de29926a37f1ce18c990120bab20f6617b5d3d68a4054416496782a5.jpg)
+
+![43f6931c619983b4239d843da86bed78df3a2953e4e642931554380bf2588d94.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/43f6931c619983b4239d843da86bed78df3a2953e4e642931554380bf2588d94.jpg)
+
+![447ee62f33d3340e67f2fb6ff52e53cda7b2f53bbe73af5e2a76066a809430da.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/447ee62f33d3340e67f2fb6ff52e53cda7b2f53bbe73af5e2a76066a809430da.jpg)
+
+![4480592839c179c807939c54456b2fb500a6ef8258e684591eb2d8c3cd802b71.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4480592839c179c807939c54456b2fb500a6ef8258e684591eb2d8c3cd802b71.jpg)
+
+![45565db2c5093b451dfa053b127a7e46768a9d30269e0de3477acb161246492b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/45565db2c5093b451dfa053b127a7e46768a9d30269e0de3477acb161246492b.jpg)
+
+![45fbfc000cad32e1f4713a87ef83823d693542ee660aded4e6d42641c2d7be73.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/45fbfc000cad32e1f4713a87ef83823d693542ee660aded4e6d42641c2d7be73.jpg)
+
+![4700815ee7dd2498b6faf29606f8f851ec4293cb440e84969f8d46e9a0a27ea8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4700815ee7dd2498b6faf29606f8f851ec4293cb440e84969f8d46e9a0a27ea8.jpg)
+
+![472e25af2d70d24129fb17b59201a332a1516016e35ffbddebb8667ffc1d7a2b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/472e25af2d70d24129fb17b59201a332a1516016e35ffbddebb8667ffc1d7a2b.jpg)
+
+![493862d0272f616f3e70f03e7f55b24d6e7d192d644730b7cc546cb9a01d51f3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/493862d0272f616f3e70f03e7f55b24d6e7d192d644730b7cc546cb9a01d51f3.jpg)
+
+![493fdf3016f4439d726de75bcc2fee204afdd22ddf36d8133159fd718eeb1a7f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/493fdf3016f4439d726de75bcc2fee204afdd22ddf36d8133159fd718eeb1a7f.jpg)
+
+![498c78bd767109140c8c3e79aec04950ba8e922a0e0085c8be40ae4ff7c82b03.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/498c78bd767109140c8c3e79aec04950ba8e922a0e0085c8be40ae4ff7c82b03.jpg)
+
+![4c6f605bf4f952ecfa8d60c5780fc826d3362005ffd69dfde2b23cea902c43fb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4c6f605bf4f952ecfa8d60c5780fc826d3362005ffd69dfde2b23cea902c43fb.jpg)
+
+![4e594d524320f3923323b6b56092fd8854ee2b5d5f790fdf290e0ae2e2a66094.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4e594d524320f3923323b6b56092fd8854ee2b5d5f790fdf290e0ae2e2a66094.jpg)
+
+![4e64b60013130facc9193e3c66916dad41af329221bcfa38e7cac23d4c43984e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4e64b60013130facc9193e3c66916dad41af329221bcfa38e7cac23d4c43984e.jpg)
+
+![4f738a6f447a25e51ea25a92fd7591b017e55a0a3068e987fd4fa22f2e49d763.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4f738a6f447a25e51ea25a92fd7591b017e55a0a3068e987fd4fa22f2e49d763.jpg)
+
+![4fb3cb3079037328b0c05c5b0670da97b6da6e0adc4ad1fc755522fe65e83ee9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/4fb3cb3079037328b0c05c5b0670da97b6da6e0adc4ad1fc755522fe65e83ee9.jpg)
+
+![51934e6eabec91efb55325e2d17ecd596a7afebaa55110fd332240343a3e726a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/51934e6eabec91efb55325e2d17ecd596a7afebaa55110fd332240343a3e726a.jpg)
+
+![533e58070465170ef461b186f736be76684b64c3921dac702cf3951bb430856d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/533e58070465170ef461b186f736be76684b64c3921dac702cf3951bb430856d.jpg)
+
+![5353884e588be40fe4c3f2132f47f5bdf62ef6cceffd26dba572d1003df8b4e3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/5353884e588be40fe4c3f2132f47f5bdf62ef6cceffd26dba572d1003df8b4e3.jpg)
+
+![542c8cb2b8b285144673270d942233382734ad6d52abd99c174d107fd3443fbb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/542c8cb2b8b285144673270d942233382734ad6d52abd99c174d107fd3443fbb.jpg)
+
+![54dc2eac63caa5ee48e9ddaae13739fec7365cc3d4a3b3e14d0525d8c7bda121.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/54dc2eac63caa5ee48e9ddaae13739fec7365cc3d4a3b3e14d0525d8c7bda121.jpg)
+
+![55ac3814ce38a775674fc56d956c060ed6fb86100cb815b91dd4650eb34e06b8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/55ac3814ce38a775674fc56d956c060ed6fb86100cb815b91dd4650eb34e06b8.jpg)
+
+![55c61ee451432a28b6989ceda8b4a73847533939deec7ca493487313b3b2ad91.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/55c61ee451432a28b6989ceda8b4a73847533939deec7ca493487313b3b2ad91.jpg)
+
+![55e72f113414b2602b50f0365ae43d16643c94dbeac1efb7f98e925f2168a789.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/55e72f113414b2602b50f0365ae43d16643c94dbeac1efb7f98e925f2168a789.jpg)
+
+![5946b04ab586e768047d61dd37cc7db1dc14520c046ea3d557cad6ca8dbd726d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/5946b04ab586e768047d61dd37cc7db1dc14520c046ea3d557cad6ca8dbd726d.jpg)
+
+![6145bb100bcf14efa166eee1aecd99110d54116859094a3b4561d9be78c76173.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6145bb100bcf14efa166eee1aecd99110d54116859094a3b4561d9be78c76173.jpg)
+
+![63cf67908386af23b62b022bf7ebaafbf0946d65e05cf6680a2f3017231e0fcd.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/63cf67908386af23b62b022bf7ebaafbf0946d65e05cf6680a2f3017231e0fcd.jpg)
+
+![644761643a1e3a17d1a3b5f661a0619acd5b3e0c4f8b825ad7ce5b94fc4c5a01.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/644761643a1e3a17d1a3b5f661a0619acd5b3e0c4f8b825ad7ce5b94fc4c5a01.jpg)
+
+![67d7c1f6c417ec76ca414abc531727cd06aef24134bd064319fbfa17a435ac1e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/67d7c1f6c417ec76ca414abc531727cd06aef24134bd064319fbfa17a435ac1e.jpg)
+
+![69979c2815a1a6b3a350355b9ba84914aca9d55e1335468856a54b27434e0515.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/69979c2815a1a6b3a350355b9ba84914aca9d55e1335468856a54b27434e0515.jpg)
+
+![69fa1f7dcf54bc6131b72b7d7f16f6010e25db1cdb2754b806faad67dab1a975.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/69fa1f7dcf54bc6131b72b7d7f16f6010e25db1cdb2754b806faad67dab1a975.jpg)
+
+![6a67e5d853a3845cebdcd1c84bc0c441b87dab04e1829b46d700acbeae366bc2.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6a67e5d853a3845cebdcd1c84bc0c441b87dab04e1829b46d700acbeae366bc2.jpg)
+
+![6a775c74bbb7d21196fe79a765d591e1c62395d2c6c081cb2b7856663672c19d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6a775c74bbb7d21196fe79a765d591e1c62395d2c6c081cb2b7856663672c19d.jpg)
+
+![6b1ae1a1ba14747e782c8b584e7b6c5e010b3e7ece7fffd4638f3df00874c3f3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6b1ae1a1ba14747e782c8b584e7b6c5e010b3e7ece7fffd4638f3df00874c3f3.jpg)
+
+![6b95bc35177ddc56c7c1448890dc4d8715f207adb4a3ab5252b4b5ef7440fa5c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6b95bc35177ddc56c7c1448890dc4d8715f207adb4a3ab5252b4b5ef7440fa5c.jpg)
+
+![6c538433c66e35cb71b93f63969a0978feff5ea231442c1bce754575dcfc789b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6c538433c66e35cb71b93f63969a0978feff5ea231442c1bce754575dcfc789b.jpg)
+
+![6f0ecf3430e67d6aecb71e6afb05eb18a310c686ccbe1a13ef922185a7bc20b9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6f0ecf3430e67d6aecb71e6afb05eb18a310c686ccbe1a13ef922185a7bc20b9.jpg)
+
+![6ff45e912294dcfa466f41902ffb3388879b37af44c9e7990614be401a1449ff.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6ff45e912294dcfa466f41902ffb3388879b37af44c9e7990614be401a1449ff.jpg)
+
+![6ff57b7c2fa9b63b21a12763a161a9be2f03b30fa5eede4c7504fcfbce9a0b86.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/6ff57b7c2fa9b63b21a12763a161a9be2f03b30fa5eede4c7504fcfbce9a0b86.jpg)
+
+![71011e9880c42c4526e182cc80e33688b14185dc98474581f0bf48f01411a59f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/71011e9880c42c4526e182cc80e33688b14185dc98474581f0bf48f01411a59f.jpg)
+
+![71408d92c1c3cb254e6648b308c6ba47b1026292e9982f23a59ab858665496d4.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/71408d92c1c3cb254e6648b308c6ba47b1026292e9982f23a59ab858665496d4.jpg)
+
+![72ef59cefeefa1614a8263042e758e44199cfd0dbbc2ae0d706242390f23b022.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/72ef59cefeefa1614a8263042e758e44199cfd0dbbc2ae0d706242390f23b022.jpg)
+
+![77a8800753877f8aa11c9bbdd701c3549aef7276d25b6d80df7af5b3f4efa2f7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/77a8800753877f8aa11c9bbdd701c3549aef7276d25b6d80df7af5b3f4efa2f7.jpg)
+
+![79a5bada19f8b6e350721419a526ed1fa7552ae26fa7955a9be7bb74d40a51bd.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/79a5bada19f8b6e350721419a526ed1fa7552ae26fa7955a9be7bb74d40a51bd.jpg)
+
+![7a54ebdee327bd6a4ca218338a44f01e2830d97e0a5721feb4873923ebb27d7b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/7a54ebdee327bd6a4ca218338a44f01e2830d97e0a5721feb4873923ebb27d7b.jpg)
+
+![7c9d97adb7b3db7622a66b94069455006fe6ba4ff4bebe0bb4f68b0e1f28f56b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/7c9d97adb7b3db7622a66b94069455006fe6ba4ff4bebe0bb4f68b0e1f28f56b.jpg)
+
+![80298e8d5cfbb8177b520ab39abb65bc860f034172e0bff21f52204e3cce6696.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/80298e8d5cfbb8177b520ab39abb65bc860f034172e0bff21f52204e3cce6696.jpg)
+
+![8037185f056ae1cde8cce7133edd52b6c2076ba5e7002c9804bc538f5bf88047.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8037185f056ae1cde8cce7133edd52b6c2076ba5e7002c9804bc538f5bf88047.jpg)
+
+![8197fca2e731c17275d31cbe0cf68b917164a766d5fe0a0b24260436341725e1.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8197fca2e731c17275d31cbe0cf68b917164a766d5fe0a0b24260436341725e1.jpg)
+
+![81aa7d8a3c663d2b24ef3bad2fe341d43e6d02ffd0438cfdf786434aae390fd3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/81aa7d8a3c663d2b24ef3bad2fe341d43e6d02ffd0438cfdf786434aae390fd3.jpg)
+
+![8342a2087ac69a08b45c9898144612e616da72c0222feda975eccc618753139f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8342a2087ac69a08b45c9898144612e616da72c0222feda975eccc618753139f.jpg)
+
+![83eb9e0d767a5a68310911adf2c039d2a1fc26c1aedb59414dbe156761348f24.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/83eb9e0d767a5a68310911adf2c039d2a1fc26c1aedb59414dbe156761348f24.jpg)
+
+![8431e11bf4449e479316fc79baa2422e50f08f86ce85eb1e21deb3197608e6ec.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8431e11bf4449e479316fc79baa2422e50f08f86ce85eb1e21deb3197608e6ec.jpg)
+
+![86156ca01053402018141845665248471188757055347dde24a3cf3b702b5238.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/86156ca01053402018141845665248471188757055347dde24a3cf3b702b5238.jpg)
+
+![88bae60326e3b533c4b5dcb662265be287c587d68909ee4ad41716fecc56ed51.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/88bae60326e3b533c4b5dcb662265be287c587d68909ee4ad41716fecc56ed51.jpg)
+
+![8b44e91cb4e8fb00244f8dce94e1bff8940a301a5ee6b86e8140ccb2fb469216.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8b44e91cb4e8fb00244f8dce94e1bff8940a301a5ee6b86e8140ccb2fb469216.jpg)
+
+![8cf80ad139ff443c845a90d20edd9abef059b1d369653866ca12a30147f642e8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8cf80ad139ff443c845a90d20edd9abef059b1d369653866ca12a30147f642e8.jpg)
+
+![8f0c0870fb1767cbe31c854f72d69c12a2e5e272ab1267ddedf6fa56d6c4060d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/8f0c0870fb1767cbe31c854f72d69c12a2e5e272ab1267ddedf6fa56d6c4060d.jpg)
+
+![91ed46268a6d74965fe33a86cc93c3b74461f650cbdcfb7d53c54ac63da8af43.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/91ed46268a6d74965fe33a86cc93c3b74461f650cbdcfb7d53c54ac63da8af43.jpg)
+
+![93386275751265b1420af0d9634425dd139f15188004569abf8ce9200b0952fb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/93386275751265b1420af0d9634425dd139f15188004569abf8ce9200b0952fb.jpg)
+
+![95334d23d848d3dfd2e877a8eb6c40aaf6e919c92c51bffd85bcda9a0833f6e4.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/95334d23d848d3dfd2e877a8eb6c40aaf6e919c92c51bffd85bcda9a0833f6e4.jpg)
+
+![9ada64aa09814d524e321f4b904a4ceecb84d55484a4065a05ed639094184e46.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9ada64aa09814d524e321f4b904a4ceecb84d55484a4065a05ed639094184e46.jpg)
+
+![9ba6d7bffb541967b8c97eb97dec2024ad46d001241738cd97cd7d2e5ef4dbfb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9ba6d7bffb541967b8c97eb97dec2024ad46d001241738cd97cd7d2e5ef4dbfb.jpg)
+
+![9c7ee1e302bd906328df5e224b6d25b9c1e552bc60ecf68eb51a54892a5ee98c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9c7ee1e302bd906328df5e224b6d25b9c1e552bc60ecf68eb51a54892a5ee98c.jpg)
+
+![9d103793634b26b6ab89bde7ea99215fd738a4db077c7075ce8216b67a151690.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9d103793634b26b6ab89bde7ea99215fd738a4db077c7075ce8216b67a151690.jpg)
+
+![9d465b01f6def2a6ff7dcb21d99b1e50f9dfb45722323509f40bf5a31e34042a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9d465b01f6def2a6ff7dcb21d99b1e50f9dfb45722323509f40bf5a31e34042a.jpg)
+
+![9e78efd85b1237e918a46cca98e674e61e6d9d06d1358319486294b18b9b2fe2.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9e78efd85b1237e918a46cca98e674e61e6d9d06d1358319486294b18b9b2fe2.jpg)
+
+![9f6f15b92c8ab9ae2c754108d16e0a4479c95edfe9f34b873d3aaf874d3d1f07.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/9f6f15b92c8ab9ae2c754108d16e0a4479c95edfe9f34b873d3aaf874d3d1f07.jpg)
+
+![a0be60ef8c2ccc3d924d837a9b86dbeaed932b9636a7b6f5484997006b4f1708.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a0be60ef8c2ccc3d924d837a9b86dbeaed932b9636a7b6f5484997006b4f1708.jpg)
+
+![a122c9b6148fe6141db3b4eefb192365d882fa62f2ecb1e591c82faf6578bbb9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a122c9b6148fe6141db3b4eefb192365d882fa62f2ecb1e591c82faf6578bbb9.jpg)
+
+![a1732f67a4f4b37bc6431852b6779de39f494e084082d5444a392322dd24008e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a1732f67a4f4b37bc6431852b6779de39f494e084082d5444a392322dd24008e.jpg)
+
+![a3632f889ff3b4f13c573ad2e006b57cc9232cb9a4090b6e5effe0f6330b3b11.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a3632f889ff3b4f13c573ad2e006b57cc9232cb9a4090b6e5effe0f6330b3b11.jpg)
+
+![a3a259bc93b0aa5f443b92d87998ff3f2211b00a47de4eb9b6e39a5ebd09d4df.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a3a259bc93b0aa5f443b92d87998ff3f2211b00a47de4eb9b6e39a5ebd09d4df.jpg)
+
+![a6dce4624d85c2ac047352725fcd788beb795949978d1eaf27101d6779c7a0a1.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a6dce4624d85c2ac047352725fcd788beb795949978d1eaf27101d6779c7a0a1.jpg)
+
+![a6fb19f48d238291eaf90e0804153262a87f457fc760baa780fee2c633aa1e5d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a6fb19f48d238291eaf90e0804153262a87f457fc760baa780fee2c633aa1e5d.jpg)
+
+![a73e6c8d7933ef1b27438ee359b57450fbe4499a4d8dc91758df4a0ee8272317.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a73e6c8d7933ef1b27438ee359b57450fbe4499a4d8dc91758df4a0ee8272317.jpg)
+
+![a7523054602fabb4ffc2d742579c3bf898f07946bf4badc7c3ed2a351a231617.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a7523054602fabb4ffc2d742579c3bf898f07946bf4badc7c3ed2a351a231617.jpg)
+
+![a867bece39656dcdf43860e236521d590fd0433d672060f1fe93b4d6419ce197.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/a867bece39656dcdf43860e236521d590fd0433d672060f1fe93b4d6419ce197.jpg)
+
+![aa3780be870fff6def33e9e0f3e92509750f089711a1c3bd2c89e58e06ce690a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/aa3780be870fff6def33e9e0f3e92509750f089711a1c3bd2c89e58e06ce690a.jpg)
+
+![ab472196115c6d9de24ac0351345c316e5dce8594bd3cb8a7d1f58d540b22aaa.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ab472196115c6d9de24ac0351345c316e5dce8594bd3cb8a7d1f58d540b22aaa.jpg)
+
+![abac866ba699aabcd1a5a64b3a1204f6fa4e30b78eec12cbd01343c97cd22f55.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/abac866ba699aabcd1a5a64b3a1204f6fa4e30b78eec12cbd01343c97cd22f55.jpg)
+
+![abdbd9175d5c42ad7923337b8e107854138ff38ecdd3e04f4e5f1283bd2aa0c7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/abdbd9175d5c42ad7923337b8e107854138ff38ecdd3e04f4e5f1283bd2aa0c7.jpg)
+
+![ac7197b15fd6a729c15916f266d635110e79b8a48e1ed7aaaf2ac5e9f4f647eb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ac7197b15fd6a729c15916f266d635110e79b8a48e1ed7aaaf2ac5e9f4f647eb.jpg)
+
+![ae6b6e8eb174969366f6425432e62bb7e4586474f5ce70a8c484402416716113.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ae6b6e8eb174969366f6425432e62bb7e4586474f5ce70a8c484402416716113.jpg)
+
+![af8b9203ab50b907d6ad2cb9dfff934c41ae4b4307284a7f348127325f0d2b81.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/af8b9203ab50b907d6ad2cb9dfff934c41ae4b4307284a7f348127325f0d2b81.jpg)
+
+![b037efba02453931b5659decfe5d34514428949bce3f3536d4b0dd64bda969de.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/b037efba02453931b5659decfe5d34514428949bce3f3536d4b0dd64bda969de.jpg)
+
+![b4a043a392eda42d39956207dcbf11757bde2e3e19ee7d2042e0540aecb5e0b6.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/b4a043a392eda42d39956207dcbf11757bde2e3e19ee7d2042e0540aecb5e0b6.jpg)
+
+![b83f3459b4d9a9aae23584f0b26ff545280536cbda4f68d10b0af3b5a010b241.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/b83f3459b4d9a9aae23584f0b26ff545280536cbda4f68d10b0af3b5a010b241.jpg)
+
+![b89539762e59dc4eacd1e8208460a6568919831e91508cf0c62afb55d7632ee4.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/b89539762e59dc4eacd1e8208460a6568919831e91508cf0c62afb55d7632ee4.jpg)
+
+![ba754931f32f67c01b25fd441b6a097e1888e345180dac8dd767f1573b7e8cb9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ba754931f32f67c01b25fd441b6a097e1888e345180dac8dd767f1573b7e8cb9.jpg)
+
+![bd37e12f2f2f8dbf31ed922afecef9b35a990d8a9086fd4a59d268c934a7ba27.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/bd37e12f2f2f8dbf31ed922afecef9b35a990d8a9086fd4a59d268c934a7ba27.jpg)
+
+![bd6a98c4bec4ce1117ea73dc96db9ca278d54d476bab9f8d0c6622582c1b4392.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/bd6a98c4bec4ce1117ea73dc96db9ca278d54d476bab9f8d0c6622582c1b4392.jpg)
+
+![be36570f09fb88106aa0789108d0f24bb39352ad294d006fd5d77f4d2fb7e6ce.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/be36570f09fb88106aa0789108d0f24bb39352ad294d006fd5d77f4d2fb7e6ce.jpg)
+
+![be86a1c5c17b2bbdc7cafd5a88fe4bf22a319494b6de992aa63fb688c852acc0.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/be86a1c5c17b2bbdc7cafd5a88fe4bf22a319494b6de992aa63fb688c852acc0.jpg)
+
+![bee7bb2f0e6ac29122b6b50c2a6e7a3760546057c16b2fdf8300d3363a800d5d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/bee7bb2f0e6ac29122b6b50c2a6e7a3760546057c16b2fdf8300d3363a800d5d.jpg)
+
+![bf0caa6593ceb32d64e0de6357910a3b4723be63e1c7ead76f3a556a1e939670.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/bf0caa6593ceb32d64e0de6357910a3b4723be63e1c7ead76f3a556a1e939670.jpg)
+
+![c1be37cb4cf86c2eee95895fa617dc5648040adb1196f4cd8ba1fd3c1ab6eba1.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c1be37cb4cf86c2eee95895fa617dc5648040adb1196f4cd8ba1fd3c1ab6eba1.jpg)
+
+![c266b557af08bc52b2cce974246d0a59f3ce75271ee5b2906098533d7a83e19a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c266b557af08bc52b2cce974246d0a59f3ce75271ee5b2906098533d7a83e19a.jpg)
+
+![c3f4fa576d8dbf4da5a67a0026e82c937a02d37d571807674febebb018302c92.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c3f4fa576d8dbf4da5a67a0026e82c937a02d37d571807674febebb018302c92.jpg)
+
+![c42d20b440ce4bebad27b3fd9f1e15a886b7f3f50a97e0eb4d03853273b0a7c4.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c42d20b440ce4bebad27b3fd9f1e15a886b7f3f50a97e0eb4d03853273b0a7c4.jpg)
+
+![c5782f5394d7aff7a3dd9b2192aea3846fe630488c2ee6c27365ddc4f02b928b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c5782f5394d7aff7a3dd9b2192aea3846fe630488c2ee6c27365ddc4f02b928b.jpg)
+
+![c5aafbdd627f41d36a167f450ce6105678f079e53b72abd1a85745388e960916.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c5aafbdd627f41d36a167f450ce6105678f079e53b72abd1a85745388e960916.jpg)
+
+![c5ea8f804e780d43a36113ac42ee62c61abc656e07aad9afeacd2cbcc4a6e40e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c5ea8f804e780d43a36113ac42ee62c61abc656e07aad9afeacd2cbcc4a6e40e.jpg)
+
+![c785f9743b884f056bd1e874c99070eb4aaa9b4a140b85f0995fbcff394cc416.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/c785f9743b884f056bd1e874c99070eb4aaa9b4a140b85f0995fbcff394cc416.jpg)
+
+![ca303105513dd149d34cbc51b67a65d022d235e43fb3644711497bfe589d9b5f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ca303105513dd149d34cbc51b67a65d022d235e43fb3644711497bfe589d9b5f.jpg)
+
+![cc119e0eb1895075b646cf5b53d562a94ea50b5b56efb49f268b6d0f69f5079e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/cc119e0eb1895075b646cf5b53d562a94ea50b5b56efb49f268b6d0f69f5079e.jpg)
+
+![cc3f3c792f415152893ed6878d5e3a785c1192af8dcb695103513df106a91523.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/cc3f3c792f415152893ed6878d5e3a785c1192af8dcb695103513df106a91523.jpg)
+
+![ce8b174f56eaad4e42e9847c596ab50aae1c2d13528ef01bc2b71a4158d086ca.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ce8b174f56eaad4e42e9847c596ab50aae1c2d13528ef01bc2b71a4158d086ca.jpg)
+
+![ceb91411d9553d7319fe3ee0d227e5f5b39b64ec822f4d55e129d0ed29cca73a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ceb91411d9553d7319fe3ee0d227e5f5b39b64ec822f4d55e129d0ed29cca73a.jpg)
+
+![cf77e0c8c739acee0023b67c5bbfc63aa2434d5bf47597150e0e31c69c455991.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/cf77e0c8c739acee0023b67c5bbfc63aa2434d5bf47597150e0e31c69c455991.jpg)
+
+![d0f67517bb67761e9b5524d3ed389b35af75697d619e3b6fd812844cf817f1aa.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d0f67517bb67761e9b5524d3ed389b35af75697d619e3b6fd812844cf817f1aa.jpg)
+
+![d2d1307c0bcff995156d51e3d1a3ed6c9e8d09239dab9fcde2740766b3e0e9a2.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d2d1307c0bcff995156d51e3d1a3ed6c9e8d09239dab9fcde2740766b3e0e9a2.jpg)
+
+![d487e0e426ed4308f1a5df5ed125170ca496da96a4851ef0a0c1a146bb978816.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d487e0e426ed4308f1a5df5ed125170ca496da96a4851ef0a0c1a146bb978816.jpg)
+
+![d4919697fd153b191bf607fff99d91f174869f56e2018dc80f0a55144783e1eb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d4919697fd153b191bf607fff99d91f174869f56e2018dc80f0a55144783e1eb.jpg)
+
+![d4fcd6e3cb0d0ad40e6e93b40ac3adad68648fef74a2f49b90bdf5d64da77489.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d4fcd6e3cb0d0ad40e6e93b40ac3adad68648fef74a2f49b90bdf5d64da77489.jpg)
+
+![d70b5114c2a9b5b9366db54afa741c6b323dc358cebd4784c861475d7140172a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d70b5114c2a9b5b9366db54afa741c6b323dc358cebd4784c861475d7140172a.jpg)
+
+![d719c7f8b9368a53e7490782ece2e69972ad9039da1e1337782c6b1de036812a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d719c7f8b9368a53e7490782ece2e69972ad9039da1e1337782c6b1de036812a.jpg)
+
+![d75be9e9db248b84ed7d3aa5978306f62bec40a673880affb4fed4c03cd12c55.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d75be9e9db248b84ed7d3aa5978306f62bec40a673880affb4fed4c03cd12c55.jpg)
+
+![d77d14dadd95d9a3a632464c49f2c7994f9ded25f3edd80fabba9f443a4c9ef9.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d77d14dadd95d9a3a632464c49f2c7994f9ded25f3edd80fabba9f443a4c9ef9.jpg)
+
+![d7de36c51940bf9621111f260840aafc4d3886788bf815042d13a41585868862.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d7de36c51940bf9621111f260840aafc4d3886788bf815042d13a41585868862.jpg)
+
+![d88093fe8bb9f1236b3b556635484c218f7ac45653c11e44a12b4506aa657d11.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d88093fe8bb9f1236b3b556635484c218f7ac45653c11e44a12b4506aa657d11.jpg)
+
+![d8be6fd25db1968960dcd195ea13e894e0e5e311f65bb4565848de429b2b9e67.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d8be6fd25db1968960dcd195ea13e894e0e5e311f65bb4565848de429b2b9e67.jpg)
+
+![d956d531d1ed41fa8737304bd5532b241c6d7713e77e29fe39cda71a76d50a7b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d956d531d1ed41fa8737304bd5532b241c6d7713e77e29fe39cda71a76d50a7b.jpg)
+
+![d973f718915147fc86d6bab15242190cf7a5bfb74a702aeaccc77599ebaa132a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d973f718915147fc86d6bab15242190cf7a5bfb74a702aeaccc77599ebaa132a.jpg)
+
+![d9abf6e5ae3b85efde057ead7dd89171a7f11c196e1a05b39c08244e5ad56888.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d9abf6e5ae3b85efde057ead7dd89171a7f11c196e1a05b39c08244e5ad56888.jpg)
+
+![d9eff556017366fa3dce0fb1bd6e0db0ce8c155e0b1d005ab44c1682f5aa0351.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/d9eff556017366fa3dce0fb1bd6e0db0ce8c155e0b1d005ab44c1682f5aa0351.jpg)
+
+![da5b43e56914bf86504a7ca7ffa221d54f24e56b50366a8af9e3a5c17c895a32.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/da5b43e56914bf86504a7ca7ffa221d54f24e56b50366a8af9e3a5c17c895a32.jpg)
+
+![da86ca979bbb509aca7b67b7561b3b93a1ccb3e3a7146f830167b4fb0bbf5df6.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/da86ca979bbb509aca7b67b7561b3b93a1ccb3e3a7146f830167b4fb0bbf5df6.jpg)
+
+![db2c565ef3c551c9467412f78ff422dc26ed72128d83301f77dab8c59dfc695b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/db2c565ef3c551c9467412f78ff422dc26ed72128d83301f77dab8c59dfc695b.jpg)
+
+![db987ca4e9a8099ba3d3a0e63a83a95bbcaa7dd503f6bd6b2aa76adc08e32c68.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/db987ca4e9a8099ba3d3a0e63a83a95bbcaa7dd503f6bd6b2aa76adc08e32c68.jpg)
+
+![dbc22d8efd661df99b909488eee19b2767cce316543df84dde773690972e2e67.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/dbc22d8efd661df99b909488eee19b2767cce316543df84dde773690972e2e67.jpg)
+
+![dcd8f6338360d3c57dbd144716f9fc5ba43723b286f7f5616bdada6db94de8a4.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/dcd8f6338360d3c57dbd144716f9fc5ba43723b286f7f5616bdada6db94de8a4.jpg)
+
+![dd86031ff2ba3eac2685e8dcfa4e0a1c4312771170514f677ebdba73f89090a6.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/dd86031ff2ba3eac2685e8dcfa4e0a1c4312771170514f677ebdba73f89090a6.jpg)
+
+![ddc6e0ce99d7c2374ee112b4a63e71ee9e8443358a2cdb24ca111a681630e01b.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ddc6e0ce99d7c2374ee112b4a63e71ee9e8443358a2cdb24ca111a681630e01b.jpg)
+
+![deea8505bf9b4b5488a4713e55f54bddbf6dfba13d78fb444b5ab5085cbf644a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/deea8505bf9b4b5488a4713e55f54bddbf6dfba13d78fb444b5ab5085cbf644a.jpg)
+
+![df2b009b270506275875225fa6d14e5e4249837aac5ca0e63add4b60c2a685dc.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/df2b009b270506275875225fa6d14e5e4249837aac5ca0e63add4b60c2a685dc.jpg)
+
+![df8b94ee4c3d93dcc1ba205ff22cf6c185bfa4ad5ca0744cd5119f2e13be68ef.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/df8b94ee4c3d93dcc1ba205ff22cf6c185bfa4ad5ca0744cd5119f2e13be68ef.jpg)
+
+![df9c45f3f3fb617c586774ef0ed0de7fb8dd74ba61fe61d42781314128cf8bc1.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/df9c45f3f3fb617c586774ef0ed0de7fb8dd74ba61fe61d42781314128cf8bc1.jpg)
+
+![e20304da8465e7727b27c2f26d4b40bede33e1562c2bf4dce9296685dffd824d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e20304da8465e7727b27c2f26d4b40bede33e1562c2bf4dce9296685dffd824d.jpg)
+
+![e40cecd43e34704ec346aa3dfd9b3732c29e1553c424b1e8a8c59054ee875aed.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e40cecd43e34704ec346aa3dfd9b3732c29e1553c424b1e8a8c59054ee875aed.jpg)
+
+![e472afe5afcc71fd572728ea6f4117f2cf4f383296b6500f6d5216c47fc93d43.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e472afe5afcc71fd572728ea6f4117f2cf4f383296b6500f6d5216c47fc93d43.jpg)
+
+![e5015c765120569b317562220ab7154b26aebddf74dcd88ddf487f276c543880.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e5015c765120569b317562220ab7154b26aebddf74dcd88ddf487f276c543880.jpg)
+
+![e5b0cffb7884854b543a90ac13f7af3e9205bc7e90746d5a18d5101bd4742706.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e5b0cffb7884854b543a90ac13f7af3e9205bc7e90746d5a18d5101bd4742706.jpg)
+
+![e63b6ecf626b7981543920bdf27a9e96083d22fc901a7a383dc00d21cde765fb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e63b6ecf626b7981543920bdf27a9e96083d22fc901a7a383dc00d21cde765fb.jpg)
+
+![e7ae6095bead178daa1b782acca646abc33f720a3bc63b9d8f10ac4df140fd15.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e7ae6095bead178daa1b782acca646abc33f720a3bc63b9d8f10ac4df140fd15.jpg)
+
+![e922d9aab75aa91881dd463fa6bd3d9a6d989fcc9929f55e46ba5acf02f6741d.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/e922d9aab75aa91881dd463fa6bd3d9a6d989fcc9929f55e46ba5acf02f6741d.jpg)
+
+![ea100907964f8d94e4670236308b09124a946cfdb8e13654f9dd0401e5f94a28.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ea100907964f8d94e4670236308b09124a946cfdb8e13654f9dd0401e5f94a28.jpg)
+
+![eb71a047fff75b0ec0155595c2c6519895cdc318b8248e9fcbb88915b4b5bad7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/eb71a047fff75b0ec0155595c2c6519895cdc318b8248e9fcbb88915b4b5bad7.jpg)
+
+![ecf3d99cd6d59ebe46fddb836396d9bd5182a640e73a506f2975112632826296.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ecf3d99cd6d59ebe46fddb836396d9bd5182a640e73a506f2975112632826296.jpg)
+
+![edac0cc3ffcd3f19ad217fbbb0565ae8ce62ef881512ac54ddaf595bacb08270.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/edac0cc3ffcd3f19ad217fbbb0565ae8ce62ef881512ac54ddaf595bacb08270.jpg)
+
+![ee216afdf44eb859f3edb3a8c31b9087c3a0b42470c6c14d7d37fd5c2e047cb5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ee216afdf44eb859f3edb3a8c31b9087c3a0b42470c6c14d7d37fd5c2e047cb5.jpg)
+
+![ee3220296d0c0b74286fcbc905e8ededdc8a8ffb07fe8d3af053c2ab2fe7d9e5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ee3220296d0c0b74286fcbc905e8ededdc8a8ffb07fe8d3af053c2ab2fe7d9e5.jpg)
+
+![ee7aa92ec566e26dab887c5e8f6076d258575334e9d020b5716f2b0eb7c444ba.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ee7aa92ec566e26dab887c5e8f6076d258575334e9d020b5716f2b0eb7c444ba.jpg)
+
+![f087966fa866fe3800a74b6715098657b4fd139dfb23f80b218bdce6cce88dbe.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f087966fa866fe3800a74b6715098657b4fd139dfb23f80b218bdce6cce88dbe.jpg)
+
+![f08e15c1098a5ed708e61c677222470ea1491853d3350fa48d7e087418369c13.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f08e15c1098a5ed708e61c677222470ea1491853d3350fa48d7e087418369c13.jpg)
+
+![f1b1a0ccbc5af60f8589fe4b048484fe9085f95fbcfd6c26da3679d0066e0d33.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f1b1a0ccbc5af60f8589fe4b048484fe9085f95fbcfd6c26da3679d0066e0d33.jpg)
+
+![f261be90d8448b304bed571a0c082ce0c53790cb57a2821bbf8c25c33d3f19ad.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f261be90d8448b304bed571a0c082ce0c53790cb57a2821bbf8c25c33d3f19ad.jpg)
+
+![f2a15d679a3d01431868b5a79c9f8eacbc3990dea8ee94a4e8108944a5f936eb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f2a15d679a3d01431868b5a79c9f8eacbc3990dea8ee94a4e8108944a5f936eb.jpg)
+
+![f49000a60468bcdfcd85db88691f6e21bd387c0f857ba17c7fdfddeb8ce23ea5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f49000a60468bcdfcd85db88691f6e21bd387c0f857ba17c7fdfddeb8ce23ea5.jpg)
+
+![f53e97f294ef5716160481dbc2814d7d38cf7ee5ea43d87fcde71300dc80e251.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f53e97f294ef5716160481dbc2814d7d38cf7ee5ea43d87fcde71300dc80e251.jpg)
+
+![f63d986948415dff9a93f8df882968e3303590ccd34e352c7825d73b0f3456a8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f63d986948415dff9a93f8df882968e3303590ccd34e352c7825d73b0f3456a8.jpg)
+
+![f71fddb08440fc8b6ba6a6cc4d20af34c9a99ce17bb3ea9d2ff95716cda88f11.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f71fddb08440fc8b6ba6a6cc4d20af34c9a99ce17bb3ea9d2ff95716cda88f11.jpg)
+
+![f7df0542b878c252996e0b381c6dfa2bf93e1bdb9396c364db812158f7cafdfa.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/f7df0542b878c252996e0b381c6dfa2bf93e1bdb9396c364db812158f7cafdfa.jpg)
+
+![fb4ddb58126a06e060af40cddf47b07dbaed1a6d6d7f860e6add9fc3f7650411.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/fb4ddb58126a06e060af40cddf47b07dbaed1a6d6d7f860e6add9fc3f7650411.jpg)
+
+![fc8e4c22cdb17dfc17ddba63e52b8608965da7f1d4c1560fe578d31bd151e9e0.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/fc8e4c22cdb17dfc17ddba63e52b8608965da7f1d4c1560fe578d31bd151e9e0.jpg)
+
+![fd357456026d4cc8d7583e9fbcc32886c1431469dee5120e0e98adc018937716.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/fd357456026d4cc8d7583e9fbcc32886c1431469dee5120e0e98adc018937716.jpg)
+
+![fedc7c0aa96e9633ccb80dd318f830795a065740796e5f9c2d7bc7a2fc481aba.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/fedc7c0aa96e9633ccb80dd318f830795a065740796e5f9c2d7bc7a2fc481aba.jpg)
+
+![ffd1c363085f7cc6e24f8fe53e1ddeb8efca65ae754451073915d346efa20421.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/images/ffd1c363085f7cc6e24f8fe53e1ddeb8efca65ae754451073915d346efa20421.jpg)
+
+### Tables
+
+![01a24fbe834736ac178afbcd7c45f4eb96286a3e1af8178bd282482c8ae18029.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/01a24fbe834736ac178afbcd7c45f4eb96286a3e1af8178bd282482c8ae18029.jpg)
+
+![0b50c18a798c7d7565af024dac7ee7bb4723f3fb2d2c4bc5b4b4099f9d3a494c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/0b50c18a798c7d7565af024dac7ee7bb4723f3fb2d2c4bc5b4b4099f9d3a494c.jpg)
+
+![2e5f856821e92d90e3b27ccc6bc2bf35759ec7efedc1facad013cfc2f6b716db.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/2e5f856821e92d90e3b27ccc6bc2bf35759ec7efedc1facad013cfc2f6b716db.jpg)
+
+![3d80a9f4d0da5ee04a32fd093bca549d6def2cb0d486741e47b650248c3564c7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/3d80a9f4d0da5ee04a32fd093bca549d6def2cb0d486741e47b650248c3564c7.jpg)
+
+![480a880859573066de944c79543b085a83a00c381f3da78571912e16018cacac.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/480a880859573066de944c79543b085a83a00c381f3da78571912e16018cacac.jpg)
+
+![6e4388319787978d4c7960c9692d4e981fa976f3b27fec1c3aa6438cfcebded3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/6e4388319787978d4c7960c9692d4e981fa976f3b27fec1c3aa6438cfcebded3.jpg)
+
+![6f91b9948508f84935caaadd0969425f8bb3d1374984c54cd8810bf5ef2eabe7.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/6f91b9948508f84935caaadd0969425f8bb3d1374984c54cd8810bf5ef2eabe7.jpg)
+
+![7407ca19964b8f963975918ed3abfe6b65deb2c8ef674f20d0bd7ccd2893450e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/7407ca19964b8f963975918ed3abfe6b65deb2c8ef674f20d0bd7ccd2893450e.jpg)
+
+![7495eda2ae937b2b7c9bc8adc2abb33e9887c4d2a4d333b22706a587e12793b3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/7495eda2ae937b2b7c9bc8adc2abb33e9887c4d2a4d333b22706a587e12793b3.jpg)
+
+![7e2a6610c331d01304f7bf73c68e0c6cb9f0060baf270b47bd12b6307fb1708f.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/7e2a6610c331d01304f7bf73c68e0c6cb9f0060baf270b47bd12b6307fb1708f.jpg)
+
+![7fef563fef958dc66130b18ce3e751aadaaeb410d065080a19c761a2a7da8962.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/7fef563fef958dc66130b18ce3e751aadaaeb410d065080a19c761a2a7da8962.jpg)
+
+![83d77abe63484bf95971a9ab36f5a41c9ca7d9ee0749ff6aa07672d1096b4d65.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/83d77abe63484bf95971a9ab36f5a41c9ca7d9ee0749ff6aa07672d1096b4d65.jpg)
+
+![8509101ca515ce01d8e3564206cc01ad4fa8fec6cc1a87960610717350ba2243.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/8509101ca515ce01d8e3564206cc01ad4fa8fec6cc1a87960610717350ba2243.jpg)
+
+![8b34025530b94d736b86431f0470b9f06edfb451b0a79bc1dccd833b7f7a8c04.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/8b34025530b94d736b86431f0470b9f06edfb451b0a79bc1dccd833b7f7a8c04.jpg)
+
+![90283722c7d02e398d4ae17d1d85ad54f37c06ca4cb5ea3fcd7120ed8afdd4e5.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/90283722c7d02e398d4ae17d1d85ad54f37c06ca4cb5ea3fcd7120ed8afdd4e5.jpg)
+
+![9524831f153b7f246649b518b2b04ab01cb7861aebd85dabe6562f737d99c295.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/9524831f153b7f246649b518b2b04ab01cb7861aebd85dabe6562f737d99c295.jpg)
+
+![9e4cebf2115ceaf949813d984b85b27d293af7603c253a26a3fc9ea073a5c94e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/9e4cebf2115ceaf949813d984b85b27d293af7603c253a26a3fc9ea073a5c94e.jpg)
+
+![aa0f5d98ef32a839eee998ade042afb67dc0185cd9e795815f8d818a2466e7ca.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/aa0f5d98ef32a839eee998ade042afb67dc0185cd9e795815f8d818a2466e7ca.jpg)
+
+![ae58afa5ff5281a8368752e273a079cceed6b2afea3578806c8f48fdfe840a5e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/ae58afa5ff5281a8368752e273a079cceed6b2afea3578806c8f48fdfe840a5e.jpg)
+
+![b6efcdc4a0deefd12358d5ca90b4c8813543d550d6133bff7e4c9ae8e87c47e3.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/b6efcdc4a0deefd12358d5ca90b4c8813543d550d6133bff7e4c9ae8e87c47e3.jpg)
+
+![bac126b96fb7a7f6909f3e8ff405d9f2bbf90d5e309f6c1dd9eeb7c7c9573adb.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/bac126b96fb7a7f6909f3e8ff405d9f2bbf90d5e309f6c1dd9eeb7c7c9573adb.jpg)
+
+![cec050336e5df28a042ee7b48b01f2f9a1d4a7c43a8c9c0e3fb625b4499156b6.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/cec050336e5df28a042ee7b48b01f2f9a1d4a7c43a8c9c0e3fb625b4499156b6.jpg)
+
+![d966b36ac15c6c2873257828d3ecd36fb2c54c5f8c409544c2b5c83ab9f98f9e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/d966b36ac15c6c2873257828d3ecd36fb2c54c5f8c409544c2b5c83ab9f98f9e.jpg)
+
+![dfeb2e876a66d4b4c8ba49f97e2f176a18d656909dd136d86ae6e6a6e25b112a.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/dfeb2e876a66d4b4c8ba49f97e2f176a18d656909dd136d86ae6e6a6e25b112a.jpg)
+
+![e1650fdf6ba76162e56436196ef92db8ab11171106bf9a0effc7b873b32ead2e.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/e1650fdf6ba76162e56436196ef92db8ab11171106bf9a0effc7b873b32ead2e.jpg)
+
+![e1eae198ad2a7f12310b3769363d694a38849ee6ca0c6d58e2e9b37703804b8c.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/e1eae198ad2a7f12310b3769363d694a38849ee6ca0c6d58e2e9b37703804b8c.jpg)
+
+![e292cdea898911f99bfab69031ceadb55fd47a94229c0ad915225608e86ab1cf.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/e292cdea898911f99bfab69031ceadb55fd47a94229c0ad915225608e86ab1cf.jpg)
+
+![f5a6875eb43161409f983b507aae5955efb972e8381514e028cbf785432fc4ff.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/f5a6875eb43161409f983b507aae5955efb972e8381514e028cbf785432fc4ff.jpg)
+
+![f6023add44df7080bdabdfb474cc449e438b02d82e4b02dc5a674772142aa897.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/f6023add44df7080bdabdfb474cc449e438b02d82e4b02dc5a674772142aa897.jpg)
+
+![fc2bce2566cd2f95f7ee90b71e003f661b39ecac946c3ac2d2b9161a2bebecd8.jpg](../iclr_results/2492_Evaluating Semantic Variation in Text-to-Image Synthesis_ A Causal Perspective/tables/fc2bce2566cd2f95f7ee90b71e003f661b39ecac946c3ac2d2b9161a2bebecd8.jpg)

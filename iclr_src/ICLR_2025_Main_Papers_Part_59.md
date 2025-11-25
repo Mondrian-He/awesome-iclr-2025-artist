@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,254 @@
 
 ## 目录 (Table of Contents)
 
-1. [Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks](#Certifying-Language-Model-Robustness-with-Fuzzed-Randomized-Smoothing-An-Efficient-Defense-Against-Backdoor-Attacks)
-2. [Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment](#Circuit-Representation-Learning-with-Masked-Gate-Modeling-and-Verilog-AIG-Alignment)
-3. [Polyrating: A Cost-Effective and Bias-Aware Rating System for LLM Evaluation](#Polyrating-A-Cost-Effective-and-Bias-Aware-Rating-System-for-LLM-Evaluation)
-4. [LLaVA-Mini: Efficient Image and Video Large Multimodal Models with One Vision Token](#LLaVA-Mini-Efficient-Image-and-Video-Large-Multimodal-Models-with-One-Vision-Token)
-5. [Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning](#Self-Supervised-Diffusion-Models-for-Electron-Aware-Molecular-Representation-Learning)
-6. [Exploring the Design Space of Visual Context Representation in Video MLLMs](#Exploring-the-Design-Space-of-Visual-Context-Representation-in-Video-MLLMs)
-7. [Fair Submodular Cover](#Fair-Submodular-Cover)
-8. [L3Ms — Lagrange Large Language Models](#L3Ms-Lagrange-Large-Language-Models)
-9. [The 3D-PC: a benchmark for visual perspective taking in humans and machines](#The-3D-PC-a-benchmark-for-visual-perspective-taking-in-humans-and-machines)
-10. [On the Optimal Memorization Capacity of Transformers](#On-the-Optimal-Memorization-Capacity-of-Transformers)
-11. [InstantSwap: Fast Customized Concept Swapping across Sharp Shape Differences](#InstantSwap-Fast-Customized-Concept-Swapping-across-Sharp-Shape-Differences)
-12. [Efficient Cross-Episode Meta-RL](#Efficient-Cross-Episode-Meta-RL)
-13. [MambaPEFT: Exploring Parameter-Efficient Fine-Tuning for Mamba](#MambaPEFT-Exploring-Parameter-Efficient-Fine-Tuning-for-Mamba)
-14. [Adversaries With Incentives:  A Strategic Alternative to Adversarial Robustness](#Adversaries-With-Incentives-A-Strategic-Alternative-to-Adversarial-Robustness)
-15. [A Formal Framework for Understanding Length Generalization in Transformers](#A-Formal-Framework-for-Understanding-Length-Generalization-in-Transformers)
-16. [Mask in the Mirror: Implicit Sparsification](#Mask-in-the-Mirror-Implicit-Sparsification)
-17. [Audio Large Language Models Can Be Descriptive Speech Quality Evaluators](#Audio-Large-Language-Models-Can-Be-Descriptive-Speech-Quality-Evaluators)
-18. [Perplexity Trap: PLM-Based Retrievers Overrate Low Perplexity Documents](#Perplexity-Trap-PLM-Based-Retrievers-Overrate-Low-Perplexity-Documents)
-19. [Poisson-Dirac Neural Networks for Modeling Coupled Dynamical Systems across Domains](#Poisson-Dirac-Neural-Networks-for-Modeling-Coupled-Dynamical-Systems-across-Domains)
-20. [GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching](#GPS-A-Probabilistic-Distributional-Similarity-with-Gumbel-Priors-for-Set-to-Set-Matching)
-21. [Multi-Task Dense Predictions via Unleashing the Power of Diffusion](#Multi-Task-Dense-Predictions-via-Unleashing-the-Power-of-Diffusion)
-22. [Discovering Group Structures via Unitary Representation Learning](#Discovering-Group-Structures-via-Unitary-Representation-Learning)
-23. [Newton Meets Marchenko-Pastur: Massively Parallel Second-Order Optimization with Hessian Sketching and Debiasing](#Newton-Meets-Marchenko-Pastur-Massively-Parallel-Second-Order-Optimization-with-Hessian-Sketching-and-Debiasing)
-24. [Grokking at the Edge of Numerical Stability](#Grokking-at-the-Edge-of-Numerical-Stability)
-25. [MELODI: Exploring Memory Compression for Long Contexts](#MELODI-Exploring-Memory-Compression-for-Long-Contexts)
-26. [MIND: Math Informed syNthetic Dialogues for Pretraining LLMs](#MIND-Math-Informed-syNthetic-Dialogues-for-Pretraining-LLMs)
-27. [T2V2: A Unified Non-Autoregressive Model for Speech Recognition and Synthesis via Multitask Learning](#T2V2-A-Unified-Non-Autoregressive-Model-for-Speech-Recognition-and-Synthesis-via-Multitask-Learning)
-28. [FreCaS: Efficient Higher-Resolution Image Generation via Frequency-aware Cascaded Sampling](#FreCaS-Efficient-Higher-Resolution-Image-Generation-via-Frequency-aware-Cascaded-Sampling)
-29. [AvatarGO: Zero-shot 4D Human-Object Interaction Generation and Animation](#AvatarGO-Zero-shot-4D-Human-Object-Interaction-Generation-and-Animation)
-30. [MuirBench: A Comprehensive Benchmark for Robust Multi-image Understanding](#MuirBench-A-Comprehensive-Benchmark-for-Robust-Multi-image-Understanding)
-31. [A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial Contexts](#A-Little-Goes-a-Long-Way-Efficient-Long-Context-Training-and-Inference-with-Partial-Contexts)
-32. [Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimization](#Methods-with-Local-Steps-and-Random-Reshuffling-for-Generally-Smooth-Non-Convex-Federated-Optimization)
-33. [Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement](#Estimation-of-single-cell-and-tissue-perturbation-effect-in-spatial-transcriptomics-via-Spatial-Causal-Disentanglement)
-34. [Zero-shot forecasting of chaotic systems](#Zero-shot-forecasting-of-chaotic-systems)
-35. [Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer](#Learning-Video-Conditioned-Policy-on-Unlabelled-Data-with-Joint-Embedding-Predictive-Transformer)
-36. [Real-time design of architectural structures with differentiable mechanics and neural networks](#Real-time-design-of-architectural-structures-with-differentiable-mechanics-and-neural-networks)
+1. [FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"](#FaithEval-Can-Your-Language-Model-Stay-Faithful-to-Context-Even-If-The-Moon-is-Made-of-Marshmallows)
+2. [A Transfer Attack to Image Watermarks](#A-Transfer-Attack-to-Image-Watermarks)
+3. [Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving](#Trajectory-LLM-A-Language-based-Data-Generator-for-Trajectory-Prediction-in-Autonomous-Driving)
+4. [Learning Hierarchical Polynomials of Multiple Nonlinear Features](#Learning-Hierarchical-Polynomials-of-Multiple-Nonlinear-Features)
+5. [Generalizable Motion Planning via Operator Learning](#Generalizable-Motion-Planning-via-Operator-Learning)
+6. [Efficient Causal Decision Making with One-sided Feedback](#Efficient-Causal-Decision-Making-with-One-sided-Feedback)
+7. [Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks](#Certifying-Language-Model-Robustness-with-Fuzzed-Randomized-Smoothing-An-Efficient-Defense-Against-Backdoor-Attacks)
+8. [Circuit Representation Learning with Masked Gate Modeling and Verilog-AIG Alignment](#Circuit-Representation-Learning-with-Masked-Gate-Modeling-and-Verilog-AIG-Alignment)
+9. [Polyrating: A Cost-Effective and Bias-Aware Rating System for LLM Evaluation](#Polyrating-A-Cost-Effective-and-Bias-Aware-Rating-System-for-LLM-Evaluation)
+10. [LLaVA-Mini: Efficient Image and Video Large Multimodal Models with One Vision Token](#LLaVA-Mini-Efficient-Image-and-Video-Large-Multimodal-Models-with-One-Vision-Token)
+11. [Self-Supervised Diffusion Models for Electron-Aware Molecular Representation Learning](#Self-Supervised-Diffusion-Models-for-Electron-Aware-Molecular-Representation-Learning)
+12. [Exploring the Design Space of Visual Context Representation in Video MLLMs](#Exploring-the-Design-Space-of-Visual-Context-Representation-in-Video-MLLMs)
+13. [Fair Submodular Cover](#Fair-Submodular-Cover)
+14. [L3Ms — Lagrange Large Language Models](#L3Ms-Lagrange-Large-Language-Models)
+15. [The 3D-PC: a benchmark for visual perspective taking in humans and machines](#The-3D-PC-a-benchmark-for-visual-perspective-taking-in-humans-and-machines)
+16. [On the Optimal Memorization Capacity of Transformers](#On-the-Optimal-Memorization-Capacity-of-Transformers)
+17. [InstantSwap: Fast Customized Concept Swapping across Sharp Shape Differences](#InstantSwap-Fast-Customized-Concept-Swapping-across-Sharp-Shape-Differences)
+18. [Efficient Cross-Episode Meta-RL](#Efficient-Cross-Episode-Meta-RL)
+19. [MambaPEFT: Exploring Parameter-Efficient Fine-Tuning for Mamba](#MambaPEFT-Exploring-Parameter-Efficient-Fine-Tuning-for-Mamba)
+20. [Adversaries With Incentives:  A Strategic Alternative to Adversarial Robustness](#Adversaries-With-Incentives-A-Strategic-Alternative-to-Adversarial-Robustness)
+21. [A Formal Framework for Understanding Length Generalization in Transformers](#A-Formal-Framework-for-Understanding-Length-Generalization-in-Transformers)
+22. [Mask in the Mirror: Implicit Sparsification](#Mask-in-the-Mirror-Implicit-Sparsification)
+23. [Audio Large Language Models Can Be Descriptive Speech Quality Evaluators](#Audio-Large-Language-Models-Can-Be-Descriptive-Speech-Quality-Evaluators)
+24. [Perplexity Trap: PLM-Based Retrievers Overrate Low Perplexity Documents](#Perplexity-Trap-PLM-Based-Retrievers-Overrate-Low-Perplexity-Documents)
+25. [Poisson-Dirac Neural Networks for Modeling Coupled Dynamical Systems across Domains](#Poisson-Dirac-Neural-Networks-for-Modeling-Coupled-Dynamical-Systems-across-Domains)
+26. [GPS: A Probabilistic Distributional Similarity with Gumbel Priors for Set-to-Set Matching](#GPS-A-Probabilistic-Distributional-Similarity-with-Gumbel-Priors-for-Set-to-Set-Matching)
+27. [Multi-Task Dense Predictions via Unleashing the Power of Diffusion](#Multi-Task-Dense-Predictions-via-Unleashing-the-Power-of-Diffusion)
+28. [Discovering Group Structures via Unitary Representation Learning](#Discovering-Group-Structures-via-Unitary-Representation-Learning)
+29. [Newton Meets Marchenko-Pastur: Massively Parallel Second-Order Optimization with Hessian Sketching and Debiasing](#Newton-Meets-Marchenko-Pastur-Massively-Parallel-Second-Order-Optimization-with-Hessian-Sketching-and-Debiasing)
+30. [Grokking at the Edge of Numerical Stability](#Grokking-at-the-Edge-of-Numerical-Stability)
+31. [MELODI: Exploring Memory Compression for Long Contexts](#MELODI-Exploring-Memory-Compression-for-Long-Contexts)
+32. [MIND: Math Informed syNthetic Dialogues for Pretraining LLMs](#MIND-Math-Informed-syNthetic-Dialogues-for-Pretraining-LLMs)
+33. [T2V2: A Unified Non-Autoregressive Model for Speech Recognition and Synthesis via Multitask Learning](#T2V2-A-Unified-Non-Autoregressive-Model-for-Speech-Recognition-and-Synthesis-via-Multitask-Learning)
+34. [FreCaS: Efficient Higher-Resolution Image Generation via Frequency-aware Cascaded Sampling](#FreCaS-Efficient-Higher-Resolution-Image-Generation-via-Frequency-aware-Cascaded-Sampling)
+35. [AvatarGO: Zero-shot 4D Human-Object Interaction Generation and Animation](#AvatarGO-Zero-shot-4D-Human-Object-Interaction-Generation-and-Animation)
+36. [MuirBench: A Comprehensive Benchmark for Robust Multi-image Understanding](#MuirBench-A-Comprehensive-Benchmark-for-Robust-Multi-image-Understanding)
+37. [A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial Contexts](#A-Little-Goes-a-Long-Way-Efficient-Long-Context-Training-and-Inference-with-Partial-Contexts)
 
 ---
 
 
-## Certifying Language Model Robustness with Fuzzed Randomized Smoothing: An Efficient Defense Against Backdoor Attacks
+## FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"
+
+### Images
+
+![0312f1faef49e72582e5033e38ac15c993a764195488615cfae0f38e0dc86760.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/0312f1faef49e72582e5033e38ac15c993a764195488615cfae0f38e0dc86760.jpg)
+
+![07ea16d35f4a0e9d0b3497fa3e10b960698476287f91ed0809289611f681cf16.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/07ea16d35f4a0e9d0b3497fa3e10b960698476287f91ed0809289611f681cf16.jpg)
+
+![19b9eb018f8e6f52e61ef1d0b8adca1ee700bbebf8c31199a32024ce825fc4b3.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/19b9eb018f8e6f52e61ef1d0b8adca1ee700bbebf8c31199a32024ce825fc4b3.jpg)
+
+![3683975bcdbcb98e8830b8c619235059e22144e1d91bba3080267a1d38bbcc95.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/3683975bcdbcb98e8830b8c619235059e22144e1d91bba3080267a1d38bbcc95.jpg)
+
+![538aa58f57368096c3e6d50d4f579d33d71ad78b0ff17efbeceb8333a44afb24.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/538aa58f57368096c3e6d50d4f579d33d71ad78b0ff17efbeceb8333a44afb24.jpg)
+
+![b19c1521bdd6670f0c75ce65336d78ad46e423771ef4448e4bc09c702391c98a.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/b19c1521bdd6670f0c75ce65336d78ad46e423771ef4448e4bc09c702391c98a.jpg)
+
+![ed6fc70602d4220fa6c84b35482cefea6b48fdee9695ff8bb29e1eba1dd08136.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/ed6fc70602d4220fa6c84b35482cefea6b48fdee9695ff8bb29e1eba1dd08136.jpg)
+
+![f293a0b5cb9962f050f8863b0a4c009356653ea06ebd78a844f176361ea044df.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/images/f293a0b5cb9962f050f8863b0a4c009356653ea06ebd78a844f176361ea044df.jpg)
+
+### Tables
+
+![cf843aea74e9928822b577b32fdeffe452f43d31d8b901b756cd3d7a3f602e19.jpg](../iclr_results/2157_Uncertainty Herding_ One Active Learning Method for All Label Budgets/tables/cf843aea74e9928822b577b32fdeffe452f43d31d8b901b756cd3d7a3f602e19.jpg)
+
+## FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows"
+
+
+### Images
+
+![1bb7fa9fc66099a33a8b91d3433fe7eb68d2bb70544051c86469988d9157281d.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/1bb7fa9fc66099a33a8b91d3433fe7eb68d2bb70544051c86469988d9157281d.jpg)
+
+![205dd237eb953a852a216629173a9e8e0c47910b5167d6c84e70c91cc265a5a5.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/205dd237eb953a852a216629173a9e8e0c47910b5167d6c84e70c91cc265a5a5.jpg)
+
+![2e9fbfe2e6837313b146df57e13a35e6a6a7fc728807d5fe174af10575ec1d7a.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/2e9fbfe2e6837313b146df57e13a35e6a6a7fc728807d5fe174af10575ec1d7a.jpg)
+
+![3c49e8654de7b03f0068050dd8d9a0708d5b171cbf2a2c291f4d7673c7aaf053.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/3c49e8654de7b03f0068050dd8d9a0708d5b171cbf2a2c291f4d7673c7aaf053.jpg)
+
+![463a6e808eb02b6bac3865c2ca7d87c206a43f623e05c7c5755ff99df0f6a5d8.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/463a6e808eb02b6bac3865c2ca7d87c206a43f623e05c7c5755ff99df0f6a5d8.jpg)
+
+![47ed5bc010f9ef16fbe76ca62f14542e3b09bf538b77b205bb5b70404fc41dee.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/47ed5bc010f9ef16fbe76ca62f14542e3b09bf538b77b205bb5b70404fc41dee.jpg)
+
+![6135e392b0143f321439f7fcc00335ac9fe93175b167b11d0af33077d2bebd0c.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/6135e392b0143f321439f7fcc00335ac9fe93175b167b11d0af33077d2bebd0c.jpg)
+
+![63c4ad9c639ffb3db3c54f75673ed5cb2d20731970a705410708e1f028d714e7.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/63c4ad9c639ffb3db3c54f75673ed5cb2d20731970a705410708e1f028d714e7.jpg)
+
+![73e16f65052376a46b643d665537194b6143df438d7e171bf41cbac6666a5c9d.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/73e16f65052376a46b643d665537194b6143df438d7e171bf41cbac6666a5c9d.jpg)
+
+![7bc7648682b2cca45096314aa92344d788bad4c701abdc7d79e0f4004dde3b4f.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/7bc7648682b2cca45096314aa92344d788bad4c701abdc7d79e0f4004dde3b4f.jpg)
+
+![86f5fe4fbe54ede31559a8961ef14715ad298f1bf36ac4171c4e8b3cf97f1e64.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/86f5fe4fbe54ede31559a8961ef14715ad298f1bf36ac4171c4e8b3cf97f1e64.jpg)
+
+![89118330c6470f4a9c7d3e5cc146cd5eaefaf3f1df3c676b682d8a2441dd4b38.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/89118330c6470f4a9c7d3e5cc146cd5eaefaf3f1df3c676b682d8a2441dd4b38.jpg)
+
+![9a4b943e7d9f317ce502e550afe1b9b96142f7d179100bb6aa64f8138626bbf8.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/9a4b943e7d9f317ce502e550afe1b9b96142f7d179100bb6aa64f8138626bbf8.jpg)
+
+![9c4eeeee9e3cf911f2e5921b632aab0e32281e96e3ac6d7e7821ec1e99452f9e.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/9c4eeeee9e3cf911f2e5921b632aab0e32281e96e3ac6d7e7821ec1e99452f9e.jpg)
+
+![a047277b484a3f91ac637af0d39e95ec09fd50f803b286617d4a0e45c9d8c44d.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/a047277b484a3f91ac637af0d39e95ec09fd50f803b286617d4a0e45c9d8c44d.jpg)
+
+![a19d7006654aaa5b792bb74f8b967c452b520456cc88d4f64db6602821fc6ba7.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/a19d7006654aaa5b792bb74f8b967c452b520456cc88d4f64db6602821fc6ba7.jpg)
+
+![ce15b385b97b49ccae37d7c3294ad41e2a83730239267dfdc5a0dda36490f365.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/ce15b385b97b49ccae37d7c3294ad41e2a83730239267dfdc5a0dda36490f365.jpg)
+
+![e94b0175d0d96fe7dffddac6197a3481c8a603e46842ba742a7e42beb6d26775.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/images/e94b0175d0d96fe7dffddac6197a3481c8a603e46842ba742a7e42beb6d26775.jpg)
+
+### Tables
+
+![0f015eefa8fb33d8f8fa4d63f905800c217f282c9e7dce924a96485d492f284e.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/0f015eefa8fb33d8f8fa4d63f905800c217f282c9e7dce924a96485d492f284e.jpg)
+
+![228bc9ca7dc97c86bcd6e14db67b6dac5642c6190b429494a3696dfae6526b72.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/228bc9ca7dc97c86bcd6e14db67b6dac5642c6190b429494a3696dfae6526b72.jpg)
+
+![2ff89c2f3ffa29e06715e8af594f14014831d4636d97ec9e34d80933c53b6814.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/2ff89c2f3ffa29e06715e8af594f14014831d4636d97ec9e34d80933c53b6814.jpg)
+
+![367578295180983eb69bb4913800e6ce40a894fb95004bf09d78b2b5735896bf.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/367578295180983eb69bb4913800e6ce40a894fb95004bf09d78b2b5735896bf.jpg)
+
+![80fd305fc3d33870960b456813654a3376316b29845673be0580b2b9e8e44fb4.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/80fd305fc3d33870960b456813654a3376316b29845673be0580b2b9e8e44fb4.jpg)
+
+![afc9d0df60dd9d268a20e2942a8468f38acb424cf347d192a739f9d69829dcf7.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/afc9d0df60dd9d268a20e2942a8468f38acb424cf347d192a739f9d69829dcf7.jpg)
+
+![bf24adc524beca460549bd8b19d8dd414c173fe2163a49d27f6b2472d1cdee09.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/bf24adc524beca460549bd8b19d8dd414c173fe2163a49d27f6b2472d1cdee09.jpg)
+
+![de02599791337067e54616e252cc511fc0ac950e654b75d9d494f3283ae053f3.jpg](../iclr_results/2158_FaithEval_ Can Your Language Model Stay Faithful to Context, Even If _The Moon is Made of Marshmallo/tables/de02599791337067e54616e252cc511fc0ac950e654b75d9d494f3283ae053f3.jpg)
+
+## A Transfer Attack to Image Watermarks
+
+
+### Images
+
+![0fac82a11e3f51a51e8e95ec45e72002d9a9446b3754166b28bf9a271bc6f1cc.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/0fac82a11e3f51a51e8e95ec45e72002d9a9446b3754166b28bf9a271bc6f1cc.jpg)
+
+![1509c90159c333f88c1876596d0a2728795a7797c0186b1e1eb248be393f0180.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/1509c90159c333f88c1876596d0a2728795a7797c0186b1e1eb248be393f0180.jpg)
+
+![1794837319a8b6c3ac7d544cce34432fef17db60614434addf05ff265229dbb7.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/1794837319a8b6c3ac7d544cce34432fef17db60614434addf05ff265229dbb7.jpg)
+
+![21459a9755ddf01691100834815c43992116f11eba8cdbe6c4cf4f975261e3d0.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/21459a9755ddf01691100834815c43992116f11eba8cdbe6c4cf4f975261e3d0.jpg)
+
+![40dafa0491cd503fdd00e691b921d61b869c6aacaa697a9f8b3c5f16a68dccf3.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/40dafa0491cd503fdd00e691b921d61b869c6aacaa697a9f8b3c5f16a68dccf3.jpg)
+
+![521cb42c68e62d8abb005e319fc00a8f67181cdf79fe079875eedcde9351fe76.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/521cb42c68e62d8abb005e319fc00a8f67181cdf79fe079875eedcde9351fe76.jpg)
+
+![8260648428a7a2742b6f9aecbceda3153890a53ed84da961bdcc1d0208815292.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/8260648428a7a2742b6f9aecbceda3153890a53ed84da961bdcc1d0208815292.jpg)
+
+![9c2ca17ac79c955f87ad61886f897bb2d41dab52bdbfe9dfc400744a5e111636.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/9c2ca17ac79c955f87ad61886f897bb2d41dab52bdbfe9dfc400744a5e111636.jpg)
+
+![9f25eaafbec1f029adb795bd2f98de024f96078c92e7037188a66cd4a7eead82.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/9f25eaafbec1f029adb795bd2f98de024f96078c92e7037188a66cd4a7eead82.jpg)
+
+![a4113c9fe13cd11b3d49050d66d5775f596514f09ac83c5ea0ee16ccb8814c77.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/a4113c9fe13cd11b3d49050d66d5775f596514f09ac83c5ea0ee16ccb8814c77.jpg)
+
+![dce5d7b64cd745e16a2bf8219e9fa538ce01eebbee98f243e2580e3817ff4b24.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/dce5d7b64cd745e16a2bf8219e9fa538ce01eebbee98f243e2580e3817ff4b24.jpg)
+
+![ec086269d3f4a4bb06ff15cd7f254d15922d062acbce3c396ee0f440f2407cdf.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/ec086269d3f4a4bb06ff15cd7f254d15922d062acbce3c396ee0f440f2407cdf.jpg)
+
+![f4079c28b23bf49a372227fc41020ef7acb1f5f3150ca56f185feedaa219dc20.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/f4079c28b23bf49a372227fc41020ef7acb1f5f3150ca56f185feedaa219dc20.jpg)
+
+![fd3ca37ed19494b3467fa494aad92f4c1b1bd21ebf9d48ab724b6dc78f7ddc3b.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/fd3ca37ed19494b3467fa494aad92f4c1b1bd21ebf9d48ab724b6dc78f7ddc3b.jpg)
+
+![ff916883bc7d49904e7373db9d35bc8726ad8b6262c919411a400a680082dfab.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/images/ff916883bc7d49904e7373db9d35bc8726ad8b6262c919411a400a680082dfab.jpg)
+
+### Tables
+
+![5738729763d63fc380e5c9483b70fba200572a2e29e0e2d984dc7ac32b01d7a2.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/tables/5738729763d63fc380e5c9483b70fba200572a2e29e0e2d984dc7ac32b01d7a2.jpg)
+
+![f99f2b6a4eb57983ae796974323a53d833c28ce49e0f77e4006c07c47dba3d34.jpg](../iclr_results/2159_A Transfer Attack to Image Watermarks/tables/f99f2b6a4eb57983ae796974323a53d833c28ce49e0f77e4006c07c47dba3d34.jpg)
+
+## Trajectory-LLM: A Language-based Data Generator for Trajectory Prediction in Autonomous Driving
+
+
+### Images
+
+![15ba102febbbb4271561d7327cdb16ad8e2aa6ec4a9b97ee23535f06bb54a8ab.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/15ba102febbbb4271561d7327cdb16ad8e2aa6ec4a9b97ee23535f06bb54a8ab.jpg)
+
+![2879ad1007e3da1e982ba0d773ca63eaf88a2b494349c74ea9f10f51614b64d6.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/2879ad1007e3da1e982ba0d773ca63eaf88a2b494349c74ea9f10f51614b64d6.jpg)
+
+![35f05adf7a1245ece22c317d0d33029f9f6766f82f4d69c26fed568b2ff4fac4.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/35f05adf7a1245ece22c317d0d33029f9f6766f82f4d69c26fed568b2ff4fac4.jpg)
+
+![6c23efd1b881decb07395e93761cca2b732c7d13352331584f1dc30c9725a48d.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/6c23efd1b881decb07395e93761cca2b732c7d13352331584f1dc30c9725a48d.jpg)
+
+![cb1966d80c29b8729ad2354cbc426ade684fdf1fc98e8000c3b68f2fd5458949.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/cb1966d80c29b8729ad2354cbc426ade684fdf1fc98e8000c3b68f2fd5458949.jpg)
+
+![f787471f31dbb8a48ef45e4e820befe96423c804c452216b4bff176edc3d655f.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/images/f787471f31dbb8a48ef45e4e820befe96423c804c452216b4bff176edc3d655f.jpg)
+
+### Tables
+
+![3fdf5dcf47017038517a2af7add380f9c98fe9f493551c90076efd1344faae79.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/tables/3fdf5dcf47017038517a2af7add380f9c98fe9f493551c90076efd1344faae79.jpg)
+
+![5fbcc9c5fd7b5900e8bf9e83f0cf11b96a054c7744e47239041fe7aafbaf7204.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/tables/5fbcc9c5fd7b5900e8bf9e83f0cf11b96a054c7744e47239041fe7aafbaf7204.jpg)
+
+![e215d24add838f23e6a36ebb572c928f156d160e38e2cacf6def1bc43da593da.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/tables/e215d24add838f23e6a36ebb572c928f156d160e38e2cacf6def1bc43da593da.jpg)
+
+![e89fa39a71120c6623a8c154567b775a9ccdd5bf76ffc84a7fa4735c8a5629a5.jpg](../iclr_results/2160_Trajectory-LLM_ A Language-based Data Generator for Trajectory Prediction in Autonomous Driving/tables/e89fa39a71120c6623a8c154567b775a9ccdd5bf76ffc84a7fa4735c8a5629a5.jpg)
+
+## Learning Hierarchical Polynomials of Multiple Nonlinear Features
+
+
+### Images
+
+![0b63d8350e2dc452426d83b803bff9aee198951addb133c9408ecaddebc840f0.jpg](../iclr_results/2161_Learning Hierarchical Polynomials of Multiple Nonlinear Features/images/0b63d8350e2dc452426d83b803bff9aee198951addb133c9408ecaddebc840f0.jpg)
+
+![7d62066eb3d66b2939619db1816b577656671ffa65cf174de3a92ce5ecfa828f.jpg](../iclr_results/2161_Learning Hierarchical Polynomials of Multiple Nonlinear Features/images/7d62066eb3d66b2939619db1816b577656671ffa65cf174de3a92ce5ecfa828f.jpg)
+
+![beeb8ad68d1da24ecdbb4085de6b5dae66e6337581a12dc44706e6186e94148f.jpg](../iclr_results/2161_Learning Hierarchical Polynomials of Multiple Nonlinear Features/images/beeb8ad68d1da24ecdbb4085de6b5dae66e6337581a12dc44706e6186e94148f.jpg)
+
+![c0bbf250eef5163d6a5c68b53f56bd72c3bad066304a1e8114da8b496ed11ad3.jpg](../iclr_results/2161_Learning Hierarchical Polynomials of Multiple Nonlinear Features/images/c0bbf250eef5163d6a5c68b53f56bd72c3bad066304a1e8114da8b496ed11ad3.jpg)
+
+## Generalizable Motion Planning via Operator Learning
+
+
+### Images
+
+![0329c78c92f5d0939fe56832bccac2900dac5c232d1f9fb594dee66605f5a2a8.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/0329c78c92f5d0939fe56832bccac2900dac5c232d1f9fb594dee66605f5a2a8.jpg)
+
+![058a87e8aa3a07ef5395efceee1ff18460e72463cf959947d74db039a66aa78a.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/058a87e8aa3a07ef5395efceee1ff18460e72463cf959947d74db039a66aa78a.jpg)
+
+![08988b3bc85753915935fb2d1a3acecc1e1036a2e0ecdbccbdb434e1df3be22c.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/08988b3bc85753915935fb2d1a3acecc1e1036a2e0ecdbccbdb434e1df3be22c.jpg)
+
+![0cd1f8818fc1e6a39692a00bad85d6d3205e0eeb41929eb1f3c3bdffef3c27dc.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/0cd1f8818fc1e6a39692a00bad85d6d3205e0eeb41929eb1f3c3bdffef3c27dc.jpg)
+
+![21a04cd636fe6d213cbdaabe7dd91c1d255d3f323333efe401646c6aa1fe28e0.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/21a04cd636fe6d213cbdaabe7dd91c1d255d3f323333efe401646c6aa1fe28e0.jpg)
+
+![35ba0243f49903efafc0e8a190fd0b26304b0804c071239280c20f121b3eb2c9.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/35ba0243f49903efafc0e8a190fd0b26304b0804c071239280c20f121b3eb2c9.jpg)
+
+![88f0c0663b9ce52ad4dcb3a055ffac6bcd12fd211e554f17b9d51187efb059f1.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/88f0c0663b9ce52ad4dcb3a055ffac6bcd12fd211e554f17b9d51187efb059f1.jpg)
+
+![9dd8ff6c41679a5ca42f1421419b9313ae7ca4b3e8765af71c0979f82d5b3f77.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/9dd8ff6c41679a5ca42f1421419b9313ae7ca4b3e8765af71c0979f82d5b3f77.jpg)
+
+![c750af3a7a9f255b3701ae3c0a4763c5cc2f082ed236b1068405f0462e12cee4.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/c750af3a7a9f255b3701ae3c0a4763c5cc2f082ed236b1068405f0462e12cee4.jpg)
+
+![dbf04bf1a561fe3a5332604894b18a473a969273bc154f56d6f84acf08ad6b1a.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/dbf04bf1a561fe3a5332604894b18a473a969273bc154f56d6f84acf08ad6b1a.jpg)
+
+![e6eae1de0823803994de2cad560f78a09a1917d7c8ca79ce1395f23840a11f3a.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/images/e6eae1de0823803994de2cad560f78a09a1917d7c8ca79ce1395f23840a11f3a.jpg)
+
+### Tables
+
+![0b4bacff8450f3139a820c63e3f44e96489a15b437ceeb9f2e5e6d9a613866a0.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/0b4bacff8450f3139a820c63e3f44e96489a15b437ceeb9f2e5e6d9a613866a0.jpg)
+
+![4b31e10854d5588bf7cb74da67e03c10a4e637c082c1f7df6609812103632f08.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/4b31e10854d5588bf7cb74da67e03c10a4e637c082c1f7df6609812103632f08.jpg)
+
+![554036cc46c60f6006cf00d0d3062878fc98b69549f0c1c5f8b71e8ef64d55af.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/554036cc46c60f6006cf00d0d3062878fc98b69549f0c1c5f8b71e8ef64d55af.jpg)
+
+![75e65e762916399276c67d87328c271efb362587e19f666c7f2c666dca622d1a.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/75e65e762916399276c67d87328c271efb362587e19f666c7f2c666dca622d1a.jpg)
+
+![b3f578f343b2f8a6927f2b702bf87894d9f638163485ebb57c08577526d9c04a.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/b3f578f343b2f8a6927f2b702bf87894d9f638163485ebb57c08577526d9c04a.jpg)
+
+![c3a5f1019988be8943de8021e1f0d152ed1aaae8041dd5d58b89eb93d94a553c.jpg](../iclr_results/2162_Generalizable Motion Planning via Operator Learning/tables/c3a5f1019988be8943de8021e1f0d152ed1aaae8041dd5d58b89eb93d94a553c.jpg)
+
+## Efficient Causal Decision Making with One-sided Feedback
+
 
 ### Images
 
@@ -1323,7 +1530,6 @@
 
 ## A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial Contexts
 
-
 ### Images
 
 ![3eed5ab150d95716223df81173f252f0ca8a01b8e100ccd3bfa7c80fc938682c.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/images/3eed5ab150d95716223df81173f252f0ca8a01b8e100ccd3bfa7c80fc938682c.jpg)
@@ -1345,197 +1551,3 @@
 ![577190ed655f9dc404709cef4358d5a19b34164c83d9ccacba888ff5960e7764.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/577190ed655f9dc404709cef4358d5a19b34164c83d9ccacba888ff5960e7764.jpg)
 
 ![9bbc4466e4c9c4e6900f4ea5a3978388ce70fd45001f156357341677f7bb9444.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/9bbc4466e4c9c4e6900f4ea5a3978388ce70fd45001f156357341677f7bb9444.jpg)
-
-## Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimization
-
-
-### Images
-
-![0bd99c36fbcf18e0a9b1ecd8f17e7ebf5e9d2ecb72a2fcbe2cfa4723515be857.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/0bd99c36fbcf18e0a9b1ecd8f17e7ebf5e9d2ecb72a2fcbe2cfa4723515be857.jpg)
-
-![39364fa3ea8cf9af2b792dcd5c4e5dd52ca45a371927b44f690fbb3468fcdd4a.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/39364fa3ea8cf9af2b792dcd5c4e5dd52ca45a371927b44f690fbb3468fcdd4a.jpg)
-
-![39d3876044a286155f6eff1930eb41825c63b59adb15c28a41c7a80705a0d550.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/39d3876044a286155f6eff1930eb41825c63b59adb15c28a41c7a80705a0d550.jpg)
-
-![4c28192fc135d4281ee4b4fc396930fc02f320374f9492cc6ae51c97790e950d.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/4c28192fc135d4281ee4b4fc396930fc02f320374f9492cc6ae51c97790e950d.jpg)
-
-![4de13b0c46ab2d713e08d2b43a8103fe4e5dac6ce352a8db4d81c35f98916910.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/4de13b0c46ab2d713e08d2b43a8103fe4e5dac6ce352a8db4d81c35f98916910.jpg)
-
-![86090e1d2cb0ca46784378c70631dcaafab455f236796f67d463303787cb3819.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/86090e1d2cb0ca46784378c70631dcaafab455f236796f67d463303787cb3819.jpg)
-
-![a9127ab3036ccf4c296021b0ee44c3f097e78ceb0fe31b2f5227a0611bec59d8.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/a9127ab3036ccf4c296021b0ee44c3f097e78ceb0fe31b2f5227a0611bec59d8.jpg)
-
-![c3a9dc5ff171f389ad21e73e618cc097c7743ad4a5d6cfb165ecb77292b13023.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/c3a9dc5ff171f389ad21e73e618cc097c7743ad4a5d6cfb165ecb77292b13023.jpg)
-
-![c5bbd1c6fb5ee22f4265215f2f6ddb5bc73057b07516b44ad8a2e3c0ed35bc1a.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/c5bbd1c6fb5ee22f4265215f2f6ddb5bc73057b07516b44ad8a2e3c0ed35bc1a.jpg)
-
-![f79cf9e0b41f56c5dbfd3d8c4c88fdb7e9568a5613eb40a49462f37cd4927150.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/f79cf9e0b41f56c5dbfd3d8c4c88fdb7e9568a5613eb40a49462f37cd4927150.jpg)
-
-### Tables
-
-![2d67f6fdeb34d91815c73ed68012a87eac869a8e2cac89a341a735e926aefd36.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/2d67f6fdeb34d91815c73ed68012a87eac869a8e2cac89a341a735e926aefd36.jpg)
-
-![2fea06dd815ac371554a96bceb9be370be80218b76a70815a00f82da8707c057.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/2fea06dd815ac371554a96bceb9be370be80218b76a70815a00f82da8707c057.jpg)
-
-![587d68c6f1a7913cf6f4148e2c0cc6b7fef307db878d365940bce00dee985d91.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/587d68c6f1a7913cf6f4148e2c0cc6b7fef307db878d365940bce00dee985d91.jpg)
-
-![954bbde9517de79a9d824c88e5fd6712b092811344996a2f9eeb25dd251a2cd3.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/954bbde9517de79a9d824c88e5fd6712b092811344996a2f9eeb25dd251a2cd3.jpg)
-
-![956ca251bb1c4f15d7744d76eba6225a9f0b7dfa1b0a4abdaa3b1e5eddb8d1cc.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/956ca251bb1c4f15d7744d76eba6225a9f0b7dfa1b0a4abdaa3b1e5eddb8d1cc.jpg)
-
-![e49fdb6c38f3466fde1835fb1d6d0f1533196a423efc005e8b00a0919c33bb93.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/e49fdb6c38f3466fde1835fb1d6d0f1533196a423efc005e8b00a0919c33bb93.jpg)
-
-## Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement
-
-
-### Images
-
-![0ed3ed6aa3c16a3c627c2d03975905ca2c2c39a28994d32c3290c8766586c58c.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/0ed3ed6aa3c16a3c627c2d03975905ca2c2c39a28994d32c3290c8766586c58c.jpg)
-
-![1f56d144d9705e3bea4ba72180d5da4b8a89209dcc54d2a6c0343d27712cb98d.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/1f56d144d9705e3bea4ba72180d5da4b8a89209dcc54d2a6c0343d27712cb98d.jpg)
-
-![217a7796f0edb08eb1e7612ea6639ac5c613e95a86defe37d19bdc63bb8ff048.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/217a7796f0edb08eb1e7612ea6639ac5c613e95a86defe37d19bdc63bb8ff048.jpg)
-
-![3b5fd3e87310602c720ee307963c5d65cf55f713505933e844aa5c7768d47fc8.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/3b5fd3e87310602c720ee307963c5d65cf55f713505933e844aa5c7768d47fc8.jpg)
-
-![5909f5475b086c9dd5e01a1dabd500e28af47996fefc4563d1dad311875c0fb5.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/5909f5475b086c9dd5e01a1dabd500e28af47996fefc4563d1dad311875c0fb5.jpg)
-
-![746ca0b6288b87e039a54d4ef2c7f32c3c069404bab0f95c42628c23653b0881.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/746ca0b6288b87e039a54d4ef2c7f32c3c069404bab0f95c42628c23653b0881.jpg)
-
-![efc2b181ec8f65221c049c4a5d6089bf73eb8c6da91b827453f09fbf94367e44.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/efc2b181ec8f65221c049c4a5d6089bf73eb8c6da91b827453f09fbf94367e44.jpg)
-
-![f6673944e220adbd2d790bdd5ee6989afc0db5ed2b61ae6df0ae741127ead66b.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/f6673944e220adbd2d790bdd5ee6989afc0db5ed2b61ae6df0ae741127ead66b.jpg)
-
-## Zero-shot forecasting of chaotic systems
-
-
-### Images
-
-![377e2b664fc6cbdd1ae43eeaca47e2f0e3e05913ea131b7db37ad77cd8f975cd.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/377e2b664fc6cbdd1ae43eeaca47e2f0e3e05913ea131b7db37ad77cd8f975cd.jpg)
-
-![4d6dccc844f2ab956878dc053a304faff14c3e8eba20578c84a03e77c66cb8e2.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/4d6dccc844f2ab956878dc053a304faff14c3e8eba20578c84a03e77c66cb8e2.jpg)
-
-![6154c20239de6dd0088797b28e283f91314586de3a53aedad638003cc4512598.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/6154c20239de6dd0088797b28e283f91314586de3a53aedad638003cc4512598.jpg)
-
-![6c4fb30d458adcdc22c5c29b45c727fbfccdcbcfb9cf48a3563a968094bd2e07.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/6c4fb30d458adcdc22c5c29b45c727fbfccdcbcfb9cf48a3563a968094bd2e07.jpg)
-
-![797c043baa572fda6aa5609473f7abfaa3f377484f70e34bde7c1b9570544d4f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/797c043baa572fda6aa5609473f7abfaa3f377484f70e34bde7c1b9570544d4f.jpg)
-
-![7f0895958f738dbdf345d0b7e61f80804d5a95999ef1ac12de93f9b25a7f3509.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/7f0895958f738dbdf345d0b7e61f80804d5a95999ef1ac12de93f9b25a7f3509.jpg)
-
-![8fb88af1c390f625df66a862355bfcdf28037c482c987f5e6d30e999f81919f3.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/8fb88af1c390f625df66a862355bfcdf28037c482c987f5e6d30e999f81919f3.jpg)
-
-![93064750d1a437821ce7ce5fc1851845d76ab614559a60eedf071d0c57873b3f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/93064750d1a437821ce7ce5fc1851845d76ab614559a60eedf071d0c57873b3f.jpg)
-
-![ade08bc8c9dce74fa968d5d5bd61f5e79cff0d4f7b6482a88292ca7852062642.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/ade08bc8c9dce74fa968d5d5bd61f5e79cff0d4f7b6482a88292ca7852062642.jpg)
-
-![b413b4397b691d8c9498952f8b4163273aac71a5c53210a5dedbeac808b24269.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/b413b4397b691d8c9498952f8b4163273aac71a5c53210a5dedbeac808b24269.jpg)
-
-![d3d913cd0f86e7b0d2bfa2a63b88006e0bcb617738ff50d410e54958d89adabb.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/d3d913cd0f86e7b0d2bfa2a63b88006e0bcb617738ff50d410e54958d89adabb.jpg)
-
-![d96c404143e4c8471ac9af41abe4237c4087cc4866963f47c85373edd2fc81df.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/d96c404143e4c8471ac9af41abe4237c4087cc4866963f47c85373edd2fc81df.jpg)
-
-![e10c891a42013d1220e295bbc9e77c667c8790fef72aa69591916b8a15d2531d.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/e10c891a42013d1220e295bbc9e77c667c8790fef72aa69591916b8a15d2531d.jpg)
-
-![f56862661a1308fcdc3ec6592223a3f872dedfd28dbb29107465243aa88fe8c3.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/f56862661a1308fcdc3ec6592223a3f872dedfd28dbb29107465243aa88fe8c3.jpg)
-
-![fc2fb0f5e7f13a4bd4d74c08a1ceb90e26390b0c12770d1e40ac4ff79e47180f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/fc2fb0f5e7f13a4bd4d74c08a1ceb90e26390b0c12770d1e40ac4ff79e47180f.jpg)
-
-![ff5fa5d52fe347eccc82128e611489d396ee176c5a8b2e389a72fb3156bce63f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/ff5fa5d52fe347eccc82128e611489d396ee176c5a8b2e389a72fb3156bce63f.jpg)
-
-## Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer
-
-
-### Images
-
-![2d526f705364f857af58694715ff07ee20498abb20c1ed04982afd71068a53d6.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/2d526f705364f857af58694715ff07ee20498abb20c1ed04982afd71068a53d6.jpg)
-
-![80db39684d5bc0371e97184f1ac08996808aa0569a1b0c177260dca15e9f0bd0.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/80db39684d5bc0371e97184f1ac08996808aa0569a1b0c177260dca15e9f0bd0.jpg)
-
-![83167b94e2620d74edc83e5c0d83b664ecf3d1466ee2e1b4c5f637c3525da054.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/83167b94e2620d74edc83e5c0d83b664ecf3d1466ee2e1b4c5f637c3525da054.jpg)
-
-![b4bc52867978c9b2500ecba5882cf250850865d3088b56c26482d5cb98d459dc.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b4bc52867978c9b2500ecba5882cf250850865d3088b56c26482d5cb98d459dc.jpg)
-
-![b5117a18c3c175a31d037c83637060932b8b6d5c8220fc92d804ffa4681e789a.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b5117a18c3c175a31d037c83637060932b8b6d5c8220fc92d804ffa4681e789a.jpg)
-
-![b520777e800de0620627f701f1f62398da6c2305be90f88219106e942f00e5b6.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b520777e800de0620627f701f1f62398da6c2305be90f88219106e942f00e5b6.jpg)
-
-![bdfd0373434a8fad3a0f644826c564803407754d8663c99bd8cc9b4588df91ad.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/bdfd0373434a8fad3a0f644826c564803407754d8663c99bd8cc9b4588df91ad.jpg)
-
-### Tables
-
-![060f3e533232abdefe1657ce851f366ecd44566af6fb9452f4bd3c9d008952c0.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/060f3e533232abdefe1657ce851f366ecd44566af6fb9452f4bd3c9d008952c0.jpg)
-
-![43917c25842666206cc10061cc01a21d1a739b88dbfc7eb102c2d00600c3ab9d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/43917c25842666206cc10061cc01a21d1a739b88dbfc7eb102c2d00600c3ab9d.jpg)
-
-![69ca81a0b4e4fcce067c9b9d18be5fdbe471cf421b2220549198e3daedace4c3.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/69ca81a0b4e4fcce067c9b9d18be5fdbe471cf421b2220549198e3daedace4c3.jpg)
-
-![6ce92fda3d38ca2c44a7494f60be3751482576616facabbd850f23324e2ec17c.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/6ce92fda3d38ca2c44a7494f60be3751482576616facabbd850f23324e2ec17c.jpg)
-
-![74af382ba981a6afca7c051f7072d8ca690c32312e2fabf666e73f704bf190fe.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/74af382ba981a6afca7c051f7072d8ca690c32312e2fabf666e73f704bf190fe.jpg)
-
-![9fb58133bb06d3916ad2af6dce44dc3d3f101bdca28317f281d8b98d4439f067.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/9fb58133bb06d3916ad2af6dce44dc3d3f101bdca28317f281d8b98d4439f067.jpg)
-
-![a862e5dce085c0f0a35fc06b8ada037fe259d7aadabd8897c582a3b20a6b582d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/a862e5dce085c0f0a35fc06b8ada037fe259d7aadabd8897c582a3b20a6b582d.jpg)
-
-![d1ce7c1c1ab7931d424cc11a9997c69873c0fb437c3a92e529ee683e20d1be8d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/d1ce7c1c1ab7931d424cc11a9997c69873c0fb437c3a92e529ee683e20d1be8d.jpg)
-
-![e2000c6eff6b60d7b56d73ebee47c762819008c45d8588c743097718135ff768.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/e2000c6eff6b60d7b56d73ebee47c762819008c45d8588c743097718135ff768.jpg)
-
-![edced89f8b4c0d93d4fa9e1e461b2e18ecad3b224d50dae954e12399cd8aeda5.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/edced89f8b4c0d93d4fa9e1e461b2e18ecad3b224d50dae954e12399cd8aeda5.jpg)
-
-![ee6f5e0f55bcafce41283d001ae71daa06eb0451e3fd9da1cfbf380021c120fe.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/ee6f5e0f55bcafce41283d001ae71daa06eb0451e3fd9da1cfbf380021c120fe.jpg)
-
-## Real-time design of architectural structures with differentiable mechanics and neural networks
-
-### Images
-
-![07e904e52edfb4c63722bbd8bbd7e363bee5535a03a646ac2a9e2a1b12ced86c.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/07e904e52edfb4c63722bbd8bbd7e363bee5535a03a646ac2a9e2a1b12ced86c.jpg)
-
-![0a3ce85ac267c0ad73f4885014ea8baa3c9ae51d039880479d8469f07f395ad2.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/0a3ce85ac267c0ad73f4885014ea8baa3c9ae51d039880479d8469f07f395ad2.jpg)
-
-![0ba5ed2316c67ac342d53f19de0dc6c571f17b737feae40b9daf0cb65e103434.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/0ba5ed2316c67ac342d53f19de0dc6c571f17b737feae40b9daf0cb65e103434.jpg)
-
-![0eba5d9980554ad10db91cf1d2218c8738fd8d0335fe687458072e774f4915c1.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/0eba5d9980554ad10db91cf1d2218c8738fd8d0335fe687458072e774f4915c1.jpg)
-
-![1d68735de09e3877ac24cbb93b3afec2e59aaddd5782c369ec2b32c296080725.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/1d68735de09e3877ac24cbb93b3afec2e59aaddd5782c369ec2b32c296080725.jpg)
-
-![1df66eb29cfe083a5c4e068ebb2eb23c00d3cc799ee52f01d229ae10814bf9d1.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/1df66eb29cfe083a5c4e068ebb2eb23c00d3cc799ee52f01d229ae10814bf9d1.jpg)
-
-![27e004974a377cf5e3721ff973fb04471a40e1ae2cc4617cd92868e8688bd370.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/27e004974a377cf5e3721ff973fb04471a40e1ae2cc4617cd92868e8688bd370.jpg)
-
-![32ffe5b0f08f946ce736bf95969b28303042dbc93b2baad9a29d4f9ecf0d903c.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/32ffe5b0f08f946ce736bf95969b28303042dbc93b2baad9a29d4f9ecf0d903c.jpg)
-
-![34df9975b668a5f97b45830726c7d91311693621d5af738e47d937af970075af.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/34df9975b668a5f97b45830726c7d91311693621d5af738e47d937af970075af.jpg)
-
-![3777bf6c0681d4d81159fbe7d8d0533157b1e50f9deced02c1a86c2aafb25d5a.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/3777bf6c0681d4d81159fbe7d8d0533157b1e50f9deced02c1a86c2aafb25d5a.jpg)
-
-![66855e12410fd7dd3d3cec6a71565650026bd2b1d3028bd056440e75bb47cb2c.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/66855e12410fd7dd3d3cec6a71565650026bd2b1d3028bd056440e75bb47cb2c.jpg)
-
-![6dc66ee7ecf16155cf3ea6f769779be151988ffdd4d847ade5c9d6eb2b82edf2.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/6dc66ee7ecf16155cf3ea6f769779be151988ffdd4d847ade5c9d6eb2b82edf2.jpg)
-
-![7c9356f1ee1831a69c1cd3860474bfeefbabfab08da71305defc3fee0881bb68.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/7c9356f1ee1831a69c1cd3860474bfeefbabfab08da71305defc3fee0881bb68.jpg)
-
-![7fc703b820d216df4f75b51dfcab730bbea1e7728d589bff3880c2b755f16a2a.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/7fc703b820d216df4f75b51dfcab730bbea1e7728d589bff3880c2b755f16a2a.jpg)
-
-![96645e7b93dc92d20b1b5b104d2d83f87ff032079afaf3eb78643acee7629743.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/96645e7b93dc92d20b1b5b104d2d83f87ff032079afaf3eb78643acee7629743.jpg)
-
-![9dbd452bc79d8375b6dd56c680b3aa2013064b6984a8e36a2587aa4c886aeb72.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/9dbd452bc79d8375b6dd56c680b3aa2013064b6984a8e36a2587aa4c886aeb72.jpg)
-
-![b41aae926de6ca56df137425738c24349f2e44730314588612d8d8614ecab427.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/images/b41aae926de6ca56df137425738c24349f2e44730314588612d8d8614ecab427.jpg)
-
-### Tables
-
-![29e8440c41a8756a61c8acec029657681a13b97753a2b74088f2a0864f83a358.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/29e8440c41a8756a61c8acec029657681a13b97753a2b74088f2a0864f83a358.jpg)
-
-![7e9a7f04c00e5e4fa90666c21f9f516c260fa6403a4d7011204c4ecb505372ce.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/7e9a7f04c00e5e4fa90666c21f9f516c260fa6403a4d7011204c4ecb505372ce.jpg)
-
-![da5bdeab9a236f7c1e2bc1952e5f1164a617a8a43e8e4bdb776d62fef6b74e86.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/da5bdeab9a236f7c1e2bc1952e5f1164a617a8a43e8e4bdb776d62fef6b74e86.jpg)
-
-![decdb93c23cbb3f7ab32f4b0162ee721296caa5244969158aff269019f9d7aeb.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/decdb93c23cbb3f7ab32f4b0162ee721296caa5244969158aff269019f9d7aeb.jpg)
-
-![ee6d020faddd0aa1a363d3ca785de4d7632d67ba675ba4b3d639e056ce7167de.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/ee6d020faddd0aa1a363d3ca785de4d7632d67ba675ba4b3d639e056ce7167de.jpg)
-
-![f13fd9646031997ca8a08124eeaf7b8ff04259caf5a64337e969265f527beb9b.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/f13fd9646031997ca8a08124eeaf7b8ff04259caf5a64337e969265f527beb9b.jpg)
-
-![f5143c28ba8797512df5c54b6cf9f5fc55252987c7a031a4ddea07634b3fb4a1.jpg](../iclr_results/2199_Real-time design of architectural structures with differentiable mechanics and neural networks/tables/f5143c28ba8797512df5c54b6cf9f5fc55252987c7a031a4ddea07634b3fb4a1.jpg)

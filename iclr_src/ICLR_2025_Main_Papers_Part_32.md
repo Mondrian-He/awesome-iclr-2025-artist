@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,401 @@
 
 ## 目录 (Table of Contents)
 
-1. [A Generalist Hanabi Agent](#A-Generalist-Hanabi-Agent)
-2. [Rethinking Fair Representation Learning for Performance-Sensitive Tasks](#Rethinking-Fair-Representation-Learning-for-Performance-Sensitive-Tasks)
-3. [Generative Flows on Synthetic Pathway for Drug Design](#Generative-Flows-on-Synthetic-Pathway-for-Drug-Design)
-4. [Revisit Micro-batch Clipping: Adaptive Data Pruning via Gradient Manipulation](#Revisit-Micro-batch-Clipping-Adaptive-Data-Pruning-via-Gradient-Manipulation)
-5. [FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models](#FakeShield-Explainable-Image-Forgery-Detection-and-Localization-via-Multi-modal-Large-Language-Models)
-6. [XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning](#XLand-100B-A-Large-Scale-Multi-Task-Dataset-for-In-Context-Reinforcement-Learning)
-7. [Varying Shades of Wrong: Aligning LLMs with Wrong Answers Only](#Varying-Shades-of-Wrong-Aligning-LLMs-with-Wrong-Answers-Only)
-8. [Task-Adaptive Pretrained Language Models via Clustered-Importance Sampling](#Task-Adaptive-Pretrained-Language-Models-via-Clustered-Importance-Sampling)
-9. [NExT-Mol: 3D Diffusion Meets 1D Language Modeling for 3D Molecule Generation](#NExT-Mol-3D-Diffusion-Meets-1D-Language-Modeling-for-3D-Molecule-Generation)
-10. [Content-Style Learning from Unaligned Domains: Identifiability under Unknown Latent Dimensions](#Content-Style-Learning-from-Unaligned-Domains-Identifiability-under-Unknown-Latent-Dimensions)
-11. [A Benchmark for Semantic Sensitive Information in LLMs Outputs](#A-Benchmark-for-Semantic-Sensitive-Information-in-LLMs-Outputs)
-12. [Analyzing and Boosting the Power of Fine-Grained Visual Recognition for Multi-modal Large Language Models](#Analyzing-and-Boosting-the-Power-of-Fine-Grained-Visual-Recognition-for-Multi-modal-Large-Language-Models)
-13. [Spreading Out-of-Distribution Detection on Graphs](#Spreading-Out-of-Distribution-Detection-on-Graphs)
-14. [Stealthy Shield Defense: A Conditional Mutual Information-Based Approach against Black-Box Model Inversion Attacks](#Stealthy-Shield-Defense-A-Conditional-Mutual-Information-Based-Approach-against-Black-Box-Model-Inversion-Attacks)
-15. [Solving New Tasks by Adapting Internet Video Knowledge](#Solving-New-Tasks-by-Adapting-Internet-Video-Knowledge)
-16. [Learning Causal Alignment for Reliable Disease Diagnosis](#Learning-Causal-Alignment-for-Reliable-Disease-Diagnosis)
-17. [Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning](#Facilitating-Multi-turn-Function-Calling-for-LLMs-via-Compositional-Instruction-Tuning)
-18. [GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning](#GlycanML-A-Multi-Task-and-Multi-Structure-Benchmark-for-Glycan-Machine-Learning)
-19. [Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models](#Hypothetical-Minds-Scaffolding-Theory-of-Mind-for-Multi-Agent-Tasks-with-Large-Language-Models)
-20. [Stable Segment Anything Model](#Stable-Segment-Anything-Model)
-21. [Equivariant Denoisers Cannot Copy Graphs: Align Your Graph Diffusion Models](#Equivariant-Denoisers-Cannot-Copy-Graphs-Align-Your-Graph-Diffusion-Models)
-22. [Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization](#Achieving-Dimension-Free-Communication-in-Federated-Learning-via-Zeroth-Order-Optimization)
-23. [Large (Vision) Language Models are Unsupervised In-Context Learners](#Large-Vision-Language-Models-are-Unsupervised-In-Context-Learners)
-24. [ColPali: Efficient Document Retrieval with Vision Language Models](#ColPali-Efficient-Document-Retrieval-with-Vision-Language-Models)
-25. [Conflict-Averse Gradient Aggregation for Constrained Multi-Objective Reinforcement Learning](#Conflict-Averse-Gradient-Aggregation-for-Constrained-Multi-Objective-Reinforcement-Learning)
-26. [SpinQuant: LLM Quantization with Learned Rotations](#SpinQuant-LLM-Quantization-with-Learned-Rotations)
-27. [Loss Landscape of Shallow ReLU-like Neural Networks: Stationary Points, Saddle Escape, and Network Embedding](#Loss-Landscape-of-Shallow-ReLU-like-Neural-Networks-Stationary-Points-Saddle-Escape-and-Network-Embedding)
-28. [On the Byzantine-Resilience of Distillation-Based Federated Learning](#On-the-Byzantine-Resilience-of-Distillation-Based-Federated-Learning)
-29. [OMG: Opacity Matters in Material Modeling with Gaussian Splatting](#OMG-Opacity-Matters-in-Material-Modeling-with-Gaussian-Splatting)
-30. [Counterfactual Generative Modeling with Variational Causal Inference](#Counterfactual-Generative-Modeling-with-Variational-Causal-Inference)
-31. [Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning](#Towards-Scalable-Exact-Machine-Unlearning-Using-Parameter-Efficient-Fine-Tuning)
-32. [Promptriever: Instruction-Trained Retrievers Can Be Prompted Like Language Models](#Promptriever-Instruction-Trained-Retrievers-Can-Be-Prompted-Like-Language-Models)
-33. [SSLAM: Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes](#SSLAM-Enhancing-Self-Supervised-Models-with-Audio-Mixtures-for-Polyphonic-Soundscapes)
-34. [Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift](#Minimax-Optimal-Two-Stage-Algorithm-For-Moment-Estimation-Under-Covariate-Shift)
-35. [Support is All You Need for Certified VAE Training](#Support-is-All-You-Need-for-Certified-VAE-Training)
-36. [Do Mice Grok? Glimpses of Hidden Progress in Sensory Cortex](#Do-Mice-Grok-Glimpses-of-Hidden-Progress-in-Sensory-Cortex)
+1. [TEASER: Token Enhanced Spatial Modeling for Expressions Reconstruction](#TEASER-Token-Enhanced-Spatial-Modeling-for-Expressions-Reconstruction)
+2. [Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD](#Leveraging-Flatness-to-Improve-Information-Theoretic-Generalization-Bounds-for-SGD)
+3. [Boltzmann priors for Implicit Transfer Operators](#Boltzmann-priors-for-Implicit-Transfer-Operators)
+4. [Diverse Preference Learning for Capabilities and Alignment](#Diverse-Preference-Learning-for-Capabilities-and-Alignment)
+5. [CONTRA: Conformal Prediction Region via Normalizing Flow Transformation](#CONTRA-Conformal-Prediction-Region-via-Normalizing-Flow-Transformation)
+6. [Bayesian WeakS-to-Strong from Text Classification to Generation](#Bayesian-WeakS-to-Strong-from-Text-Classification-to-Generation)
+7. [Multimodal Lego: Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine](#Multimodal-Lego-Model-Merging-and-Fine-Tuning-Across-Topologies-and-Modalities-in-Biomedicine)
+8. [Distribution-Free Data Uncertainty for Neural Network Regression](#Distribution-Free-Data-Uncertainty-for-Neural-Network-Regression)
+9. [Jump Your Steps: Optimizing Sampling Schedule of Discrete Diffusion Models](#Jump-Your-Steps-Optimizing-Sampling-Schedule-of-Discrete-Diffusion-Models)
+10. [A Generalist Hanabi Agent](#A-Generalist-Hanabi-Agent)
+11. [Rethinking Fair Representation Learning for Performance-Sensitive Tasks](#Rethinking-Fair-Representation-Learning-for-Performance-Sensitive-Tasks)
+12. [Generative Flows on Synthetic Pathway for Drug Design](#Generative-Flows-on-Synthetic-Pathway-for-Drug-Design)
+13. [Revisit Micro-batch Clipping: Adaptive Data Pruning via Gradient Manipulation](#Revisit-Micro-batch-Clipping-Adaptive-Data-Pruning-via-Gradient-Manipulation)
+14. [FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models](#FakeShield-Explainable-Image-Forgery-Detection-and-Localization-via-Multi-modal-Large-Language-Models)
+15. [XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning](#XLand-100B-A-Large-Scale-Multi-Task-Dataset-for-In-Context-Reinforcement-Learning)
+16. [Varying Shades of Wrong: Aligning LLMs with Wrong Answers Only](#Varying-Shades-of-Wrong-Aligning-LLMs-with-Wrong-Answers-Only)
+17. [Task-Adaptive Pretrained Language Models via Clustered-Importance Sampling](#Task-Adaptive-Pretrained-Language-Models-via-Clustered-Importance-Sampling)
+18. [NExT-Mol: 3D Diffusion Meets 1D Language Modeling for 3D Molecule Generation](#NExT-Mol-3D-Diffusion-Meets-1D-Language-Modeling-for-3D-Molecule-Generation)
+19. [Content-Style Learning from Unaligned Domains: Identifiability under Unknown Latent Dimensions](#Content-Style-Learning-from-Unaligned-Domains-Identifiability-under-Unknown-Latent-Dimensions)
+20. [A Benchmark for Semantic Sensitive Information in LLMs Outputs](#A-Benchmark-for-Semantic-Sensitive-Information-in-LLMs-Outputs)
+21. [Analyzing and Boosting the Power of Fine-Grained Visual Recognition for Multi-modal Large Language Models](#Analyzing-and-Boosting-the-Power-of-Fine-Grained-Visual-Recognition-for-Multi-modal-Large-Language-Models)
+22. [Spreading Out-of-Distribution Detection on Graphs](#Spreading-Out-of-Distribution-Detection-on-Graphs)
+23. [Stealthy Shield Defense: A Conditional Mutual Information-Based Approach against Black-Box Model Inversion Attacks](#Stealthy-Shield-Defense-A-Conditional-Mutual-Information-Based-Approach-against-Black-Box-Model-Inversion-Attacks)
+24. [Solving New Tasks by Adapting Internet Video Knowledge](#Solving-New-Tasks-by-Adapting-Internet-Video-Knowledge)
+25. [Learning Causal Alignment for Reliable Disease Diagnosis](#Learning-Causal-Alignment-for-Reliable-Disease-Diagnosis)
+26. [Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning](#Facilitating-Multi-turn-Function-Calling-for-LLMs-via-Compositional-Instruction-Tuning)
+27. [GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning](#GlycanML-A-Multi-Task-and-Multi-Structure-Benchmark-for-Glycan-Machine-Learning)
+28. [Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models](#Hypothetical-Minds-Scaffolding-Theory-of-Mind-for-Multi-Agent-Tasks-with-Large-Language-Models)
+29. [Stable Segment Anything Model](#Stable-Segment-Anything-Model)
+30. [Equivariant Denoisers Cannot Copy Graphs: Align Your Graph Diffusion Models](#Equivariant-Denoisers-Cannot-Copy-Graphs-Align-Your-Graph-Diffusion-Models)
+31. [Achieving Dimension-Free Communication in Federated Learning via Zeroth-Order Optimization](#Achieving-Dimension-Free-Communication-in-Federated-Learning-via-Zeroth-Order-Optimization)
+32. [Large (Vision) Language Models are Unsupervised In-Context Learners](#Large-Vision-Language-Models-are-Unsupervised-In-Context-Learners)
+33. [ColPali: Efficient Document Retrieval with Vision Language Models](#ColPali-Efficient-Document-Retrieval-with-Vision-Language-Models)
+34. [Conflict-Averse Gradient Aggregation for Constrained Multi-Objective Reinforcement Learning](#Conflict-Averse-Gradient-Aggregation-for-Constrained-Multi-Objective-Reinforcement-Learning)
+35. [SpinQuant: LLM Quantization with Learned Rotations](#SpinQuant-LLM-Quantization-with-Learned-Rotations)
+36. [Loss Landscape of Shallow ReLU-like Neural Networks: Stationary Points, Saddle Escape, and Network Embedding](#Loss-Landscape-of-Shallow-ReLU-like-Neural-Networks-Stationary-Points-Saddle-Escape-and-Network-Embedding)
+37. [On the Byzantine-Resilience of Distillation-Based Federated Learning](#On-the-Byzantine-Resilience-of-Distillation-Based-Federated-Learning)
 
 ---
 
 
-## A Generalist Hanabi Agent
+## TEASER: Token Enhanced Spatial Modeling for Expressions Reconstruction
+
+### Images
+
+![6d7d054be5e66b0e347cd9f903bfc55e7520e0c9e192a8a8396f53638cb5a9bc.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/6d7d054be5e66b0e347cd9f903bfc55e7520e0c9e192a8a8396f53638cb5a9bc.jpg)
+
+![741a32ed1c67708728b088d96ab953013af1ae8f7703383dc24cca3ba20e4c00.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/741a32ed1c67708728b088d96ab953013af1ae8f7703383dc24cca3ba20e4c00.jpg)
+
+![b3016d702b8f3ebf08c93ecbae197d64b5b0cdd207f5f31154a947416eac611e.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/b3016d702b8f3ebf08c93ecbae197d64b5b0cdd207f5f31154a947416eac611e.jpg)
+
+![b97d17a74d68e7711fe780c7342576a788a429d49a8b6b8d4f363ef4038fb9bf.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/b97d17a74d68e7711fe780c7342576a788a429d49a8b6b8d4f363ef4038fb9bf.jpg)
+
+![be1b9bd062a25eac181218ae7beebf6b8181c11e56a0dd2f7372e4e951424ddf.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/be1b9bd062a25eac181218ae7beebf6b8181c11e56a0dd2f7372e4e951424ddf.jpg)
+
+![ed82656cd0f4ace04e8f08a35420d9eb5be71bdda5ed4cd0ffa2574b55116e4d.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/ed82656cd0f4ace04e8f08a35420d9eb5be71bdda5ed4cd0ffa2574b55116e4d.jpg)
+
+![f154cb952dfce90bed4fb6b55c46d5ee9cf6db7d8f6532a455359c20abf02558.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/images/f154cb952dfce90bed4fb6b55c46d5ee9cf6db7d8f6532a455359c20abf02558.jpg)
+
+### Tables
+
+![232cfcca621054dc1cbb24543e17f6a01f3164e813b1bf67865eb38ce745ada2.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/232cfcca621054dc1cbb24543e17f6a01f3164e813b1bf67865eb38ce745ada2.jpg)
+
+![2daf3e3ebfb3f45972060b6f0874d7ee77c6025e0ea738931a3bf2729e26c588.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/2daf3e3ebfb3f45972060b6f0874d7ee77c6025e0ea738931a3bf2729e26c588.jpg)
+
+![466f09cc00f8d0f61d61d2dd563424da5a3110e377b03f7bc6e2476461a1e78b.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/466f09cc00f8d0f61d61d2dd563424da5a3110e377b03f7bc6e2476461a1e78b.jpg)
+
+![54155065d757494f23d187bd5c41b072f11119e979b7073c8dd66efefff2c812.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/54155065d757494f23d187bd5c41b072f11119e979b7073c8dd66efefff2c812.jpg)
+
+![642d6d73f25202b246943be5a439da83343e2c1ac51a2c7ae18271ad6adec011.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/642d6d73f25202b246943be5a439da83343e2c1ac51a2c7ae18271ad6adec011.jpg)
+
+![65e3c4f722bbf8b657fc2e1286edf447f52b3ae30afeed91f4dff90ab25df3f1.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/65e3c4f722bbf8b657fc2e1286edf447f52b3ae30afeed91f4dff90ab25df3f1.jpg)
+
+![949940a894b77007609e8a6a17c22c89636f5f9b3cb1e97769c6d3a3cc0aa36d.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/949940a894b77007609e8a6a17c22c89636f5f9b3cb1e97769c6d3a3cc0aa36d.jpg)
+
+![e3325c5bf67d410c89d2df76b647ce0d1d70ddff4bed26888c3d44c2e3e8713a.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/e3325c5bf67d410c89d2df76b647ce0d1d70ddff4bed26888c3d44c2e3e8713a.jpg)
+
+![e6a49d54428098e65555d4184ccf930c4bb82034efd908baf484a0eeda8661f0.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/e6a49d54428098e65555d4184ccf930c4bb82034efd908baf484a0eeda8661f0.jpg)
+
+![f4584035b4029d30301ea594b739a1288c0684fed1dccf7572f08d324f25af68.jpg](../iclr_results/1156_Think Thrice Before You Act_ Progressive Thought Refinement in Large Language Models/tables/f4584035b4029d30301ea594b739a1288c0684fed1dccf7572f08d324f25af68.jpg)
+
+## TEASER: Token Enhanced Spatial Modeling for Expressions Reconstruction
+
+
+### Images
+
+![0478860c3ceb998dd297031004f89a774f1fa98d639e9412582995b9b9e2b5e3.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/0478860c3ceb998dd297031004f89a774f1fa98d639e9412582995b9b9e2b5e3.jpg)
+
+![0ea2845cbb21f4d75d8b1801596b477d01f9d198a18d9fb504f83b82df3934c3.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/0ea2845cbb21f4d75d8b1801596b477d01f9d198a18d9fb504f83b82df3934c3.jpg)
+
+![0f70284229b0d91c40e5c002d1419bb51d60baf8d487498b215e750ad3839e81.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/0f70284229b0d91c40e5c002d1419bb51d60baf8d487498b215e750ad3839e81.jpg)
+
+![314135cf8e6834e16ea77bfc3422ab443ce964c80beb84174c42a635ba1ecc44.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/314135cf8e6834e16ea77bfc3422ab443ce964c80beb84174c42a635ba1ecc44.jpg)
+
+![375d8698ceb9243cc2fcb5518d1eb8ea24f3f3ebf1e9027274e7e4220c48f621.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/375d8698ceb9243cc2fcb5518d1eb8ea24f3f3ebf1e9027274e7e4220c48f621.jpg)
+
+![483bff718208e416235d39a472fb73e728e6f83a987b324ea401dbe42765d23b.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/483bff718208e416235d39a472fb73e728e6f83a987b324ea401dbe42765d23b.jpg)
+
+![793821f726c219783a9e942bd45acc621d41cd046d87cc31a032545395676b38.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/793821f726c219783a9e942bd45acc621d41cd046d87cc31a032545395676b38.jpg)
+
+![7bd63e9f73517e7f31464fcf00af4c5633b005d1748b3aefeee4ec6776e78597.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/7bd63e9f73517e7f31464fcf00af4c5633b005d1748b3aefeee4ec6776e78597.jpg)
+
+![831d027924740ecc40234a6408c7a22a976d6d89c8315a8db53c8331be45f6af.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/831d027924740ecc40234a6408c7a22a976d6d89c8315a8db53c8331be45f6af.jpg)
+
+![9b97cafdc6c7fa9a045e86c8de0c21aca4cf3ff33278123c4d864d834fdc7245.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/9b97cafdc6c7fa9a045e86c8de0c21aca4cf3ff33278123c4d864d834fdc7245.jpg)
+
+![a44afbf15b79a368afcf3daf1b26f087789145d0cbcbd3548a622a65e8932f12.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/a44afbf15b79a368afcf3daf1b26f087789145d0cbcbd3548a622a65e8932f12.jpg)
+
+![b632b912bdb87d5a5aa30b4856c4d3062749e63d3bfa012f9ac544ed0b66e445.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/b632b912bdb87d5a5aa30b4856c4d3062749e63d3bfa012f9ac544ed0b66e445.jpg)
+
+![efc453161a5b23675665815a5e0220d30919ac19f996561a8c24de4c2cc5999d.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/efc453161a5b23675665815a5e0220d30919ac19f996561a8c24de4c2cc5999d.jpg)
+
+![fe050b9913b76add759d02b2dfd76b708819b43c40ac0123e3a160cac913ac5b.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/images/fe050b9913b76add759d02b2dfd76b708819b43c40ac0123e3a160cac913ac5b.jpg)
+
+### Tables
+
+![2ba63f34370932925087247cf0944687dfd68ba5e2208ce1ce803a3c6f63a1cf.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/tables/2ba63f34370932925087247cf0944687dfd68ba5e2208ce1ce803a3c6f63a1cf.jpg)
+
+![4b292f10234d0662b25eb9afeef5301a0fc63964180bda11df084a6c2cf03731.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/tables/4b292f10234d0662b25eb9afeef5301a0fc63964180bda11df084a6c2cf03731.jpg)
+
+![92924f65dedf288442654d70591f7d033dd2746c74ed2c4cdb4bc4bd270b1fa6.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/tables/92924f65dedf288442654d70591f7d033dd2746c74ed2c4cdb4bc4bd270b1fa6.jpg)
+
+![c98850d289b71f1e7158f83ac4038eb7139e9c10822e949679cbd53b25cc34f3.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/tables/c98850d289b71f1e7158f83ac4038eb7139e9c10822e949679cbd53b25cc34f3.jpg)
+
+![d6383029b9974a987edac09ab2bb7cd7681952c7b0566948bff2b756aaa2ccae.jpg](../iclr_results/1157_TEASER_ Token Enhanced Spatial Modeling for Expressions Reconstruction/tables/d6383029b9974a987edac09ab2bb7cd7681952c7b0566948bff2b756aaa2ccae.jpg)
+
+## Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD
+
+
+### Images
+
+![0bce7b314979528e64e65fc1c01984b39fd0d923ad7ffce52dbfe904e2706087.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/0bce7b314979528e64e65fc1c01984b39fd0d923ad7ffce52dbfe904e2706087.jpg)
+
+![1e01f196ea0d3af93c16bbcd62445e2d516e6789c76375e877fd4865be7bd543.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/1e01f196ea0d3af93c16bbcd62445e2d516e6789c76375e877fd4865be7bd543.jpg)
+
+![297da1e802348df393b0190a0e99d0cd57e56fd3ce8eed2bafce4fa322c9e2b5.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/297da1e802348df393b0190a0e99d0cd57e56fd3ce8eed2bafce4fa322c9e2b5.jpg)
+
+![5323a689613859adc7bfc4584748cfdd76fcf709dc87ffdc2e7aeb0f8f7bd715.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/5323a689613859adc7bfc4584748cfdd76fcf709dc87ffdc2e7aeb0f8f7bd715.jpg)
+
+![7501991b382043370020ee2432e98e3c77937a88f04b60e66fa2242c6f173595.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/7501991b382043370020ee2432e98e3c77937a88f04b60e66fa2242c6f173595.jpg)
+
+![7d67c8edfa7a4acb328f0cba629a775967cd1eb7f1ef157ef593de75446c5b0c.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/7d67c8edfa7a4acb328f0cba629a775967cd1eb7f1ef157ef593de75446c5b0c.jpg)
+
+![9381da52cc831cf72a163ec268b8d9506b13e44eab46c5bdeaa3b94284c0e8a2.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/9381da52cc831cf72a163ec268b8d9506b13e44eab46c5bdeaa3b94284c0e8a2.jpg)
+
+![a8455006e5c7b40c28816ec888967a6e09193345e4c09475f0223448b7e09b5b.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/a8455006e5c7b40c28816ec888967a6e09193345e4c09475f0223448b7e09b5b.jpg)
+
+![b30b02c1f285f2b2e6730ee2cb0bf159f74a53db779a764e6ec4377cbee2f08d.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/b30b02c1f285f2b2e6730ee2cb0bf159f74a53db779a764e6ec4377cbee2f08d.jpg)
+
+![bbcba98fe0798812de29ddb9a6eac3b69107154db4b91de438181833003da93d.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/bbcba98fe0798812de29ddb9a6eac3b69107154db4b91de438181833003da93d.jpg)
+
+![e037119898e606880db707332630424cee8cb8e45e15e51a4534dbc3857f86a5.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/e037119898e606880db707332630424cee8cb8e45e15e51a4534dbc3857f86a5.jpg)
+
+![eb504386611214a37f9a145acbb154fa08c7f2702dd2f6c6e5d536bd890cbca2.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/eb504386611214a37f9a145acbb154fa08c7f2702dd2f6c6e5d536bd890cbca2.jpg)
+
+![f0e1986faa008ac2b0e496c240d9202d5e4129d3830eb7ab2058402a142ba958.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/images/f0e1986faa008ac2b0e496c240d9202d5e4129d3830eb7ab2058402a142ba958.jpg)
+
+### Tables
+
+![e1994136e3f52fa3ba6ffe0d547faec200771e0d2d27f7387648856d9d71eeb4.jpg](../iclr_results/1158_Leveraging Flatness to Improve Information-Theoretic Generalization Bounds for SGD/tables/e1994136e3f52fa3ba6ffe0d547faec200771e0d2d27f7387648856d9d71eeb4.jpg)
+
+## Boltzmann priors for Implicit Transfer Operators
+
+
+### Images
+
+![051cd607cca1f51c94957cb8737b3f3b37b75384823492d80f9c44bd6205e280.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/051cd607cca1f51c94957cb8737b3f3b37b75384823492d80f9c44bd6205e280.jpg)
+
+![051d6aa406065906cdd97bf5d61f182a4b24929cacc99ee281065ba1049f2e1f.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/051d6aa406065906cdd97bf5d61f182a4b24929cacc99ee281065ba1049f2e1f.jpg)
+
+![12661fac2de05989a9b2e9c2c7054a41876abf792376a85059c24aaf1078de31.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/12661fac2de05989a9b2e9c2c7054a41876abf792376a85059c24aaf1078de31.jpg)
+
+![1c1c6d8ea0edc3b419f1bdace1f555484fc5a15fe019c3a1004cc27677dc8ff1.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/1c1c6d8ea0edc3b419f1bdace1f555484fc5a15fe019c3a1004cc27677dc8ff1.jpg)
+
+![27f9f4c0e62998320505624eb99086aab7e689483573b0d1b0f7e084f947fa89.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/27f9f4c0e62998320505624eb99086aab7e689483573b0d1b0f7e084f947fa89.jpg)
+
+![34b787977f39cc201435c57feddc7ab22333d999f7fcf97855777754a32eb70a.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/34b787977f39cc201435c57feddc7ab22333d999f7fcf97855777754a32eb70a.jpg)
+
+![4c58e4fa7c07d446088ba5275bbc4b506e57df2346da704b9727f00c1510e473.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/4c58e4fa7c07d446088ba5275bbc4b506e57df2346da704b9727f00c1510e473.jpg)
+
+![57f7265b3b25212a1138f0483d2b1552f8e131ef344656b7e2ff2ffca4823b5f.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/57f7265b3b25212a1138f0483d2b1552f8e131ef344656b7e2ff2ffca4823b5f.jpg)
+
+![97b2f38c8e9abf9b6ae1259aa47bb40d26fd141bc739d36d7c649b5f83feca64.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/97b2f38c8e9abf9b6ae1259aa47bb40d26fd141bc739d36d7c649b5f83feca64.jpg)
+
+![b43ad77ae2e2e1b44c4298578e6a5646f5e30f5446fe0ca4c7eb167001affb79.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/b43ad77ae2e2e1b44c4298578e6a5646f5e30f5446fe0ca4c7eb167001affb79.jpg)
+
+![c3597bda6e9b24b42fb52ecc2315c0a3ad3a3e5514a8fbc48fe1b612dc3959ef.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/c3597bda6e9b24b42fb52ecc2315c0a3ad3a3e5514a8fbc48fe1b612dc3959ef.jpg)
+
+![c580395d20ce6dd1662e3d87207d5d88183a579dd9be9c762e583870d0aaf8a4.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/c580395d20ce6dd1662e3d87207d5d88183a579dd9be9c762e583870d0aaf8a4.jpg)
+
+![e47c29fc9cf871f03c5bb562e77eaf5d41f5a79512afb660ad34c1f334dffa3f.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/e47c29fc9cf871f03c5bb562e77eaf5d41f5a79512afb660ad34c1f334dffa3f.jpg)
+
+![fee4f828459e152f0d4309fa0f936d71d158c852478756e7183254b59587be99.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/images/fee4f828459e152f0d4309fa0f936d71d158c852478756e7183254b59587be99.jpg)
+
+### Tables
+
+![6c887623161615ca9a813b0c02c2884258c5a5f1e4ef5cce418c87d5404e2a71.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/tables/6c887623161615ca9a813b0c02c2884258c5a5f1e4ef5cce418c87d5404e2a71.jpg)
+
+![b95e84a8254279c7eecf705c7ce7124b4fa33959ed3de3970aeabca456522248.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/tables/b95e84a8254279c7eecf705c7ce7124b4fa33959ed3de3970aeabca456522248.jpg)
+
+![daae6d193b8eb0edcfd510013b18fde49a1177a6e6ffcbced432ab7ec897918c.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/tables/daae6d193b8eb0edcfd510013b18fde49a1177a6e6ffcbced432ab7ec897918c.jpg)
+
+![f11a4d357cdff6bcaf68e91818de0df020ac6e9e5569561748ad1bd3f542b272.jpg](../iclr_results/1159_Boltzmann priors for Implicit Transfer Operators/tables/f11a4d357cdff6bcaf68e91818de0df020ac6e9e5569561748ad1bd3f542b272.jpg)
+
+## Diverse Preference Learning for Capabilities and Alignment
+
+
+### Images
+
+![0cc803076dc28251cfaa62abe087c759ceccc40e59013ad3c0206327f442e650.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/0cc803076dc28251cfaa62abe087c759ceccc40e59013ad3c0206327f442e650.jpg)
+
+![160d381daff6708d590d0bdba22e275b02ce64ba1625130aa3573a297fe9aefe.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/160d381daff6708d590d0bdba22e275b02ce64ba1625130aa3573a297fe9aefe.jpg)
+
+![3767a8f8f27ec413792afbdf319711a12987b31ab08e860cc1162192a0cd5a73.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/3767a8f8f27ec413792afbdf319711a12987b31ab08e860cc1162192a0cd5a73.jpg)
+
+![3f71412ea949070b445d821cd525f902ae179d2d3959f4a7de8c34279627636e.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/3f71412ea949070b445d821cd525f902ae179d2d3959f4a7de8c34279627636e.jpg)
+
+![40511ee3191deeac79cadcaab469f5c992b634f1dff7ef3a6de59badb7d6a4aa.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/40511ee3191deeac79cadcaab469f5c992b634f1dff7ef3a6de59badb7d6a4aa.jpg)
+
+![4bfcec4e97ca986d131d24d33884574a8f02f52c964341582cd2c6726536f9d4.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/4bfcec4e97ca986d131d24d33884574a8f02f52c964341582cd2c6726536f9d4.jpg)
+
+![6cc37accab0cde674bf6d2f06cfa75d921e9ad6811cc29f25eaf83c3757ff137.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/6cc37accab0cde674bf6d2f06cfa75d921e9ad6811cc29f25eaf83c3757ff137.jpg)
+
+![888d49c2427bf6aa848ace1de95468f8e5c7e4ccaea083acb2b998207f8df0d8.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/888d49c2427bf6aa848ace1de95468f8e5c7e4ccaea083acb2b998207f8df0d8.jpg)
+
+![a8c0502164d817a7dc40a63753228fe72fdca5514fab0f45baa76dfebd3488ee.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/a8c0502164d817a7dc40a63753228fe72fdca5514fab0f45baa76dfebd3488ee.jpg)
+
+![b4bf8697d3d53e019411e5b6dc0d7792c2802f7f7a17e361ec826bfd5442d912.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/b4bf8697d3d53e019411e5b6dc0d7792c2802f7f7a17e361ec826bfd5442d912.jpg)
+
+![d7e726487297a2907a1b18ac0e5db7be411fddc4d8e98e2397bc42cd22967f34.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/d7e726487297a2907a1b18ac0e5db7be411fddc4d8e98e2397bc42cd22967f34.jpg)
+
+![e4ca429adfd721e05953d534e7a7fa384c997d46a8ce2050eeeda2b914b2b279.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/e4ca429adfd721e05953d534e7a7fa384c997d46a8ce2050eeeda2b914b2b279.jpg)
+
+![f2dbffabcb2a61d2b5535fa275112d33267f7371f2fed25212642aa5073a6d41.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/images/f2dbffabcb2a61d2b5535fa275112d33267f7371f2fed25212642aa5073a6d41.jpg)
+
+### Tables
+
+![04c58c3b6d6540cea1bd0780ebb411dd6ac887194e3f9ca2217db1cdb4a12b1d.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/tables/04c58c3b6d6540cea1bd0780ebb411dd6ac887194e3f9ca2217db1cdb4a12b1d.jpg)
+
+![4319713c4884be39e36122f9fb6abf9b9b28d20389a911df2487a8eabba0222d.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/tables/4319713c4884be39e36122f9fb6abf9b9b28d20389a911df2487a8eabba0222d.jpg)
+
+![4b108fa37ceb80f5ea770fd3e32a68c7f50a6b4843cf800057be0df7538814c4.jpg](../iclr_results/1160_Diverse Preference Learning for Capabilities and Alignment/tables/4b108fa37ceb80f5ea770fd3e32a68c7f50a6b4843cf800057be0df7538814c4.jpg)
+
+## CONTRA: Conformal Prediction Region via Normalizing Flow Transformation
+
+
+### Images
+
+![00c152b2f40ccd2fae5eff2e2c6f5fe8aa7062bbc3dfe0cbbccee3024f7196bf.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/00c152b2f40ccd2fae5eff2e2c6f5fe8aa7062bbc3dfe0cbbccee3024f7196bf.jpg)
+
+![352cc290b5e80b04d852c44eb509b4d471cb4225284c034fc27b9db3fcf82190.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/352cc290b5e80b04d852c44eb509b4d471cb4225284c034fc27b9db3fcf82190.jpg)
+
+![35f5308e7e3e5a8e5e8fbcb958a23349205c8a870f804d809666ecaa06e06268.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/35f5308e7e3e5a8e5e8fbcb958a23349205c8a870f804d809666ecaa06e06268.jpg)
+
+![79f732716ac73c1230e31890282acb750e9067fefaedeeb96127abd59ab9842b.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/79f732716ac73c1230e31890282acb750e9067fefaedeeb96127abd59ab9842b.jpg)
+
+![b6be1a3be25c9e551690bbaec271e4f905bcc00d8f1c4290b843919c7379c2a8.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/b6be1a3be25c9e551690bbaec271e4f905bcc00d8f1c4290b843919c7379c2a8.jpg)
+
+![c48b8386d209352f095c5ff97cd2ca510bd66a41ed2bba82a36771583e7379ff.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/c48b8386d209352f095c5ff97cd2ca510bd66a41ed2bba82a36771583e7379ff.jpg)
+
+![d8fe4b9937c551710421a4ed83a970bdd3f8bc15bab7003d1d7c059ca4442f71.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/images/d8fe4b9937c551710421a4ed83a970bdd3f8bc15bab7003d1d7c059ca4442f71.jpg)
+
+### Tables
+
+![2c0809d367cfc4c39c2ad5ddb6e305354fe270aad7cb1f99ae16e191b6c3e777.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/tables/2c0809d367cfc4c39c2ad5ddb6e305354fe270aad7cb1f99ae16e191b6c3e777.jpg)
+
+![535c363b18e2988335221932d4749645c00575d2606dbcdb37ff37fabe097b9a.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/tables/535c363b18e2988335221932d4749645c00575d2606dbcdb37ff37fabe097b9a.jpg)
+
+![6947ddab74d44c458da0e6902fc40b19d7360bbb1cc4bb669c435a96f0369dbb.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/tables/6947ddab74d44c458da0e6902fc40b19d7360bbb1cc4bb669c435a96f0369dbb.jpg)
+
+![9bde761f61eb141abd1c17b70664d5d6961bb432ddde80ca06b03dc83af00b0a.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/tables/9bde761f61eb141abd1c17b70664d5d6961bb432ddde80ca06b03dc83af00b0a.jpg)
+
+![f479ce5f11c6f6333400b948e066438b0abf93816342368901653311881c99e6.jpg](../iclr_results/1161_CONTRA_ Conformal Prediction Region via Normalizing Flow Transformation/tables/f479ce5f11c6f6333400b948e066438b0abf93816342368901653311881c99e6.jpg)
+
+## Bayesian WeakS-to-Strong from Text Classification to Generation
+
+
+### Images
+
+![2206573867edd9e9f616a8db35f9e1cb3975d8747be70d13eebfeca729e61ca8.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/images/2206573867edd9e9f616a8db35f9e1cb3975d8747be70d13eebfeca729e61ca8.jpg)
+
+![360dce275f4a63b44411087b1b215d5565cf3bbe3c6b83e8d0402b940be84724.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/images/360dce275f4a63b44411087b1b215d5565cf3bbe3c6b83e8d0402b940be84724.jpg)
+
+![85495a0d6d5c545d9c7c1ce51cefc9cb6b0084d0c70406cbdda207652c836b93.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/images/85495a0d6d5c545d9c7c1ce51cefc9cb6b0084d0c70406cbdda207652c836b93.jpg)
+
+![880182825f16d8e77800efbc05542e54752f0e5c29545afe956eaf0b7bc089dc.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/images/880182825f16d8e77800efbc05542e54752f0e5c29545afe956eaf0b7bc089dc.jpg)
+
+### Tables
+
+![00ea7ff84aa6299e82b31df8a3ab51155f0d5d30764d3ea829306bb9f392eb5a.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/00ea7ff84aa6299e82b31df8a3ab51155f0d5d30764d3ea829306bb9f392eb5a.jpg)
+
+![3544e286ade28d0f3aa710418807fa01482249df078b434e34bc44977397102d.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/3544e286ade28d0f3aa710418807fa01482249df078b434e34bc44977397102d.jpg)
+
+![42cfdb6642a423483374c7517c6dd45804f6f4ad34f66626b76229ec103397d1.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/42cfdb6642a423483374c7517c6dd45804f6f4ad34f66626b76229ec103397d1.jpg)
+
+![4fae6160a61f2d87ab6ce176159e1a8dc7190f52d7493c41acf2fa88bf1d1ce7.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/4fae6160a61f2d87ab6ce176159e1a8dc7190f52d7493c41acf2fa88bf1d1ce7.jpg)
+
+![587ad73a8d2ccfebd43548a9babf97a1d42dd8f1c0951bbbf203a8b848950dfb.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/587ad73a8d2ccfebd43548a9babf97a1d42dd8f1c0951bbbf203a8b848950dfb.jpg)
+
+![669f00a984ababbfd3108c960ad65ae150cab643d1177b93f048d78e0f11720a.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/669f00a984ababbfd3108c960ad65ae150cab643d1177b93f048d78e0f11720a.jpg)
+
+![77ae9ce6e6712ef7ec63a3a5db87895d35f9b0bd8d529b0c968a126cef6165eb.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/77ae9ce6e6712ef7ec63a3a5db87895d35f9b0bd8d529b0c968a126cef6165eb.jpg)
+
+![824e7b49579a1a622a243da7753300da13dd03ba6056297f50ec39a0a65ae086.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/824e7b49579a1a622a243da7753300da13dd03ba6056297f50ec39a0a65ae086.jpg)
+
+![8914fd8abfcb5f5c6ed59e3b95b3c1bac78bddc055731b07c92af7c972be3bac.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/8914fd8abfcb5f5c6ed59e3b95b3c1bac78bddc055731b07c92af7c972be3bac.jpg)
+
+![a01aa9f9b95b78791a72af664af8e9c960c70d4445e62efa12efe1872a8ec6c9.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/a01aa9f9b95b78791a72af664af8e9c960c70d4445e62efa12efe1872a8ec6c9.jpg)
+
+![e394a5f78c312c1ff52a752b980c87a04859d05533d5230e483b7600b7e803c1.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/e394a5f78c312c1ff52a752b980c87a04859d05533d5230e483b7600b7e803c1.jpg)
+
+![fd220f284f9138d9809c63748a1e541fedd20d76bd9b64f6910b6caaf4823084.jpg](../iclr_results/1162_Bayesian WeakS-to-Strong from Text Classification to Generation/tables/fd220f284f9138d9809c63748a1e541fedd20d76bd9b64f6910b6caaf4823084.jpg)
+
+## Multimodal Lego: Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine
+
+
+### Images
+
+![2d95c0e9ee0498d81d4f6e97c0af38560d6b9fe4a7245a792ef615c30a026153.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/2d95c0e9ee0498d81d4f6e97c0af38560d6b9fe4a7245a792ef615c30a026153.jpg)
+
+![42b3daf1737230aadc55ba91214469b40e7828add8b3a42d5215754a6b6d355f.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/42b3daf1737230aadc55ba91214469b40e7828add8b3a42d5215754a6b6d355f.jpg)
+
+![59b52180af43449e86c410206596bac4d5f75389e2fd827c7a0318611b223a1f.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/59b52180af43449e86c410206596bac4d5f75389e2fd827c7a0318611b223a1f.jpg)
+
+![741f85b24e521bb97c7727713f0807319daa27315f7a5d21315763e606102b85.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/741f85b24e521bb97c7727713f0807319daa27315f7a5d21315763e606102b85.jpg)
+
+![886f9f636df4779e859c5c009c92003720ca25377c9f869e6bf6e846e2258094.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/886f9f636df4779e859c5c009c92003720ca25377c9f869e6bf6e846e2258094.jpg)
+
+![b5a6af6a33fa76759b7a0752a2a0e48de37719dcb7daee4d0ab2fa18151632f8.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/b5a6af6a33fa76759b7a0752a2a0e48de37719dcb7daee4d0ab2fa18151632f8.jpg)
+
+![c83af1c82164cc6e6aef523d1976ea9adb8252ce7661422ea644a53b1da3586f.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/images/c83af1c82164cc6e6aef523d1976ea9adb8252ce7661422ea644a53b1da3586f.jpg)
+
+### Tables
+
+![2a3b43c86b842d7c478d1fa9eb9d8ab4e0e70076c90cf60d8769439e90b38d3b.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/tables/2a3b43c86b842d7c478d1fa9eb9d8ab4e0e70076c90cf60d8769439e90b38d3b.jpg)
+
+![84111b72f9b18e03f0765c3aec71f91c98c7314e7c3ac4481726d4b0b4903f96.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/tables/84111b72f9b18e03f0765c3aec71f91c98c7314e7c3ac4481726d4b0b4903f96.jpg)
+
+![f1e88899ab6d9bc5d1a7eb634693dc6391296109fe7ba5ef86528890519445b0.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/tables/f1e88899ab6d9bc5d1a7eb634693dc6391296109fe7ba5ef86528890519445b0.jpg)
+
+![f63560f458648d59b69a4544a9c268448f7428a88fbc99d3ea612ed4356c9982.jpg](../iclr_results/1163_Multimodal Lego_ Model Merging and Fine-Tuning Across Topologies and Modalities in Biomedicine/tables/f63560f458648d59b69a4544a9c268448f7428a88fbc99d3ea612ed4356c9982.jpg)
+
+## Distribution-Free Data Uncertainty for Neural Network Regression
+
+
+### Images
+
+![4d485e17d75602a030461978d9dfbd77fa476cf0162801e3793277e8f033070a.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/4d485e17d75602a030461978d9dfbd77fa476cf0162801e3793277e8f033070a.jpg)
+
+![5fee8361e46f1304a3554f124c84a25e3337eb00ff3a2b8623a2f03de56c5812.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/5fee8361e46f1304a3554f124c84a25e3337eb00ff3a2b8623a2f03de56c5812.jpg)
+
+![9378a3a034354fa6e723d9da53a4890d6159cee2e312cd26c976fe7e14974df4.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/9378a3a034354fa6e723d9da53a4890d6159cee2e312cd26c976fe7e14974df4.jpg)
+
+![9a7067dec7df50e4cd53f7137dc17935675a504b2bd24e187693cea27a5fcb1f.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/9a7067dec7df50e4cd53f7137dc17935675a504b2bd24e187693cea27a5fcb1f.jpg)
+
+![9c0ff6a9a255a547fa8d8ea8cad59a32f847c2bf54596480b3a2b3d52fb08063.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/9c0ff6a9a255a547fa8d8ea8cad59a32f847c2bf54596480b3a2b3d52fb08063.jpg)
+
+![b875a687b3ae910671d3c064fb4478a6644c2b4eba1a2b27d18dcb8c752a286f.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/b875a687b3ae910671d3c064fb4478a6644c2b4eba1a2b27d18dcb8c752a286f.jpg)
+
+![d0d585b329260640b58333f9fc64ca4386056ac7be12d0317cdce8c08fe8795a.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/d0d585b329260640b58333f9fc64ca4386056ac7be12d0317cdce8c08fe8795a.jpg)
+
+![fbdd4024c002714fe0c78b80a89dd8314730f2ed13825e18d7585517e02756b2.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/images/fbdd4024c002714fe0c78b80a89dd8314730f2ed13825e18d7585517e02756b2.jpg)
+
+### Tables
+
+![0472d1a3da3baf6d3ff83e22862a5d36b42765a2b7a76732054b9360dd2c4e51.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/0472d1a3da3baf6d3ff83e22862a5d36b42765a2b7a76732054b9360dd2c4e51.jpg)
+
+![115fc2cbebc6cf2ad08e5098fb76e3fb8b7ca7244661e540eeafbf32d05d004c.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/115fc2cbebc6cf2ad08e5098fb76e3fb8b7ca7244661e540eeafbf32d05d004c.jpg)
+
+![1dfc448ef34c744be4008e0666f26d12f6b33772f7a72db84453268ebf0e18c7.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/1dfc448ef34c744be4008e0666f26d12f6b33772f7a72db84453268ebf0e18c7.jpg)
+
+![44c72dc0a456867f3f6c1ed89b2dcd6d707a2c90f4b4ce36caedecd6751a1cea.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/44c72dc0a456867f3f6c1ed89b2dcd6d707a2c90f4b4ce36caedecd6751a1cea.jpg)
+
+![589603a26c24dae1d61e99c31af33d128fc443751b8e9231c4a9f34f31129d1d.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/589603a26c24dae1d61e99c31af33d128fc443751b8e9231c4a9f34f31129d1d.jpg)
+
+![602ea344877e73e4043d4c58a16fddb415c00eb8ab31cdf75600b6fc2663af09.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/602ea344877e73e4043d4c58a16fddb415c00eb8ab31cdf75600b6fc2663af09.jpg)
+
+![64dd6382b1af16794dcd8f437b961bdcdd008ddd7887227ca69d58216abb533e.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/64dd6382b1af16794dcd8f437b961bdcdd008ddd7887227ca69d58216abb533e.jpg)
+
+![8a1dcbaabc5266c00c63a7716cc2f2b8085e8d810771d725d01736be1388d69b.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/8a1dcbaabc5266c00c63a7716cc2f2b8085e8d810771d725d01736be1388d69b.jpg)
+
+![9db71cc15e11e5fb0c31a213aba46582ebd12bbee01cffef4611f9f65e19980e.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/9db71cc15e11e5fb0c31a213aba46582ebd12bbee01cffef4611f9f65e19980e.jpg)
+
+![a3ec8ac7f342861b0949ebbc24c7483a0391e352405f2ed8c0e8ea889142aaa9.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/a3ec8ac7f342861b0949ebbc24c7483a0391e352405f2ed8c0e8ea889142aaa9.jpg)
+
+![b05633ce0b0012ee0f5d166ebcd561f622807b4da0e499dd5edebbcf1c22d334.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/b05633ce0b0012ee0f5d166ebcd561f622807b4da0e499dd5edebbcf1c22d334.jpg)
+
+![cfa488092a1ee2e7aae107bb82a180393b9d9b503dcceda1b960733e7448d680.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/cfa488092a1ee2e7aae107bb82a180393b9d9b503dcceda1b960733e7448d680.jpg)
+
+![d619163f644e7cbfeeea0f117398d62061848eddff1481aa9de9041d1df6f830.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/d619163f644e7cbfeeea0f117398d62061848eddff1481aa9de9041d1df6f830.jpg)
+
+![e965b37c548127f397d124b493cb97f2cfc07bf93cbddf53415c682e2db2de8f.jpg](../iclr_results/1164_Distribution-Free Data Uncertainty for Neural Network Regression/tables/e965b37c548127f397d124b493cb97f2cfc07bf93cbddf53415c682e2db2de8f.jpg)
+
+## Jump Your Steps: Optimizing Sampling Schedule of Discrete Diffusion Models
+
 
 ### Images
 
@@ -1426,7 +1780,6 @@
 
 ## On the Byzantine-Resilience of Distillation-Based Federated Learning
 
-
 ### Images
 
 ![49015dfd512c20019c890b1456ba0e8199f8ae60a30943b201061c21fb12a15c.jpg](../iclr_results/1193_On the Byzantine-Resilience of Distillation-Based Federated Learning/images/49015dfd512c20019c890b1456ba0e8199f8ae60a30943b201061c21fb12a15c.jpg)
@@ -1464,294 +1817,3 @@
 ![caa29d63762fbfde29b66f50f2d09f5f5532dd0ee0cb01a232584330eaff39f0.jpg](../iclr_results/1193_On the Byzantine-Resilience of Distillation-Based Federated Learning/tables/caa29d63762fbfde29b66f50f2d09f5f5532dd0ee0cb01a232584330eaff39f0.jpg)
 
 ![ea4741693e2b8f41d4b382580f071140b5f214ee300023f7a857d53ef7830712.jpg](../iclr_results/1193_On the Byzantine-Resilience of Distillation-Based Federated Learning/tables/ea4741693e2b8f41d4b382580f071140b5f214ee300023f7a857d53ef7830712.jpg)
-
-## OMG: Opacity Matters in Material Modeling with Gaussian Splatting
-
-
-### Images
-
-![00c89a2a752249ff2bd01ab2750556d7bcffc6a44e4be5bc6b24c958f4b63d97.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/00c89a2a752249ff2bd01ab2750556d7bcffc6a44e4be5bc6b24c958f4b63d97.jpg)
-
-![41b894088e23d3f3544fb7e149cc5d135f1a185489c9e347cc10942d48e63f57.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/41b894088e23d3f3544fb7e149cc5d135f1a185489c9e347cc10942d48e63f57.jpg)
-
-![49da7501e11edbd437e5d20eeccf8ec32483fb04bdcfe51e86d0f7c213edac3a.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/49da7501e11edbd437e5d20eeccf8ec32483fb04bdcfe51e86d0f7c213edac3a.jpg)
-
-![5e19224fae0166bc6a14f911cca2bff5d895e0ddbed27b2ccc19f3535b55bb27.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/5e19224fae0166bc6a14f911cca2bff5d895e0ddbed27b2ccc19f3535b55bb27.jpg)
-
-![75bf4fae7e86d39b0495e4592879798136ab1ea1bb5052134afca68569fa4411.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/75bf4fae7e86d39b0495e4592879798136ab1ea1bb5052134afca68569fa4411.jpg)
-
-![bcb8077c31bae31553c689daf48c0f29781e8fc2eda920a7c6723eb93a5aac03.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/bcb8077c31bae31553c689daf48c0f29781e8fc2eda920a7c6723eb93a5aac03.jpg)
-
-![c732a33891f48ce97b356b3d20036ded58d45de6b68e5562c1a1c6ff8076e14c.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/c732a33891f48ce97b356b3d20036ded58d45de6b68e5562c1a1c6ff8076e14c.jpg)
-
-![d8d3912f4dcf93b7ba60aa00210fa839d0fdff3ba65ae9fd8c36edbde0f92517.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/d8d3912f4dcf93b7ba60aa00210fa839d0fdff3ba65ae9fd8c36edbde0f92517.jpg)
-
-![e93c5c47fa7765b019a3a6596dfbacb8b598360915986ba481a49a36ade2bd6a.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/e93c5c47fa7765b019a3a6596dfbacb8b598360915986ba481a49a36ade2bd6a.jpg)
-
-![f63b451635d66a30c891c3b0d90c6dd56c5046b91cc82e1dd55d352adb403ee5.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/f63b451635d66a30c891c3b0d90c6dd56c5046b91cc82e1dd55d352adb403ee5.jpg)
-
-![f7a906af9724cff412de076921157eda85f0025c0a73177a18be98966854e9d9.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/f7a906af9724cff412de076921157eda85f0025c0a73177a18be98966854e9d9.jpg)
-
-![f7fa3b989bcbad7e37e2f19678fc5fc855c1155620486762d05ddd83c05bc6d3.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/images/f7fa3b989bcbad7e37e2f19678fc5fc855c1155620486762d05ddd83c05bc6d3.jpg)
-
-### Tables
-
-![32b028203ab77823621071be43ba16e2c2287d8762eb290623e87c262d8c9c84.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/32b028203ab77823621071be43ba16e2c2287d8762eb290623e87c262d8c9c84.jpg)
-
-![7ae8968e0706b5b26f69c3e4241e3085ea2bdb9208b198f2299f0e7e24207635.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/7ae8968e0706b5b26f69c3e4241e3085ea2bdb9208b198f2299f0e7e24207635.jpg)
-
-![a4f5bbfb7c1de59adbb11158a3378828d54248ad779cf47cfda25b9c617448e0.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/a4f5bbfb7c1de59adbb11158a3378828d54248ad779cf47cfda25b9c617448e0.jpg)
-
-![caeb605b6c72a1e737f9170736fef20c3c192583a73e1f94e18e34ee3837f689.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/caeb605b6c72a1e737f9170736fef20c3c192583a73e1f94e18e34ee3837f689.jpg)
-
-![d21e9ef87157ed37605e204e077334945295c12ed4e9d6306ac0836e3facbe66.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/d21e9ef87157ed37605e204e077334945295c12ed4e9d6306ac0836e3facbe66.jpg)
-
-![e7175568dae902a8385d3a5691ebd94a5d70f1bc389f8e3ac4fd856494387591.jpg](../iclr_results/1194_OMG_ Opacity Matters in Material Modeling with Gaussian Splatting/tables/e7175568dae902a8385d3a5691ebd94a5d70f1bc389f8e3ac4fd856494387591.jpg)
-
-## Counterfactual Generative Modeling with Variational Causal Inference
-
-
-### Images
-
-![007f0c6cc50956cc9228e364d2fce8583ddc11af402f8826414ccf8a86f413ea.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/007f0c6cc50956cc9228e364d2fce8583ddc11af402f8826414ccf8a86f413ea.jpg)
-
-![094d11bc94f2c7e6c3463d71d6ed5ddda8953977574a5ef57ea9a19c53606521.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/094d11bc94f2c7e6c3463d71d6ed5ddda8953977574a5ef57ea9a19c53606521.jpg)
-
-![19490eb87154c32311be8613bb6d866b56be27c42deeda18af9b76c5e64092a2.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/19490eb87154c32311be8613bb6d866b56be27c42deeda18af9b76c5e64092a2.jpg)
-
-![40626e172f937154bb44930f6b9b2d133672324ef68c62795b510509e39997bf.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/40626e172f937154bb44930f6b9b2d133672324ef68c62795b510509e39997bf.jpg)
-
-![417edf726c81d2811aca9a921463e93f9ee2c757fccdfe54e8d398f61a5ea472.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/417edf726c81d2811aca9a921463e93f9ee2c757fccdfe54e8d398f61a5ea472.jpg)
-
-![4d2c25e583abc814b9052ffe05882ffb015fc6aeb31adfe761cd3f805ef0fb25.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/4d2c25e583abc814b9052ffe05882ffb015fc6aeb31adfe761cd3f805ef0fb25.jpg)
-
-![76a027d5af8c1c9e0ba8100b5f4c34d9d05311f0680cb6c74015f14f16417669.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/76a027d5af8c1c9e0ba8100b5f4c34d9d05311f0680cb6c74015f14f16417669.jpg)
-
-![78993f0330ff1b247017e15c369235b68b02e6daf78d12e44efecfac46296337.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/78993f0330ff1b247017e15c369235b68b02e6daf78d12e44efecfac46296337.jpg)
-
-![7e6586146ad77069b126e33e616dae9569075206bf3d227b7e3f4aa17a77b78c.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/7e6586146ad77069b126e33e616dae9569075206bf3d227b7e3f4aa17a77b78c.jpg)
-
-![7f6182c52d7958c566c6d6f1b964697602529d073c9daeac9acf66f146e3489a.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/7f6182c52d7958c566c6d6f1b964697602529d073c9daeac9acf66f146e3489a.jpg)
-
-![8b51928670590b69ac8e525d820ff9d1a742ff05004656d32e878129c8574d37.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/8b51928670590b69ac8e525d820ff9d1a742ff05004656d32e878129c8574d37.jpg)
-
-![8ced16c12e37c1f0dc9b8c10371920af69c0e5649d2470f3089f77364f7e4f0f.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/8ced16c12e37c1f0dc9b8c10371920af69c0e5649d2470f3089f77364f7e4f0f.jpg)
-
-![c545afc798ba5cfbd119bfd6267d75b9ccc0e999fa58592c55b42ae19c347368.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/c545afc798ba5cfbd119bfd6267d75b9ccc0e999fa58592c55b42ae19c347368.jpg)
-
-![c97153133b0dedc8e459a768bf0c6aaa5d7dec95c3c13888c88cfc53a433a332.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/c97153133b0dedc8e459a768bf0c6aaa5d7dec95c3c13888c88cfc53a433a332.jpg)
-
-![ce800bee6f2b85d84f1be15820bd2515027d0e222a01d9e0ccc0d897427041e6.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/ce800bee6f2b85d84f1be15820bd2515027d0e222a01d9e0ccc0d897427041e6.jpg)
-
-![fafbf7c80617fe5f44766fc4f49f3e3f59a00d5192a8e76825f865e151261ebd.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/images/fafbf7c80617fe5f44766fc4f49f3e3f59a00d5192a8e76825f865e151261ebd.jpg)
-
-### Tables
-
-![055f6edc73c5fab18c8d18db0e5653eec122479e559f3c9c6f08df55f7b971e3.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/055f6edc73c5fab18c8d18db0e5653eec122479e559f3c9c6f08df55f7b971e3.jpg)
-
-![0aa701efd7537caef39e25120ca6dfd053f54a00ab177dfcfb9b049bbe754f81.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/0aa701efd7537caef39e25120ca6dfd053f54a00ab177dfcfb9b049bbe754f81.jpg)
-
-![66fe5eb7682ceb5afcdc82effeb20b7b446d5a6536c81c9ed46fd996b2dd7826.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/66fe5eb7682ceb5afcdc82effeb20b7b446d5a6536c81c9ed46fd996b2dd7826.jpg)
-
-![75582453a7fbd7acdee368aba4681ffc7f53c6f7196b6368f6a2d8b421a1d72d.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/75582453a7fbd7acdee368aba4681ffc7f53c6f7196b6368f6a2d8b421a1d72d.jpg)
-
-![7f614637b5df051cea4a76beee0a1282c08472b6b9072962723462fa8a62b213.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/7f614637b5df051cea4a76beee0a1282c08472b6b9072962723462fa8a62b213.jpg)
-
-![c45081c56247bfb0e372f779c3b3833c6c1d3b42d6af389045b89c69fab4e4ae.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/c45081c56247bfb0e372f779c3b3833c6c1d3b42d6af389045b89c69fab4e4ae.jpg)
-
-![d04bf6e3ae542aad9e84576cdd65d1b93e469854b06ed857da6cfc0bfff6212d.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/d04bf6e3ae542aad9e84576cdd65d1b93e469854b06ed857da6cfc0bfff6212d.jpg)
-
-![fa243c18fb6b5dd59e14943971e6c8d0a950cb9e2430f0ed45c90edaf4cad904.jpg](../iclr_results/1195_Counterfactual Generative Modeling with Variational Causal Inference/tables/fa243c18fb6b5dd59e14943971e6c8d0a950cb9e2430f0ed45c90edaf4cad904.jpg)
-
-## Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning
-
-
-### Images
-
-![0248cc1e2835cae23994838a51c4a632e0e135cf93e838630e6526292c00fae0.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/0248cc1e2835cae23994838a51c4a632e0e135cf93e838630e6526292c00fae0.jpg)
-
-![0a29a57e84ef088b5197f5620601e4358d7199c44c4f782795c28fd32d5b33a7.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/0a29a57e84ef088b5197f5620601e4358d7199c44c4f782795c28fd32d5b33a7.jpg)
-
-![19215d840e3d0436adf195de77d1bca985486125003c62d5a1ab06c0c537bfc9.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/19215d840e3d0436adf195de77d1bca985486125003c62d5a1ab06c0c537bfc9.jpg)
-
-![28c7589c3da226a37a14dfd93a59706332f195a95b2a04cfde518bd02e661a41.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/28c7589c3da226a37a14dfd93a59706332f195a95b2a04cfde518bd02e661a41.jpg)
-
-![2f6beff8d3648ab75a0dafd8fbed4e2534a6d77f42d07a5ceb58cb57530ba95e.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/2f6beff8d3648ab75a0dafd8fbed4e2534a6d77f42d07a5ceb58cb57530ba95e.jpg)
-
-![36811a2ee6151411c2020e15b9b5546ed9186cea70fb15a59d32c70e3872f996.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/36811a2ee6151411c2020e15b9b5546ed9186cea70fb15a59d32c70e3872f996.jpg)
-
-![3eb447c3ec533b7befe5dc850efe980c7adf153230e34ad24340b5567b8eaacf.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/3eb447c3ec533b7befe5dc850efe980c7adf153230e34ad24340b5567b8eaacf.jpg)
-
-![47a5b4cb2ac99626f4207f04fbdec66da41f50711683ebd45c4f7af7672d1ddc.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/47a5b4cb2ac99626f4207f04fbdec66da41f50711683ebd45c4f7af7672d1ddc.jpg)
-
-![4a54bb5a58ae1643b70732ea29376087934117b37139ebeb393fc1190e781b40.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/4a54bb5a58ae1643b70732ea29376087934117b37139ebeb393fc1190e781b40.jpg)
-
-![662a1489a1d9e4a2650f6949eb87c4b7359b96c22291e40bd64fab49d11d8438.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/662a1489a1d9e4a2650f6949eb87c4b7359b96c22291e40bd64fab49d11d8438.jpg)
-
-![7ae203bad1f81f735f73b683e49f2084274634cd9ef2bb497d79964e12227a89.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/7ae203bad1f81f735f73b683e49f2084274634cd9ef2bb497d79964e12227a89.jpg)
-
-![924cf6eafc47de012ddea0162b59a48ab9daf6064c3889534613f93e9b17f21b.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/924cf6eafc47de012ddea0162b59a48ab9daf6064c3889534613f93e9b17f21b.jpg)
-
-![92deff0c36503ae0769f8e8f88d3d5738a1b6522781259c7ac41dd676d2761d2.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/92deff0c36503ae0769f8e8f88d3d5738a1b6522781259c7ac41dd676d2761d2.jpg)
-
-![b73807b7bdfec815e0d7686965800a606b5f431020efda71cfe6efc5e2af608d.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/b73807b7bdfec815e0d7686965800a606b5f431020efda71cfe6efc5e2af608d.jpg)
-
-![c6b5785e213b6ec5f85d11461b970b77f8d76f3229351e44e78b7212907c5af8.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/c6b5785e213b6ec5f85d11461b970b77f8d76f3229351e44e78b7212907c5af8.jpg)
-
-![d3dd442b0280ea4ba7f066cdd2f738bb788e999c8c5eb888d96a3f3a721b113c.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/images/d3dd442b0280ea4ba7f066cdd2f738bb788e999c8c5eb888d96a3f3a721b113c.jpg)
-
-### Tables
-
-![65d48bce423710bbf20dc20a96358316e65681a7aed4447b40aa9042d6be1981.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/tables/65d48bce423710bbf20dc20a96358316e65681a7aed4447b40aa9042d6be1981.jpg)
-
-![7165f8750bed66b7501fcc14d0b213084c76512a158c8d82d1a2ff2396612f99.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/tables/7165f8750bed66b7501fcc14d0b213084c76512a158c8d82d1a2ff2396612f99.jpg)
-
-![8872273b35fec245df56bd46855488e6deda42b16a0b7d8cc288ca71079386b1.jpg](../iclr_results/1196_Towards Scalable Exact Machine Unlearning Using Parameter-Efficient Fine-Tuning/tables/8872273b35fec245df56bd46855488e6deda42b16a0b7d8cc288ca71079386b1.jpg)
-
-## Promptriever: Instruction-Trained Retrievers Can Be Prompted Like Language Models
-
-
-### Images
-
-![b29b12c0b7c9307d9abdb722ba6af23ef64fc09e31e99644976a0b3accacd6c4.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/images/b29b12c0b7c9307d9abdb722ba6af23ef64fc09e31e99644976a0b3accacd6c4.jpg)
-
-![db95a629a68826116e9c9f5c4a94136075519463d2d2d5c1c3307aa2689de3bf.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/images/db95a629a68826116e9c9f5c4a94136075519463d2d2d5c1c3307aa2689de3bf.jpg)
-
-![dcbafff3f1e9b80bbec1ebbc5db0fab208b059836a3c675ce0db10f4fa9ca7c9.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/images/dcbafff3f1e9b80bbec1ebbc5db0fab208b059836a3c675ce0db10f4fa9ca7c9.jpg)
-
-### Tables
-
-![0d22e4df1ada98db4f3d63024556ee177cde4b9f3b95dbf2d9c85f9e7cd8e3e7.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/0d22e4df1ada98db4f3d63024556ee177cde4b9f3b95dbf2d9c85f9e7cd8e3e7.jpg)
-
-![13f7515b1d353c68f2379c747a4f56c595afbea141bc2d775082b11f337896de.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/13f7515b1d353c68f2379c747a4f56c595afbea141bc2d775082b11f337896de.jpg)
-
-![3632cb34eabe5355ccd3f7c08767ee490580f7888519c3c0a49043302da4b98a.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/3632cb34eabe5355ccd3f7c08767ee490580f7888519c3c0a49043302da4b98a.jpg)
-
-![3956eb53ecdaa1125364188db91967e720148aa4b281d64240ca30f838182858.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/3956eb53ecdaa1125364188db91967e720148aa4b281d64240ca30f838182858.jpg)
-
-![53539ada5db31da903134cc13a1fee0dab4d2e19819c4825bfbca1d2c8941289.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/53539ada5db31da903134cc13a1fee0dab4d2e19819c4825bfbca1d2c8941289.jpg)
-
-![6ada166802a2e437adf2036262bb5138bb8f95bc2e68be3a8309504b2b3d15b0.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/6ada166802a2e437adf2036262bb5138bb8f95bc2e68be3a8309504b2b3d15b0.jpg)
-
-![83d105e92f26b4bd5d71a3374df584a2f37d53810943868aa83d49566fe0449d.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/83d105e92f26b4bd5d71a3374df584a2f37d53810943868aa83d49566fe0449d.jpg)
-
-![bc23f4ff5a3252c9623e83790fbef82255bb4dc8fe30bdffc66c5b18a5a431d2.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/bc23f4ff5a3252c9623e83790fbef82255bb4dc8fe30bdffc66c5b18a5a431d2.jpg)
-
-![bd87586ff59d8e19cee9251e803f76efd22352b9f59e5e5b871afc23b7916164.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/bd87586ff59d8e19cee9251e803f76efd22352b9f59e5e5b871afc23b7916164.jpg)
-
-![cce37942bae0db254c51b1e91564ce3d123b1c653634924b0aba415ff89e8664.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/cce37942bae0db254c51b1e91564ce3d123b1c653634924b0aba415ff89e8664.jpg)
-
-![d82d135e4c17a5d3bbc98aac94556d47944f5dc5224374a4a0d6ac9445a89ff4.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/d82d135e4c17a5d3bbc98aac94556d47944f5dc5224374a4a0d6ac9445a89ff4.jpg)
-
-![ddfceb6f9fd7eeb3ebd7a7345a9545761ddd2211ad7f3e4e7c38fcf4c8e75da8.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/ddfceb6f9fd7eeb3ebd7a7345a9545761ddd2211ad7f3e4e7c38fcf4c8e75da8.jpg)
-
-![f621eccd38f044559886bfbd07f768c1596296cfa69e60cd38cde45bfac9983e.jpg](../iclr_results/1197_Promptriever_ Instruction-Trained Retrievers Can Be Prompted Like Language Models/tables/f621eccd38f044559886bfbd07f768c1596296cfa69e60cd38cde45bfac9983e.jpg)
-
-## SSLAM: Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes
-
-
-### Images
-
-![1ba447e87fd25843b37f0d21318553c6146d13f215fbfe708467204dd86fa831.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/images/1ba447e87fd25843b37f0d21318553c6146d13f215fbfe708467204dd86fa831.jpg)
-
-![253989a8d60a70a43a5deae7f00cd4a47545e6c3f40e55ebb67885ba82a4a432.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/images/253989a8d60a70a43a5deae7f00cd4a47545e6c3f40e55ebb67885ba82a4a432.jpg)
-
-![427625bea8b90abb77fa704218c0a3735f56538f102ad0262a0404dcafeda782.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/images/427625bea8b90abb77fa704218c0a3735f56538f102ad0262a0404dcafeda782.jpg)
-
-![4c485c2c51d92c88a6bbf2fbe609ece586e080fe9651e0309e416eb6891d870d.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/images/4c485c2c51d92c88a6bbf2fbe609ece586e080fe9651e0309e416eb6891d870d.jpg)
-
-![dd64539b3a4a0a4226f1262bf1f10b9b402d58c8d9d22df571969c7d5856233c.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/images/dd64539b3a4a0a4226f1262bf1f10b9b402d58c8d9d22df571969c7d5856233c.jpg)
-
-### Tables
-
-![03ab9db33b15d19e8748b0cc939c8d6b5024ea5bd435987b339b583f0d8a09e4.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/03ab9db33b15d19e8748b0cc939c8d6b5024ea5bd435987b339b583f0d8a09e4.jpg)
-
-![38bbea1db2cf253d6dc213c85816088b49fc1f097bff0022d6d1598b9a102df4.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/38bbea1db2cf253d6dc213c85816088b49fc1f097bff0022d6d1598b9a102df4.jpg)
-
-![43b4259f205bbf9aed23802b1e4bf643fdff57351c0758c25cb354dd4e83508e.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/43b4259f205bbf9aed23802b1e4bf643fdff57351c0758c25cb354dd4e83508e.jpg)
-
-![45c92e52d07dcb87c31bd9508e9b054db35239e55ee9cb2e7b1bf90f5d459bc8.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/45c92e52d07dcb87c31bd9508e9b054db35239e55ee9cb2e7b1bf90f5d459bc8.jpg)
-
-![50753654bd028e5c2e7f789993b2ab81a2e7466aa0f0b0ccc8351faaaa0d5668.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/50753654bd028e5c2e7f789993b2ab81a2e7466aa0f0b0ccc8351faaaa0d5668.jpg)
-
-![534678dae5b7a246d8d25cd21557c78be6d7ad6d2514bb95ba91a3dbfedd22c1.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/534678dae5b7a246d8d25cd21557c78be6d7ad6d2514bb95ba91a3dbfedd22c1.jpg)
-
-![6c30e6d08e7bb170b4e8bd061f53578fb129f117363bb4bf03bf4c450975f714.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/6c30e6d08e7bb170b4e8bd061f53578fb129f117363bb4bf03bf4c450975f714.jpg)
-
-![a2ef6967bc665b1537af25c9f0609aac97e93280f64f1e2ac70d82fcec01c472.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/a2ef6967bc665b1537af25c9f0609aac97e93280f64f1e2ac70d82fcec01c472.jpg)
-
-![c3f93df74e8ed1764c83877ab66933133bd9fad1b1190b245209fd8ee065f8e4.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/c3f93df74e8ed1764c83877ab66933133bd9fad1b1190b245209fd8ee065f8e4.jpg)
-
-![d38c93fe6a1a27cbc727cd7c4bf07494a1662953271c42da753dd8e2835f7024.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/d38c93fe6a1a27cbc727cd7c4bf07494a1662953271c42da753dd8e2835f7024.jpg)
-
-![e3dc70be531a61ac1d79ae6853da5a0db4a1b43a651cd207aa9f917f466626cd.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/e3dc70be531a61ac1d79ae6853da5a0db4a1b43a651cd207aa9f917f466626cd.jpg)
-
-![fb522dd93d06e9633e642eb5ef1ae2ef3ac85535585775afbd3ba3e2bbecc58d.jpg](../iclr_results/1198_SSLAM_ Enhancing Self-Supervised Models with Audio Mixtures for Polyphonic Soundscapes/tables/fb522dd93d06e9633e642eb5ef1ae2ef3ac85535585775afbd3ba3e2bbecc58d.jpg)
-
-## Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift
-
-
-### Images
-
-![13659fbe21f288d59421f3cc35edc203b9c3169710098f64e7f912aefcf64c5b.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/13659fbe21f288d59421f3cc35edc203b9c3169710098f64e7f912aefcf64c5b.jpg)
-
-![29dfff9b1fcaba494b2b88dd2b48af36cae15d61e3f469eab0f1e9395382fecd.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/29dfff9b1fcaba494b2b88dd2b48af36cae15d61e3f469eab0f1e9395382fecd.jpg)
-
-![3e90b1dcc1f837ac3b61133b2746d5ed1ea9c031f8090c16505d675148fac86c.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/3e90b1dcc1f837ac3b61133b2746d5ed1ea9c031f8090c16505d675148fac86c.jpg)
-
-![8a9480e8e3c6a145beb334cb843d72cd685e1865f9580ff2bd5f6db21312939f.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/8a9480e8e3c6a145beb334cb843d72cd685e1865f9580ff2bd5f6db21312939f.jpg)
-
-![9efa6b63453f037d7c0c92d76959622c6f35d0b54820d3a7e38b2d18e62f1cb4.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/9efa6b63453f037d7c0c92d76959622c6f35d0b54820d3a7e38b2d18e62f1cb4.jpg)
-
-![af433be5c5901f17e87fa7a37d786c09928775e9a8e24ff61192a44222ef14bd.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/af433be5c5901f17e87fa7a37d786c09928775e9a8e24ff61192a44222ef14bd.jpg)
-
-![ca6134f51d417dcd1b53222161c91ec2fbec76d1ef29239f7174a2f72e0063bd.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/ca6134f51d417dcd1b53222161c91ec2fbec76d1ef29239f7174a2f72e0063bd.jpg)
-
-![f86d0549039cd218daec793c1fad0dc9fae7f1fda32abbe9165ea9e04fba2a9b.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/f86d0549039cd218daec793c1fad0dc9fae7f1fda32abbe9165ea9e04fba2a9b.jpg)
-
-![fec8dce815ecd39f990f4b394a8725a25b6bdda349d7f44f059dd85803636b32.jpg](../iclr_results/1199_Minimax Optimal Two-Stage Algorithm For Moment Estimation Under Covariate Shift/images/fec8dce815ecd39f990f4b394a8725a25b6bdda349d7f44f059dd85803636b32.jpg)
-
-## Support is All You Need for Certified VAE Training
-
-
-### Images
-
-![10c8e86afb090370dc5c133c8bc602fec43e63a9a7feed505db27c3e8a850a22.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/images/10c8e86afb090370dc5c133c8bc602fec43e63a9a7feed505db27c3e8a850a22.jpg)
-
-![11984d5c3ef096e31bc982ba87344fbebbfbcdf7b86a75310ed2fca116da82f2.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/images/11984d5c3ef096e31bc982ba87344fbebbfbcdf7b86a75310ed2fca116da82f2.jpg)
-
-![e3a55027964ae473700e3557ea912a297f13154fc32600ecc4f56c3fa86e26a6.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/images/e3a55027964ae473700e3557ea912a297f13154fc32600ecc4f56c3fa86e26a6.jpg)
-
-### Tables
-
-![7315cdca86935ceb6732c3ee1bd6857d164464188a1e349f2c7a3e0b20f55b24.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/tables/7315cdca86935ceb6732c3ee1bd6857d164464188a1e349f2c7a3e0b20f55b24.jpg)
-
-![8a4df7639da6346b313b9d81640e406203a7acee73c250bf8073ab3734f3bc89.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/tables/8a4df7639da6346b313b9d81640e406203a7acee73c250bf8073ab3734f3bc89.jpg)
-
-![ae4f7a0a6fb80a5f8bb20cb008cb6bf80a60ffea410177d04ea5093fd73ffa46.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/tables/ae4f7a0a6fb80a5f8bb20cb008cb6bf80a60ffea410177d04ea5093fd73ffa46.jpg)
-
-![de80e265e69ac2dcd1b213dfbb19e2ed9cf1e8a91c439227b86faa71ab986f4b.jpg](../iclr_results/1200_Support is All You Need for Certified VAE Training/tables/de80e265e69ac2dcd1b213dfbb19e2ed9cf1e8a91c439227b86faa71ab986f4b.jpg)
-
-## Do Mice Grok? Glimpses of Hidden Progress in Sensory Cortex
-
-### Images
-
-![0770aac517ca5f2ee3330e19fc40203216172c1ee44ce198ee82fd801d6be274.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/0770aac517ca5f2ee3330e19fc40203216172c1ee44ce198ee82fd801d6be274.jpg)
-
-![45e9e7517eae2e77c7b4956a847ab07ad412c20b10adc18032bba6d536e8046f.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/45e9e7517eae2e77c7b4956a847ab07ad412c20b10adc18032bba6d536e8046f.jpg)
-
-![491d69d114c11d79b7c731305c8c390a28ee504b2e69fc981ed28a57dcdbe6c3.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/491d69d114c11d79b7c731305c8c390a28ee504b2e69fc981ed28a57dcdbe6c3.jpg)
-
-![5306fa4cde02c57319d11af6bd237e5ff0bea10ec50c4eca25629db27e79600f.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/5306fa4cde02c57319d11af6bd237e5ff0bea10ec50c4eca25629db27e79600f.jpg)
-
-![5ba63f896e36b0c016aa0cc60bfc34cedcecb9ec43ec66c53684751778bd8eae.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/5ba63f896e36b0c016aa0cc60bfc34cedcecb9ec43ec66c53684751778bd8eae.jpg)
-
-![b46bb584a50a3ebfda0d5799d286f11fa3da3d0fb0b9635469e7e042c1741450.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/b46bb584a50a3ebfda0d5799d286f11fa3da3d0fb0b9635469e7e042c1741450.jpg)
-
-![c711f8b331e06d39bddb9e66fb197ff5961d8459b5ad4272a9d3aa5b685cd78f.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/c711f8b331e06d39bddb9e66fb197ff5961d8459b5ad4272a9d3aa5b685cd78f.jpg)
-
-![d1c033609b40adb73851aeac30a127c90f9e2be7ffe69a34d2fff12d2f536a23.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/d1c033609b40adb73851aeac30a127c90f9e2be7ffe69a34d2fff12d2f536a23.jpg)
-
-![d589ed2b5fb70712c94536e454268d5b1296c809b481539c07da51f818c1a784.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/d589ed2b5fb70712c94536e454268d5b1296c809b481539c07da51f818c1a784.jpg)
-
-![daf44a763a04a7d2253eb5afee07d9c48d274bee266a743e23fd10e6ee5e9709.jpg](../iclr_results/1201_Do Mice Grok_ Glimpses of Hidden Progress in Sensory Cortex/images/daf44a763a04a7d2253eb5afee07d9c48d274bee266a743e23fd10e6ee5e9709.jpg)

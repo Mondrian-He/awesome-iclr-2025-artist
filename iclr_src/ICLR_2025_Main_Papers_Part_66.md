@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,68 +13,48 @@
 
 ## 目录 (Table of Contents)
 
-1. [GaussianAnything: Interactive Point Cloud Flow Matching for 3D Generation](#GaussianAnything-Interactive-Point-Cloud-Flow-Matching-for-3D-Generation)
-2. [InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales](#InstructRAG-Instructing-Retrieval-Augmented-Generation-via-Self-Synthesized-Rationales)
-3. [Structure Language Models for Protein Conformation Generation](#Structure-Language-Models-for-Protein-Conformation-Generation)
-4. [$q$-exponential family for policy optimization](#q-exponential-family-for-policy-optimization)
-5. [GTR: Improving Large 3D Reconstruction Models through Geometry and Texture Refinement](#GTR-Improving-Large-3D-Reconstruction-Models-through-Geometry-and-Texture-Refinement)
-6. [Understanding Long Videos with Multimodal Language Models](#Understanding-Long-Videos-with-Multimodal-Language-Models)
-7. [Matérn Kernels for Tunable Implicit Surface Reconstruction](#Matérn-Kernels-for-Tunable-Implicit-Surface-Reconstruction)
-8. [No Free Lunch: Fundamental Limits of Learning Non-Hallucinating Generative Models](#No-Free-Lunch-Fundamental-Limits-of-Learning-Non-Hallucinating-Generative-Models)
-9. [An Online Learning Theory of Trading-Volume Maximization](#An-Online-Learning-Theory-of-Trading-Volume-Maximization)
-10. [ADAM: An Embodied Causal Agent in Open-World Environments](#ADAM-An-Embodied-Causal-Agent-in-Open-World-Environments)
-11. [Learning High-Degree Parities: The Crucial Role of the Initialization](#Learning-High-Degree-Parities-The-Crucial-Role-of-the-Initialization)
-12. [Endowing Visual Reprogramming with Adversarial Robustness](#Endowing-Visual-Reprogramming-with-Adversarial-Robustness)
-13. [Unlocking the Potential of Model Calibration in Federated Learning](#Unlocking-the-Potential-of-Model-Calibration-in-Federated-Learning)
-14. [Earlier Tokens Contribute More: Learning Direct Preference Optimization From Temporal Decay Perspective](#Earlier-Tokens-Contribute-More-Learning-Direct-Preference-Optimization-From-Temporal-Decay-Perspective)
-15. [Non-myopic Generation of Language Models for Reasoning and Planning](#Non-myopic-Generation-of-Language-Models-for-Reasoning-and-Planning)
-16. [Fast Direct: Query-Efficient  Online Black-box Guidance  for Diffusion-model Target Generation](#Fast-Direct-Query-Efficient-Online-Black-box-Guidance-for-Diffusion-model-Target-Generation)
-17. [Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction](#Steering-Masked-Discrete-Diffusion-Models-via-Discrete-Denoising-Posterior-Prediction)
-18. [Beyond Content Relevance: Evaluating Instruction Following in Retrieval Models](#Beyond-Content-Relevance-Evaluating-Instruction-Following-in-Retrieval-Models)
-19. [A Theoretical Framework for Partially-Observed Reward States in RLHF](#A-Theoretical-Framework-for-Partially-Observed-Reward-States-in-RLHF)
-20. [Distance-Based Tree-Sliced Wasserstein Distance](#Distance-Based-Tree-Sliced-Wasserstein-Distance)
-21. [ET-SEED: EFFICIENT TRAJECTORY-LEVEL SE(3) EQUIVARIANT DIFFUSION POLICY](#ET-SEED-EFFICIENT-TRAJECTORY-LEVEL-SE3-EQUIVARIANT-DIFFUSION-POLICY)
-22. [Wavelet-based Positional Representation for Long Context](#Wavelet-based-Positional-Representation-for-Long-Context)
-23. [Robotouille: An Asynchronous Planning Benchmark for LLM Agents](#Robotouille-An-Asynchronous-Planning-Benchmark-for-LLM-Agents)
-24. [Towards Unified Human Motion-Language Understanding via Sparse Interpretable Characterization](#Towards-Unified-Human-Motion-Language-Understanding-via-Sparse-Interpretable-Characterization)
-25. [Geometry-Aware Approaches for Balancing Performance and Theoretical Guarantees in Linear Bandits](#Geometry-Aware-Approaches-for-Balancing-Performance-and-Theoretical-Guarantees-in-Linear-Bandits)
-26. [Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance](#Rethinking-Classifier-Re-Training-in-Long-Tailed-Recognition-Label-Over-Smooth-Can-Balance)
-27. [Nonasymptotic Analysis of Stochastic Gradient Descent with the Richardson–Romberg Extrapolation](#Nonasymptotic-Analysis-of-Stochastic-Gradient-Descent-with-the-RichardsonRomberg-Extrapolation)
-28. [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](#SINGAPO-Single-Image-Controlled-Generation-of-Articulated-Parts-in-Objects)
-29. [Scalable Mechanistic Neural Networks](#Scalable-Mechanistic-Neural-Networks)
-30. [Inverse Attention Agents for Multi-Agent Systems](#Inverse-Attention-Agents-for-Multi-Agent-Systems)
-31. [Vertical Federated Learning with Missing Features During Training and Inference](#Vertical-Federated-Learning-with-Missing-Features-During-Training-and-Inference)
-32. [Progressive Mixed-Precision Decoding for Efficient LLM Inference](#Progressive-Mixed-Precision-Decoding-for-Efficient-LLM-Inference)
-33. [Bootstrapping Language-Guided Navigation Learning with Self-Refining Data Flywheel](#Bootstrapping-Language-Guided-Navigation-Learning-with-Self-Refining-Data-Flywheel)
-34. [DoF: A Diffusion Factorization Framework for Offline Multi-Agent Reinforcement Learning](#DoF-A-Diffusion-Factorization-Framework-for-Offline-Multi-Agent-Reinforcement-Learning)
-35. [KaSA: Knowledge-Aware Singular-Value Adaptation of Large Language Models](#KaSA-Knowledge-Aware-Singular-Value-Adaptation-of-Large-Language-Models)
-36. [DS-LLM: Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models](#DS-LLM-Leveraging-Dynamical-Systems-to-Enhance-Both-Training-and-Inference-of-Large-Language-Models)
+1. [InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales](#InstructRAG-Instructing-Retrieval-Augmented-Generation-via-Self-Synthesized-Rationales)
+2. [Structure Language Models for Protein Conformation Generation](#Structure-Language-Models-for-Protein-Conformation-Generation)
+3. [$q$-exponential family for policy optimization](#q-exponential-family-for-policy-optimization)
+4. [GTR: Improving Large 3D Reconstruction Models through Geometry and Texture Refinement](#GTR-Improving-Large-3D-Reconstruction-Models-through-Geometry-and-Texture-Refinement)
+5. [Understanding Long Videos with Multimodal Language Models](#Understanding-Long-Videos-with-Multimodal-Language-Models)
+6. [Matérn Kernels for Tunable Implicit Surface Reconstruction](#Matérn-Kernels-for-Tunable-Implicit-Surface-Reconstruction)
+7. [No Free Lunch: Fundamental Limits of Learning Non-Hallucinating Generative Models](#No-Free-Lunch-Fundamental-Limits-of-Learning-Non-Hallucinating-Generative-Models)
+8. [An Online Learning Theory of Trading-Volume Maximization](#An-Online-Learning-Theory-of-Trading-Volume-Maximization)
+9. [ADAM: An Embodied Causal Agent in Open-World Environments](#ADAM-An-Embodied-Causal-Agent-in-Open-World-Environments)
+10. [Learning High-Degree Parities: The Crucial Role of the Initialization](#Learning-High-Degree-Parities-The-Crucial-Role-of-the-Initialization)
+11. [Endowing Visual Reprogramming with Adversarial Robustness](#Endowing-Visual-Reprogramming-with-Adversarial-Robustness)
+12. [Unlocking the Potential of Model Calibration in Federated Learning](#Unlocking-the-Potential-of-Model-Calibration-in-Federated-Learning)
+13. [Earlier Tokens Contribute More: Learning Direct Preference Optimization From Temporal Decay Perspective](#Earlier-Tokens-Contribute-More-Learning-Direct-Preference-Optimization-From-Temporal-Decay-Perspective)
+14. [Non-myopic Generation of Language Models for Reasoning and Planning](#Non-myopic-Generation-of-Language-Models-for-Reasoning-and-Planning)
+15. [Fast Direct: Query-Efficient  Online Black-box Guidance  for Diffusion-model Target Generation](#Fast-Direct-Query-Efficient-Online-Black-box-Guidance-for-Diffusion-model-Target-Generation)
+16. [Steering Masked Discrete Diffusion Models via Discrete Denoising Posterior Prediction](#Steering-Masked-Discrete-Diffusion-Models-via-Discrete-Denoising-Posterior-Prediction)
+17. [Beyond Content Relevance: Evaluating Instruction Following in Retrieval Models](#Beyond-Content-Relevance-Evaluating-Instruction-Following-in-Retrieval-Models)
+18. [A Theoretical Framework for Partially-Observed Reward States in RLHF](#A-Theoretical-Framework-for-Partially-Observed-Reward-States-in-RLHF)
+19. [Distance-Based Tree-Sliced Wasserstein Distance](#Distance-Based-Tree-Sliced-Wasserstein-Distance)
+20. [ET-SEED: EFFICIENT TRAJECTORY-LEVEL SE(3) EQUIVARIANT DIFFUSION POLICY](#ET-SEED-EFFICIENT-TRAJECTORY-LEVEL-SE3-EQUIVARIANT-DIFFUSION-POLICY)
+21. [Wavelet-based Positional Representation for Long Context](#Wavelet-based-Positional-Representation-for-Long-Context)
+22. [Robotouille: An Asynchronous Planning Benchmark for LLM Agents](#Robotouille-An-Asynchronous-Planning-Benchmark-for-LLM-Agents)
+23. [Towards Unified Human Motion-Language Understanding via Sparse Interpretable Characterization](#Towards-Unified-Human-Motion-Language-Understanding-via-Sparse-Interpretable-Characterization)
+24. [Geometry-Aware Approaches for Balancing Performance and Theoretical Guarantees in Linear Bandits](#Geometry-Aware-Approaches-for-Balancing-Performance-and-Theoretical-Guarantees-in-Linear-Bandits)
+25. [Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance](#Rethinking-Classifier-Re-Training-in-Long-Tailed-Recognition-Label-Over-Smooth-Can-Balance)
+26. [Nonasymptotic Analysis of Stochastic Gradient Descent with the Richardson–Romberg Extrapolation](#Nonasymptotic-Analysis-of-Stochastic-Gradient-Descent-with-the-RichardsonRomberg-Extrapolation)
+27. [SINGAPO: Single Image Controlled Generation of Articulated Parts in Objects](#SINGAPO-Single-Image-Controlled-Generation-of-Articulated-Parts-in-Objects)
+28. [Scalable Mechanistic Neural Networks](#Scalable-Mechanistic-Neural-Networks)
+29. [Inverse Attention Agents for Multi-Agent Systems](#Inverse-Attention-Agents-for-Multi-Agent-Systems)
+30. [Vertical Federated Learning with Missing Features During Training and Inference](#Vertical-Federated-Learning-with-Missing-Features-During-Training-and-Inference)
+31. [Progressive Mixed-Precision Decoding for Efficient LLM Inference](#Progressive-Mixed-Precision-Decoding-for-Efficient-LLM-Inference)
+32. [Bootstrapping Language-Guided Navigation Learning with Self-Refining Data Flywheel](#Bootstrapping-Language-Guided-Navigation-Learning-with-Self-Refining-Data-Flywheel)
+33. [DoF: A Diffusion Factorization Framework for Offline Multi-Agent Reinforcement Learning](#DoF-A-Diffusion-Factorization-Framework-for-Offline-Multi-Agent-Reinforcement-Learning)
+34. [KaSA: Knowledge-Aware Singular-Value Adaptation of Large Language Models](#KaSA-Knowledge-Aware-Singular-Value-Adaptation-of-Large-Language-Models)
+35. [DS-LLM: Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models](#DS-LLM-Leveraging-Dynamical-Systems-to-Enhance-Both-Training-and-Inference-of-Large-Language-Models)
+36. [Self-supervised contrastive learning performs non-linear system identification](#Self-supervised-contrastive-learning-performs-non-linear-system-identification)
+37. [SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration](#SageAttention-Accurate-8-Bit-Attention-for-Plug-and-play-Inference-Acceleration)
 
 ---
 
 
-## GaussianAnything: Interactive Point Cloud Flow Matching for 3D Generation
-
-### Images
-
-![29facce44cd976399f70af00b3ad1f1e26b8b3b5374152945fea8041a75771c0.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/images/29facce44cd976399f70af00b3ad1f1e26b8b3b5374152945fea8041a75771c0.jpg)
-
-![9ca5d304238992d45718b9dfbd45471f3a7542c565613d29897176d64ddde574.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/images/9ca5d304238992d45718b9dfbd45471f3a7542c565613d29897176d64ddde574.jpg)
-
-![a3a40850dc8a6c9578a52b664bff4b6ea07318c249f7ef2b5f4587af350c768b.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/images/a3a40850dc8a6c9578a52b664bff4b6ea07318c249f7ef2b5f4587af350c768b.jpg)
-
-![be3be3d5f2b774c7e7c3e84ddf0977e489d5dcf9b42df2f8840e067bb2e113af.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/images/be3be3d5f2b774c7e7c3e84ddf0977e489d5dcf9b42df2f8840e067bb2e113af.jpg)
-
-### Tables
-
-![3c331d66d7c94bd74f8b31a908b1e343616fe22489c8688a42fe68765c601703.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/tables/3c331d66d7c94bd74f8b31a908b1e343616fe22489c8688a42fe68765c601703.jpg)
-
-![5dc10bb924cefeabcc4d090f56f5b0bdf1e5fcadbbd2536454959ee7bd5dddc3.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/tables/5dc10bb924cefeabcc4d090f56f5b0bdf1e5fcadbbd2536454959ee7bd5dddc3.jpg)
-
-![b92c89c799d728f5d46737994ef8e90b58f31c974431a86a7ec10d8493f5494a.jpg](../iclr_results/2416_ACES_ Automatic Cohort Extraction System for Event-Stream Datasets/tables/b92c89c799d728f5d46737994ef8e90b58f31c974431a86a7ec10d8493f5494a.jpg)
-
-## GaussianAnything: Interactive Point Cloud Flow Matching for 3D Generation
-
+## InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales
 
 ### Images
 
@@ -1680,6 +1660,7 @@
 
 ## DS-LLM: Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models
 
+
 ### Images
 
 ![1cc8f3e5cd32fd6c40e5aaee967909876b7ec1bb2f702288777b108018738ffc.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/images/1cc8f3e5cd32fd6c40e5aaee967909876b7ec1bb2f702288777b108018738ffc.jpg)
@@ -1711,3 +1692,130 @@
 ![be961a1f122756bbecdb1ff5a20543a0ffed1c891e2fc774d0498342cada2f4e.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/be961a1f122756bbecdb1ff5a20543a0ffed1c891e2fc774d0498342cada2f4e.jpg)
 
 ![f941340aca4dead457cf53e4f115d0955733ea135ff76b5ac70b8f285d8d1a66.jpg](../iclr_results/2452_DS-LLM_ Leveraging Dynamical Systems to Enhance Both Training and Inference of Large Language Models/tables/f941340aca4dead457cf53e4f115d0955733ea135ff76b5ac70b8f285d8d1a66.jpg)
+
+## Self-supervised contrastive learning performs non-linear system identification
+
+
+### Images
+
+![055237baeb0ab4c60e80a89c4b764b9dbd63d743202c8edbf2f2a5224a7462a3.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/055237baeb0ab4c60e80a89c4b764b9dbd63d743202c8edbf2f2a5224a7462a3.jpg)
+
+![1c04fe04abb2aad2c12c86e579d62bd5ffc65cc87b3652aea9b988683c078031.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/1c04fe04abb2aad2c12c86e579d62bd5ffc65cc87b3652aea9b988683c078031.jpg)
+
+![2e01549b94033d53abb1eff6a276e487b5fff502908c741ecbfb46d0a1760516.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/2e01549b94033d53abb1eff6a276e487b5fff502908c741ecbfb46d0a1760516.jpg)
+
+![2f9162a645b0d03d9313c70e179230a0ff34e1639707d7ebf35f8b19dafa998c.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/2f9162a645b0d03d9313c70e179230a0ff34e1639707d7ebf35f8b19dafa998c.jpg)
+
+![45d3003237307036f907278daddc3fe9bdda2fe9dab377d68ac5b95fc351115a.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/45d3003237307036f907278daddc3fe9bdda2fe9dab377d68ac5b95fc351115a.jpg)
+
+![670dab82a8998359db759095f1ab2f8fefa4c674485175d24e3ef71edeaa7510.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/670dab82a8998359db759095f1ab2f8fefa4c674485175d24e3ef71edeaa7510.jpg)
+
+![6f8a788eda5bcdf7fa3282383bb146c18f4b0604abc1df527807185b0d84ac3d.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/6f8a788eda5bcdf7fa3282383bb146c18f4b0604abc1df527807185b0d84ac3d.jpg)
+
+![71f1e1de8f0d586446c1c96bf4157ae908d5154289d0bccebf7b12d3c80de896.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/71f1e1de8f0d586446c1c96bf4157ae908d5154289d0bccebf7b12d3c80de896.jpg)
+
+![8da90e9adb19ae12526f67254100945c8d4a49842012083fef09f7218d9cfb4b.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/8da90e9adb19ae12526f67254100945c8d4a49842012083fef09f7218d9cfb4b.jpg)
+
+![8f025c5490bea03a24a60bb70ec44cd7ce05a3af8b76a9260373aa6612529167.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/8f025c5490bea03a24a60bb70ec44cd7ce05a3af8b76a9260373aa6612529167.jpg)
+
+![9a6fb0bfad313c60be931e40af1acc1863e26b59baf327db9953fe7b09f4bb63.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/9a6fb0bfad313c60be931e40af1acc1863e26b59baf327db9953fe7b09f4bb63.jpg)
+
+![b1239efede8f42df66fb951cea8f64dcd576a22db5ef9d6f946fc09e4056a12b.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b1239efede8f42df66fb951cea8f64dcd576a22db5ef9d6f946fc09e4056a12b.jpg)
+
+![b7931d74b8a44b7f78aeae5a318c16fe7f1dfc560ba01aae0ab474704df4be37.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b7931d74b8a44b7f78aeae5a318c16fe7f1dfc560ba01aae0ab474704df4be37.jpg)
+
+![b9f4ed6e872972b95dfd3fe55a5e89e917e10ae71d4979e5378014b8f6165c35.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/b9f4ed6e872972b95dfd3fe55a5e89e917e10ae71d4979e5378014b8f6165c35.jpg)
+
+![c55623318fd0c59e1e2cf96c0665df90291de1e059f377863e12701083f32cb4.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/c55623318fd0c59e1e2cf96c0665df90291de1e059f377863e12701083f32cb4.jpg)
+
+![f1353999123d98f74d68370822f1725c48871ab422788d9c636b1f823e9cd72a.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/f1353999123d98f74d68370822f1725c48871ab422788d9c636b1f823e9cd72a.jpg)
+
+![fc75e59067877c303f3a98a2dbd7a4a0a5b9cabb8179aa5904dd5904db152706.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/images/fc75e59067877c303f3a98a2dbd7a4a0a5b9cabb8179aa5904dd5904db152706.jpg)
+
+### Tables
+
+![072510fc015abba1dc78f98499609adfac5d970517ef5bb81590a667a3743b74.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/072510fc015abba1dc78f98499609adfac5d970517ef5bb81590a667a3743b74.jpg)
+
+![55c0ea9178cb552461ffae646bbf35e300f9fd02cb6624139cf453bdf11c6851.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/55c0ea9178cb552461ffae646bbf35e300f9fd02cb6624139cf453bdf11c6851.jpg)
+
+![9f7d99cc5ef10e31fff7d74c21bb3c6c34fe38dff92a4fcc3b6ae16c7a6c9d5f.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/9f7d99cc5ef10e31fff7d74c21bb3c6c34fe38dff92a4fcc3b6ae16c7a6c9d5f.jpg)
+
+![c491a31153e66f12f49c91eab562e24e01ae539ad13ea5a020d9e04265cf9347.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/c491a31153e66f12f49c91eab562e24e01ae539ad13ea5a020d9e04265cf9347.jpg)
+
+![dc3493e9f57d07bdbcb905027b077dc88ec2b6952ba6097f5605b02655328a7c.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/dc3493e9f57d07bdbcb905027b077dc88ec2b6952ba6097f5605b02655328a7c.jpg)
+
+![de4f25e1cecd25548b215dd49f134abeaed6d2ae46bf095d997a78b13b12ec9f.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/de4f25e1cecd25548b215dd49f134abeaed6d2ae46bf095d997a78b13b12ec9f.jpg)
+
+![f6f88aef48497393eeafc36d8627ecf8cf235f8421e4d110beeb7bc114787986.jpg](../iclr_results/2453_Self-supervised contrastive learning performs non-linear system identification/tables/f6f88aef48497393eeafc36d8627ecf8cf235f8421e4d110beeb7bc114787986.jpg)
+
+## SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration
+
+### Images
+
+![1bb1bf484ca3007a91ccd113263f80f839f6117e348b1993cfc8401e63e5b35e.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/1bb1bf484ca3007a91ccd113263f80f839f6117e348b1993cfc8401e63e5b35e.jpg)
+
+![27b5b9d32b5b3ad0a67dd7dff2f6f3a64f54c72629ef8f01298bd8e0fd1e3797.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/27b5b9d32b5b3ad0a67dd7dff2f6f3a64f54c72629ef8f01298bd8e0fd1e3797.jpg)
+
+![3702852f3b531d91dacbb07a0b67c6e3574202f031ffa1e284590badba0f1162.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/3702852f3b531d91dacbb07a0b67c6e3574202f031ffa1e284590badba0f1162.jpg)
+
+![4068cad3277ab4d8a6ac85dfb15674dcfacc946096cc8f310b9adf8306dbae25.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/4068cad3277ab4d8a6ac85dfb15674dcfacc946096cc8f310b9adf8306dbae25.jpg)
+
+![71f04fdea193d14c84f101d97d864f699f237d003bea33b3a23551848774842f.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/71f04fdea193d14c84f101d97d864f699f237d003bea33b3a23551848774842f.jpg)
+
+![9966964ba70ae58243cb1b2a30f084ccf769313233f300d0c84338db29a84ae6.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/9966964ba70ae58243cb1b2a30f084ccf769313233f300d0c84338db29a84ae6.jpg)
+
+![9d1d96bb74e67faf9d035b056b4fa96887512024f27179446c7926d77574012a.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/9d1d96bb74e67faf9d035b056b4fa96887512024f27179446c7926d77574012a.jpg)
+
+![a54ac7a3873b745010d1aac3c16f891c631ff2b4c8253e2fd04f932279db7b38.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/a54ac7a3873b745010d1aac3c16f891c631ff2b4c8253e2fd04f932279db7b38.jpg)
+
+![b83ee091fd5fef1cf28e66c2c6b4b8cb0b4c7001c21dbdb9c187e7839ff144d5.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/b83ee091fd5fef1cf28e66c2c6b4b8cb0b4c7001c21dbdb9c187e7839ff144d5.jpg)
+
+![cfc9e34cde9b03acd8124c9f06e1fbca057fbf3a2aa9411997d33817afae8102.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/cfc9e34cde9b03acd8124c9f06e1fbca057fbf3a2aa9411997d33817afae8102.jpg)
+
+![e3d50e7217c22db8b43a5f76211b8657fbd701787deb7b5c54e643c883a177fb.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/e3d50e7217c22db8b43a5f76211b8657fbd701787deb7b5c54e643c883a177fb.jpg)
+
+![f7879183470946f6e92e30c2e635c1504a826c0b298a71df31a625ef7ac00e7e.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/f7879183470946f6e92e30c2e635c1504a826c0b298a71df31a625ef7ac00e7e.jpg)
+
+![f84985a9d71d032c355cedcd98ee6e6fedc71dc650afeff4236691b63c7458a1.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/f84985a9d71d032c355cedcd98ee6e6fedc71dc650afeff4236691b63c7458a1.jpg)
+
+![ff26b6685774e0cf7d40520ad443769bcfdde5368af2a210dd206149316ef80c.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/images/ff26b6685774e0cf7d40520ad443769bcfdde5368af2a210dd206149316ef80c.jpg)
+
+### Tables
+
+![01b68573a663f091b1bec4accb8bdaaa02cfc64abe357941863ab052f1fa7250.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/01b68573a663f091b1bec4accb8bdaaa02cfc64abe357941863ab052f1fa7250.jpg)
+
+![0a09bef6ebb1cc0d395cccda93fcc1e1c01937b80004e464bfce408d91241f9f.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/0a09bef6ebb1cc0d395cccda93fcc1e1c01937b80004e464bfce408d91241f9f.jpg)
+
+![2676df8942370b2b4a420ab5d92bd1a6fe73bb588bda1f7eca7b9f6a5380c144.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/2676df8942370b2b4a420ab5d92bd1a6fe73bb588bda1f7eca7b9f6a5380c144.jpg)
+
+![3ba2fe57f13a2f85fe220692137c813c36e17f14423b2e2ab9e2eb68ffd13808.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/3ba2fe57f13a2f85fe220692137c813c36e17f14423b2e2ab9e2eb68ffd13808.jpg)
+
+![3ceaf1bc9d5858cef99eb2bdd1b66c6e72164498a934df591149a205b004bbad.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/3ceaf1bc9d5858cef99eb2bdd1b66c6e72164498a934df591149a205b004bbad.jpg)
+
+![4ca31362e75c24f43d525b6e4b4d0df941f097edbd52bac235a3bdf3d7f87413.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/4ca31362e75c24f43d525b6e4b4d0df941f097edbd52bac235a3bdf3d7f87413.jpg)
+
+![6cf1fe087292161987a7c2c78f3e8b964bee86f56f12be53524dd0217dbeee60.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/6cf1fe087292161987a7c2c78f3e8b964bee86f56f12be53524dd0217dbeee60.jpg)
+
+![754710d9ea841526409867d33e97117e15fee5d87c51a51c7fa4788e2955b6ac.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/754710d9ea841526409867d33e97117e15fee5d87c51a51c7fa4788e2955b6ac.jpg)
+
+![8965ec1c50ac907bb894e2c92e56f7285359508a239e6fdee8bd2fab17bffde8.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/8965ec1c50ac907bb894e2c92e56f7285359508a239e6fdee8bd2fab17bffde8.jpg)
+
+![9b438c2b558992d406f1c86a0f68244dc7fba6b00d7afc878fa32539c1ce7ae7.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/9b438c2b558992d406f1c86a0f68244dc7fba6b00d7afc878fa32539c1ce7ae7.jpg)
+
+![b1aadc6d2e422988b1c8f6f5ee3cea63a2dae9f4487dbc6ec885e2b726efe8ef.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/b1aadc6d2e422988b1c8f6f5ee3cea63a2dae9f4487dbc6ec885e2b726efe8ef.jpg)
+
+![b3a61e4c9198f0eb08d3652cedf14a0e28931ff67b651eba18a4ed10fe06d924.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/b3a61e4c9198f0eb08d3652cedf14a0e28931ff67b651eba18a4ed10fe06d924.jpg)
+
+![c0f1dc6bc818d30a8675839e005d5c24914a3cc585c5e285604a175bc518fd16.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/c0f1dc6bc818d30a8675839e005d5c24914a3cc585c5e285604a175bc518fd16.jpg)
+
+![d4f7c362c15f9d36762943a425892969fae0c23013ed960b3adf60f1911f58e1.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/d4f7c362c15f9d36762943a425892969fae0c23013ed960b3adf60f1911f58e1.jpg)
+
+![d81216c47d6e5fed4c3835bf9d41df4faf9462faf3f231a04806dfe2a74951c3.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/d81216c47d6e5fed4c3835bf9d41df4faf9462faf3f231a04806dfe2a74951c3.jpg)
+
+![db71e0bc2450133013e1923698c26d3a00a4c6055123f47b688947bb7841e65d.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/db71e0bc2450133013e1923698c26d3a00a4c6055123f47b688947bb7841e65d.jpg)
+
+![e690efdb1beea5afb220fb6b72599efeb1abe31c929b0fe3dff7f00aa6d5f092.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/e690efdb1beea5afb220fb6b72599efeb1abe31c929b0fe3dff7f00aa6d5f092.jpg)
+
+![ee3283daa2be72117694f23a88478aa10858231a88e6c720b4b8944436ec33ba.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/ee3283daa2be72117694f23a88478aa10858231a88e6c720b4b8944436ec33ba.jpg)
+
+![f7590ad25fa0db8e16e6aa282a5ed99d66835a156cab63ac50d53e0b57c22e5f.jpg](../iclr_results/2454_SageAttention_ Accurate 8-Bit Attention for Plug-and-play Inference Acceleration/tables/f7590ad25fa0db8e16e6aa282a5ed99d66835a156cab63ac50d53e0b57c22e5f.jpg)

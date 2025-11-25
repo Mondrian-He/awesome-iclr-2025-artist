@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,213 @@
 
 ## 目录 (Table of Contents)
 
-1. [Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice](#Language-Models-Trained-to-do-Arithmetic-Predict-Human-Risky-and-Intertemporal-Choice)
-2. [Bridging Information Asymmetry in Text-video Retrieval: A Data-centric Approach](#Bridging-Information-Asymmetry-in-Text-video-Retrieval-A-Data-centric-Approach)
-3. [Physics of Language Models: Part 2.1, Grade-School Math and the Hidden Reasoning Process](#Physics-of-Language-Models-Part-21-Grade-School-Math-and-the-Hidden-Reasoning-Process)
-4. [Measuring And Improving Engagement of Text-to-Image Generation Models](#Measuring-And-Improving-Engagement-of-Text-to-Image-Generation-Models)
-5. [Law of the Weakest Link: Cross Capabilities of Large Language Models](#Law-of-the-Weakest-Link-Cross-Capabilities-of-Large-Language-Models)
-6. [Graph Neural Preconditioners for Iterative Solutions of Sparse Linear Systems](#Graph-Neural-Preconditioners-for-Iterative-Solutions-of-Sparse-Linear-Systems)
-7. [UTILITY: Utilizing Explainable Reinforcement Learning to Improve Reinforcement Learning](#UTILITY-Utilizing-Explainable-Reinforcement-Learning-to-Improve-Reinforcement-Learning)
-8. [Discriminator-Guided Embodied Planning for LLM Agent](#Discriminator-Guided-Embodied-Planning-for-LLM-Agent)
-9. [State Space Model Meets Transformer: A New Paradigm for 3D Object Detection](#State-Space-Model-Meets-Transformer-A-New-Paradigm-for-3D-Object-Detection)
-10. [MGCFNN: A Neural MultiGrid Solver with Novel Fourier Neural Network for High Wave Number Helmholtz Equations](#MGCFNN-A-Neural-MultiGrid-Solver-with-Novel-Fourier-Neural-Network-for-High-Wave-Number-Helmholtz-Equations)
-11. [The Belief State Transformer](#The-Belief-State-Transformer)
-12. [Measuring memorization in RLHF for code completion](#Measuring-memorization-in-RLHF-for-code-completion)
-13. [On the Relation between Trainability and Dequantization of Variational Quantum Learning Models](#On-the-Relation-between-Trainability-and-Dequantization-of-Variational-Quantum-Learning-Models)
-14. [Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems](#Boosting-Neural-Combinatorial-Optimization-for-Large-Scale-Vehicle-Routing-Problems)
-15. [Epistemic Monte Carlo Tree Search](#Epistemic-Monte-Carlo-Tree-Search)
-16. [HShare: Fast LLM Decoding by Hierarchical Key-Value Sharing](#HShare-Fast-LLM-Decoding-by-Hierarchical-Key-Value-Sharing)
-17. [HyperPLR: Hypergraph Generation through Projection, Learning, and Reconstruction](#HyperPLR-Hypergraph-Generation-through-Projection-Learning-and-Reconstruction)
-18. [Reliable and Diverse Evaluation of LLM Medical Knowledge Mastery](#Reliable-and-Diverse-Evaluation-of-LLM-Medical-Knowledge-Mastery)
-19. [Revisit Large-Scale Image-Caption Data in Pre-training Multimodal Foundation Models](#Revisit-Large-Scale-Image-Caption-Data-in-Pre-training-Multimodal-Foundation-Models)
-20. [DECO: Unleashing the Potential of ConvNets for Query-based Detection and Segmentation](#DECO-Unleashing-the-Potential-of-ConvNets-for-Query-based-Detection-and-Segmentation)
-21. [Neural Sampling from Boltzmann Densities: Fisher-Rao Curves in the Wasserstein Geometry](#Neural-Sampling-from-Boltzmann-Densities-Fisher-Rao-Curves-in-the-Wasserstein-Geometry)
-22. [Metalic: Meta-Learning In-Context with Protein Language Models](#Metalic-Meta-Learning-In-Context-with-Protein-Language-Models)
-23. [Gumbel Counterfactual Generation From Language Models](#Gumbel-Counterfactual-Generation-From-Language-Models)
-24. [Solving Video Inverse Problems Using Image Diffusion Models](#Solving-Video-Inverse-Problems-Using-Image-Diffusion-Models)
-25. [CLIPure: Purification in Latent Space via CLIP for Adversarially Robust Zero-Shot Classification](#CLIPure-Purification-in-Latent-Space-via-CLIP-for-Adversarially-Robust-Zero-Shot-Classification)
-26. [Relation-Aware Diffusion for Heterogeneous Graphs with Partially Observed Features](#Relation-Aware-Diffusion-for-Heterogeneous-Graphs-with-Partially-Observed-Features)
-27. [ClawMachine: Learning to Fetch Visual Tokens for Referential Comprehension](#ClawMachine-Learning-to-Fetch-Visual-Tokens-for-Referential-Comprehension)
-28. [Physics-informed Temporal Difference Metric Learning for Robot Motion Planning](#Physics-informed-Temporal-Difference-Metric-Learning-for-Robot-Motion-Planning)
-29. [Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning](#Noise-Separation-guided-Candidate-Label-Reconstruction-for-Noisy-Partial-Label-Learning)
-30. [PolyNet: Learning Diverse Solution Strategies for Neural Combinatorial Optimization](#PolyNet-Learning-Diverse-Solution-Strategies-for-Neural-Combinatorial-Optimization)
-31. [FIRING-Net: A filtered feature recycling network for speech enhancement](#FIRING-Net-A-filtered-feature-recycling-network-for-speech-enhancement)
-32. [Improving Neural Network Accuracy by Concurrently Training with a Twin Network](#Improving-Neural-Network-Accuracy-by-Concurrently-Training-with-a-Twin-Network)
-33. [Phidias: A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Reference-Augmented  Diffusion](#Phidias-A-Generative-Model-for-Creating-3D-Content-from-Text-Image-and-3D-Conditions-with-Reference-Augmented-Diffusion)
-34. [VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks](#VLM2Vec-Training-Vision-Language-Models-for-Massive-Multimodal-Embedding-Tasks)
-35. [Efficient Model Editing with Task-Localized Sparse Fine-tuning](#Efficient-Model-Editing-with-Task-Localized-Sparse-Fine-tuning)
-36. [Provence: efficient and robust context pruning for retrieval-augmented generation](#Provence-efficient-and-robust-context-pruning-for-retrieval-augmented-generation)
+1. [Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimization](#Methods-with-Local-Steps-and-Random-Reshuffling-for-Generally-Smooth-Non-Convex-Federated-Optimization)
+2. [Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement](#Estimation-of-single-cell-and-tissue-perturbation-effect-in-spatial-transcriptomics-via-Spatial-Causal-Disentanglement)
+3. [Zero-shot forecasting of chaotic systems](#Zero-shot-forecasting-of-chaotic-systems)
+4. [Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer](#Learning-Video-Conditioned-Policy-on-Unlabelled-Data-with-Joint-Embedding-Predictive-Transformer)
+5. [Real-time design of architectural structures with differentiable mechanics and neural networks](#Real-time-design-of-architectural-structures-with-differentiable-mechanics-and-neural-networks)
+6. [Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice](#Language-Models-Trained-to-do-Arithmetic-Predict-Human-Risky-and-Intertemporal-Choice)
+7. [Bridging Information Asymmetry in Text-video Retrieval: A Data-centric Approach](#Bridging-Information-Asymmetry-in-Text-video-Retrieval-A-Data-centric-Approach)
+8. [Physics of Language Models: Part 2.1, Grade-School Math and the Hidden Reasoning Process](#Physics-of-Language-Models-Part-21-Grade-School-Math-and-the-Hidden-Reasoning-Process)
+9. [Measuring And Improving Engagement of Text-to-Image Generation Models](#Measuring-And-Improving-Engagement-of-Text-to-Image-Generation-Models)
+10. [Law of the Weakest Link: Cross Capabilities of Large Language Models](#Law-of-the-Weakest-Link-Cross-Capabilities-of-Large-Language-Models)
+11. [Graph Neural Preconditioners for Iterative Solutions of Sparse Linear Systems](#Graph-Neural-Preconditioners-for-Iterative-Solutions-of-Sparse-Linear-Systems)
+12. [UTILITY: Utilizing Explainable Reinforcement Learning to Improve Reinforcement Learning](#UTILITY-Utilizing-Explainable-Reinforcement-Learning-to-Improve-Reinforcement-Learning)
+13. [Discriminator-Guided Embodied Planning for LLM Agent](#Discriminator-Guided-Embodied-Planning-for-LLM-Agent)
+14. [State Space Model Meets Transformer: A New Paradigm for 3D Object Detection](#State-Space-Model-Meets-Transformer-A-New-Paradigm-for-3D-Object-Detection)
+15. [MGCFNN: A Neural MultiGrid Solver with Novel Fourier Neural Network for High Wave Number Helmholtz Equations](#MGCFNN-A-Neural-MultiGrid-Solver-with-Novel-Fourier-Neural-Network-for-High-Wave-Number-Helmholtz-Equations)
+16. [The Belief State Transformer](#The-Belief-State-Transformer)
+17. [Measuring memorization in RLHF for code completion](#Measuring-memorization-in-RLHF-for-code-completion)
+18. [On the Relation between Trainability and Dequantization of Variational Quantum Learning Models](#On-the-Relation-between-Trainability-and-Dequantization-of-Variational-Quantum-Learning-Models)
+19. [Boosting Neural Combinatorial Optimization for Large-Scale Vehicle Routing Problems](#Boosting-Neural-Combinatorial-Optimization-for-Large-Scale-Vehicle-Routing-Problems)
+20. [Epistemic Monte Carlo Tree Search](#Epistemic-Monte-Carlo-Tree-Search)
+21. [HShare: Fast LLM Decoding by Hierarchical Key-Value Sharing](#HShare-Fast-LLM-Decoding-by-Hierarchical-Key-Value-Sharing)
+22. [HyperPLR: Hypergraph Generation through Projection, Learning, and Reconstruction](#HyperPLR-Hypergraph-Generation-through-Projection-Learning-and-Reconstruction)
+23. [Reliable and Diverse Evaluation of LLM Medical Knowledge Mastery](#Reliable-and-Diverse-Evaluation-of-LLM-Medical-Knowledge-Mastery)
+24. [Revisit Large-Scale Image-Caption Data in Pre-training Multimodal Foundation Models](#Revisit-Large-Scale-Image-Caption-Data-in-Pre-training-Multimodal-Foundation-Models)
+25. [DECO: Unleashing the Potential of ConvNets for Query-based Detection and Segmentation](#DECO-Unleashing-the-Potential-of-ConvNets-for-Query-based-Detection-and-Segmentation)
+26. [Neural Sampling from Boltzmann Densities: Fisher-Rao Curves in the Wasserstein Geometry](#Neural-Sampling-from-Boltzmann-Densities-Fisher-Rao-Curves-in-the-Wasserstein-Geometry)
+27. [Metalic: Meta-Learning In-Context with Protein Language Models](#Metalic-Meta-Learning-In-Context-with-Protein-Language-Models)
+28. [Gumbel Counterfactual Generation From Language Models](#Gumbel-Counterfactual-Generation-From-Language-Models)
+29. [Solving Video Inverse Problems Using Image Diffusion Models](#Solving-Video-Inverse-Problems-Using-Image-Diffusion-Models)
+30. [CLIPure: Purification in Latent Space via CLIP for Adversarially Robust Zero-Shot Classification](#CLIPure-Purification-in-Latent-Space-via-CLIP-for-Adversarially-Robust-Zero-Shot-Classification)
+31. [Relation-Aware Diffusion for Heterogeneous Graphs with Partially Observed Features](#Relation-Aware-Diffusion-for-Heterogeneous-Graphs-with-Partially-Observed-Features)
+32. [ClawMachine: Learning to Fetch Visual Tokens for Referential Comprehension](#ClawMachine-Learning-to-Fetch-Visual-Tokens-for-Referential-Comprehension)
+33. [Physics-informed Temporal Difference Metric Learning for Robot Motion Planning](#Physics-informed-Temporal-Difference-Metric-Learning-for-Robot-Motion-Planning)
+34. [Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning](#Noise-Separation-guided-Candidate-Label-Reconstruction-for-Noisy-Partial-Label-Learning)
+35. [PolyNet: Learning Diverse Solution Strategies for Neural Combinatorial Optimization](#PolyNet-Learning-Diverse-Solution-Strategies-for-Neural-Combinatorial-Optimization)
+36. [FIRING-Net: A filtered feature recycling network for speech enhancement](#FIRING-Net-A-filtered-feature-recycling-network-for-speech-enhancement)
+37. [Improving Neural Network Accuracy by Concurrently Training with a Twin Network](#Improving-Neural-Network-Accuracy-by-Concurrently-Training-with-a-Twin-Network)
 
 ---
 
 
-## Language Models Trained to do Arithmetic Predict Human Risky and Intertemporal Choice
+## Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimization
+
+### Images
+
+![3eed5ab150d95716223df81173f252f0ca8a01b8e100ccd3bfa7c80fc938682c.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/images/3eed5ab150d95716223df81173f252f0ca8a01b8e100ccd3bfa7c80fc938682c.jpg)
+
+![7e3b7dbee2f9a1553569bc10f13bcb04735b8f0b2a4d5edd7b6a503dca6e59ab.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/images/7e3b7dbee2f9a1553569bc10f13bcb04735b8f0b2a4d5edd7b6a503dca6e59ab.jpg)
+
+![a7f719e84a93f4f2258b1ce4bba1c59a40306970f564f56b852774923503f77b.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/images/a7f719e84a93f4f2258b1ce4bba1c59a40306970f564f56b852774923503f77b.jpg)
+
+### Tables
+
+![17cc9ca8775ea7159522867111cfec663fe5c59b6a22e158fb29c1f0b2f5db16.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/17cc9ca8775ea7159522867111cfec663fe5c59b6a22e158fb29c1f0b2f5db16.jpg)
+
+![286e3aacf1cf06843919cba0bdeb722b384159e03c6141ea84e42dc4d6872fe2.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/286e3aacf1cf06843919cba0bdeb722b384159e03c6141ea84e42dc4d6872fe2.jpg)
+
+![2b077cdfe08a2aaa7d9b693bf4013cfa33ff34433da8dcc615e991e54348c705.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/2b077cdfe08a2aaa7d9b693bf4013cfa33ff34433da8dcc615e991e54348c705.jpg)
+
+![453bba83c260019f314ba54d4ca425dd551751f83afe2997871ebba532209ec9.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/453bba83c260019f314ba54d4ca425dd551751f83afe2997871ebba532209ec9.jpg)
+
+![577190ed655f9dc404709cef4358d5a19b34164c83d9ccacba888ff5960e7764.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/577190ed655f9dc404709cef4358d5a19b34164c83d9ccacba888ff5960e7764.jpg)
+
+![9bbc4466e4c9c4e6900f4ea5a3978388ce70fd45001f156357341677f7bb9444.jpg](../iclr_results/2194_A Little Goes a Long Way_ Efficient Long Context Training and Inference with Partial Contexts/tables/9bbc4466e4c9c4e6900f4ea5a3978388ce70fd45001f156357341677f7bb9444.jpg)
+
+## Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimization
+
+
+### Images
+
+![0bd99c36fbcf18e0a9b1ecd8f17e7ebf5e9d2ecb72a2fcbe2cfa4723515be857.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/0bd99c36fbcf18e0a9b1ecd8f17e7ebf5e9d2ecb72a2fcbe2cfa4723515be857.jpg)
+
+![39364fa3ea8cf9af2b792dcd5c4e5dd52ca45a371927b44f690fbb3468fcdd4a.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/39364fa3ea8cf9af2b792dcd5c4e5dd52ca45a371927b44f690fbb3468fcdd4a.jpg)
+
+![39d3876044a286155f6eff1930eb41825c63b59adb15c28a41c7a80705a0d550.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/39d3876044a286155f6eff1930eb41825c63b59adb15c28a41c7a80705a0d550.jpg)
+
+![4c28192fc135d4281ee4b4fc396930fc02f320374f9492cc6ae51c97790e950d.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/4c28192fc135d4281ee4b4fc396930fc02f320374f9492cc6ae51c97790e950d.jpg)
+
+![4de13b0c46ab2d713e08d2b43a8103fe4e5dac6ce352a8db4d81c35f98916910.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/4de13b0c46ab2d713e08d2b43a8103fe4e5dac6ce352a8db4d81c35f98916910.jpg)
+
+![86090e1d2cb0ca46784378c70631dcaafab455f236796f67d463303787cb3819.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/86090e1d2cb0ca46784378c70631dcaafab455f236796f67d463303787cb3819.jpg)
+
+![a9127ab3036ccf4c296021b0ee44c3f097e78ceb0fe31b2f5227a0611bec59d8.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/a9127ab3036ccf4c296021b0ee44c3f097e78ceb0fe31b2f5227a0611bec59d8.jpg)
+
+![c3a9dc5ff171f389ad21e73e618cc097c7743ad4a5d6cfb165ecb77292b13023.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/c3a9dc5ff171f389ad21e73e618cc097c7743ad4a5d6cfb165ecb77292b13023.jpg)
+
+![c5bbd1c6fb5ee22f4265215f2f6ddb5bc73057b07516b44ad8a2e3c0ed35bc1a.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/c5bbd1c6fb5ee22f4265215f2f6ddb5bc73057b07516b44ad8a2e3c0ed35bc1a.jpg)
+
+![f79cf9e0b41f56c5dbfd3d8c4c88fdb7e9568a5613eb40a49462f37cd4927150.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/images/f79cf9e0b41f56c5dbfd3d8c4c88fdb7e9568a5613eb40a49462f37cd4927150.jpg)
+
+### Tables
+
+![2d67f6fdeb34d91815c73ed68012a87eac869a8e2cac89a341a735e926aefd36.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/2d67f6fdeb34d91815c73ed68012a87eac869a8e2cac89a341a735e926aefd36.jpg)
+
+![2fea06dd815ac371554a96bceb9be370be80218b76a70815a00f82da8707c057.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/2fea06dd815ac371554a96bceb9be370be80218b76a70815a00f82da8707c057.jpg)
+
+![587d68c6f1a7913cf6f4148e2c0cc6b7fef307db878d365940bce00dee985d91.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/587d68c6f1a7913cf6f4148e2c0cc6b7fef307db878d365940bce00dee985d91.jpg)
+
+![954bbde9517de79a9d824c88e5fd6712b092811344996a2f9eeb25dd251a2cd3.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/954bbde9517de79a9d824c88e5fd6712b092811344996a2f9eeb25dd251a2cd3.jpg)
+
+![956ca251bb1c4f15d7744d76eba6225a9f0b7dfa1b0a4abdaa3b1e5eddb8d1cc.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/956ca251bb1c4f15d7744d76eba6225a9f0b7dfa1b0a4abdaa3b1e5eddb8d1cc.jpg)
+
+![e49fdb6c38f3466fde1835fb1d6d0f1533196a423efc005e8b00a0919c33bb93.jpg](../iclr_results/2195_Methods with Local Steps and Random Reshuffling for Generally Smooth Non-Convex Federated Optimizati/tables/e49fdb6c38f3466fde1835fb1d6d0f1533196a423efc005e8b00a0919c33bb93.jpg)
+
+## Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Causal Disentanglement
+
+
+### Images
+
+![0ed3ed6aa3c16a3c627c2d03975905ca2c2c39a28994d32c3290c8766586c58c.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/0ed3ed6aa3c16a3c627c2d03975905ca2c2c39a28994d32c3290c8766586c58c.jpg)
+
+![1f56d144d9705e3bea4ba72180d5da4b8a89209dcc54d2a6c0343d27712cb98d.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/1f56d144d9705e3bea4ba72180d5da4b8a89209dcc54d2a6c0343d27712cb98d.jpg)
+
+![217a7796f0edb08eb1e7612ea6639ac5c613e95a86defe37d19bdc63bb8ff048.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/217a7796f0edb08eb1e7612ea6639ac5c613e95a86defe37d19bdc63bb8ff048.jpg)
+
+![3b5fd3e87310602c720ee307963c5d65cf55f713505933e844aa5c7768d47fc8.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/3b5fd3e87310602c720ee307963c5d65cf55f713505933e844aa5c7768d47fc8.jpg)
+
+![5909f5475b086c9dd5e01a1dabd500e28af47996fefc4563d1dad311875c0fb5.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/5909f5475b086c9dd5e01a1dabd500e28af47996fefc4563d1dad311875c0fb5.jpg)
+
+![746ca0b6288b87e039a54d4ef2c7f32c3c069404bab0f95c42628c23653b0881.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/746ca0b6288b87e039a54d4ef2c7f32c3c069404bab0f95c42628c23653b0881.jpg)
+
+![efc2b181ec8f65221c049c4a5d6089bf73eb8c6da91b827453f09fbf94367e44.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/efc2b181ec8f65221c049c4a5d6089bf73eb8c6da91b827453f09fbf94367e44.jpg)
+
+![f6673944e220adbd2d790bdd5ee6989afc0db5ed2b61ae6df0ae741127ead66b.jpg](../iclr_results/2196_Estimation of single-cell and tissue perturbation effect in spatial transcriptomics via Spatial Caus/images/f6673944e220adbd2d790bdd5ee6989afc0db5ed2b61ae6df0ae741127ead66b.jpg)
+
+## Zero-shot forecasting of chaotic systems
+
+
+### Images
+
+![377e2b664fc6cbdd1ae43eeaca47e2f0e3e05913ea131b7db37ad77cd8f975cd.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/377e2b664fc6cbdd1ae43eeaca47e2f0e3e05913ea131b7db37ad77cd8f975cd.jpg)
+
+![4d6dccc844f2ab956878dc053a304faff14c3e8eba20578c84a03e77c66cb8e2.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/4d6dccc844f2ab956878dc053a304faff14c3e8eba20578c84a03e77c66cb8e2.jpg)
+
+![6154c20239de6dd0088797b28e283f91314586de3a53aedad638003cc4512598.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/6154c20239de6dd0088797b28e283f91314586de3a53aedad638003cc4512598.jpg)
+
+![6c4fb30d458adcdc22c5c29b45c727fbfccdcbcfb9cf48a3563a968094bd2e07.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/6c4fb30d458adcdc22c5c29b45c727fbfccdcbcfb9cf48a3563a968094bd2e07.jpg)
+
+![797c043baa572fda6aa5609473f7abfaa3f377484f70e34bde7c1b9570544d4f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/797c043baa572fda6aa5609473f7abfaa3f377484f70e34bde7c1b9570544d4f.jpg)
+
+![7f0895958f738dbdf345d0b7e61f80804d5a95999ef1ac12de93f9b25a7f3509.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/7f0895958f738dbdf345d0b7e61f80804d5a95999ef1ac12de93f9b25a7f3509.jpg)
+
+![8fb88af1c390f625df66a862355bfcdf28037c482c987f5e6d30e999f81919f3.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/8fb88af1c390f625df66a862355bfcdf28037c482c987f5e6d30e999f81919f3.jpg)
+
+![93064750d1a437821ce7ce5fc1851845d76ab614559a60eedf071d0c57873b3f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/93064750d1a437821ce7ce5fc1851845d76ab614559a60eedf071d0c57873b3f.jpg)
+
+![ade08bc8c9dce74fa968d5d5bd61f5e79cff0d4f7b6482a88292ca7852062642.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/ade08bc8c9dce74fa968d5d5bd61f5e79cff0d4f7b6482a88292ca7852062642.jpg)
+
+![b413b4397b691d8c9498952f8b4163273aac71a5c53210a5dedbeac808b24269.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/b413b4397b691d8c9498952f8b4163273aac71a5c53210a5dedbeac808b24269.jpg)
+
+![d3d913cd0f86e7b0d2bfa2a63b88006e0bcb617738ff50d410e54958d89adabb.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/d3d913cd0f86e7b0d2bfa2a63b88006e0bcb617738ff50d410e54958d89adabb.jpg)
+
+![d96c404143e4c8471ac9af41abe4237c4087cc4866963f47c85373edd2fc81df.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/d96c404143e4c8471ac9af41abe4237c4087cc4866963f47c85373edd2fc81df.jpg)
+
+![e10c891a42013d1220e295bbc9e77c667c8790fef72aa69591916b8a15d2531d.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/e10c891a42013d1220e295bbc9e77c667c8790fef72aa69591916b8a15d2531d.jpg)
+
+![f56862661a1308fcdc3ec6592223a3f872dedfd28dbb29107465243aa88fe8c3.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/f56862661a1308fcdc3ec6592223a3f872dedfd28dbb29107465243aa88fe8c3.jpg)
+
+![fc2fb0f5e7f13a4bd4d74c08a1ceb90e26390b0c12770d1e40ac4ff79e47180f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/fc2fb0f5e7f13a4bd4d74c08a1ceb90e26390b0c12770d1e40ac4ff79e47180f.jpg)
+
+![ff5fa5d52fe347eccc82128e611489d396ee176c5a8b2e389a72fb3156bce63f.jpg](../iclr_results/2197_Zero-shot forecasting of chaotic systems/images/ff5fa5d52fe347eccc82128e611489d396ee176c5a8b2e389a72fb3156bce63f.jpg)
+
+## Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer
+
+
+### Images
+
+![2d526f705364f857af58694715ff07ee20498abb20c1ed04982afd71068a53d6.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/2d526f705364f857af58694715ff07ee20498abb20c1ed04982afd71068a53d6.jpg)
+
+![80db39684d5bc0371e97184f1ac08996808aa0569a1b0c177260dca15e9f0bd0.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/80db39684d5bc0371e97184f1ac08996808aa0569a1b0c177260dca15e9f0bd0.jpg)
+
+![83167b94e2620d74edc83e5c0d83b664ecf3d1466ee2e1b4c5f637c3525da054.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/83167b94e2620d74edc83e5c0d83b664ecf3d1466ee2e1b4c5f637c3525da054.jpg)
+
+![b4bc52867978c9b2500ecba5882cf250850865d3088b56c26482d5cb98d459dc.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b4bc52867978c9b2500ecba5882cf250850865d3088b56c26482d5cb98d459dc.jpg)
+
+![b5117a18c3c175a31d037c83637060932b8b6d5c8220fc92d804ffa4681e789a.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b5117a18c3c175a31d037c83637060932b8b6d5c8220fc92d804ffa4681e789a.jpg)
+
+![b520777e800de0620627f701f1f62398da6c2305be90f88219106e942f00e5b6.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/b520777e800de0620627f701f1f62398da6c2305be90f88219106e942f00e5b6.jpg)
+
+![bdfd0373434a8fad3a0f644826c564803407754d8663c99bd8cc9b4588df91ad.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/images/bdfd0373434a8fad3a0f644826c564803407754d8663c99bd8cc9b4588df91ad.jpg)
+
+### Tables
+
+![060f3e533232abdefe1657ce851f366ecd44566af6fb9452f4bd3c9d008952c0.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/060f3e533232abdefe1657ce851f366ecd44566af6fb9452f4bd3c9d008952c0.jpg)
+
+![43917c25842666206cc10061cc01a21d1a739b88dbfc7eb102c2d00600c3ab9d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/43917c25842666206cc10061cc01a21d1a739b88dbfc7eb102c2d00600c3ab9d.jpg)
+
+![69ca81a0b4e4fcce067c9b9d18be5fdbe471cf421b2220549198e3daedace4c3.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/69ca81a0b4e4fcce067c9b9d18be5fdbe471cf421b2220549198e3daedace4c3.jpg)
+
+![6ce92fda3d38ca2c44a7494f60be3751482576616facabbd850f23324e2ec17c.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/6ce92fda3d38ca2c44a7494f60be3751482576616facabbd850f23324e2ec17c.jpg)
+
+![74af382ba981a6afca7c051f7072d8ca690c32312e2fabf666e73f704bf190fe.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/74af382ba981a6afca7c051f7072d8ca690c32312e2fabf666e73f704bf190fe.jpg)
+
+![9fb58133bb06d3916ad2af6dce44dc3d3f101bdca28317f281d8b98d4439f067.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/9fb58133bb06d3916ad2af6dce44dc3d3f101bdca28317f281d8b98d4439f067.jpg)
+
+![a862e5dce085c0f0a35fc06b8ada037fe259d7aadabd8897c582a3b20a6b582d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/a862e5dce085c0f0a35fc06b8ada037fe259d7aadabd8897c582a3b20a6b582d.jpg)
+
+![d1ce7c1c1ab7931d424cc11a9997c69873c0fb437c3a92e529ee683e20d1be8d.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/d1ce7c1c1ab7931d424cc11a9997c69873c0fb437c3a92e529ee683e20d1be8d.jpg)
+
+![e2000c6eff6b60d7b56d73ebee47c762819008c45d8588c743097718135ff768.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/e2000c6eff6b60d7b56d73ebee47c762819008c45d8588c743097718135ff768.jpg)
+
+![edced89f8b4c0d93d4fa9e1e461b2e18ecad3b224d50dae954e12399cd8aeda5.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/edced89f8b4c0d93d4fa9e1e461b2e18ecad3b224d50dae954e12399cd8aeda5.jpg)
+
+![ee6f5e0f55bcafce41283d001ae71daa06eb0451e3fd9da1cfbf380021c120fe.jpg](../iclr_results/2198_Learning Video-Conditioned Policy on Unlabelled Data with Joint Embedding Predictive Transformer/tables/ee6f5e0f55bcafce41283d001ae71daa06eb0451e3fd9da1cfbf380021c120fe.jpg)
+
+## Real-time design of architectural structures with differentiable mechanics and neural networks
+
 
 ### Images
 
@@ -1470,7 +1636,6 @@
 
 ## Improving Neural Network Accuracy by Concurrently Training with a Twin Network
 
-
 ### Images
 
 ![104a76513cee12a744b0a6f9cc44908208f14f56675688341845ecf72ff3b4e9.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/104a76513cee12a744b0a6f9cc44908208f14f56675688341845ecf72ff3b4e9.jpg)
@@ -1506,184 +1671,3 @@
 ![f06f48571daf180cd96aaef69a1e0473157183ab733db1272c9017725a6c20cd.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/f06f48571daf180cd96aaef69a1e0473157183ab733db1272c9017725a6c20cd.jpg)
 
 ![f8222df3f9b552fff4a702c354b274c44dae7147fb9f4e83da2f8770e894f42b.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/f8222df3f9b552fff4a702c354b274c44dae7147fb9f4e83da2f8770e894f42b.jpg)
-
-## Phidias: A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Reference-Augmented  Diffusion
-
-
-### Images
-
-![0e803bc042dba7463b8744c85727cd6335106d82f41db08877c3b53c3d45e95a.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/0e803bc042dba7463b8744c85727cd6335106d82f41db08877c3b53c3d45e95a.jpg)
-
-![0f463832c5568b40a99c54501517407fbda69d3516b1a785bf83c9b494303c15.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/0f463832c5568b40a99c54501517407fbda69d3516b1a785bf83c9b494303c15.jpg)
-
-![290c001cdb416faa778879413880d522fdb106774b76b134dd988ddc2ad01303.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/290c001cdb416faa778879413880d522fdb106774b76b134dd988ddc2ad01303.jpg)
-
-![44e044eaae70a18d5aff105801b8b8a73a338d1749c2cf27230f23eb6f246c06.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/44e044eaae70a18d5aff105801b8b8a73a338d1749c2cf27230f23eb6f246c06.jpg)
-
-![54533b3032e9a9c21899289df9c07f9dd379b5530b8cb04c5f94bdfe3d810254.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/54533b3032e9a9c21899289df9c07f9dd379b5530b8cb04c5f94bdfe3d810254.jpg)
-
-![5f998fb595be048dc49e9d4620899b310140e6b3525d899f1593db1ef8a0fe7d.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/5f998fb595be048dc49e9d4620899b310140e6b3525d899f1593db1ef8a0fe7d.jpg)
-
-![6430375f35e8e83efa52f25bf8b51313c48a58cba235d920ac7d776148da64d8.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/6430375f35e8e83efa52f25bf8b51313c48a58cba235d920ac7d776148da64d8.jpg)
-
-![718bb487b4a73355b9d0f871088f226decbd293299f24dda8ca6067de39c93fa.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/718bb487b4a73355b9d0f871088f226decbd293299f24dda8ca6067de39c93fa.jpg)
-
-![8a6547548bd98d5279af935c94e4eebf5d4fe854ac181abbe6dbbcaf23ae3e55.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/8a6547548bd98d5279af935c94e4eebf5d4fe854ac181abbe6dbbcaf23ae3e55.jpg)
-
-![90b7af0460ac8ffc148eb3788b1111a1c121a5e101d76d8241bd79768ee22d20.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/90b7af0460ac8ffc148eb3788b1111a1c121a5e101d76d8241bd79768ee22d20.jpg)
-
-![955856a391a05b458ac05923d04df6d905de95bb125d514d7f6e42f4b693296b.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/955856a391a05b458ac05923d04df6d905de95bb125d514d7f6e42f4b693296b.jpg)
-
-![9cdffbcb6659e30c8f5f86da9bb2284a0bba6619c120f07d696520ea36b9eb58.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/9cdffbcb6659e30c8f5f86da9bb2284a0bba6619c120f07d696520ea36b9eb58.jpg)
-
-![af2da43076b51a8168766e31f757bb54345df888abfb3d59efa4201273610ed5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/af2da43076b51a8168766e31f757bb54345df888abfb3d59efa4201273610ed5.jpg)
-
-![b76262fc26d7781dc6a4a1ba3d2b1c4be5ef5e8eaee0e2f5969a3073d0ccbe80.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/b76262fc26d7781dc6a4a1ba3d2b1c4be5ef5e8eaee0e2f5969a3073d0ccbe80.jpg)
-
-![d68301e441c20a78b6a473767503bb3f5d4866ac14affe7cad52a76680c4056f.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/d68301e441c20a78b6a473767503bb3f5d4866ac14affe7cad52a76680c4056f.jpg)
-
-![e7d0ac31c7370c1196c4badca3c6a5a14a2e370fa56386190c79c8b213782f2b.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/e7d0ac31c7370c1196c4badca3c6a5a14a2e370fa56386190c79c8b213782f2b.jpg)
-
-![f604440191367d197160f13b44f5ec52e9da7c86ec7524ebb0991f7743f19fd5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/f604440191367d197160f13b44f5ec52e9da7c86ec7524ebb0991f7743f19fd5.jpg)
-
-![ffbbd39ecdbce8085952f20fe1a0e2f957a00e18ba25ff00997e0c1707fc7675.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/ffbbd39ecdbce8085952f20fe1a0e2f957a00e18ba25ff00997e0c1707fc7675.jpg)
-
-### Tables
-
-![113ca18890b1187a7a6892a775544579bbe1ee4b583bc041ac2a6a6e80d0616f.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/113ca18890b1187a7a6892a775544579bbe1ee4b583bc041ac2a6a6e80d0616f.jpg)
-
-![7046f268b78d0939286ac7cfc4b9a3b41529a9864fdf3761e41af991d031a94c.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/7046f268b78d0939286ac7cfc4b9a3b41529a9864fdf3761e41af991d031a94c.jpg)
-
-![7dbff07c37d834c6e9ed884bf7f90bfdfea8ab58daf7a946e98d40b2369e3240.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/7dbff07c37d834c6e9ed884bf7f90bfdfea8ab58daf7a946e98d40b2369e3240.jpg)
-
-![d3570c80eaf994ac1b541173f0c58dccc1ea7318499c26e5bcf646157c1ba3d5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/d3570c80eaf994ac1b541173f0c58dccc1ea7318499c26e5bcf646157c1ba3d5.jpg)
-
-## VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks
-
-
-### Images
-
-![4bba91029b8037b638cb4acdd253cf459e8b27890b94a799ccbb43f508a6ccc6.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/4bba91029b8037b638cb4acdd253cf459e8b27890b94a799ccbb43f508a6ccc6.jpg)
-
-![79f2d412f84fdcb694d51cc671141030aac82743ad5d24993e5a5c30c5bde64b.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/79f2d412f84fdcb694d51cc671141030aac82743ad5d24993e5a5c30c5bde64b.jpg)
-
-![b41f1cb013af004b9e6badb280532c2a29eb454d6423bae7eab1d0590bd7cd9e.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/b41f1cb013af004b9e6badb280532c2a29eb454d6423bae7eab1d0590bd7cd9e.jpg)
-
-![b623016a9e14bb91e7c40f4c4f1df23fcb7cf9094fe1cdf3c3f7508e0bdc7eca.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/b623016a9e14bb91e7c40f4c4f1df23fcb7cf9094fe1cdf3c3f7508e0bdc7eca.jpg)
-
-![caa6aa0073325a5c238ef5ea86f5f435f0d9dc720aff115ed9cee8c64f06e7ff.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/caa6aa0073325a5c238ef5ea86f5f435f0d9dc720aff115ed9cee8c64f06e7ff.jpg)
-
-![f89d090bde752c01957fb669c4a307f9fd923e4d463b41f2ae41d97b9cd84160.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/f89d090bde752c01957fb669c4a307f9fd923e4d463b41f2ae41d97b9cd84160.jpg)
-
-### Tables
-
-![2831cd6415213485d958b90a52f1ae58c0609022aae6f8d3a54012553286ff72.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/2831cd6415213485d958b90a52f1ae58c0609022aae6f8d3a54012553286ff72.jpg)
-
-![3426f290a2b30a01bbc864e1062f7a81681cf77ac72b8e8a0d0eddf629744712.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/3426f290a2b30a01bbc864e1062f7a81681cf77ac72b8e8a0d0eddf629744712.jpg)
-
-![36c54ff9fdb2921495d9a00bab815874a269b8cd092295f4e3379fe30d9f002e.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/36c54ff9fdb2921495d9a00bab815874a269b8cd092295f4e3379fe30d9f002e.jpg)
-
-![43ecbbc56d714ce50dcb8362390d52d3e06d56c5f5c2b87aabb920cde52884eb.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/43ecbbc56d714ce50dcb8362390d52d3e06d56c5f5c2b87aabb920cde52884eb.jpg)
-
-![9877761e54b6b69d8bb21700e5c2a59554cd0112f1b6e1f7a7a2abb2935f458f.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/9877761e54b6b69d8bb21700e5c2a59554cd0112f1b6e1f7a7a2abb2935f458f.jpg)
-
-![aa9a790ad4cf24772f4e8134369a2b6d455363461990c69039a25964140c92eb.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/aa9a790ad4cf24772f4e8134369a2b6d455363461990c69039a25964140c92eb.jpg)
-
-![ac15c94a2e9647aedd383579b681eb62c1078ac2669adc32d0953e61a1e98937.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/ac15c94a2e9647aedd383579b681eb62c1078ac2669adc32d0953e61a1e98937.jpg)
-
-![dc4fd3da99883767c24160d74dee055f69b665e6ffacdddc353f0d799fd28ba6.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/dc4fd3da99883767c24160d74dee055f69b665e6ffacdddc353f0d799fd28ba6.jpg)
-
-![f1de65848a6c56620a3ec8aed4cfde893a5ec397067ddee58bf1225147ad2949.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/f1de65848a6c56620a3ec8aed4cfde893a5ec397067ddee58bf1225147ad2949.jpg)
-
-![ff3dc2dbaa1fd4632e341326912e0ecba23f9990a3231dacfee5d392617405f5.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/ff3dc2dbaa1fd4632e341326912e0ecba23f9990a3231dacfee5d392617405f5.jpg)
-
-## Efficient Model Editing with Task-Localized Sparse Fine-tuning
-
-
-### Images
-
-![0055dd66b7a01a1941850385abf048dd84b0633a06c37a6b1254c7e1ab50b75d.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/0055dd66b7a01a1941850385abf048dd84b0633a06c37a6b1254c7e1ab50b75d.jpg)
-
-![2ffd9445b8a8334937676e5d48afa308e69454c00136aa7d9b9488a0692523d4.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/2ffd9445b8a8334937676e5d48afa308e69454c00136aa7d9b9488a0692523d4.jpg)
-
-![5c564b0b763b09739ebfd12ae6751ec4c340b303dcf9b6cc858d77046fb40ff1.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/5c564b0b763b09739ebfd12ae6751ec4c340b303dcf9b6cc858d77046fb40ff1.jpg)
-
-![672e636565bb6897c068c979682f45337e120938a070dca1c02404f92c082fbf.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/672e636565bb6897c068c979682f45337e120938a070dca1c02404f92c082fbf.jpg)
-
-![6c87592b757406e1b6aaef8459236df6e7ff051f68117239e7b3c4e581791036.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/6c87592b757406e1b6aaef8459236df6e7ff051f68117239e7b3c4e581791036.jpg)
-
-![9fc5272408bd1e57c81f304e9933a5b1fbf8f0c4308eb378e3011500a991bbca.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/9fc5272408bd1e57c81f304e9933a5b1fbf8f0c4308eb378e3011500a991bbca.jpg)
-
-![b52b61e9fe7becc634f64875b6dcf5be4b2aadad0b3a6889eeb51444684f4b8c.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/b52b61e9fe7becc634f64875b6dcf5be4b2aadad0b3a6889eeb51444684f4b8c.jpg)
-
-![d5e12fbaa476fabf57808c57f94478c301131245d38cc744940ec794492e673a.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/d5e12fbaa476fabf57808c57f94478c301131245d38cc744940ec794492e673a.jpg)
-
-![e64fbe3bc78ec17f7a0d15e8318528d2d0fc7557141d36c1993b097b857615bc.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/e64fbe3bc78ec17f7a0d15e8318528d2d0fc7557141d36c1993b097b857615bc.jpg)
-
-![e96026bbe48de14f86a27a9e4898b49171357a78a0576d3aa8721a8365ea98c4.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/e96026bbe48de14f86a27a9e4898b49171357a78a0576d3aa8721a8365ea98c4.jpg)
-
-![faef4f5efac9a529c6e690e16a57b45da14797b6aa6c47f816ab1e6f698fb26e.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/faef4f5efac9a529c6e690e16a57b45da14797b6aa6c47f816ab1e6f698fb26e.jpg)
-
-### Tables
-
-![0d96aa956d2570e3591611a8f3087f6b618a876311bc0971ccfb4073ab0b6e19.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/0d96aa956d2570e3591611a8f3087f6b618a876311bc0971ccfb4073ab0b6e19.jpg)
-
-![43cede2f37446e7b015f55b68e4e9442a9c38932b4a8434632f5f5e9e3a8310e.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/43cede2f37446e7b015f55b68e4e9442a9c38932b4a8434632f5f5e9e3a8310e.jpg)
-
-![5ce271b5e6d252366d4bee4869f69f5cceaa6f28b61d729239805feba7e0d0d8.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/5ce271b5e6d252366d4bee4869f69f5cceaa6f28b61d729239805feba7e0d0d8.jpg)
-
-![63afe876d155d78b3edd88d1d7d7e66472f56fecfe670cce1b5de98b88c36c47.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/63afe876d155d78b3edd88d1d7d7e66472f56fecfe670cce1b5de98b88c36c47.jpg)
-
-![7cf72328857197e5e972bc72a94398ecceae7937e68ac56d6e6797edd56c6b1b.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/7cf72328857197e5e972bc72a94398ecceae7937e68ac56d6e6797edd56c6b1b.jpg)
-
-## Provence: efficient and robust context pruning for retrieval-augmented generation
-
-### Images
-
-![014b1ea672f602792abf0f9a2b8fc24316a3475d11d3b268a239324ed6005821.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/014b1ea672f602792abf0f9a2b8fc24316a3475d11d3b268a239324ed6005821.jpg)
-
-![0190e8b6f43174510f7d0bc965443b08fac1ebb5734a3043e2cccee2c7b76395.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/0190e8b6f43174510f7d0bc965443b08fac1ebb5734a3043e2cccee2c7b76395.jpg)
-
-![05f213d7c46c116622fa6621befc6b209d646d6610febede835c5f4408f2968a.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/05f213d7c46c116622fa6621befc6b209d646d6610febede835c5f4408f2968a.jpg)
-
-![0d1e12a05e493454bc4bc324a19f8826ed983b5db67a01e6c21beefca2e2e05f.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/0d1e12a05e493454bc4bc324a19f8826ed983b5db67a01e6c21beefca2e2e05f.jpg)
-
-![4537dd50a09b77ef78dcc0c46ab5e4616a5148b2da78aaad6953cc8c3011831a.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/4537dd50a09b77ef78dcc0c46ab5e4616a5148b2da78aaad6953cc8c3011831a.jpg)
-
-![5b8865924858f8d86feae6f9540f7d454f079dc43190d326cfad1eafa4696367.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/5b8865924858f8d86feae6f9540f7d454f079dc43190d326cfad1eafa4696367.jpg)
-
-![63fa8d0ddd5f26e1dc783a7e5ac555065964c99bd6e9ee268fe410781f036015.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/63fa8d0ddd5f26e1dc783a7e5ac555065964c99bd6e9ee268fe410781f036015.jpg)
-
-![6887cbd5a362c2a9b4c65ec98b8ea964ef9cf4492ba3e01c219d1a481b701e0f.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/6887cbd5a362c2a9b4c65ec98b8ea964ef9cf4492ba3e01c219d1a481b701e0f.jpg)
-
-![dabeb2501a180e35ce628c5fa53a32d04adbb454a94d7d46249b65b8afeb5431.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/dabeb2501a180e35ce628c5fa53a32d04adbb454a94d7d46249b65b8afeb5431.jpg)
-
-![f9b4df6fca7fa435fc3b7c786a6f185c492dfc1546619febad5bc3716be4b903.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/images/f9b4df6fca7fa435fc3b7c786a6f185c492dfc1546619febad5bc3716be4b903.jpg)
-
-### Tables
-
-![0f8a7b28b7f31616667473e7ae4de1fe4f77850212d7941e0f02d14aa5df6aa4.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/0f8a7b28b7f31616667473e7ae4de1fe4f77850212d7941e0f02d14aa5df6aa4.jpg)
-
-![127a5723179ff325750a432a51af73fa3857da787279137086ac70c90563edcd.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/127a5723179ff325750a432a51af73fa3857da787279137086ac70c90563edcd.jpg)
-
-![266056b8761d3e79ba01c20601ab43ef364f26aa3a1f91cd3f9011be073e6878.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/266056b8761d3e79ba01c20601ab43ef364f26aa3a1f91cd3f9011be073e6878.jpg)
-
-![557bd480ca41890613c4fffa1005538fbe4cfce953fe5d34ea06929faa4805cb.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/557bd480ca41890613c4fffa1005538fbe4cfce953fe5d34ea06929faa4805cb.jpg)
-
-![67a1d811a504c6f691efc5a781178bb55e000cd4a2e76d9210987cb1a5fdec2a.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/67a1d811a504c6f691efc5a781178bb55e000cd4a2e76d9210987cb1a5fdec2a.jpg)
-
-![836bbc5f04617d4a3e6969762c85992604dd347e0e5508b4458d36b1b57bdfda.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/836bbc5f04617d4a3e6969762c85992604dd347e0e5508b4458d36b1b57bdfda.jpg)
-
-![b0ded996de1b5cb4008c81d920e1cd4997bce5eab76efaf6ff639fe36e3d1391.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/b0ded996de1b5cb4008c81d920e1cd4997bce5eab76efaf6ff639fe36e3d1391.jpg)
-
-![b2d3356fcf89227305977586d3007f7a6c5460f4291ee8021f0af6a4587c99c5.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/b2d3356fcf89227305977586d3007f7a6c5460f4291ee8021f0af6a4587c99c5.jpg)
-
-![b56982afc8e5fdc5de6965e393384baa8eca213af315bff55ad963a1159907b1.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/b56982afc8e5fdc5de6965e393384baa8eca213af315bff55ad963a1159907b1.jpg)
-
-![b595052e997deb949fd02486b5d595b6c5596cec5d4066d7657c8d7d1ba31cd5.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/b595052e997deb949fd02486b5d595b6c5596cec5d4066d7657c8d7d1ba31cd5.jpg)
-
-![cbd4e705174605a0eacb370a9f8a45f9a0b680eb3ba7f00ab35715db186e716b.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/cbd4e705174605a0eacb370a9f8a45f9a0b680eb3ba7f00ab35715db186e716b.jpg)
-
-![e8a0c0eb8f6f4ab2da279f241354c929cdbfdfdcca1b20c215d88fae2d446daa.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/e8a0c0eb8f6f4ab2da279f241354c929cdbfdfdcca1b20c215d88fae2d446daa.jpg)
-
-![ed733ddef42153b3219c1d3453dc37ed43625450acd4f60d887ede96603554f4.jpg](../iclr_results/2235_Provence_ efficient and robust context pruning for retrieval-augmented generation/tables/ed733ddef42153b3219c1d3453dc37ed43625450acd4f60d887ede96603554f4.jpg)

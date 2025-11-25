@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,128 @@
 
 ## 目录 (Table of Contents)
 
-1. [Local convergence of simultaneous min-max algorithms to differential equilibrium on Riemannian manifold](#Local-convergence-of-simultaneous-min-max-algorithms-to-differential-equilibrium-on-Riemannian-manifold)
-2. [GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting](#GS-LiDAR-Generating-Realistic-LiDAR-Point-Clouds-with-Panoramic-Gaussian-Splatting)
-3. [DiffPC: Diffusion-based High Perceptual Fidelity Image Compression with Semantic Refinement](#DiffPC-Diffusion-based-High-Perceptual-Fidelity-Image-Compression-with-Semantic-Refinement)
-4. [A Distributional Approach to Uncertainty-Aware Preference Alignment Using Offline Demonstrations](#A-Distributional-Approach-to-Uncertainty-Aware-Preference-Alignment-Using-Offline-Demonstrations)
-5. [Progress or Regress? Self-Improvement Reversal in Post-training](#Progress-or-Regress-Self-Improvement-Reversal-in-Post-training)
-6. [Halton Scheduler for Masked Generative Image Transformer](#Halton-Scheduler-for-Masked-Generative-Image-Transformer)
-7. [Error-quantified Conformal Inference for Time Series](#Error-quantified-Conformal-Inference-for-Time-Series)
-8. [Concept Bottleneck Large Language Models](#Concept-Bottleneck-Large-Language-Models)
-9. [Separation Power of Equivariant Neural Networks](#Separation-Power-of-Equivariant-Neural-Networks)
-10. [MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization](#MaxInfoRL-Boosting-exploration-in-reinforcement-learning-through-information-gain-maximization)
-11. [Reflexive Guidance: Improving OoDD in Vision-Language Models via Self-Guided Image-Adaptive Concept Generation](#Reflexive-Guidance-Improving-OoDD-in-Vision-Language-Models-via-Self-Guided-Image-Adaptive-Concept-Generation)
-12. [Neural Interactive Proofs](#Neural-Interactive-Proofs)
-13. [PointOBB-v2: Towards Simpler, Faster, and Stronger Single Point Supervised Oriented Object Detection](#PointOBB-v2-Towards-Simpler-Faster-and-Stronger-Single-Point-Supervised-Oriented-Object-Detection)
-14. [SGD with memory: fundamental properties and stochastic acceleration](#SGD-with-memory-fundamental-properties-and-stochastic-acceleration)
-15. [A Simple Framework for Open-Vocabulary Zero-Shot Segmentation](#A-Simple-Framework-for-Open-Vocabulary-Zero-Shot-Segmentation)
-16. [Model-Free Offline Reinforcement Learning with Enhanced Robustness](#Model-Free-Offline-Reinforcement-Learning-with-Enhanced-Robustness)
-17. [Is Your Multimodal Language Model Oversensitive to Safe Queries?](#Is-Your-Multimodal-Language-Model-Oversensitive-to-Safe-Queries)
-18. [Near, far: Patch-ordering enhances vision foundation models' scene understanding](#Near-far-Patch-ordering-enhances-vision-foundation-models-scene-understanding)
-19. [Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better](#Linear-Combination-of-Saved-Checkpoints-Makes-Consistency-and-Diffusion-Models-Better)
-20. [ETA: Evaluating Then Aligning Safety of Vision Language Models at Inference Time](#ETA-Evaluating-Then-Aligning-Safety-of-Vision-Language-Models-at-Inference-Time)
-21. [Statistical Tractability of Off-policy Evaluation of History-dependent Policies in POMDPs](#Statistical-Tractability-of-Off-policy-Evaluation-of-History-dependent-Policies-in-POMDPs)
-22. [Revisiting Prefix-tuning: Statistical Benefits of Reparameterization among Prompts](#Revisiting-Prefix-tuning-Statistical-Benefits-of-Reparameterization-among-Prompts)
-23. [Do Deep Neural Network Solutions Form a Star Domain?](#Do-Deep-Neural-Network-Solutions-Form-a-Star-Domain)
-24. [Intrinsic Dimension Correlation: uncovering nonlinear connections in multimodal representations](#Intrinsic-Dimension-Correlation-uncovering-nonlinear-connections-in-multimodal-representations)
-25. [Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation](#Fréchet-Wavelet-Distance-A-Domain-Agnostic-Metric-for-Image-Generation)
-26. [Addax: Utilizing Zeroth-Order Gradients to Improve Memory Efficiency and Performance of SGD for Fine-Tuning Language Models](#Addax-Utilizing-Zeroth-Order-Gradients-to-Improve-Memory-Efficiency-and-Performance-of-SGD-for-Fine-Tuning-Language-Models)
-27. [InstaTrain: Adaptive Training via Ultra-Fast Natural Annealing within Dynamical Systems](#InstaTrain-Adaptive-Training-via-Ultra-Fast-Natural-Annealing-within-Dynamical-Systems)
-28. [Transformers Handle Endogeneity in In-Context Linear Regression](#Transformers-Handle-Endogeneity-in-In-Context-Linear-Regression)
-29. [GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding](#GUI-World-A-Video-Benchmark-and-Dataset-for-Multimodal-GUI-oriented-Understanding)
-30. [Size-Generalizable RNA Structure Evaluation by Exploring Hierarchical Geometries](#Size-Generalizable-RNA-Structure-Evaluation-by-Exploring-Hierarchical-Geometries)
-31. [Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF](#Exploratory-Preference-Optimization-Harnessing-Implicit-Q-Approximation-for-Sample-Efficient-RLHF)
-32. [Unsupervised Model Tree Heritage Recovery](#Unsupervised-Model-Tree-Heritage-Recovery)
-33. [A3D: Does Diffusion Dream about 3D Alignment?](#A3D-Does-Diffusion-Dream-about-3D-Alignment)
-34. [Continuous Diffusion for Mixed-Type Tabular Data](#Continuous-Diffusion-for-Mixed-Type-Tabular-Data)
-35. [Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning](#Highly-Efficient-Self-Adaptive-Reward-Shaping-for-Reinforcement-Learning)
-36. [PEARL: Parallel Speculative Decoding with Adaptive Draft Length](#PEARL-Parallel-Speculative-Decoding-with-Adaptive-Draft-Length)
+1. [Can a Large Language Model be a Gaslighter?](#Can-a-Large-Language-Model-be-a-Gaslighter)
+2. [Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning](#Closed-Form-Merging-of-Parameter-Efficient-Modules-for-Federated-Continual-Learning)
+3. [Local convergence of simultaneous min-max algorithms to differential equilibrium on Riemannian manifold](#Local-convergence-of-simultaneous-min-max-algorithms-to-differential-equilibrium-on-Riemannian-manifold)
+4. [GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting](#GS-LiDAR-Generating-Realistic-LiDAR-Point-Clouds-with-Panoramic-Gaussian-Splatting)
+5. [DiffPC: Diffusion-based High Perceptual Fidelity Image Compression with Semantic Refinement](#DiffPC-Diffusion-based-High-Perceptual-Fidelity-Image-Compression-with-Semantic-Refinement)
+6. [A Distributional Approach to Uncertainty-Aware Preference Alignment Using Offline Demonstrations](#A-Distributional-Approach-to-Uncertainty-Aware-Preference-Alignment-Using-Offline-Demonstrations)
+7. [Progress or Regress? Self-Improvement Reversal in Post-training](#Progress-or-Regress-Self-Improvement-Reversal-in-Post-training)
+8. [Halton Scheduler for Masked Generative Image Transformer](#Halton-Scheduler-for-Masked-Generative-Image-Transformer)
+9. [Error-quantified Conformal Inference for Time Series](#Error-quantified-Conformal-Inference-for-Time-Series)
+10. [Concept Bottleneck Large Language Models](#Concept-Bottleneck-Large-Language-Models)
+11. [Separation Power of Equivariant Neural Networks](#Separation-Power-of-Equivariant-Neural-Networks)
+12. [MaxInfoRL: Boosting exploration in reinforcement learning through information gain maximization](#MaxInfoRL-Boosting-exploration-in-reinforcement-learning-through-information-gain-maximization)
+13. [Reflexive Guidance: Improving OoDD in Vision-Language Models via Self-Guided Image-Adaptive Concept Generation](#Reflexive-Guidance-Improving-OoDD-in-Vision-Language-Models-via-Self-Guided-Image-Adaptive-Concept-Generation)
+14. [Neural Interactive Proofs](#Neural-Interactive-Proofs)
+15. [PointOBB-v2: Towards Simpler, Faster, and Stronger Single Point Supervised Oriented Object Detection](#PointOBB-v2-Towards-Simpler-Faster-and-Stronger-Single-Point-Supervised-Oriented-Object-Detection)
+16. [SGD with memory: fundamental properties and stochastic acceleration](#SGD-with-memory-fundamental-properties-and-stochastic-acceleration)
+17. [A Simple Framework for Open-Vocabulary Zero-Shot Segmentation](#A-Simple-Framework-for-Open-Vocabulary-Zero-Shot-Segmentation)
+18. [Model-Free Offline Reinforcement Learning with Enhanced Robustness](#Model-Free-Offline-Reinforcement-Learning-with-Enhanced-Robustness)
+19. [Is Your Multimodal Language Model Oversensitive to Safe Queries?](#Is-Your-Multimodal-Language-Model-Oversensitive-to-Safe-Queries)
+20. [Near, far: Patch-ordering enhances vision foundation models' scene understanding](#Near-far-Patch-ordering-enhances-vision-foundation-models-scene-understanding)
+21. [Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better](#Linear-Combination-of-Saved-Checkpoints-Makes-Consistency-and-Diffusion-Models-Better)
+22. [ETA: Evaluating Then Aligning Safety of Vision Language Models at Inference Time](#ETA-Evaluating-Then-Aligning-Safety-of-Vision-Language-Models-at-Inference-Time)
+23. [Statistical Tractability of Off-policy Evaluation of History-dependent Policies in POMDPs](#Statistical-Tractability-of-Off-policy-Evaluation-of-History-dependent-Policies-in-POMDPs)
+24. [Revisiting Prefix-tuning: Statistical Benefits of Reparameterization among Prompts](#Revisiting-Prefix-tuning-Statistical-Benefits-of-Reparameterization-among-Prompts)
+25. [Do Deep Neural Network Solutions Form a Star Domain?](#Do-Deep-Neural-Network-Solutions-Form-a-Star-Domain)
+26. [Intrinsic Dimension Correlation: uncovering nonlinear connections in multimodal representations](#Intrinsic-Dimension-Correlation-uncovering-nonlinear-connections-in-multimodal-representations)
+27. [Fréchet Wavelet Distance: A Domain-Agnostic Metric for Image Generation](#Fréchet-Wavelet-Distance-A-Domain-Agnostic-Metric-for-Image-Generation)
+28. [Addax: Utilizing Zeroth-Order Gradients to Improve Memory Efficiency and Performance of SGD for Fine-Tuning Language Models](#Addax-Utilizing-Zeroth-Order-Gradients-to-Improve-Memory-Efficiency-and-Performance-of-SGD-for-Fine-Tuning-Language-Models)
+29. [InstaTrain: Adaptive Training via Ultra-Fast Natural Annealing within Dynamical Systems](#InstaTrain-Adaptive-Training-via-Ultra-Fast-Natural-Annealing-within-Dynamical-Systems)
+30. [Transformers Handle Endogeneity in In-Context Linear Regression](#Transformers-Handle-Endogeneity-in-In-Context-Linear-Regression)
+31. [GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding](#GUI-World-A-Video-Benchmark-and-Dataset-for-Multimodal-GUI-oriented-Understanding)
+32. [Size-Generalizable RNA Structure Evaluation by Exploring Hierarchical Geometries](#Size-Generalizable-RNA-Structure-Evaluation-by-Exploring-Hierarchical-Geometries)
+33. [Exploratory Preference Optimization: Harnessing Implicit Q*-Approximation for Sample-Efficient RLHF](#Exploratory-Preference-Optimization-Harnessing-Implicit-Q-Approximation-for-Sample-Efficient-RLHF)
+34. [Unsupervised Model Tree Heritage Recovery](#Unsupervised-Model-Tree-Heritage-Recovery)
+35. [A3D: Does Diffusion Dream about 3D Alignment?](#A3D-Does-Diffusion-Dream-about-3D-Alignment)
+36. [Continuous Diffusion for Mixed-Type Tabular Data](#Continuous-Diffusion-for-Mixed-Type-Tabular-Data)
+37. [Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning](#Highly-Efficient-Self-Adaptive-Reward-Shaping-for-Reinforcement-Learning)
 
 ---
 
 
-## Local convergence of simultaneous min-max algorithms to differential equilibrium on Riemannian manifold
+## Can a Large Language Model be a Gaslighter?
+
+### Images
+
+![37c552fada599dc39be32105c83f91c5b8c118f30dc242c0d711c0f78cddd066.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/37c552fada599dc39be32105c83f91c5b8c118f30dc242c0d711c0f78cddd066.jpg)
+
+![4372def90f4bda01aed489ae20ef0df26605e4f60901eb224fb0b67925178f40.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/4372def90f4bda01aed489ae20ef0df26605e4f60901eb224fb0b67925178f40.jpg)
+
+![4c004ff8dfc6fb131b4586a93913393174bf6386fe1bac23bfa77068826a7afa.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/4c004ff8dfc6fb131b4586a93913393174bf6386fe1bac23bfa77068826a7afa.jpg)
+
+![54384625589463879bde4f09b18fca9c1919a542ca40541ac9771a272ac23f21.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/54384625589463879bde4f09b18fca9c1919a542ca40541ac9771a272ac23f21.jpg)
+
+![8b23ec6a9a166652a3e92c140dbbd8e461ae810d1febe162bd1d8fb63f93f444.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/8b23ec6a9a166652a3e92c140dbbd8e461ae810d1febe162bd1d8fb63f93f444.jpg)
+
+![9502d8f6f0e36dfda7c192a64e50766c5498f49d0cf3b30459503cd3841058e0.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/9502d8f6f0e36dfda7c192a64e50766c5498f49d0cf3b30459503cd3841058e0.jpg)
+
+![97dff5de6695a5851116654f49778f03f6f525315cfad640856dd26ff8263e00.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/97dff5de6695a5851116654f49778f03f6f525315cfad640856dd26ff8263e00.jpg)
+
+![9e89f2183984e56f1f5710579874f48c7df3bbe667d5cb3e0d8a176599e5b4ec.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/9e89f2183984e56f1f5710579874f48c7df3bbe667d5cb3e0d8a176599e5b4ec.jpg)
+
+![c39c0868ce62c4af58e1d94f32d56a5f6299630b5da91056830c9730736263fb.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/c39c0868ce62c4af58e1d94f32d56a5f6299630b5da91056830c9730736263fb.jpg)
+
+![ccb614df45a84053261303fa0378ed2d474061aaa9296f53da6cbbf62c5e999a.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/ccb614df45a84053261303fa0378ed2d474061aaa9296f53da6cbbf62c5e999a.jpg)
+
+![cd573cbe9325876cc778a23e4b8f7219476c380b199a720f6331dc0994039735.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/cd573cbe9325876cc778a23e4b8f7219476c380b199a720f6331dc0994039735.jpg)
+
+![e17689eb892eea0dbe415fc9e0107a264295cacd852104dc093d2999158c20ce.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/e17689eb892eea0dbe415fc9e0107a264295cacd852104dc093d2999158c20ce.jpg)
+
+![f01c219b63847472325941d084e31e3d967c74fda8defed34d5e7fa2b7198b0e.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/f01c219b63847472325941d084e31e3d967c74fda8defed34d5e7fa2b7198b0e.jpg)
+
+## Can a Large Language Model be a Gaslighter?
+
+
+### Images
+
+![05be96eda8cf2dc4ab2bf9dddd370af544ae14fd1dd49cc1bdbaca59930b6adb.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/05be96eda8cf2dc4ab2bf9dddd370af544ae14fd1dd49cc1bdbaca59930b6adb.jpg)
+
+![138e7a04ebf9890a796d90fb94b8c8bafbadcc1cd1762ef95aeac4fe6c6db7cd.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/138e7a04ebf9890a796d90fb94b8c8bafbadcc1cd1762ef95aeac4fe6c6db7cd.jpg)
+
+![4b23c9246a8f122d05bfb5e103465cc938b855b8be80e7b284a31111160fb4d9.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/4b23c9246a8f122d05bfb5e103465cc938b855b8be80e7b284a31111160fb4d9.jpg)
+
+![54fd739ced35acded951a529b1f42ee99cdb42ef340bf8999359901845246d8c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/54fd739ced35acded951a529b1f42ee99cdb42ef340bf8999359901845246d8c.jpg)
+
+![5e443d76f51aab3691ba4e90e9a55763441c09e697c28c553a986d7894074f61.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/5e443d76f51aab3691ba4e90e9a55763441c09e697c28c553a986d7894074f61.jpg)
+
+![b92433c5f2e0b627943ace0d7de1d9eb7fa43c4def97e0bf0833d25fc3dae404.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/b92433c5f2e0b627943ace0d7de1d9eb7fa43c4def97e0bf0833d25fc3dae404.jpg)
+
+![e2ddb79458e42043db032f81cddb30ed15580971eb23ff5669c1ea029c34930c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/e2ddb79458e42043db032f81cddb30ed15580971eb23ff5669c1ea029c34930c.jpg)
+
+![e5f06a022bf2fd4e40f2b46f17b673bb341c1438fefc417c6a406bbc2c178d41.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/e5f06a022bf2fd4e40f2b46f17b673bb341c1438fefc417c6a406bbc2c178d41.jpg)
+
+### Tables
+
+![07d0f6eca700e38702cae81e2b8f8ef90a950c1ecc8ff66405f58b4a60c48a7f.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/07d0f6eca700e38702cae81e2b8f8ef90a950c1ecc8ff66405f58b4a60c48a7f.jpg)
+
+![1d67bb941ea4795c30c9192c2a1955dc66db028ed6990c04abf3e64399a462b1.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/1d67bb941ea4795c30c9192c2a1955dc66db028ed6990c04abf3e64399a462b1.jpg)
+
+![29a4a82caddbcee22eeb370f574d2ba149895381bddfa460b9b7bb7c92efdff1.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/29a4a82caddbcee22eeb370f574d2ba149895381bddfa460b9b7bb7c92efdff1.jpg)
+
+![38f739c10c1db0a4a44bb2a945aa9195918d0145676fcb8cf0b420244b306336.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/38f739c10c1db0a4a44bb2a945aa9195918d0145676fcb8cf0b420244b306336.jpg)
+
+![435c9a15208d9bc5ebee3e43c96d9e1e2df808784e31f4a889f98f5ba8ec7b4e.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/435c9a15208d9bc5ebee3e43c96d9e1e2df808784e31f4a889f98f5ba8ec7b4e.jpg)
+
+![4b8da8935aa344b762c5383e3cd3cab5536bca1b686d173529ae5eaf76451e1b.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/4b8da8935aa344b762c5383e3cd3cab5536bca1b686d173529ae5eaf76451e1b.jpg)
+
+![52081924e3d56cf254fa544078894eb28f387436298f05417fc359ce80dd7064.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/52081924e3d56cf254fa544078894eb28f387436298f05417fc359ce80dd7064.jpg)
+
+![571cdfca1b96bf9a2fab3062bdac00eb6ad55ddc90c8b8cb3d0b66092c22625f.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/571cdfca1b96bf9a2fab3062bdac00eb6ad55ddc90c8b8cb3d0b66092c22625f.jpg)
+
+![74623290c23f8f8d84273c7a5f827b87de177bf551fc488eb1d4932f3dbc5427.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/74623290c23f8f8d84273c7a5f827b87de177bf551fc488eb1d4932f3dbc5427.jpg)
+
+![75506cdf7fc63ec1e73c4f61c5b6c701c3c13fa90d591ea4d40e861f30ee5f4c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/75506cdf7fc63ec1e73c4f61c5b6c701c3c13fa90d591ea4d40e861f30ee5f4c.jpg)
+
+![a042e1fab596a17ab9aec722c538125992e8ba50b1ada083718efe3ac1ce004c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/a042e1fab596a17ab9aec722c538125992e8ba50b1ada083718efe3ac1ce004c.jpg)
+
+![ae83d6e67de49dbdd804d062320896971012e5d35d0412347cd67e356240332c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/ae83d6e67de49dbdd804d062320896971012e5d35d0412347cd67e356240332c.jpg)
+
+![e9496ee59127b5f6d16dbfdd4b616ad704b85b3bca3970e271538188e6cda65a.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/e9496ee59127b5f6d16dbfdd4b616ad704b85b3bca3970e271538188e6cda65a.jpg)
+
+## Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning
+
 
 ### Images
 
@@ -1945,7 +2026,6 @@
 
 ## Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning
 
-
 ### Images
 
 ![627c55daa196fa044040e29b8b005b57898c64c21811d1f4d2788a15cefe85d6.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/627c55daa196fa044040e29b8b005b57898c64c21811d1f4d2788a15cefe85d6.jpg)
@@ -1991,51 +2071,3 @@
 ![dfe434e4037670884847f500cb657aad83cdd6b100f424192f6b8da405777e17.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/dfe434e4037670884847f500cb657aad83cdd6b100f424192f6b8da405777e17.jpg)
 
 ![f1877ebb70754edc8436e9b62838f9e807b74a8c4a90ac43d1078c5d62599223.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/f1877ebb70754edc8436e9b62838f9e807b74a8c4a90ac43d1078c5d62599223.jpg)
-
-## PEARL: Parallel Speculative Decoding with Adaptive Draft Length
-
-### Images
-
-![6d77d0fc92c9392631eb614c0b32b6ca8f73415791132958592a32de34d11316.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/images/6d77d0fc92c9392631eb614c0b32b6ca8f73415791132958592a32de34d11316.jpg)
-
-![960b7b756fa3bebae7f667a6dd54d2e15fb4fd06be735a4b0d89b26a67236b2e.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/images/960b7b756fa3bebae7f667a6dd54d2e15fb4fd06be735a4b0d89b26a67236b2e.jpg)
-
-![ba01d1c510d78c0a3f64a5d4281a25d7122d0a671ef4f61c0336272285081a9b.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/images/ba01d1c510d78c0a3f64a5d4281a25d7122d0a671ef4f61c0336272285081a9b.jpg)
-
-### Tables
-
-![044c2eb45ad921cdbfdb9082426d7de73b2ecdf4174af55156c20937841bc5b9.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/044c2eb45ad921cdbfdb9082426d7de73b2ecdf4174af55156c20937841bc5b9.jpg)
-
-![059c2652cb95fcca5060439b53c0ee0801a4088da00c23ca829932025a19590a.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/059c2652cb95fcca5060439b53c0ee0801a4088da00c23ca829932025a19590a.jpg)
-
-![1e56484b75e72ce0b76a55f30bfca3490c7af28ebb652b1b68985defc79ed2db.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/1e56484b75e72ce0b76a55f30bfca3490c7af28ebb652b1b68985defc79ed2db.jpg)
-
-![3bc2a698800f4247ab74076f03254801337fdd1447a8013c534c16bb3fa34194.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/3bc2a698800f4247ab74076f03254801337fdd1447a8013c534c16bb3fa34194.jpg)
-
-![480d8d239adb86e5f7c6de3a93b3b45ddc2e2d81cb76eba20703cb7f03443a7c.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/480d8d239adb86e5f7c6de3a93b3b45ddc2e2d81cb76eba20703cb7f03443a7c.jpg)
-
-![4b437419d27e211fcca396913fe0ed09c1a1408396b4928a7aca65d0d647ce84.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/4b437419d27e211fcca396913fe0ed09c1a1408396b4928a7aca65d0d647ce84.jpg)
-
-![56433b26f8a6d3697751e3a47db918a31be4039f2aa0e6af3c2bc5669df3be73.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/56433b26f8a6d3697751e3a47db918a31be4039f2aa0e6af3c2bc5669df3be73.jpg)
-
-![60f711915ef5d8b3c39bca49c6a2dfe786f8c1efdca69fbc6e602bd167e6cf08.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/60f711915ef5d8b3c39bca49c6a2dfe786f8c1efdca69fbc6e602bd167e6cf08.jpg)
-
-![6244f6f09dfc98a39200fdb297486c3f594591c50b6e404f480a8ebd62c76a53.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/6244f6f09dfc98a39200fdb297486c3f594591c50b6e404f480a8ebd62c76a53.jpg)
-
-![723db16f6b37f988a07650b37703a7ae963f4fc36239c54fb03e6df504ebac30.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/723db16f6b37f988a07650b37703a7ae963f4fc36239c54fb03e6df504ebac30.jpg)
-
-![76e08a605e0bc417316e645b5a09e41f31824195c3a42cba9e81d7e3a2211b15.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/76e08a605e0bc417316e645b5a09e41f31824195c3a42cba9e81d7e3a2211b15.jpg)
-
-![7ffa30b46e1ec944e4ae28282cd7565d2e6113fd03277d29ba46ce28b92c7200.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/7ffa30b46e1ec944e4ae28282cd7565d2e6113fd03277d29ba46ce28b92c7200.jpg)
-
-![aa42701aff7a13dbc2d6728b80e1ee08ab30483103a2883e6f74c2387f1191d3.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/aa42701aff7a13dbc2d6728b80e1ee08ab30483103a2883e6f74c2387f1191d3.jpg)
-
-![ac1f799132d37bdaa40618240af594ed1fc7e621df3028a03916220341491061.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/ac1f799132d37bdaa40618240af594ed1fc7e621df3028a03916220341491061.jpg)
-
-![c98611b1b323c85863965a3edf296eee772bddbc4b9ff122f569b545ade3beb6.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/c98611b1b323c85863965a3edf296eee772bddbc4b9ff122f569b545ade3beb6.jpg)
-
-![d3003847505fb2095bd61d7f4c68796e1202aa03ffd13f5193a0cc85e292c951.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/d3003847505fb2095bd61d7f4c68796e1202aa03ffd13f5193a0cc85e292c951.jpg)
-
-![e5c0d9db5fbe2e9b958d7c8a58f49879fa0e26cfec91e904fcd60603c53d6a05.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/e5c0d9db5fbe2e9b958d7c8a58f49879fa0e26cfec91e904fcd60603c53d6a05.jpg)
-
-![f2c03cd077e38e9164d87eb8f678dfb1b5e42381519b80995973ea7dbf8642f6.jpg](../iclr_results/2344_PEARL_ Parallel Speculative Decoding with Adaptive Draft Length/tables/f2c03cd077e38e9164d87eb8f678dfb1b5e42381519b80995973ea7dbf8642f6.jpg)

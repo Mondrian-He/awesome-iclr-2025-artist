@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,356 @@
 
 ## 目录 (Table of Contents)
 
-1. [Diff3DS: Generating View-Consistent 3D Sketch via Differentiable Curve Rendering](#Diff3DS-Generating-View-Consistent-3D-Sketch-via-Differentiable-Curve-Rendering)
-2. [Self-Updatable Large Language Models by Integrating Context into Model Parameters](#Self-Updatable-Large-Language-Models-by-Integrating-Context-into-Model-Parameters)
-3. [SaMer: A Scenario-aware Multi-dimensional Evaluator for Large Language Models](#SaMer-A-Scenario-aware-Multi-dimensional-Evaluator-for-Large-Language-Models)
-4. [Investigating Pattern Neurons in Urban Time Series Forecasting](#Investigating-Pattern-Neurons-in-Urban-Time-Series-Forecasting)
-5. [Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization](#Retrieval-Augmented-Diffusion-Model-for-Structure-informed-Antibody-Design-and-Optimization)
-6. [CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes](#CityGaussianV2-Efficient-and-Geometrically-Accurate-Reconstruction-for-Large-Scale-Scenes)
-7. [Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages](#Pangea-A-Fully-Open-Multilingual-Multimodal-LLM-for-39-Languages)
-8. [Self-Play Preference Optimization for Language Model Alignment](#Self-Play-Preference-Optimization-for-Language-Model-Alignment)
-9. [One-for-All Few-Shot Anomaly Detection via Instance-Induced Prompt Learning](#One-for-All-Few-Shot-Anomaly-Detection-via-Instance-Induced-Prompt-Learning)
-10. [Rethinking Spiking Neural Networks from an Ensemble Learning Perspective](#Rethinking-Spiking-Neural-Networks-from-an-Ensemble-Learning-Perspective)
-11. [DGQ: Distribution-Aware Group Quantization for Text-to-Image Diffusion Models](#DGQ-Distribution-Aware-Group-Quantization-for-Text-to-Image-Diffusion-Models)
-12. [TLDR: Token-Level Detective Reward Model for Large Vision Language Models](#TLDR-Token-Level-Detective-Reward-Model-for-Large-Vision-Language-Models)
-13. [PvNeXt: Rethinking Network Design and Temporal Motion for Point Cloud Video Recognition](#PvNeXt-Rethinking-Network-Design-and-Temporal-Motion-for-Point-Cloud-Video-Recognition)
-14. [Enhancing Language Model Agents using Diversity of Thoughts](#Enhancing-Language-Model-Agents-using-Diversity-of-Thoughts)
-15. [SELF-EVOLVED REWARD LEARNING FOR LLMS](#SELF-EVOLVED-REWARD-LEARNING-FOR-LLMS)
-16. [Synergy and Diversity in CLIP: Enhancing Performance Through Adaptive Backbone Ensembling](#Synergy-and-Diversity-in-CLIP-Enhancing-Performance-Through-Adaptive-Backbone-Ensembling)
-17. [LDAdam: Adaptive Optimization from Low-Dimensional Gradient Statistics](#LDAdam-Adaptive-Optimization-from-Low-Dimensional-Gradient-Statistics)
-18. [InstantPortrait: One-Step Portrait Editing via Diffusion Multi-Objective Distillation](#InstantPortrait-One-Step-Portrait-Editing-via-Diffusion-Multi-Objective-Distillation)
-19. [What Makes Large Language Models Reason in (Multi-Turn) Code Generation?](#What-Makes-Large-Language-Models-Reason-in-Multi-Turn-Code-Generation)
-20. [Generalized Consistency Trajectory Models for Image Manipulation](#Generalized-Consistency-Trajectory-Models-for-Image-Manipulation)
-21. [Complexity Lower Bounds of Adaptive Gradient Algorithms for Non-convex Stochastic Optimization under Relaxed Smoothness](#Complexity-Lower-Bounds-of-Adaptive-Gradient-Algorithms-for-Non-convex-Stochastic-Optimization-under-Relaxed-Smoothness)
-22. [Federated Few-Shot Class-Incremental Learning](#Federated-Few-Shot-Class-Incremental-Learning)
-23. [Theory, Analysis, and Best Practices for Sigmoid Self-Attention](#Theory-Analysis-and-Best-Practices-for-Sigmoid-Self-Attention)
-24. [KLay: Accelerating Arithmetic Circuits for Neurosymbolic AI](#KLay-Accelerating-Arithmetic-Circuits-for-Neurosymbolic-AI)
-25. [Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models](#Add-it-Training-Free-Object-Insertion-in-Images-With-Pretrained-Diffusion-Models)
-26. [Step-by-Step Reasoning for Math Problems  via Twisted Sequential Monte Carlo](#Step-by-Step-Reasoning-for-Math-Problems-via-Twisted-Sequential-Monte-Carlo)
-27. [ASTrA: Adversarial Self-supervised Training with Adaptive-Attacks](#ASTrA-Adversarial-Self-supervised-Training-with-Adaptive-Attacks)
-28. [SpikeLLM: Scaling up Spiking Neural Network to Large Language Models via Saliency-based Spiking](#SpikeLLM-Scaling-up-Spiking-Neural-Network-to-Large-Language-Models-via-Saliency-based-Spiking)
-29. [Actions Speak Louder Than Words: Rate-Reward Trade-off in Markov Decision Processes](#Actions-Speak-Louder-Than-Words-Rate-Reward-Trade-off-in-Markov-Decision-Processes)
-30. [Diff-2-in-1: Bridging Generation and Dense Perception with Diffusion Models](#Diff-2-in-1-Bridging-Generation-and-Dense-Perception-with-Diffusion-Models)
-31. [Truncated Consistency Models](#Truncated-Consistency-Models)
-32. [From Lazy to Rich: Exact Learning Dynamics in Deep Linear Networks](#From-Lazy-to-Rich-Exact-Learning-Dynamics-in-Deep-Linear-Networks)
-33. [A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence](#A-Policy-Gradient-Approach-to-Solving-Imperfect-Information-Games-with-Best-Iterate-Convergence)
-34. [ARB-LLM: Alternating Refined Binarizations for Large Language Models](#ARB-LLM-Alternating-Refined-Binarizations-for-Large-Language-Models)
-35. [Radar: Fast Long-Context Decoding for Any Transformer](#Radar-Fast-Long-Context-Decoding-for-Any-Transformer)
-36. [Self-Improving Robust Preference Optimization](#Self-Improving-Robust-Preference-Optimization)
+1. [Stabilized Neural Prediction of Potential Outcomes in Continuous Time](#Stabilized-Neural-Prediction-of-Potential-Outcomes-in-Continuous-Time)
+2. [KBLaM: Knowledge Base augmented Language Model](#KBLaM-Knowledge-Base-augmented-Language-Model)
+3. [Robust Feature Learning for Multi-Index Models in High Dimensions](#Robust-Feature-Learning-for-Multi-Index-Models-in-High-Dimensions)
+4. [Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders](#Towards-a-General-Time-Series-Anomaly-Detector-with-Adaptive-Bottlenecks-and-Dual-Adversarial-Decoders)
+5. [ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning](#ActSafe-Active-Exploration-with-Safety-Constraints-for-Reinforcement-Learning)
+6. [Toward Understanding In-context vs. In-weight Learning](#Toward-Understanding-In-context-vs-In-weight-Learning)
+7. [Does Refusal Training in LLMs Generalize to the Past Tense?](#Does-Refusal-Training-in-LLMs-Generalize-to-the-Past-Tense)
+8. [Wasserstein-Regularized Conformal Prediction under General Distribution Shift](#Wasserstein-Regularized-Conformal-Prediction-under-General-Distribution-Shift)
+9. [Diff3DS: Generating View-Consistent 3D Sketch via Differentiable Curve Rendering](#Diff3DS-Generating-View-Consistent-3D-Sketch-via-Differentiable-Curve-Rendering)
+10. [Self-Updatable Large Language Models by Integrating Context into Model Parameters](#Self-Updatable-Large-Language-Models-by-Integrating-Context-into-Model-Parameters)
+11. [SaMer: A Scenario-aware Multi-dimensional Evaluator for Large Language Models](#SaMer-A-Scenario-aware-Multi-dimensional-Evaluator-for-Large-Language-Models)
+12. [Investigating Pattern Neurons in Urban Time Series Forecasting](#Investigating-Pattern-Neurons-in-Urban-Time-Series-Forecasting)
+13. [Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization](#Retrieval-Augmented-Diffusion-Model-for-Structure-informed-Antibody-Design-and-Optimization)
+14. [CityGaussianV2: Efficient and Geometrically Accurate Reconstruction for Large-Scale Scenes](#CityGaussianV2-Efficient-and-Geometrically-Accurate-Reconstruction-for-Large-Scale-Scenes)
+15. [Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages](#Pangea-A-Fully-Open-Multilingual-Multimodal-LLM-for-39-Languages)
+16. [Self-Play Preference Optimization for Language Model Alignment](#Self-Play-Preference-Optimization-for-Language-Model-Alignment)
+17. [One-for-All Few-Shot Anomaly Detection via Instance-Induced Prompt Learning](#One-for-All-Few-Shot-Anomaly-Detection-via-Instance-Induced-Prompt-Learning)
+18. [Rethinking Spiking Neural Networks from an Ensemble Learning Perspective](#Rethinking-Spiking-Neural-Networks-from-an-Ensemble-Learning-Perspective)
+19. [DGQ: Distribution-Aware Group Quantization for Text-to-Image Diffusion Models](#DGQ-Distribution-Aware-Group-Quantization-for-Text-to-Image-Diffusion-Models)
+20. [TLDR: Token-Level Detective Reward Model for Large Vision Language Models](#TLDR-Token-Level-Detective-Reward-Model-for-Large-Vision-Language-Models)
+21. [PvNeXt: Rethinking Network Design and Temporal Motion for Point Cloud Video Recognition](#PvNeXt-Rethinking-Network-Design-and-Temporal-Motion-for-Point-Cloud-Video-Recognition)
+22. [Enhancing Language Model Agents using Diversity of Thoughts](#Enhancing-Language-Model-Agents-using-Diversity-of-Thoughts)
+23. [SELF-EVOLVED REWARD LEARNING FOR LLMS](#SELF-EVOLVED-REWARD-LEARNING-FOR-LLMS)
+24. [Synergy and Diversity in CLIP: Enhancing Performance Through Adaptive Backbone Ensembling](#Synergy-and-Diversity-in-CLIP-Enhancing-Performance-Through-Adaptive-Backbone-Ensembling)
+25. [LDAdam: Adaptive Optimization from Low-Dimensional Gradient Statistics](#LDAdam-Adaptive-Optimization-from-Low-Dimensional-Gradient-Statistics)
+26. [InstantPortrait: One-Step Portrait Editing via Diffusion Multi-Objective Distillation](#InstantPortrait-One-Step-Portrait-Editing-via-Diffusion-Multi-Objective-Distillation)
+27. [What Makes Large Language Models Reason in (Multi-Turn) Code Generation?](#What-Makes-Large-Language-Models-Reason-in-Multi-Turn-Code-Generation)
+28. [Generalized Consistency Trajectory Models for Image Manipulation](#Generalized-Consistency-Trajectory-Models-for-Image-Manipulation)
+29. [Complexity Lower Bounds of Adaptive Gradient Algorithms for Non-convex Stochastic Optimization under Relaxed Smoothness](#Complexity-Lower-Bounds-of-Adaptive-Gradient-Algorithms-for-Non-convex-Stochastic-Optimization-under-Relaxed-Smoothness)
+30. [Federated Few-Shot Class-Incremental Learning](#Federated-Few-Shot-Class-Incremental-Learning)
+31. [Theory, Analysis, and Best Practices for Sigmoid Self-Attention](#Theory-Analysis-and-Best-Practices-for-Sigmoid-Self-Attention)
+32. [KLay: Accelerating Arithmetic Circuits for Neurosymbolic AI](#KLay-Accelerating-Arithmetic-Circuits-for-Neurosymbolic-AI)
+33. [Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models](#Add-it-Training-Free-Object-Insertion-in-Images-With-Pretrained-Diffusion-Models)
+34. [Step-by-Step Reasoning for Math Problems  via Twisted Sequential Monte Carlo](#Step-by-Step-Reasoning-for-Math-Problems-via-Twisted-Sequential-Monte-Carlo)
+35. [ASTrA: Adversarial Self-supervised Training with Adaptive-Attacks](#ASTrA-Adversarial-Self-supervised-Training-with-Adaptive-Attacks)
+36. [SpikeLLM: Scaling up Spiking Neural Network to Large Language Models via Saliency-based Spiking](#SpikeLLM-Scaling-up-Spiking-Neural-Network-to-Large-Language-Models-via-Saliency-based-Spiking)
+37. [Actions Speak Louder Than Words: Rate-Reward Trade-off in Markov Decision Processes](#Actions-Speak-Louder-Than-Words-Rate-Reward-Trade-off-in-Markov-Decision-Processes)
 
 ---
 
 
-## Diff3DS: Generating View-Consistent 3D Sketch via Differentiable Curve Rendering
+## Stabilized Neural Prediction of Potential Outcomes in Continuous Time
+
+### Images
+
+![0bb597c5db6c304b1bf41ab7ecd1ecb6de2006482be3f37cf031f2bc65ab937e.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/0bb597c5db6c304b1bf41ab7ecd1ecb6de2006482be3f37cf031f2bc65ab937e.jpg)
+
+![1020e1d3942dfe1efeab58dd86ef45ba8e933707aecb4ffdd4002f05bd53d1a1.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/1020e1d3942dfe1efeab58dd86ef45ba8e933707aecb4ffdd4002f05bd53d1a1.jpg)
+
+![27a3fbbacbf603b19dd3099e7d0a3e94219e9725b65876d3f533fa6d9b2a1997.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/27a3fbbacbf603b19dd3099e7d0a3e94219e9725b65876d3f533fa6d9b2a1997.jpg)
+
+![51cd78b081387b50811ea1093f44fb7bc3a89014b8f1fb5cedc6e0bd3fe45209.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/51cd78b081387b50811ea1093f44fb7bc3a89014b8f1fb5cedc6e0bd3fe45209.jpg)
+
+![b4b35429ed7b63b2f702b045a23ec86ac0552408e75accdec1df09bda6afeb90.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/b4b35429ed7b63b2f702b045a23ec86ac0552408e75accdec1df09bda6afeb90.jpg)
+
+![b94aad853a0c1093c1e70a18c61e29f6ed78036537fe09b4b63c9ff6a4e7f00b.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/b94aad853a0c1093c1e70a18c61e29f6ed78036537fe09b4b63c9ff6a4e7f00b.jpg)
+
+![d4a3b545110699b29f499cdaf264536936b45d827dd94d8e1e5d3172c06b6fc9.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/d4a3b545110699b29f499cdaf264536936b45d827dd94d8e1e5d3172c06b6fc9.jpg)
+
+![e57501e62f9de7e33d86934d136b960121b3f561dd00957975a99e7ca6a58805.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/images/e57501e62f9de7e33d86934d136b960121b3f561dd00957975a99e7ca6a58805.jpg)
+
+### Tables
+
+![3ac1ad45d7b4ff72226d86d94412f13dab0237cd358a374e08899811e5a21d0f.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/3ac1ad45d7b4ff72226d86d94412f13dab0237cd358a374e08899811e5a21d0f.jpg)
+
+![79fbfe80362947e576f26e5d723b65869c24cc439a08db6c9e53d4d00bc001a3.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/79fbfe80362947e576f26e5d723b65869c24cc439a08db6c9e53d4d00bc001a3.jpg)
+
+![8921e903432b62bd60c9c7fb4be93a6373f6f2574f6a70e3819838460750bd2c.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/8921e903432b62bd60c9c7fb4be93a6373f6f2574f6a70e3819838460750bd2c.jpg)
+
+![a5b8be1dc66bad7e14f82627ea011e1b7c88bfa39955e00fb0480d149d633e86.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/a5b8be1dc66bad7e14f82627ea011e1b7c88bfa39955e00fb0480d149d633e86.jpg)
+
+![aa6b54e35032779acf518f0c8860fe57b5df711729c955f803990d3894b2cb33.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/aa6b54e35032779acf518f0c8860fe57b5df711729c955f803990d3894b2cb33.jpg)
+
+![e7fc94556a10c46c4aa3badcd28cc852f24df807a9c2b44c423f5cad19c89cbf.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/e7fc94556a10c46c4aa3badcd28cc852f24df807a9c2b44c423f5cad19c89cbf.jpg)
+
+![fe6557c0553d89685745a9c41d84f9c8d515b97e786fe50cc4f099197ce1a77d.jpg](../iclr_results/1898_FairDen_ Fair Density-Based Clustering/tables/fe6557c0553d89685745a9c41d84f9c8d515b97e786fe50cc4f099197ce1a77d.jpg)
+
+## Stabilized Neural Prediction of Potential Outcomes in Continuous Time
+
+
+### Images
+
+![12e016695a778fe7fb7ff267aae3e28b3c7df1f11ac4a0f016a4494bc79d7c50.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/images/12e016695a778fe7fb7ff267aae3e28b3c7df1f11ac4a0f016a4494bc79d7c50.jpg)
+
+![5543b6d500b24d3560e28c6bfbfdc6d25e3c7fa970523a8a12157f349c6a8c98.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/images/5543b6d500b24d3560e28c6bfbfdc6d25e3c7fa970523a8a12157f349c6a8c98.jpg)
+
+![8973dc6fde8ea14050df9b5141ad06ac5ea07706cfa533eb82f00d49ebfc01e3.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/images/8973dc6fde8ea14050df9b5141ad06ac5ea07706cfa533eb82f00d49ebfc01e3.jpg)
+
+### Tables
+
+![02daa56bcccb08c6ff84decfa9ef17232ba9c3e3199e2c57367c6b1140267f91.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/02daa56bcccb08c6ff84decfa9ef17232ba9c3e3199e2c57367c6b1140267f91.jpg)
+
+![286497455b63b8aae385e4218f5bf25924b45a98febdb2ac92bfa13b633fe1d6.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/286497455b63b8aae385e4218f5bf25924b45a98febdb2ac92bfa13b633fe1d6.jpg)
+
+![2b809026150142c05bb0eb85fe8f51c6a3003d6f3ca04d0858187fed4d052072.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/2b809026150142c05bb0eb85fe8f51c6a3003d6f3ca04d0858187fed4d052072.jpg)
+
+![3bfb47c21bfc79a73b2b7ab4dc400507a425157e342651fd7ce2d1ee380ae0e8.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/3bfb47c21bfc79a73b2b7ab4dc400507a425157e342651fd7ce2d1ee380ae0e8.jpg)
+
+![5aa4a53348c495f7f908946ac65eb02fe7aa6d687028ffffb8f94aff507ed42e.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/5aa4a53348c495f7f908946ac65eb02fe7aa6d687028ffffb8f94aff507ed42e.jpg)
+
+![989a997156d58ba8825da2ea51d0b706fe869d6016cd059cd6477710ceea9bef.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/989a997156d58ba8825da2ea51d0b706fe869d6016cd059cd6477710ceea9bef.jpg)
+
+![de7f9939489d284ca287feab6759d2d89801b27a9d888a41be47df1e61bd7546.jpg](../iclr_results/1899_Stabilized Neural Prediction of Potential Outcomes in Continuous Time/tables/de7f9939489d284ca287feab6759d2d89801b27a9d888a41be47df1e61bd7546.jpg)
+
+## KBLaM: Knowledge Base augmented Language Model
+
+
+### Images
+
+![06b45e0e9b0f88ddf2698df87abeb25a6de7740a8181e4fe2e1dfa18f63740d7.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/06b45e0e9b0f88ddf2698df87abeb25a6de7740a8181e4fe2e1dfa18f63740d7.jpg)
+
+![0a96e113bc0ee1e013729332b7c617890715466ba67a11e33b2c2649f20b62ff.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/0a96e113bc0ee1e013729332b7c617890715466ba67a11e33b2c2649f20b62ff.jpg)
+
+![0d41b42bddb27f91305b45d2a639bbc073faa470c8d1f330cc8425606666749e.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/0d41b42bddb27f91305b45d2a639bbc073faa470c8d1f330cc8425606666749e.jpg)
+
+![1e0c536bc99abbbd564a1c082c867c9a71b6f2e0b9a4fb433541b776c2f034f7.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/1e0c536bc99abbbd564a1c082c867c9a71b6f2e0b9a4fb433541b776c2f034f7.jpg)
+
+![65e2730287a60441fc02161e2cadbdedfc792e6a8d8f856a308566b37174a668.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/65e2730287a60441fc02161e2cadbdedfc792e6a8d8f856a308566b37174a668.jpg)
+
+![74ff1a6bc589735e92af081320d7f55dac74bf99b3cf26716ad706c3db49aaeb.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/74ff1a6bc589735e92af081320d7f55dac74bf99b3cf26716ad706c3db49aaeb.jpg)
+
+![78d6cb0b144f48d555a542e9dfde9fa74207bd0fed45e5251198b655a862bafb.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/78d6cb0b144f48d555a542e9dfde9fa74207bd0fed45e5251198b655a862bafb.jpg)
+
+![7fbb25aa961603ea5b1d1f61e87ebe786099b0d4c67cd376aeb14b510b1a42c8.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/7fbb25aa961603ea5b1d1f61e87ebe786099b0d4c67cd376aeb14b510b1a42c8.jpg)
+
+![8b2a676902320632f43bb1c081e2308afc532cc42c512d0086dcb4933c0fe4bd.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/8b2a676902320632f43bb1c081e2308afc532cc42c512d0086dcb4933c0fe4bd.jpg)
+
+![94a1505ff581e8a8a915cb1d00ce15fac473ff879d451c9905741bdea4314789.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/94a1505ff581e8a8a915cb1d00ce15fac473ff879d451c9905741bdea4314789.jpg)
+
+![a46458ab9cc4bafbced7ae2009a3fff04f518efa94ccd1a4d719b143404c8652.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/a46458ab9cc4bafbced7ae2009a3fff04f518efa94ccd1a4d719b143404c8652.jpg)
+
+![eae4c8a3398f86548661bd69fc6370dae633fef2b6d03403f2a0709e9504d173.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/eae4c8a3398f86548661bd69fc6370dae633fef2b6d03403f2a0709e9504d173.jpg)
+
+![f08cc88fee04cfce241a028f89e4617147d6f24c6a02d5efb1c9512c89415308.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/images/f08cc88fee04cfce241a028f89e4617147d6f24c6a02d5efb1c9512c89415308.jpg)
+
+### Tables
+
+![2d6eb4c0f7cca00bd15fdd8e302589c3478b4e8a309795d9c8a35f22de554bc1.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/tables/2d6eb4c0f7cca00bd15fdd8e302589c3478b4e8a309795d9c8a35f22de554bc1.jpg)
+
+![c4d5080d0ba27282e396d350f48a8e23204bea01011f9bbcf2b74761d97d1771.jpg](../iclr_results/1900_KBLaM_ Knowledge Base augmented Language Model/tables/c4d5080d0ba27282e396d350f48a8e23204bea01011f9bbcf2b74761d97d1771.jpg)
+
+## Robust Feature Learning for Multi-Index Models in High Dimensions
+
+
+### Images
+
+![058df05f68a5219781d6e7dbc1c2b1eb6f6c75dd9f5fbc389598ccfaf03e6219.jpg](../iclr_results/1901_Robust Feature Learning for Multi-Index Models in High Dimensions/images/058df05f68a5219781d6e7dbc1c2b1eb6f6c75dd9f5fbc389598ccfaf03e6219.jpg)
+
+### Tables
+
+![2c76a692329841a10580eec1a49ed5c0a8d3070ba4a3251cdf2436400d30e1e9.jpg](../iclr_results/1901_Robust Feature Learning for Multi-Index Models in High Dimensions/tables/2c76a692329841a10580eec1a49ed5c0a8d3070ba4a3251cdf2436400d30e1e9.jpg)
+
+## Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decoders
+
+
+### Images
+
+![00c4824897d9b950d897118d7cde4b7cbdbc7a8856bfc6afdec3e6d2fd821743.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/00c4824897d9b950d897118d7cde4b7cbdbc7a8856bfc6afdec3e6d2fd821743.jpg)
+
+![13106aec0cb5088e674602019b63e9ff35a86bc088c20b0884fd40692ee4173b.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/13106aec0cb5088e674602019b63e9ff35a86bc088c20b0884fd40692ee4173b.jpg)
+
+![22c4126e355f23a6544ff38cc264b0a5ad1666f9b5da2bfa4968d050ab43cc0d.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/22c4126e355f23a6544ff38cc264b0a5ad1666f9b5da2bfa4968d050ab43cc0d.jpg)
+
+![23a32b32f72824bd87e73e11b83b3d45df45052da0f88ed04f6ab8ecccfd02ff.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/23a32b32f72824bd87e73e11b83b3d45df45052da0f88ed04f6ab8ecccfd02ff.jpg)
+
+![3d8092f777b060891cfbd78cb6cc8354332196d2eb924ad701cc5b5583ec94f1.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/3d8092f777b060891cfbd78cb6cc8354332196d2eb924ad701cc5b5583ec94f1.jpg)
+
+![50d480f059223e0e6cfc99f8e48f25c1049069efa61b1316d082ce601a75d6d1.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/50d480f059223e0e6cfc99f8e48f25c1049069efa61b1316d082ce601a75d6d1.jpg)
+
+![5a0d1622cef6b5bf11882ded8fcbc99fcd6388cdea390fb44dedf6ab7ed49bc2.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/5a0d1622cef6b5bf11882ded8fcbc99fcd6388cdea390fb44dedf6ab7ed49bc2.jpg)
+
+![69ba9af2cca4bc1732cd1b6cd5b1d629cbdebec2a36dbc327ae18a594ee3e7ae.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/69ba9af2cca4bc1732cd1b6cd5b1d629cbdebec2a36dbc327ae18a594ee3e7ae.jpg)
+
+![7e1c1c4100b4f1d3628b94cb0232b56f82813725895ee684f789a38274b57eef.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/7e1c1c4100b4f1d3628b94cb0232b56f82813725895ee684f789a38274b57eef.jpg)
+
+![955f503f14c49c3fdeab4774ce36fa4c5e682a19924bc43d650690c7a1e902b1.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/955f503f14c49c3fdeab4774ce36fa4c5e682a19924bc43d650690c7a1e902b1.jpg)
+
+![c2e66a06c28ce532390812d009080d1cecbc9e0372ab9f464c91075e779661a2.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/c2e66a06c28ce532390812d009080d1cecbc9e0372ab9f464c91075e779661a2.jpg)
+
+![d8db3b36c499a6364c5c1986cb2397a810c73d6528960386fc59d9dc5c1c3bbd.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/d8db3b36c499a6364c5c1986cb2397a810c73d6528960386fc59d9dc5c1c3bbd.jpg)
+
+![fa5f53c9e35be8bd92973c49863d35ed428473feec68bd10ab847886e1ed7608.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/images/fa5f53c9e35be8bd92973c49863d35ed428473feec68bd10ab847886e1ed7608.jpg)
+
+### Tables
+
+![04f948366a58aeec66065a0e68f21b16373bc1cdd372961471962bc191cfaf04.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/04f948366a58aeec66065a0e68f21b16373bc1cdd372961471962bc191cfaf04.jpg)
+
+![115a9590f0e3696bcca95ab01176076c309beaec3f6c69ce86f75b1637ae01a5.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/115a9590f0e3696bcca95ab01176076c309beaec3f6c69ce86f75b1637ae01a5.jpg)
+
+![222bdcfd47fecb11c962f823edb00762f83f25553120bdf717a7d3820e60e09d.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/222bdcfd47fecb11c962f823edb00762f83f25553120bdf717a7d3820e60e09d.jpg)
+
+![2282b6c9a34e62a981620d63efa85900bd6ba0386bba17a838caacd6fbf4343d.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/2282b6c9a34e62a981620d63efa85900bd6ba0386bba17a838caacd6fbf4343d.jpg)
+
+![26f3d1cbde36b3749f64094e6a29cf36efa0842ad1324b5c0a05629facad413a.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/26f3d1cbde36b3749f64094e6a29cf36efa0842ad1324b5c0a05629facad413a.jpg)
+
+![2a60553b77b0ca6b9b90798ca6f850a0c33964d34c35c130022618af78e1f7bc.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/2a60553b77b0ca6b9b90798ca6f850a0c33964d34c35c130022618af78e1f7bc.jpg)
+
+![33202f5acb35f29f33ca017b39da064a7c3b551b7a2a21c926ac254073de93d4.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/33202f5acb35f29f33ca017b39da064a7c3b551b7a2a21c926ac254073de93d4.jpg)
+
+![33d7174ccb6cc0d4527b8117b6afdbfa78b45378da2eb9a3c834ee554b32d6b9.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/33d7174ccb6cc0d4527b8117b6afdbfa78b45378da2eb9a3c834ee554b32d6b9.jpg)
+
+![3e25c4229738665133bc0526072bea542f3a42fd07712948ec583fd1d199455e.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/3e25c4229738665133bc0526072bea542f3a42fd07712948ec583fd1d199455e.jpg)
+
+![45e6c0a7b76080e55e333a75d532bf14fd8632290426c06489126623e8710c6d.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/45e6c0a7b76080e55e333a75d532bf14fd8632290426c06489126623e8710c6d.jpg)
+
+![59326f9d44b241477c0d690e1b11aa8897496452fc225b85e2c158da50b3deed.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/59326f9d44b241477c0d690e1b11aa8897496452fc225b85e2c158da50b3deed.jpg)
+
+![8eb2e37e9f46346ece0d4e1f689e9af849c9cdef16f655c81c495f63ec0862ad.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/8eb2e37e9f46346ece0d4e1f689e9af849c9cdef16f655c81c495f63ec0862ad.jpg)
+
+![9cf7834d24dac5ee847867b7c955aab41ba5cdced8abe78729be42e0de20d2a2.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/9cf7834d24dac5ee847867b7c955aab41ba5cdced8abe78729be42e0de20d2a2.jpg)
+
+![c248dc3287b35eedab94bac38f0888aaafcd93e515ce537fc9b99f75a903d24c.jpg](../iclr_results/1902_Towards a General Time Series Anomaly Detector with Adaptive Bottlenecks and Dual Adversarial Decode/tables/c248dc3287b35eedab94bac38f0888aaafcd93e515ce537fc9b99f75a903d24c.jpg)
+
+## ActSafe: Active Exploration with Safety Constraints for Reinforcement Learning
+
+
+### Images
+
+![0b8b775529d0729971ad85cf8f2eff86f6b8576532b8d9c657998a2900099953.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/0b8b775529d0729971ad85cf8f2eff86f6b8576532b8d9c657998a2900099953.jpg)
+
+![1ef6f45ea523af05c70f35dc3856b458c90b8acb577bab9c379617a1027bd243.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/1ef6f45ea523af05c70f35dc3856b458c90b8acb577bab9c379617a1027bd243.jpg)
+
+![4faaad500b93e0832d324c20d5744e9e068cf8460ee0bce7a812f0b558065b7e.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/4faaad500b93e0832d324c20d5744e9e068cf8460ee0bce7a812f0b558065b7e.jpg)
+
+![91d2c9735343ce4d703394d1a74468c76f6adbf40ff7a31ec7beeaf8f5235136.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/91d2c9735343ce4d703394d1a74468c76f6adbf40ff7a31ec7beeaf8f5235136.jpg)
+
+![91f673b1ddd4a6b4271d6c6bd931bac1f9793c95cdefaaabb126debc04b00e2d.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/91f673b1ddd4a6b4271d6c6bd931bac1f9793c95cdefaaabb126debc04b00e2d.jpg)
+
+![94bd34681f79feee83175528593c4eef43b0c08f146eec0a445a522e562a3bf5.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/94bd34681f79feee83175528593c4eef43b0c08f146eec0a445a522e562a3bf5.jpg)
+
+![a211f3de547f8ace744994989ec957d5bb2dfd535e5f1eeaee40fe9f0324a79f.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/a211f3de547f8ace744994989ec957d5bb2dfd535e5f1eeaee40fe9f0324a79f.jpg)
+
+![b3bb236763ef0b93a77db5dd939bdd49ae6ca3bc2c4008a4a98a8bec33c0b77b.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/b3bb236763ef0b93a77db5dd939bdd49ae6ca3bc2c4008a4a98a8bec33c0b77b.jpg)
+
+![be2918c34564f8978fe2f5c632013e81c37eeb168b2a4e06da664f85573874c0.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/be2918c34564f8978fe2f5c632013e81c37eeb168b2a4e06da664f85573874c0.jpg)
+
+![c09b57865e17114278ab662a34f361953c0d46a9fa3365e076f709f94e607945.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/c09b57865e17114278ab662a34f361953c0d46a9fa3365e076f709f94e607945.jpg)
+
+![dd19b4e288200af4d9bfe0b816d388fd462fdd47f3854124ae796d5068e1fa9b.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/dd19b4e288200af4d9bfe0b816d388fd462fdd47f3854124ae796d5068e1fa9b.jpg)
+
+![ef424ee43123a47c052ac8e6ef9041f182a80b2e86556df8e5881be0ff8098d0.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/ef424ee43123a47c052ac8e6ef9041f182a80b2e86556df8e5881be0ff8098d0.jpg)
+
+![f1fb0406a9be63be742224b5f0976d198e4eab22413786fbbf0d4ac8a277bb14.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/images/f1fb0406a9be63be742224b5f0976d198e4eab22413786fbbf0d4ac8a277bb14.jpg)
+
+### Tables
+
+![90951e9426b4bd9afcc7350d8335514e827ff1969e749f5b967d6a245529d38e.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/tables/90951e9426b4bd9afcc7350d8335514e827ff1969e749f5b967d6a245529d38e.jpg)
+
+![ad73bae13d2fa64799857c33ca06a7bcc690d628233d8c77193fee4132cc464e.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/tables/ad73bae13d2fa64799857c33ca06a7bcc690d628233d8c77193fee4132cc464e.jpg)
+
+![b1cbedd7bd458fce3002e106c464033eb283c0febec46e6e27b48ef9ebbb1833.jpg](../iclr_results/1903_ActSafe_ Active Exploration with Safety Constraints for Reinforcement Learning/tables/b1cbedd7bd458fce3002e106c464033eb283c0febec46e6e27b48ef9ebbb1833.jpg)
+
+## Toward Understanding In-context vs. In-weight Learning
+
+
+### Images
+
+![24ffed9253533725b7290184f3e0befda5b1400869e0bb0ae6fe192d171a7b26.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/24ffed9253533725b7290184f3e0befda5b1400869e0bb0ae6fe192d171a7b26.jpg)
+
+![311506bc0f3a5c10e7b853062ceeb073d7b7a9327b147065af4f9085b7695170.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/311506bc0f3a5c10e7b853062ceeb073d7b7a9327b147065af4f9085b7695170.jpg)
+
+![34defbfb10e1472137b106c98312a1dd39da57639c336052bff1ece843fa9569.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/34defbfb10e1472137b106c98312a1dd39da57639c336052bff1ece843fa9569.jpg)
+
+![48779cc57b6e6805a332795bf625fb23afa0737d281fe4b130141803c5e25741.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/48779cc57b6e6805a332795bf625fb23afa0737d281fe4b130141803c5e25741.jpg)
+
+![5c2bc88eaa50a276cfb7dff19de958be28764f837050215bd38700e4021e5cbc.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/5c2bc88eaa50a276cfb7dff19de958be28764f837050215bd38700e4021e5cbc.jpg)
+
+![6e3548fd08c7f0acf62c62d98d492c7f74cb631d26a507cf630aa764c50722a3.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/6e3548fd08c7f0acf62c62d98d492c7f74cb631d26a507cf630aa764c50722a3.jpg)
+
+![72aaf5e3529eb3fc56acd13f9f6f505cf9c5a05288939e57dfe1cd25e82dca58.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/72aaf5e3529eb3fc56acd13f9f6f505cf9c5a05288939e57dfe1cd25e82dca58.jpg)
+
+![7c39f6bb0850908a5f7814f02fbfe8ec7259e532c35199105d210e947cdab0bd.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/7c39f6bb0850908a5f7814f02fbfe8ec7259e532c35199105d210e947cdab0bd.jpg)
+
+![7fcd2211eb392707097c86897c12906cfcd9e397f872a32329f6d8d53a5f1070.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/7fcd2211eb392707097c86897c12906cfcd9e397f872a32329f6d8d53a5f1070.jpg)
+
+![869729e80598d2c0d2d98cf26a3eb83b260f26f3736550d37211fd593e2b623a.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/869729e80598d2c0d2d98cf26a3eb83b260f26f3736550d37211fd593e2b623a.jpg)
+
+![943c2d84fdf7c8b946234bcfa46a92617adcd02f3ee683e175b93f9a0def571c.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/943c2d84fdf7c8b946234bcfa46a92617adcd02f3ee683e175b93f9a0def571c.jpg)
+
+![a5e60835497a11279b5b0f704ba22e6f38c178bcd14a58dc552b5c89b0a9aeac.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/a5e60835497a11279b5b0f704ba22e6f38c178bcd14a58dc552b5c89b0a9aeac.jpg)
+
+![aefa9d2e19b9cf6b7ffbeb77b7f9259eaad3837280d62b8203f86ee412fc6e76.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/aefa9d2e19b9cf6b7ffbeb77b7f9259eaad3837280d62b8203f86ee412fc6e76.jpg)
+
+![b18ed7bbcf9f8ae9c1177d6d0096c6fb63b0865298195b5e6f313ecf34cb3d82.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/b18ed7bbcf9f8ae9c1177d6d0096c6fb63b0865298195b5e6f313ecf34cb3d82.jpg)
+
+![c97734789421bc58087a40fbfd1f44766b1eb07b09ea93931102db781770857d.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/c97734789421bc58087a40fbfd1f44766b1eb07b09ea93931102db781770857d.jpg)
+
+![ce65109175a7ee487a93ee79062f3c02b332f20409bf95625356dd70f80dc42d.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/ce65109175a7ee487a93ee79062f3c02b332f20409bf95625356dd70f80dc42d.jpg)
+
+![cf1814799375d9556647cd2bdc1e443a293bcbdb73d3ec568d553fb7dea791c6.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/cf1814799375d9556647cd2bdc1e443a293bcbdb73d3ec568d553fb7dea791c6.jpg)
+
+![d82cf3900b27b35f44eb26f7ebd5a1788f8d7bc054e0d3610973f5bcd8633651.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/d82cf3900b27b35f44eb26f7ebd5a1788f8d7bc054e0d3610973f5bcd8633651.jpg)
+
+![ddf7bdeb9ef69bcf2dd2f985331951284cbdc57a3c0d53a0982b5ec070dbb6c2.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/ddf7bdeb9ef69bcf2dd2f985331951284cbdc57a3c0d53a0982b5ec070dbb6c2.jpg)
+
+![de7ef3c43ec8b77bdb3361a1fdb45b5c3bae43033b225dd3bab4c8cd024c6cbb.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/de7ef3c43ec8b77bdb3361a1fdb45b5c3bae43033b225dd3bab4c8cd024c6cbb.jpg)
+
+![e32af416e62cfccf0e26a8cd58fc64c24d4b7ff4f47e2f76a6a124bc1ee8f080.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/e32af416e62cfccf0e26a8cd58fc64c24d4b7ff4f47e2f76a6a124bc1ee8f080.jpg)
+
+![ec1527f2201d0bf5919a245a2c807cdc512aad94a5252d50bdf1d4c4370aabf4.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/images/ec1527f2201d0bf5919a245a2c807cdc512aad94a5252d50bdf1d4c4370aabf4.jpg)
+
+### Tables
+
+![498984ce6e87b8228f2468dd2d7a13fa95f40a6937440b63a73cbd10f214828e.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/tables/498984ce6e87b8228f2468dd2d7a13fa95f40a6937440b63a73cbd10f214828e.jpg)
+
+![bf9a437b8fcae3d90209a7da086d7ab15af32def7646077590ac844887ca3e82.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/tables/bf9a437b8fcae3d90209a7da086d7ab15af32def7646077590ac844887ca3e82.jpg)
+
+![cdbaf179d1837eb726a0fffdd36ba63d93e0b5be742f5df46be30bbc5d69c40d.jpg](../iclr_results/1904_Toward Understanding In-context vs. In-weight Learning/tables/cdbaf179d1837eb726a0fffdd36ba63d93e0b5be742f5df46be30bbc5d69c40d.jpg)
+
+## Does Refusal Training in LLMs Generalize to the Past Tense?
+
+
+### Images
+
+![16182f4fbb4248a2291822b4a3eca7610432cd8f1b5f97c52d0b4ee0ac8db5d6.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/images/16182f4fbb4248a2291822b4a3eca7610432cd8f1b5f97c52d0b4ee0ac8db5d6.jpg)
+
+![2d303e7889e11d3b8250ff95b571b9d8476e592b96c86323c9c4687885505f31.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/images/2d303e7889e11d3b8250ff95b571b9d8476e592b96c86323c9c4687885505f31.jpg)
+
+![a145902bb18b454fe56f66c352321ce6e2338ef24a1d8c21a705bc65da6ae91c.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/images/a145902bb18b454fe56f66c352321ce6e2338ef24a1d8c21a705bc65da6ae91c.jpg)
+
+![e4f923e423e927a43e45ad518bed3d8b068367c911d8190111689edb4a0acb31.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/images/e4f923e423e927a43e45ad518bed3d8b068367c911d8190111689edb4a0acb31.jpg)
+
+### Tables
+
+![02c307562dceb2238e22b9a4b3f81b1768a47609d4cfd964395ccddb4c914b94.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/02c307562dceb2238e22b9a4b3f81b1768a47609d4cfd964395ccddb4c914b94.jpg)
+
+![03a584b69c8a55a459bc7ded674f876806192b45a0815bcd69391db4344dbd30.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/03a584b69c8a55a459bc7ded674f876806192b45a0815bcd69391db4344dbd30.jpg)
+
+![1846439e3ce0e03f10720f0d7066330716cb999e452380110baafb5c5529a466.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/1846439e3ce0e03f10720f0d7066330716cb999e452380110baafb5c5529a466.jpg)
+
+![3f5919d1f9a3c6321e5da21faa761dde1f31ddb8139fd7784edbaa0ac01bd86e.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/3f5919d1f9a3c6321e5da21faa761dde1f31ddb8139fd7784edbaa0ac01bd86e.jpg)
+
+![530151aac4f9c259840644875d2743cbcaf4f09b3ee183fcc391d7ab836bfad6.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/530151aac4f9c259840644875d2743cbcaf4f09b3ee183fcc391d7ab836bfad6.jpg)
+
+![605fcfee8f5d8a37ea25fed71ba180ee387870848c1a36dfc219d5a0a6e5da9e.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/605fcfee8f5d8a37ea25fed71ba180ee387870848c1a36dfc219d5a0a6e5da9e.jpg)
+
+![6cf8167fb4b0cc9aed2f4ab0de5fd63a46837bb019d73ae4879156e928eda8b2.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/6cf8167fb4b0cc9aed2f4ab0de5fd63a46837bb019d73ae4879156e928eda8b2.jpg)
+
+![96a187ec2629467b25bc9854d4a828904f81fe6119ac2a422236931b334ccbd3.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/96a187ec2629467b25bc9854d4a828904f81fe6119ac2a422236931b334ccbd3.jpg)
+
+![a3e736032ffac8c3e55991679e0061ae06993da9bb4b4fb8ee5495996e8a2260.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/a3e736032ffac8c3e55991679e0061ae06993da9bb4b4fb8ee5495996e8a2260.jpg)
+
+![a721b1109693b7f43ceae3edeac4a0515b34f0ac2748aab4421f800519ae16fd.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/a721b1109693b7f43ceae3edeac4a0515b34f0ac2748aab4421f800519ae16fd.jpg)
+
+![cfd9cc9558355c6a41c3939a1797e296a5ca9ede21a8f398ca896479ef8c48b9.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/cfd9cc9558355c6a41c3939a1797e296a5ca9ede21a8f398ca896479ef8c48b9.jpg)
+
+![ff7f7fab2e7c4b1112e58b6bef334ada2f04c52fdcb79b242a7faf5b3c98f10f.jpg](../iclr_results/1905_Does Refusal Training in LLMs Generalize to the Past Tense_/tables/ff7f7fab2e7c4b1112e58b6bef334ada2f04c52fdcb79b242a7faf5b3c98f10f.jpg)
+
+## Wasserstein-Regularized Conformal Prediction under General Distribution Shift
+
 
 ### Images
 
@@ -1589,7 +1898,6 @@
 
 ## Actions Speak Louder Than Words: Rate-Reward Trade-off in Markov Decision Processes
 
-
 ### Images
 
 ![1595718e1031a65bf16c18128bfecb226c583b140d79393ff0224d5216fa90af.jpg](../iclr_results/1935_Actions Speak Louder Than Words_ Rate-Reward Trade-off in Markov Decision Processes/images/1595718e1031a65bf16c18128bfecb226c583b140d79393ff0224d5216fa90af.jpg)
@@ -1631,269 +1939,3 @@
 ![d241188c2bf7e4d8ab2b4d1244367be48d21e992dae74d8bc59a6df2aee2c270.jpg](../iclr_results/1935_Actions Speak Louder Than Words_ Rate-Reward Trade-off in Markov Decision Processes/tables/d241188c2bf7e4d8ab2b4d1244367be48d21e992dae74d8bc59a6df2aee2c270.jpg)
 
 ![ee177e8637bb7d1c7fa38630ddf3d2ee62a17d37dccaa86bcd9b4b7f8e0cc23a.jpg](../iclr_results/1935_Actions Speak Louder Than Words_ Rate-Reward Trade-off in Markov Decision Processes/tables/ee177e8637bb7d1c7fa38630ddf3d2ee62a17d37dccaa86bcd9b4b7f8e0cc23a.jpg)
-
-## Diff-2-in-1: Bridging Generation and Dense Perception with Diffusion Models
-
-
-### Images
-
-![06ae6b2cdad3232a93c5de851cb7c653c32f55d90b0a36cf34401b6b23fff517.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/06ae6b2cdad3232a93c5de851cb7c653c32f55d90b0a36cf34401b6b23fff517.jpg)
-
-![0fa96a1eda8dc63075ee683574c8346a651a53ef1a68b2af18c61dd0dc833785.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/0fa96a1eda8dc63075ee683574c8346a651a53ef1a68b2af18c61dd0dc833785.jpg)
-
-![25b2c711c889339da90611a313afcc72f4cf2a8dec517f7cb37be0b8fae2c89f.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/25b2c711c889339da90611a313afcc72f4cf2a8dec517f7cb37be0b8fae2c89f.jpg)
-
-![2d2385e5293c9823371a0a8898c76a505e0e6309cc6abfe3ac7b5b3b82a0e680.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/2d2385e5293c9823371a0a8898c76a505e0e6309cc6abfe3ac7b5b3b82a0e680.jpg)
-
-![3155f0fe43346e08657ac313ed70a4b0b2a771b6db031625cb6eef19f773a388.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/3155f0fe43346e08657ac313ed70a4b0b2a771b6db031625cb6eef19f773a388.jpg)
-
-![5db5e88173bbcf94e29beff27eae700b44e80a73fa934c83f41252473d3e86ff.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/5db5e88173bbcf94e29beff27eae700b44e80a73fa934c83f41252473d3e86ff.jpg)
-
-![60d71d5afc41f1a6b15fdb2a2ec0d815ae3ad8615d34be49f37fc7ea9623bc67.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/60d71d5afc41f1a6b15fdb2a2ec0d815ae3ad8615d34be49f37fc7ea9623bc67.jpg)
-
-![6fc368507cdb8493f75cd7b270770ad7bf5c43d77e9001cd83e81498dfa69dd5.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/6fc368507cdb8493f75cd7b270770ad7bf5c43d77e9001cd83e81498dfa69dd5.jpg)
-
-![71eaf606a1c9e803a47b0823dffe14e16f27d816f2ec2d5f34a6933dad97fba4.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/71eaf606a1c9e803a47b0823dffe14e16f27d816f2ec2d5f34a6933dad97fba4.jpg)
-
-![78b12648acc9b3913ec634ac1c8f6630798a16e4c73bc94e63c637f18bd8dd06.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/78b12648acc9b3913ec634ac1c8f6630798a16e4c73bc94e63c637f18bd8dd06.jpg)
-
-![7927cf7bb54798d7f65a3b04c361e148b2516d152df900ab2fb682e70464aec8.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/7927cf7bb54798d7f65a3b04c361e148b2516d152df900ab2fb682e70464aec8.jpg)
-
-![947d56d04b76f2c3b2198326e3fbca0ebb641fdc683210bc92b77b4941960ef6.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/947d56d04b76f2c3b2198326e3fbca0ebb641fdc683210bc92b77b4941960ef6.jpg)
-
-![bf4650132fdb677cdba640a72d1f8ecaed81485266b6429770c8354d5d0e5ff2.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/bf4650132fdb677cdba640a72d1f8ecaed81485266b6429770c8354d5d0e5ff2.jpg)
-
-![d0b45e01ccb890937299e92dcfb381a4fda1aa63c6a7e157d70581eafdf0c5fa.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/d0b45e01ccb890937299e92dcfb381a4fda1aa63c6a7e157d70581eafdf0c5fa.jpg)
-
-![fc1c4f8e19c8f8fde7dbb3a610792ba865a9123033c269e7dd89345582d41b40.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/images/fc1c4f8e19c8f8fde7dbb3a610792ba865a9123033c269e7dd89345582d41b40.jpg)
-
-### Tables
-
-![001826c4ec3b4bd60744d7f94657a92d4d78b2a2d91a02e712adb01d28a2ebc6.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/001826c4ec3b4bd60744d7f94657a92d4d78b2a2d91a02e712adb01d28a2ebc6.jpg)
-
-![31c8b363fbbfcbfa81d3e84911e3a806b7835a11cf7d67b5b4515e57c8f19570.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/31c8b363fbbfcbfa81d3e84911e3a806b7835a11cf7d67b5b4515e57c8f19570.jpg)
-
-![480a126d64ff84c11b4f5eb41f2813b06ec8f216aac01db4ab513dd0d749f55b.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/480a126d64ff84c11b4f5eb41f2813b06ec8f216aac01db4ab513dd0d749f55b.jpg)
-
-![4e0095f0b249e5253ca39da0908270df936896d28d0c82d32ef8b2f22a581290.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/4e0095f0b249e5253ca39da0908270df936896d28d0c82d32ef8b2f22a581290.jpg)
-
-![52d5444f2b695aa426801cb8ba2bf8e0776c05d4b5122dd7fd0c694841665298.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/52d5444f2b695aa426801cb8ba2bf8e0776c05d4b5122dd7fd0c694841665298.jpg)
-
-![52f2c18d1d89bf64173305b6c5daf3f19dbe80bfff599f029ad36eaffd589505.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/52f2c18d1d89bf64173305b6c5daf3f19dbe80bfff599f029ad36eaffd589505.jpg)
-
-![6b9f09f17446a889fdef4c6ebc9173a195cca9692bd570e62205641fb9a27ec2.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/6b9f09f17446a889fdef4c6ebc9173a195cca9692bd570e62205641fb9a27ec2.jpg)
-
-![7a27806431d51864bbc101c7dd70e7aceac9b94a579ddfaaf70672957a50344d.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/7a27806431d51864bbc101c7dd70e7aceac9b94a579ddfaaf70672957a50344d.jpg)
-
-![7effa15b7c9fcd3ac98d90bdd0049efb9b5056045122919880c14e7735cb2b28.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/7effa15b7c9fcd3ac98d90bdd0049efb9b5056045122919880c14e7735cb2b28.jpg)
-
-![8d05e30caa918af0be42f77d78152c9cf3910a891a49c497f104a34cf3d3ad60.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/8d05e30caa918af0be42f77d78152c9cf3910a891a49c497f104a34cf3d3ad60.jpg)
-
-![b4d2b6df0e2eb6e25f21d28c64639cc088236eaa8f77f404aca9f1976e593bed.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/b4d2b6df0e2eb6e25f21d28c64639cc088236eaa8f77f404aca9f1976e593bed.jpg)
-
-![b85cc5d69112415679992e1aa77daeecf29fb569d57ade694e379d94fbf5e8bc.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/b85cc5d69112415679992e1aa77daeecf29fb569d57ade694e379d94fbf5e8bc.jpg)
-
-![bd159ad27ee9c1acc665af6f8658671fb6b041bdf8907076729e13e3587b231a.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/bd159ad27ee9c1acc665af6f8658671fb6b041bdf8907076729e13e3587b231a.jpg)
-
-![be5493ca73a1ebf315a1d43551f2513f31a5af6a78d0534ac1ba4977b46caf0e.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/be5493ca73a1ebf315a1d43551f2513f31a5af6a78d0534ac1ba4977b46caf0e.jpg)
-
-![eba1364a0f55fefff2a9c77c4865ab9b10e88aad20c92a44e1e032af159caffa.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/eba1364a0f55fefff2a9c77c4865ab9b10e88aad20c92a44e1e032af159caffa.jpg)
-
-![ed4175c4412a73de0e31b852badc669f201f0c833e92d51302ab802385196fa9.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/ed4175c4412a73de0e31b852badc669f201f0c833e92d51302ab802385196fa9.jpg)
-
-![f9c1082b5093cee674aea891ba0fdd11b75ebd9866e38f39ada2714370657d24.jpg](../iclr_results/1936_Diff-2-in-1_ Bridging Generation and Dense Perception with Diffusion Models/tables/f9c1082b5093cee674aea891ba0fdd11b75ebd9866e38f39ada2714370657d24.jpg)
-
-## Truncated Consistency Models
-
-
-### Images
-
-![13f67585255b2b764b5d474e9a27ee1a2b8388e616fe670049411a3ade53db50.jpg](../iclr_results/1937_Truncated Consistency Models/images/13f67585255b2b764b5d474e9a27ee1a2b8388e616fe670049411a3ade53db50.jpg)
-
-![218244679692a749f183e341b06ea9b9abedb9e24aadca4cc6d495851ed104c6.jpg](../iclr_results/1937_Truncated Consistency Models/images/218244679692a749f183e341b06ea9b9abedb9e24aadca4cc6d495851ed104c6.jpg)
-
-![27d6f7de2be7d647937a83b916e663fdcc77ae144f609763e4ec90248a2ec898.jpg](../iclr_results/1937_Truncated Consistency Models/images/27d6f7de2be7d647937a83b916e663fdcc77ae144f609763e4ec90248a2ec898.jpg)
-
-![599a30142e5c6e0ed725cc0fbba5f1f82ef5a38b33869a802d1806e9ddfa7d1c.jpg](../iclr_results/1937_Truncated Consistency Models/images/599a30142e5c6e0ed725cc0fbba5f1f82ef5a38b33869a802d1806e9ddfa7d1c.jpg)
-
-![66c98707fc920211b04a348083ff10355dd5fb45af3f5668e2305660c98439a8.jpg](../iclr_results/1937_Truncated Consistency Models/images/66c98707fc920211b04a348083ff10355dd5fb45af3f5668e2305660c98439a8.jpg)
-
-![7036cf4be01e9bf466b3c20452a768e49844fd109b53365eed8db79a9fa4a15b.jpg](../iclr_results/1937_Truncated Consistency Models/images/7036cf4be01e9bf466b3c20452a768e49844fd109b53365eed8db79a9fa4a15b.jpg)
-
-![708ff4c213ffa512a65953fae71662783d4eae681e8864d9b524dd0ced4ea9f7.jpg](../iclr_results/1937_Truncated Consistency Models/images/708ff4c213ffa512a65953fae71662783d4eae681e8864d9b524dd0ced4ea9f7.jpg)
-
-![70d0741042c284c4aeedb3bdfe841ce741339db09030da0468888663919b3abb.jpg](../iclr_results/1937_Truncated Consistency Models/images/70d0741042c284c4aeedb3bdfe841ce741339db09030da0468888663919b3abb.jpg)
-
-![70d753b3c1f22778892975d0758a212ebb9c036636b933b891fa678f7bafdeaf.jpg](../iclr_results/1937_Truncated Consistency Models/images/70d753b3c1f22778892975d0758a212ebb9c036636b933b891fa678f7bafdeaf.jpg)
-
-![95c606dc53c5d13039f3a719922e57a3e8d355c23ed8312bc8176a9d99014251.jpg](../iclr_results/1937_Truncated Consistency Models/images/95c606dc53c5d13039f3a719922e57a3e8d355c23ed8312bc8176a9d99014251.jpg)
-
-![dc62d6a349dc33f4a143b12c1e550839fafdbf4fba70f7f13a5329b4329de713.jpg](../iclr_results/1937_Truncated Consistency Models/images/dc62d6a349dc33f4a143b12c1e550839fafdbf4fba70f7f13a5329b4329de713.jpg)
-
-### Tables
-
-![5e1553b23e492ee5eb7be41587c029631c9797248407e89e3c91262b2a2da5be.jpg](../iclr_results/1937_Truncated Consistency Models/tables/5e1553b23e492ee5eb7be41587c029631c9797248407e89e3c91262b2a2da5be.jpg)
-
-![8b834ca755eac5cdf077dff309b10d7cb9bce1f54a471162aa13fb1cb3d9ae11.jpg](../iclr_results/1937_Truncated Consistency Models/tables/8b834ca755eac5cdf077dff309b10d7cb9bce1f54a471162aa13fb1cb3d9ae11.jpg)
-
-![a41c172ed18b2fc67e08ce234bb0537267d41878d31cc5718ea6f87de2218ecb.jpg](../iclr_results/1937_Truncated Consistency Models/tables/a41c172ed18b2fc67e08ce234bb0537267d41878d31cc5718ea6f87de2218ecb.jpg)
-
-![af7e8193e7380a1c05375419df5dfb2c82f0cec037044b605b86b3b3c5ed607d.jpg](../iclr_results/1937_Truncated Consistency Models/tables/af7e8193e7380a1c05375419df5dfb2c82f0cec037044b605b86b3b3c5ed607d.jpg)
-
-![c2d6a9a2542ebb6989da14782e180153a8d75f1c841cb42b92ed8930066f8f6b.jpg](../iclr_results/1937_Truncated Consistency Models/tables/c2d6a9a2542ebb6989da14782e180153a8d75f1c841cb42b92ed8930066f8f6b.jpg)
-
-![ffaa1d94b445daccd1cc72269f656c0a708c717b96eb20983a2e9e7fed13d565.jpg](../iclr_results/1937_Truncated Consistency Models/tables/ffaa1d94b445daccd1cc72269f656c0a708c717b96eb20983a2e9e7fed13d565.jpg)
-
-## From Lazy to Rich: Exact Learning Dynamics in Deep Linear Networks
-
-
-### Images
-
-![15144785155d2c4caf4e0f9ef0706cd2a7c35706f66e0b0d88b525ad9b1605a1.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/15144785155d2c4caf4e0f9ef0706cd2a7c35706f66e0b0d88b525ad9b1605a1.jpg)
-
-![1d0216b22bebed7f7d2858db12b7128b2190006007ba8558b871f404bfb9ae94.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/1d0216b22bebed7f7d2858db12b7128b2190006007ba8558b871f404bfb9ae94.jpg)
-
-![27344635c28c0b31094e0402ab4a2ec4d16a34aeb249291630dcc70fe0ebcda2.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/27344635c28c0b31094e0402ab4a2ec4d16a34aeb249291630dcc70fe0ebcda2.jpg)
-
-![363a1e4d5c9e0f41c3739b6fc9cc6927453069afed049d905be5f174cdad21d4.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/363a1e4d5c9e0f41c3739b6fc9cc6927453069afed049d905be5f174cdad21d4.jpg)
-
-![3c95a93502e18095ca9480dd6277db04340dc30241598174c9967809ef115abf.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/3c95a93502e18095ca9480dd6277db04340dc30241598174c9967809ef115abf.jpg)
-
-![49104bc6459489bd9c49ae352e3c6fb68b6aafa20d8e0fdd264320309c842c75.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/49104bc6459489bd9c49ae352e3c6fb68b6aafa20d8e0fdd264320309c842c75.jpg)
-
-![4e1cab01df32cf43389b14210522aa1aa953472af9c4af6c443ad490b09e8061.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/4e1cab01df32cf43389b14210522aa1aa953472af9c4af6c443ad490b09e8061.jpg)
-
-![5520101f9a41d89c978ace4636fdf018644b4a024843342b6b8d1bec351e8f4b.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/5520101f9a41d89c978ace4636fdf018644b4a024843342b6b8d1bec351e8f4b.jpg)
-
-![76ee158c60d6c028ef440e7213a60840b69c69567546bc2a03582731a085f90f.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/76ee158c60d6c028ef440e7213a60840b69c69567546bc2a03582731a085f90f.jpg)
-
-![846fcbc7b104660d667c5b6bd4236e035d21e97868b53eb70a4d94190b8f5c6a.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/846fcbc7b104660d667c5b6bd4236e035d21e97868b53eb70a4d94190b8f5c6a.jpg)
-
-![9fd78c137d5256b624b3598d16c430bf01fe3273f24224bc7a1a83ee0ab0944d.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/9fd78c137d5256b624b3598d16c430bf01fe3273f24224bc7a1a83ee0ab0944d.jpg)
-
-![af72161bfd9c4133f6b79d51549077c10b8ca7bf5a511e53a14bbc161b9ef702.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/af72161bfd9c4133f6b79d51549077c10b8ca7bf5a511e53a14bbc161b9ef702.jpg)
-
-![c528a2164118f5d9302aa909ab68f828e3e62f5f9968ee7002ebf2facd1702c7.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/c528a2164118f5d9302aa909ab68f828e3e62f5f9968ee7002ebf2facd1702c7.jpg)
-
-![d4c64d214d14064a8707bdc3d1af23486b7359c94c63b2f00e4f5eca4ed40729.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/images/d4c64d214d14064a8707bdc3d1af23486b7359c94c63b2f00e4f5eca4ed40729.jpg)
-
-### Tables
-
-![2aa1c75116f6d00ecb23eac429a3a612ca312bec104a73d0b4075335f71e975b.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/tables/2aa1c75116f6d00ecb23eac429a3a612ca312bec104a73d0b4075335f71e975b.jpg)
-
-![474e2b61106155b88fb558882ce4725eb87ff6c6ff0834508212f789c45c1382.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/tables/474e2b61106155b88fb558882ce4725eb87ff6c6ff0834508212f789c45c1382.jpg)
-
-![58467ef2339de6deb9410eb98b82e59b979571c69e906a1f63f912e480ab2812.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/tables/58467ef2339de6deb9410eb98b82e59b979571c69e906a1f63f912e480ab2812.jpg)
-
-![f16ccc6b697b91e1071aa4f5dc237a81fb46be2e850c65121a0782d082ef17c1.jpg](../iclr_results/1938_From Lazy to Rich_ Exact Learning Dynamics in Deep Linear Networks/tables/f16ccc6b697b91e1071aa4f5dc237a81fb46be2e850c65121a0782d082ef17c1.jpg)
-
-## A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence
-
-
-### Images
-
-![350b1598f27c6ab2a603a6517e2243dad27fcc944ed386875dbf25d926d7a80b.jpg](../iclr_results/1939_A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence/images/350b1598f27c6ab2a603a6517e2243dad27fcc944ed386875dbf25d926d7a80b.jpg)
-
-![5fe1284d5e0112895381fe582d85351806c69a0207aedc10b43b1d10688205e2.jpg](../iclr_results/1939_A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence/images/5fe1284d5e0112895381fe582d85351806c69a0207aedc10b43b1d10688205e2.jpg)
-
-![630490932e16efd10d25e3974f88763b778b0df10fbdc39329e0244052c57d2f.jpg](../iclr_results/1939_A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence/images/630490932e16efd10d25e3974f88763b778b0df10fbdc39329e0244052c57d2f.jpg)
-
-### Tables
-
-![0533cd32c704c0cac4abee62a27d61432a94aaf7eec87791615bf85fbbdbabe8.jpg](../iclr_results/1939_A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence/tables/0533cd32c704c0cac4abee62a27d61432a94aaf7eec87791615bf85fbbdbabe8.jpg)
-
-![1bd5561554c9940cb67ef2c2364cc49b5b987746490706c6a7df4a078d9c5ca6.jpg](../iclr_results/1939_A Policy-Gradient Approach to Solving Imperfect-Information Games with Best-Iterate Convergence/tables/1bd5561554c9940cb67ef2c2364cc49b5b987746490706c6a7df4a078d9c5ca6.jpg)
-
-## ARB-LLM: Alternating Refined Binarizations for Large Language Models
-
-
-### Images
-
-![1264a3e9e1727aa0a740312400960760ddc55ef5cb702bcc0da14342b20135c6.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/1264a3e9e1727aa0a740312400960760ddc55ef5cb702bcc0da14342b20135c6.jpg)
-
-![3f2e4326e05e1a9b8d9141dbe6ea1553716dac0d35caa30cec81e46ea2ff7fa4.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/3f2e4326e05e1a9b8d9141dbe6ea1553716dac0d35caa30cec81e46ea2ff7fa4.jpg)
-
-![8548379d3f2ce6fbb0058afabd9c920604e61b1e04d2b936d0ee54d15d780c2b.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/8548379d3f2ce6fbb0058afabd9c920604e61b1e04d2b936d0ee54d15d780c2b.jpg)
-
-![b41eabcaef46324d22acc6eea40fafdbf54412c0fa5ab2ba00754d67369df19a.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/b41eabcaef46324d22acc6eea40fafdbf54412c0fa5ab2ba00754d67369df19a.jpg)
-
-![cd045ffca24f677ad4a9384377eab10aece1d48185805ce3b73b0932642c7007.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/cd045ffca24f677ad4a9384377eab10aece1d48185805ce3b73b0932642c7007.jpg)
-
-![dbd507a96dc9f2191108193c1940a645fffa4b56b98bedd43fd0cbfe20abbdde.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/images/dbd507a96dc9f2191108193c1940a645fffa4b56b98bedd43fd0cbfe20abbdde.jpg)
-
-### Tables
-
-![139589fbc715ec8f4d6076248959ae1139b3cfd2405762fd84415e1770fb7874.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/139589fbc715ec8f4d6076248959ae1139b3cfd2405762fd84415e1770fb7874.jpg)
-
-![210547a360d7704badc532935adaa212eaa7d770fd925980bc1a91d50fea0d17.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/210547a360d7704badc532935adaa212eaa7d770fd925980bc1a91d50fea0d17.jpg)
-
-![3fc0ac37d487712f69d888f3e478de2df2c9108eb368f04135a1e15cce594251.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/3fc0ac37d487712f69d888f3e478de2df2c9108eb368f04135a1e15cce594251.jpg)
-
-![7a11a3f1a7724986bada2ea5a9b860ccd6871923d0a19afb331089c69fa18ef6.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/7a11a3f1a7724986bada2ea5a9b860ccd6871923d0a19afb331089c69fa18ef6.jpg)
-
-![a2b7d73f295ceeeb186bd59ce200b01e74808ffb02b62eed69ea8d85a1501ce1.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/a2b7d73f295ceeeb186bd59ce200b01e74808ffb02b62eed69ea8d85a1501ce1.jpg)
-
-![a7a8929143bd552e8836866c16eec88eb5ddaa7c125c9c89e1b3c75f74d2c290.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/a7a8929143bd552e8836866c16eec88eb5ddaa7c125c9c89e1b3c75f74d2c290.jpg)
-
-![ab4433fcbb02018ca408df2c5a808cd2f12e6e3dfad96e8a046a9366346f13f0.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/ab4433fcbb02018ca408df2c5a808cd2f12e6e3dfad96e8a046a9366346f13f0.jpg)
-
-![baa5f90494b4e0636f244903686570f86b291f38c2b35ab09ccdf31eb5ff4173.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/baa5f90494b4e0636f244903686570f86b291f38c2b35ab09ccdf31eb5ff4173.jpg)
-
-![bc54ddecba526414ec4722dbfcb4ad844d369cad5d4c1867509c4041391d4dc6.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/bc54ddecba526414ec4722dbfcb4ad844d369cad5d4c1867509c4041391d4dc6.jpg)
-
-![cf2a7537d5617c5f9e95d7a3f02f12ad1e9905a10a9e4655e0c4a91488b24627.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/cf2a7537d5617c5f9e95d7a3f02f12ad1e9905a10a9e4655e0c4a91488b24627.jpg)
-
-![d90ebe956264c53b9940ec848f394de8a8af277be8a72f25f79a1179721b3fc0.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/d90ebe956264c53b9940ec848f394de8a8af277be8a72f25f79a1179721b3fc0.jpg)
-
-![f6f6a1894ac5ca2cfa0dff274769962699dcfc5d0a9f3008aefc9d5958374043.jpg](../iclr_results/1940_ARB-LLM_ Alternating Refined Binarizations for Large Language Models/tables/f6f6a1894ac5ca2cfa0dff274769962699dcfc5d0a9f3008aefc9d5958374043.jpg)
-
-## Radar: Fast Long-Context Decoding for Any Transformer
-
-
-### Images
-
-![085fc5cbc0923138c3b9129516c20d6c642dcfc8ee1ea1617b8c111038db9f8f.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/085fc5cbc0923138c3b9129516c20d6c642dcfc8ee1ea1617b8c111038db9f8f.jpg)
-
-![102da3aec50d475415f57b62243d1bb5721dcc22323d82034b1281b654d7c048.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/102da3aec50d475415f57b62243d1bb5721dcc22323d82034b1281b654d7c048.jpg)
-
-![3b5820c1ec2ad0de4edda32d4f31dcc639622b3a8c37a55f3e9d1570cec0d2f5.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/3b5820c1ec2ad0de4edda32d4f31dcc639622b3a8c37a55f3e9d1570cec0d2f5.jpg)
-
-![3b888342381e8c36d6b19c141679fffc6d7ea073f93d43192b8a4610f2871a7f.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/3b888342381e8c36d6b19c141679fffc6d7ea073f93d43192b8a4610f2871a7f.jpg)
-
-![793f548b530ccdab16ac62f62a38ea21bd6b7abf1b174583ae06e1676635bd05.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/793f548b530ccdab16ac62f62a38ea21bd6b7abf1b174583ae06e1676635bd05.jpg)
-
-![8b52831a5c56e1d19609b09c7b77c862de53574c9ff84f61f288abdb2ecd98a2.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/8b52831a5c56e1d19609b09c7b77c862de53574c9ff84f61f288abdb2ecd98a2.jpg)
-
-![dda544a7cdf9b0aa10c5a1fd33e5d18a6480aad49aa8b286d1648eb4040f7ce6.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/images/dda544a7cdf9b0aa10c5a1fd33e5d18a6480aad49aa8b286d1648eb4040f7ce6.jpg)
-
-### Tables
-
-![3cb73fb33a531b7bba5333042243dad4ad18195becd99c365cb8652a78deac15.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/tables/3cb73fb33a531b7bba5333042243dad4ad18195becd99c365cb8652a78deac15.jpg)
-
-![64ee6d1c724f0131387e21c27450db35a0d009a0cb44acc10108e45ea9b3fd9e.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/tables/64ee6d1c724f0131387e21c27450db35a0d009a0cb44acc10108e45ea9b3fd9e.jpg)
-
-![7c44ef41af4d646094cf573ca7abc7cd344b178a98ed6a202eccafe3e0a5be87.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/tables/7c44ef41af4d646094cf573ca7abc7cd344b178a98ed6a202eccafe3e0a5be87.jpg)
-
-![efb6d74bda5b1c4571d31451eb9d9028efdc1968b69898fe583b4e675f80f8e2.jpg](../iclr_results/1941_Radar_ Fast Long-Context Decoding for Any Transformer/tables/efb6d74bda5b1c4571d31451eb9d9028efdc1968b69898fe583b4e675f80f8e2.jpg)
-
-## Self-Improving Robust Preference Optimization
-
-### Images
-
-![26f4aa6201dfb39ab1d04840ae5cf0d6e39e5235b034b798ad2a3f013766145b.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/images/26f4aa6201dfb39ab1d04840ae5cf0d6e39e5235b034b798ad2a3f013766145b.jpg)
-
-![2a1857bc03e45acb509c14247fecf74578854b2e46082951df2700a51aca9ab2.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/images/2a1857bc03e45acb509c14247fecf74578854b2e46082951df2700a51aca9ab2.jpg)
-
-![2e434474dfb3a0a6387f5b7db226813f06476a962b429a2bff778485d5534769.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/images/2e434474dfb3a0a6387f5b7db226813f06476a962b429a2bff778485d5534769.jpg)
-
-![be4f4273439a099f5871d50bbaf1d409bedbe38950eeddb581ba08681d0f11df.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/images/be4f4273439a099f5871d50bbaf1d409bedbe38950eeddb581ba08681d0f11df.jpg)
-
-![d7d2aa7029ba268752b8fe8f726332891da78f25095bf559a3ab4dfd3332207f.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/images/d7d2aa7029ba268752b8fe8f726332891da78f25095bf559a3ab4dfd3332207f.jpg)
-
-### Tables
-
-![7f115c4e6bd04bca1446f144071ce0ebbce7ed87332046bbad2f6ade4baa70af.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/tables/7f115c4e6bd04bca1446f144071ce0ebbce7ed87332046bbad2f6ade4baa70af.jpg)
-
-![7f34286302d001134c81e9df9761a098ef89ffba4dba322bb148860423cc51a8.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/tables/7f34286302d001134c81e9df9761a098ef89ffba4dba322bb148860423cc51a8.jpg)
-
-![f539b00a209c22cd70e5c3b187f37bdfcbc085aff7700e6ec8326d79dc84d8a6.jpg](../iclr_results/1942_Self-Improving Robust Preference Optimization/tables/f539b00a209c22cd70e5c3b187f37bdfcbc085aff7700e6ec8326d79dc84d8a6.jpg)

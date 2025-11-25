@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,244 @@
 
 ## 目录 (Table of Contents)
 
-1. [When Graph Neural Networks Meet Dynamic Mode Decomposition](#When-Graph-Neural-Networks-Meet-Dynamic-Mode-Decomposition)
-2. [TC-MoE: Augmenting Mixture of Experts with Ternary Expert Choice](#TC-MoE-Augmenting-Mixture-of-Experts-with-Ternary-Expert-Choice)
-3. [DeepTAGE: Deep Temporal-Aligned Gradient Enhancement for Optimizing Spiking Neural Networks](#DeepTAGE-Deep-Temporal-Aligned-Gradient-Enhancement-for-Optimizing-Spiking-Neural-Networks)
-4. [Learning Diagrams: A Graphical Language for Compositional Training Regimes](#Learning-Diagrams-A-Graphical-Language-for-Compositional-Training-Regimes)
-5. [Mitigating the Backdoor Effect for Multi-Task Model Merging via Safety-Aware Subspace](#Mitigating-the-Backdoor-Effect-for-Multi-Task-Model-Merging-via-Safety-Aware-Subspace)
-6. [Aligned Datasets Improve Detection of Latent Diffusion-Generated Images](#Aligned-Datasets-Improve-Detection-of-Latent-Diffusion-Generated-Images)
-7. [Progressive Token Length Scaling in Transformer Encoders for Efficient Universal Segmentation](#Progressive-Token-Length-Scaling-in-Transformer-Encoders-for-Efficient-Universal-Segmentation)
-8. [Learning Structured Universe Graph with Outlier OOD Detection for Partial Matching](#Learning-Structured-Universe-Graph-with-Outlier-OOD-Detection-for-Partial-Matching)
-9. [FACTS: A Factored State-Space Framework for World Modelling](#FACTS-A-Factored-State-Space-Framework-for-World-Modelling)
-10. [Bootstrapping Language Models with DPO Implicit Rewards](#Bootstrapping-Language-Models-with-DPO-Implicit-Rewards)
-11. [Gaussian Splatting Lucas-Kanade](#Gaussian-Splatting-Lucas-Kanade)
-12. [Improving Deep Regression with Tightness](#Improving-Deep-Regression-with-Tightness)
-13. [Fine-Tuning Attention Modules Only: Enhancing Weight Disentanglement in Task Arithmetic](#Fine-Tuning-Attention-Modules-Only-Enhancing-Weight-Disentanglement-in-Task-Arithmetic)
-14. [Reasoning with Latent Thoughts: On the Power of Looped Transformers](#Reasoning-with-Latent-Thoughts-On-the-Power-of-Looped-Transformers)
-15. [Provable unlearning in topic modeling and downstream tasks](#Provable-unlearning-in-topic-modeling-and-downstream-tasks)
-16. [Transformer-Squared: Self-adaptive LLMs](#Transformer-Squared-Self-adaptive-LLMs)
-17. [Quantum-PEFT: Ultra parameter-efficient fine-tuning](#Quantum-PEFT-Ultra-parameter-efficient-fine-tuning)
-18. [FOSP: Fine-tuning Offline Safe Policy through World Models](#FOSP-Fine-tuning-Offline-Safe-Policy-through-World-Models)
-19. [Dynamic Sparse Training versus Dense Training: The Unexpected Winner in Image Corruption Robustness](#Dynamic-Sparse-Training-versus-Dense-Training-The-Unexpected-Winner-in-Image-Corruption-Robustness)
-20. [Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting](#Gaussian-Based-Instance-Adaptive-Intensity-Modeling-for-Point-Supervised-Facial-Expression-Spotting)
-21. [Large Scale Knowledge Washing](#Large-Scale-Knowledge-Washing)
-22. [ImProver: Agent-Based Automated Proof Optimization](#ImProver-Agent-Based-Automated-Proof-Optimization)
-23. [SCOPE: A Self-supervised Framework for Improving Faithfulness in Conditional Text Generation](#SCOPE-A-Self-supervised-Framework-for-Improving-Faithfulness-in-Conditional-Text-Generation)
-24. [Offline Hierarchical Reinforcement Learning via Inverse Optimization](#Offline-Hierarchical-Reinforcement-Learning-via-Inverse-Optimization)
-25. [FreeVS: Generative View Synthesis on Free Driving Trajectory](#FreeVS-Generative-View-Synthesis-on-Free-Driving-Trajectory)
-26. [Training Free Exponential Context Extension via Cascading KV Cache](#Training-Free-Exponential-Context-Extension-via-Cascading-KV-Cache)
-27. [Tool-Planner: Task Planning with Clusters across Multiple Tools](#Tool-Planner-Task-Planning-with-Clusters-across-Multiple-Tools)
-28. [Generalizable Human Gaussians from Single-View Image](#Generalizable-Human-Gaussians-from-Single-View-Image)
-29. [Calibrating Expressions of Certainty](#Calibrating-Expressions-of-Certainty)
-30. [MOFFlow: Flow Matching for Structure Prediction of Metal-Organic Frameworks](#MOFFlow-Flow-Matching-for-Structure-Prediction-of-Metal-Organic-Frameworks)
-31. [Sequential Controlled Langevin Diffusions](#Sequential-Controlled-Langevin-Diffusions)
-32. [MixMax: Distributional Robustness in Function Space via Optimal Data Mixtures](#MixMax-Distributional-Robustness-in-Function-Space-via-Optimal-Data-Mixtures)
-33. [Locality-aware Gaussian Compression for Fast and High-quality Rendering](#Locality-aware-Gaussian-Compression-for-Fast-and-High-quality-Rendering)
-34. [SyllableLM: Learning Coarse Semantic Units for Speech Language Models](#SyllableLM-Learning-Coarse-Semantic-Units-for-Speech-Language-Models)
-35. [PooDLe🐩: Pooled and dense self-supervised learning from naturalistic videos](#PooDLe-Pooled-and-dense-self-supervised-learning-from-naturalistic-videos)
-36. [In-context Time Series Predictor](#In-context-Time-Series-Predictor)
+1. [Efficient Reinforcement Learning with Large Language Model Priors](#Efficient-Reinforcement-Learning-with-Large-Language-Model-Priors)
+2. [Federated Residual Low-Rank Adaptation of Large Language Models](#Federated-Residual-Low-Rank-Adaptation-of-Large-Language-Models)
+3. [Convex Formulations for Training Two-Layer ReLU Neural Networks](#Convex-Formulations-for-Training-Two-Layer-ReLU-Neural-Networks)
+4. [RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph](#RepoGraph-Enhancing-AI-Software-Engineering-with-Repository-level-Code-Graph)
+5. [When Graph Neural Networks Meet Dynamic Mode Decomposition](#When-Graph-Neural-Networks-Meet-Dynamic-Mode-Decomposition)
+6. [TC-MoE: Augmenting Mixture of Experts with Ternary Expert Choice](#TC-MoE-Augmenting-Mixture-of-Experts-with-Ternary-Expert-Choice)
+7. [DeepTAGE: Deep Temporal-Aligned Gradient Enhancement for Optimizing Spiking Neural Networks](#DeepTAGE-Deep-Temporal-Aligned-Gradient-Enhancement-for-Optimizing-Spiking-Neural-Networks)
+8. [Learning Diagrams: A Graphical Language for Compositional Training Regimes](#Learning-Diagrams-A-Graphical-Language-for-Compositional-Training-Regimes)
+9. [Mitigating the Backdoor Effect for Multi-Task Model Merging via Safety-Aware Subspace](#Mitigating-the-Backdoor-Effect-for-Multi-Task-Model-Merging-via-Safety-Aware-Subspace)
+10. [Aligned Datasets Improve Detection of Latent Diffusion-Generated Images](#Aligned-Datasets-Improve-Detection-of-Latent-Diffusion-Generated-Images)
+11. [Progressive Token Length Scaling in Transformer Encoders for Efficient Universal Segmentation](#Progressive-Token-Length-Scaling-in-Transformer-Encoders-for-Efficient-Universal-Segmentation)
+12. [Learning Structured Universe Graph with Outlier OOD Detection for Partial Matching](#Learning-Structured-Universe-Graph-with-Outlier-OOD-Detection-for-Partial-Matching)
+13. [FACTS: A Factored State-Space Framework for World Modelling](#FACTS-A-Factored-State-Space-Framework-for-World-Modelling)
+14. [Bootstrapping Language Models with DPO Implicit Rewards](#Bootstrapping-Language-Models-with-DPO-Implicit-Rewards)
+15. [Gaussian Splatting Lucas-Kanade](#Gaussian-Splatting-Lucas-Kanade)
+16. [Improving Deep Regression with Tightness](#Improving-Deep-Regression-with-Tightness)
+17. [Fine-Tuning Attention Modules Only: Enhancing Weight Disentanglement in Task Arithmetic](#Fine-Tuning-Attention-Modules-Only-Enhancing-Weight-Disentanglement-in-Task-Arithmetic)
+18. [Reasoning with Latent Thoughts: On the Power of Looped Transformers](#Reasoning-with-Latent-Thoughts-On-the-Power-of-Looped-Transformers)
+19. [Provable unlearning in topic modeling and downstream tasks](#Provable-unlearning-in-topic-modeling-and-downstream-tasks)
+20. [Transformer-Squared: Self-adaptive LLMs](#Transformer-Squared-Self-adaptive-LLMs)
+21. [Quantum-PEFT: Ultra parameter-efficient fine-tuning](#Quantum-PEFT-Ultra-parameter-efficient-fine-tuning)
+22. [FOSP: Fine-tuning Offline Safe Policy through World Models](#FOSP-Fine-tuning-Offline-Safe-Policy-through-World-Models)
+23. [Dynamic Sparse Training versus Dense Training: The Unexpected Winner in Image Corruption Robustness](#Dynamic-Sparse-Training-versus-Dense-Training-The-Unexpected-Winner-in-Image-Corruption-Robustness)
+24. [Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting](#Gaussian-Based-Instance-Adaptive-Intensity-Modeling-for-Point-Supervised-Facial-Expression-Spotting)
+25. [Large Scale Knowledge Washing](#Large-Scale-Knowledge-Washing)
+26. [ImProver: Agent-Based Automated Proof Optimization](#ImProver-Agent-Based-Automated-Proof-Optimization)
+27. [SCOPE: A Self-supervised Framework for Improving Faithfulness in Conditional Text Generation](#SCOPE-A-Self-supervised-Framework-for-Improving-Faithfulness-in-Conditional-Text-Generation)
+28. [Offline Hierarchical Reinforcement Learning via Inverse Optimization](#Offline-Hierarchical-Reinforcement-Learning-via-Inverse-Optimization)
+29. [FreeVS: Generative View Synthesis on Free Driving Trajectory](#FreeVS-Generative-View-Synthesis-on-Free-Driving-Trajectory)
+30. [Training Free Exponential Context Extension via Cascading KV Cache](#Training-Free-Exponential-Context-Extension-via-Cascading-KV-Cache)
+31. [Tool-Planner: Task Planning with Clusters across Multiple Tools](#Tool-Planner-Task-Planning-with-Clusters-across-Multiple-Tools)
+32. [Generalizable Human Gaussians from Single-View Image](#Generalizable-Human-Gaussians-from-Single-View-Image)
+33. [Calibrating Expressions of Certainty](#Calibrating-Expressions-of-Certainty)
+34. [MOFFlow: Flow Matching for Structure Prediction of Metal-Organic Frameworks](#MOFFlow-Flow-Matching-for-Structure-Prediction-of-Metal-Organic-Frameworks)
+35. [Sequential Controlled Langevin Diffusions](#Sequential-Controlled-Langevin-Diffusions)
+36. [MixMax: Distributional Robustness in Function Space via Optimal Data Mixtures](#MixMax-Distributional-Robustness-in-Function-Space-via-Optimal-Data-Mixtures)
+37. [Locality-aware Gaussian Compression for Fast and High-quality Rendering](#Locality-aware-Gaussian-Compression-for-Fast-and-High-quality-Rendering)
 
 ---
 
 
-## When Graph Neural Networks Meet Dynamic Mode Decomposition
+## Efficient Reinforcement Learning with Large Language Model Priors
+
+### Images
+
+![121d2fbce3a723c2a738899e7cb82ec0b8805865783db200a2d8a34b57731300.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/121d2fbce3a723c2a738899e7cb82ec0b8805865783db200a2d8a34b57731300.jpg)
+
+![128003d42247316b83287e88639a5c7e31dd8eb34fedc045500e3aa092420150.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/128003d42247316b83287e88639a5c7e31dd8eb34fedc045500e3aa092420150.jpg)
+
+![1e049f6afe0bdf92aa2c38f5e861d69e86e6aa3e0178eedc3ca1b296aa754958.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/1e049f6afe0bdf92aa2c38f5e861d69e86e6aa3e0178eedc3ca1b296aa754958.jpg)
+
+![3cabb96405f856a53f778f62619150125c6fffc339006b593d9eee9829481b1d.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/3cabb96405f856a53f778f62619150125c6fffc339006b593d9eee9829481b1d.jpg)
+
+![44ecd525ba370dcb30c334c35b8afdc67444300f876039d065f804b29521c010.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/44ecd525ba370dcb30c334c35b8afdc67444300f876039d065f804b29521c010.jpg)
+
+![4f4515f69d3fe79b5da057f532fd3224bfc28f8ca0898faa26c4e7bf4e012e20.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/4f4515f69d3fe79b5da057f532fd3224bfc28f8ca0898faa26c4e7bf4e012e20.jpg)
+
+![5b05926a3033dcdadfb5d3866a3b0683aba285fbb09caf79b912fadb60623fb5.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/5b05926a3033dcdadfb5d3866a3b0683aba285fbb09caf79b912fadb60623fb5.jpg)
+
+![5fec8e69645d02003e76d794b3fbded9f1d7fe619514dc7484a7abd6b3b1b32c.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/5fec8e69645d02003e76d794b3fbded9f1d7fe619514dc7484a7abd6b3b1b32c.jpg)
+
+![75bfef5a8e06d418d0aea2b42a8ce9995e2c9ef993a788b05b0ef9cc0924961d.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/75bfef5a8e06d418d0aea2b42a8ce9995e2c9ef993a788b05b0ef9cc0924961d.jpg)
+
+![83422b182bbd220b1263307d8df085b1c514146993564f9fab71e4ded2eb9ae8.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/83422b182bbd220b1263307d8df085b1c514146993564f9fab71e4ded2eb9ae8.jpg)
+
+![87520401da94f99fdceac076610fbaecf12bef6060ab80e619d82d752eab17ac.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/87520401da94f99fdceac076610fbaecf12bef6060ab80e619d82d752eab17ac.jpg)
+
+![8da03066a59192b3ff802637bb9776057664bed1c2de3fb551afbf425aeaa169.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/8da03066a59192b3ff802637bb9776057664bed1c2de3fb551afbf425aeaa169.jpg)
+
+![a4432c1efd71d95fa56daac0c54ab6e8e15e32f9842baa7e0ab9ba2dd6d7532e.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/a4432c1efd71d95fa56daac0c54ab6e8e15e32f9842baa7e0ab9ba2dd6d7532e.jpg)
+
+![a5aa23ee4095058da566c684dad1387d37a957d0135a935da34512265aed393e.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/a5aa23ee4095058da566c684dad1387d37a957d0135a935da34512265aed393e.jpg)
+
+![abce457db0456202cad07bd006dc710ba75e8fc78e906e30d57ed70b7b7090c9.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/abce457db0456202cad07bd006dc710ba75e8fc78e906e30d57ed70b7b7090c9.jpg)
+
+![b97c13184d55f5801038fb8fabe316f7575514d5dac26bb51a58097017026fc9.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/b97c13184d55f5801038fb8fabe316f7575514d5dac26bb51a58097017026fc9.jpg)
+
+![bd45e1c396b6ea5871fced8da94b1dcf350ab1c89d5a42aaabbcf4c7adc683d5.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/bd45e1c396b6ea5871fced8da94b1dcf350ab1c89d5a42aaabbcf4c7adc683d5.jpg)
+
+![c85e817f346e30f19603abcb24b53c251b67d44a58c8c5a554d130bf6cd3a9b6.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/c85e817f346e30f19603abcb24b53c251b67d44a58c8c5a554d130bf6cd3a9b6.jpg)
+
+![d3dc516ddb56d9532277a73610a9f6a29b182f7a7147f1c69eb366f4d02f2e1f.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/d3dc516ddb56d9532277a73610a9f6a29b182f7a7147f1c69eb366f4d02f2e1f.jpg)
+
+![d9202cf40a88ed445bda1f7eb52bbef011f15d7598646fe7e96bad37528f1ed5.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/d9202cf40a88ed445bda1f7eb52bbef011f15d7598646fe7e96bad37528f1ed5.jpg)
+
+![e66dcefbed6126e0268cc9b6f92e4aebcbe470963f51e7016ccbacaa81cb7449.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/e66dcefbed6126e0268cc9b6f92e4aebcbe470963f51e7016ccbacaa81cb7449.jpg)
+
+![eaec4f3209ff543d91d49c000d7c0ebc265d6cb3a4e45b1ee89b7e9699033d93.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/eaec4f3209ff543d91d49c000d7c0ebc265d6cb3a4e45b1ee89b7e9699033d93.jpg)
+
+![f884d62b08e8d031519108ab09792eb2797e1bb9ea4a4d24934b804e3fac523a.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/images/f884d62b08e8d031519108ab09792eb2797e1bb9ea4a4d24934b804e3fac523a.jpg)
+
+### Tables
+
+![0aa5db501112ab41aed033f51ec2a5266db9846cdf76693cccd0325985c9000b.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/0aa5db501112ab41aed033f51ec2a5266db9846cdf76693cccd0325985c9000b.jpg)
+
+![16d0eb86f9ead18379b946c325cce0fd9c9e0e87fa45088aae67714418689e99.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/16d0eb86f9ead18379b946c325cce0fd9c9e0e87fa45088aae67714418689e99.jpg)
+
+![18d34c78fd4d295ed8dbec98dd8ec6c0a2744caef32bd5888bfaf7ada2eeb773.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/18d34c78fd4d295ed8dbec98dd8ec6c0a2744caef32bd5888bfaf7ada2eeb773.jpg)
+
+![1ae76880a42dfaae8d52291533b99bfb54a2267f802678d5c8ceaf7c5df4cf30.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/1ae76880a42dfaae8d52291533b99bfb54a2267f802678d5c8ceaf7c5df4cf30.jpg)
+
+![3ec9fa51ce46de131fac1ed58a7fdf93204439aec7622564ec46877b2c1d5e91.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/3ec9fa51ce46de131fac1ed58a7fdf93204439aec7622564ec46877b2c1d5e91.jpg)
+
+![5b6d81d2eb2db3327d79cbb845b5d42e045c01c73a74e008856f542362debbb5.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/5b6d81d2eb2db3327d79cbb845b5d42e045c01c73a74e008856f542362debbb5.jpg)
+
+![6c0becd196c8e72e0656ef3a2a913d0582b01d8e5c9e341440a90a1b0a09b994.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/6c0becd196c8e72e0656ef3a2a913d0582b01d8e5c9e341440a90a1b0a09b994.jpg)
+
+![862db1bdb0efb5d6ca23a0479173aea290f752a591c3b415f81d8345eafd5c1b.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/862db1bdb0efb5d6ca23a0479173aea290f752a591c3b415f81d8345eafd5c1b.jpg)
+
+![8ddd5151953140f32e6cad51fa80d62ea78d6eda25ebc42f49dce6ee869f5f1b.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/8ddd5151953140f32e6cad51fa80d62ea78d6eda25ebc42f49dce6ee869f5f1b.jpg)
+
+![98df5fcd589389ba6739583d0f6c2796dd4b79de601332477ae563c5d01d44f1.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/98df5fcd589389ba6739583d0f6c2796dd4b79de601332477ae563c5d01d44f1.jpg)
+
+![ae258f87feb22a0047c16e03e937e97fa06d1c69206c584cc307a57faa200fe0.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/ae258f87feb22a0047c16e03e937e97fa06d1c69206c584cc307a57faa200fe0.jpg)
+
+![ce2013c5901e369725483f9777a849ed37daa326b8239036af61c8489ccbea88.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/ce2013c5901e369725483f9777a849ed37daa326b8239036af61c8489ccbea88.jpg)
+
+![d278604584eb20622719a47170ab873a9d7ec326261cd094e17b035b4d4c62e8.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/d278604584eb20622719a47170ab873a9d7ec326261cd094e17b035b4d4c62e8.jpg)
+
+![e79e9524129ca187d7d9b325d341db1a4967f8b410169bace240fde669c98cd8.jpg](../iclr_results/1713_Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models/tables/e79e9524129ca187d7d9b325d341db1a4967f8b410169bace240fde669c98cd8.jpg)
+
+## Efficient Reinforcement Learning with Large Language Model Priors
+
+
+### Images
+
+![1e5c5bcced01398604a3bfb58820f46f4b09068be2d680573a6b9355031d3f01.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/1e5c5bcced01398604a3bfb58820f46f4b09068be2d680573a6b9355031d3f01.jpg)
+
+![29070b0a4c6aeebaf81033c0051ce88e4c2069774595060cb855fde01f188c19.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/29070b0a4c6aeebaf81033c0051ce88e4c2069774595060cb855fde01f188c19.jpg)
+
+![2c96947741ffc529eaa210832e9748d188ebc59092974ba0e049fe96fc248012.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/2c96947741ffc529eaa210832e9748d188ebc59092974ba0e049fe96fc248012.jpg)
+
+![33001e63cba5659baec0ae8795a8d3801a77033be1e67371c435b317c9f1a381.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/33001e63cba5659baec0ae8795a8d3801a77033be1e67371c435b317c9f1a381.jpg)
+
+![61aa9eca2a6f750ad31e8b6efba0801682653f696d5a2a9768bc1b22a3714516.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/61aa9eca2a6f750ad31e8b6efba0801682653f696d5a2a9768bc1b22a3714516.jpg)
+
+![839f4930ea561c936e1bd9d12b5adf76dfcd7875d87a389cc91d995f9bddf370.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/839f4930ea561c936e1bd9d12b5adf76dfcd7875d87a389cc91d995f9bddf370.jpg)
+
+![c25c6f3983bc83a7cc58c49393d694200978ede40cc4b114a4e66f65dbfbf374.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/c25c6f3983bc83a7cc58c49393d694200978ede40cc4b114a4e66f65dbfbf374.jpg)
+
+![c745fbab22981cab9a880ffb4747312ff029c8d0287704fbcb3d3179928704ee.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/c745fbab22981cab9a880ffb4747312ff029c8d0287704fbcb3d3179928704ee.jpg)
+
+![e1a3e9548bde09dd500b9781c84fba3c04be095c616b27d28a37f52494f1e704.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/images/e1a3e9548bde09dd500b9781c84fba3c04be095c616b27d28a37f52494f1e704.jpg)
+
+### Tables
+
+![0220d77ed19e2040c3cbf4b7cb837a40a87e4e364ab1f5fd0bba6d3e8512d994.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/0220d77ed19e2040c3cbf4b7cb837a40a87e4e364ab1f5fd0bba6d3e8512d994.jpg)
+
+![107816d2f2f4b8d8c8d5693e1d9b94793d07e3e5053fc0cee326dff3e44b83fb.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/107816d2f2f4b8d8c8d5693e1d9b94793d07e3e5053fc0cee326dff3e44b83fb.jpg)
+
+![24d894c3bbcfb19ba4878f4df0654a3cc5da9a21146f0166a58e1793755e2ed1.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/24d894c3bbcfb19ba4878f4df0654a3cc5da9a21146f0166a58e1793755e2ed1.jpg)
+
+![33e657396d14bc85650ee25074ef161f2bd2ae2c74582284b747fd214b943c7c.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/33e657396d14bc85650ee25074ef161f2bd2ae2c74582284b747fd214b943c7c.jpg)
+
+![4a8f9141a59b38104b2c3921eb03263252f7aaa953dc540bc59a2ba981dd10bd.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/4a8f9141a59b38104b2c3921eb03263252f7aaa953dc540bc59a2ba981dd10bd.jpg)
+
+![528036353d6a076ccf3d653e2045f0d71f27a7db670646a27dab6ae9d22b85ff.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/528036353d6a076ccf3d653e2045f0d71f27a7db670646a27dab6ae9d22b85ff.jpg)
+
+![6084238ccfdf1fa0595f25fee88561d36b1e33ef22eec4836678fb207ffff198.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/6084238ccfdf1fa0595f25fee88561d36b1e33ef22eec4836678fb207ffff198.jpg)
+
+![6ee03262737cc791e24eb3c272a4971f312dce6cf56db123026b0db66ad60bef.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/6ee03262737cc791e24eb3c272a4971f312dce6cf56db123026b0db66ad60bef.jpg)
+
+![8b5d7dc95fae88ef57701baad7f90c200de0e57ed2262e2f578749b131c00dbf.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8b5d7dc95fae88ef57701baad7f90c200de0e57ed2262e2f578749b131c00dbf.jpg)
+
+![8ddc880490ca91b9f4d13251d7df5b48965de85bdfebd2e1be338482230cdc0f.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8ddc880490ca91b9f4d13251d7df5b48965de85bdfebd2e1be338482230cdc0f.jpg)
+
+![8e3e1eff33560266b7e492c1e696513b9692e50cd06b882f0b22d926a80f29b9.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/8e3e1eff33560266b7e492c1e696513b9692e50cd06b882f0b22d926a80f29b9.jpg)
+
+![9914260f90b0d2c9639e6838a775c7b8ccd8a29816d0f7a5553107d378eb581e.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/9914260f90b0d2c9639e6838a775c7b8ccd8a29816d0f7a5553107d378eb581e.jpg)
+
+![bf083bf5d0aab0f6e9ae6b3668046701f12394afc8fb6f5cfc727f8cc5a590cf.jpg](../iclr_results/1714_Efficient Reinforcement Learning with Large Language Model Priors/tables/bf083bf5d0aab0f6e9ae6b3668046701f12394afc8fb6f5cfc727f8cc5a590cf.jpg)
+
+## Federated Residual Low-Rank Adaptation of Large Language Models
+
+
+### Images
+
+![5de59e76740992e52bb61a64b01902fbd02084cfe77735b9ccd747999631eaa1.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/5de59e76740992e52bb61a64b01902fbd02084cfe77735b9ccd747999631eaa1.jpg)
+
+![9d6852556325c7cf591a2d695cb6102c8b35f658ab30908d6e2ea9534e3161bb.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/9d6852556325c7cf591a2d695cb6102c8b35f658ab30908d6e2ea9534e3161bb.jpg)
+
+![e0dc4453eb88c0d91086094ad5af6419cd4abe2b5260dfca237997ca6bbd23a7.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/e0dc4453eb88c0d91086094ad5af6419cd4abe2b5260dfca237997ca6bbd23a7.jpg)
+
+![f3842169bdc058b2bca33447c18894776e23f95b48fb12f365f5e874a9c084ac.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/images/f3842169bdc058b2bca33447c18894776e23f95b48fb12f365f5e874a9c084ac.jpg)
+
+### Tables
+
+![1cb047c5b5ddac7f0f88b0b474915b954dd6ee24e45a8f18f04a283d2ee4e374.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/1cb047c5b5ddac7f0f88b0b474915b954dd6ee24e45a8f18f04a283d2ee4e374.jpg)
+
+![22a82de910f20211b6fed9ffb064e58a215ac016011d24004e4e035939db1767.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/22a82de910f20211b6fed9ffb064e58a215ac016011d24004e4e035939db1767.jpg)
+
+![30f706d0a50c2c1dfc0b70fab7c46baf53bafdcf8e1e09deb75ebadffabf8ac1.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/30f706d0a50c2c1dfc0b70fab7c46baf53bafdcf8e1e09deb75ebadffabf8ac1.jpg)
+
+![4b001322d95e34b27e4a634d33c45ecaa900953a0fac64e07bc2fe5c92494e3b.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/4b001322d95e34b27e4a634d33c45ecaa900953a0fac64e07bc2fe5c92494e3b.jpg)
+
+![5189fc15e503153127b2e7139e688946b3584f06750c27e1c7eee8d5a80bca23.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/5189fc15e503153127b2e7139e688946b3584f06750c27e1c7eee8d5a80bca23.jpg)
+
+![9d2260ca2a582ae144432ef771ce240c1b593db6281342850736ae440800ed97.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/9d2260ca2a582ae144432ef771ce240c1b593db6281342850736ae440800ed97.jpg)
+
+![a91a581c381ef6573cbb2670cd853e34f609b0b2a09197458cb4541b396d6fd9.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/a91a581c381ef6573cbb2670cd853e34f609b0b2a09197458cb4541b396d6fd9.jpg)
+
+![aabfa7ec543c610c07fc4070b6ffbee9039d4c8b674afadb33fedcabf7d86561.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/aabfa7ec543c610c07fc4070b6ffbee9039d4c8b674afadb33fedcabf7d86561.jpg)
+
+![aadae6d8f4507d5425ebb93ecd59c9d142281e431dd9e31dd1cfd635f22652bd.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/aadae6d8f4507d5425ebb93ecd59c9d142281e431dd9e31dd1cfd635f22652bd.jpg)
+
+![afbd03f329573045015c9c4fda5b74c39ea922f5f4fbc35f58a00899167fe66a.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/afbd03f329573045015c9c4fda5b74c39ea922f5f4fbc35f58a00899167fe66a.jpg)
+
+![cfb52dae9b1cce27bb633a0ee8630b3ea06db026f5b6712a75538d27f49bc828.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/cfb52dae9b1cce27bb633a0ee8630b3ea06db026f5b6712a75538d27f49bc828.jpg)
+
+![d34594483046ae76b3d1fd73465379ba9832b72956abc13a61871b3a404b373a.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/d34594483046ae76b3d1fd73465379ba9832b72956abc13a61871b3a404b373a.jpg)
+
+![ed7cb842f3b55ebf7336e314341311921e76b23b2295b476d70e18311f694ac6.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/ed7cb842f3b55ebf7336e314341311921e76b23b2295b476d70e18311f694ac6.jpg)
+
+![f105dac9c85ec569930a187b78da981b65ae60f3cb3795a93dcc256ad1cc4fb3.jpg](../iclr_results/1715_Federated Residual Low-Rank Adaptation of Large Language Models/tables/f105dac9c85ec569930a187b78da981b65ae60f3cb3795a93dcc256ad1cc4fb3.jpg)
+
+## Convex Formulations for Training Two-Layer ReLU Neural Networks
+
+
+### Images
+
+![39356921a39a7452e2b2660251ea6b9d83a1636e2f19311bbb6a933f038067bb.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/images/39356921a39a7452e2b2660251ea6b9d83a1636e2f19311bbb6a933f038067bb.jpg)
+
+![d007dd326129ed73514d40355e69a68d32e0cdf607f27af5988344406aa07e52.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/images/d007dd326129ed73514d40355e69a68d32e0cdf607f27af5988344406aa07e52.jpg)
+
+### Tables
+
+![4606e545d15bbaeec33459c03641fc8e113a0069eb8d221f2c620473d8efc75d.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/4606e545d15bbaeec33459c03641fc8e113a0069eb8d221f2c620473d8efc75d.jpg)
+
+![48fe050f2383262071b8f9791bfc261d5bba43b018b85323bb0de3fb66257bfb.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/48fe050f2383262071b8f9791bfc261d5bba43b018b85323bb0de3fb66257bfb.jpg)
+
+![55278b6f14e37b60bc242d325f235cfc0254e5f33b054def1fd1797084f18fdd.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/55278b6f14e37b60bc242d325f235cfc0254e5f33b054def1fd1797084f18fdd.jpg)
+
+![5caa09d55f95648234b98dca8252c8cc819eea6fda026af31379e0b3d6e98716.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/5caa09d55f95648234b98dca8252c8cc819eea6fda026af31379e0b3d6e98716.jpg)
+
+![aa46f46813f0d1d882aae323fb22db7cdcad01df0ad622ecc2b874eecf14fd15.jpg](../iclr_results/1716_Convex Formulations for Training Two-Layer ReLU Neural Networks/tables/aa46f46813f0d1d882aae323fb22db7cdcad01df0ad622ecc2b874eecf14fd15.jpg)
+
+## RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph
+
 
 ### Images
 
@@ -1521,7 +1718,6 @@
 
 ## Locality-aware Gaussian Compression for Fast and High-quality Rendering
 
-
 ### Images
 
 ![000739b5dd89be9c80d7f77b0603b76dc156847dc51afa3a57033cde891f77e4.jpg](../iclr_results/1750_Locality-aware Gaussian Compression for Fast and High-quality Rendering/images/000739b5dd89be9c80d7f77b0603b76dc156847dc51afa3a57033cde891f77e4.jpg)
@@ -1587,165 +1783,3 @@
 ![edf04c9b4808ba16468f7b02ac49ceb66e8e42f25fa0cec3e0988a6471ab806c.jpg](../iclr_results/1750_Locality-aware Gaussian Compression for Fast and High-quality Rendering/tables/edf04c9b4808ba16468f7b02ac49ceb66e8e42f25fa0cec3e0988a6471ab806c.jpg)
 
 ![fa99d37755cc86ef9705793f18d3c831897302104e7e212888b7fba37bbedd13.jpg](../iclr_results/1750_Locality-aware Gaussian Compression for Fast and High-quality Rendering/tables/fa99d37755cc86ef9705793f18d3c831897302104e7e212888b7fba37bbedd13.jpg)
-
-## SyllableLM: Learning Coarse Semantic Units for Speech Language Models
-
-
-### Images
-
-![74229f3f7930cb67effe11b113480263b52ed34b8472b8bfa4f64665b3b53d9f.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/images/74229f3f7930cb67effe11b113480263b52ed34b8472b8bfa4f64665b3b53d9f.jpg)
-
-![b2ae218266a338fd0d6e6751b705cb298fed321d7c87a5026769786f4a78808e.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/images/b2ae218266a338fd0d6e6751b705cb298fed321d7c87a5026769786f4a78808e.jpg)
-
-![eb1eb9096d621dd992eeb07090bed8fe10dfd6bc82ce5762cfb25001222c35f2.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/images/eb1eb9096d621dd992eeb07090bed8fe10dfd6bc82ce5762cfb25001222c35f2.jpg)
-
-![f5262a700a830af63e5fae93c20c082b91af7fbeee8bfa087f26dab54f9af4c6.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/images/f5262a700a830af63e5fae93c20c082b91af7fbeee8bfa087f26dab54f9af4c6.jpg)
-
-![fdaa252c4ed05ee540fce3988aa60115eeef807299c5041dc31ee2e51b9d6c25.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/images/fdaa252c4ed05ee540fce3988aa60115eeef807299c5041dc31ee2e51b9d6c25.jpg)
-
-### Tables
-
-![0007d38ac3c9201b5fb8ef913aef1b577dbf8b0801fe3552a75e4fa86752f9d7.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/0007d38ac3c9201b5fb8ef913aef1b577dbf8b0801fe3552a75e4fa86752f9d7.jpg)
-
-![0bd417b9020783966ce0e54a10d4a6fc8246ec91633263d105e50fe7ad3c4c10.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/0bd417b9020783966ce0e54a10d4a6fc8246ec91633263d105e50fe7ad3c4c10.jpg)
-
-![3d64b208116572efb2a0766d4d99f89a03d422753a90e38f84c70c2fb37cad8b.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/3d64b208116572efb2a0766d4d99f89a03d422753a90e38f84c70c2fb37cad8b.jpg)
-
-![581f78fd1b3f92a6fea190eb95c1d4765b734fa6d0c68562197fab050461e63c.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/581f78fd1b3f92a6fea190eb95c1d4765b734fa6d0c68562197fab050461e63c.jpg)
-
-![6395dfe9158cc8e7bb204d7f5c219ea1d1c3bc90eaee0493c16918c78274be3e.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/6395dfe9158cc8e7bb204d7f5c219ea1d1c3bc90eaee0493c16918c78274be3e.jpg)
-
-![7032d9e9653df76aa3c5a31d58660b9134fe5e6dcddf925fd344c28e719b6ed4.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/7032d9e9653df76aa3c5a31d58660b9134fe5e6dcddf925fd344c28e719b6ed4.jpg)
-
-![882b7f9db1496ce14b12e3736f914031486a30c0ec8b2bd1242ab465838471eb.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/882b7f9db1496ce14b12e3736f914031486a30c0ec8b2bd1242ab465838471eb.jpg)
-
-![90734127f44fcf3d00fee9aa10a6d173abf262571ab91a27542e80a12cc2b0d9.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/90734127f44fcf3d00fee9aa10a6d173abf262571ab91a27542e80a12cc2b0d9.jpg)
-
-![c2f05225ab432721ea97fc3ad098c991452093ce77fbc8d3e2888914e071f7ba.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/c2f05225ab432721ea97fc3ad098c991452093ce77fbc8d3e2888914e071f7ba.jpg)
-
-![db723cd76136ec79a401a73d58ada60f7949c5b046f99d61deb533edb6c0ff39.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/db723cd76136ec79a401a73d58ada60f7949c5b046f99d61deb533edb6c0ff39.jpg)
-
-![de403a3e9abeaa364e938f4d3704c628ed3bfda2e3988ce8bc175b0006503ea4.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/de403a3e9abeaa364e938f4d3704c628ed3bfda2e3988ce8bc175b0006503ea4.jpg)
-
-![e7ff01fce26cb7689204d14f22f5092054bd5f4551ed03e1c62108ef308fd9ba.jpg](../iclr_results/1751_SyllableLM_ Learning Coarse Semantic Units for Speech Language Models/tables/e7ff01fce26cb7689204d14f22f5092054bd5f4551ed03e1c62108ef308fd9ba.jpg)
-
-## PooDLe🐩: Pooled and dense self-supervised learning from naturalistic videos
-
-
-### Images
-
-![157c197f32e16fa9df553f6a8cbca9b4f452e8fda443cca03f2f532314f0155d.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/157c197f32e16fa9df553f6a8cbca9b4f452e8fda443cca03f2f532314f0155d.jpg)
-
-![1c9b7b97844f1a9d01c6aaaf9e7716dafc38f89b35212b5da70464b8e5f25b4b.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/1c9b7b97844f1a9d01c6aaaf9e7716dafc38f89b35212b5da70464b8e5f25b4b.jpg)
-
-![2be4b1dbbf8b861c3b16c1565d30f36a646ba936b1f30d38b9028cfb0f7b62d9.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/2be4b1dbbf8b861c3b16c1565d30f36a646ba936b1f30d38b9028cfb0f7b62d9.jpg)
-
-![2f569ea80ce5d22b7777c4038c3f9d8fbd10c51d5a01837357880e6037db754e.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/2f569ea80ce5d22b7777c4038c3f9d8fbd10c51d5a01837357880e6037db754e.jpg)
-
-![3166b426c02bbc33e60b4221c48eca22ae9e5fabf413109ce99929c1386f6b02.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/3166b426c02bbc33e60b4221c48eca22ae9e5fabf413109ce99929c1386f6b02.jpg)
-
-![320207ee96d05ee5a563adfa678c3fd22874f85e06ec1de8ef5c4c43f941b640.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/320207ee96d05ee5a563adfa678c3fd22874f85e06ec1de8ef5c4c43f941b640.jpg)
-
-![5a5dc4e156b531ad581f3358433967fb25489b61f8f38815cd1f0815ed8f429d.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/5a5dc4e156b531ad581f3358433967fb25489b61f8f38815cd1f0815ed8f429d.jpg)
-
-![5c7f69a5b4f601fcd49b1acd3eee8c3a8b8a18ec1b9ee803ff7fc4251d3f37c7.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/5c7f69a5b4f601fcd49b1acd3eee8c3a8b8a18ec1b9ee803ff7fc4251d3f37c7.jpg)
-
-![7d16ce967952350c11dcd839a31e4b8bfa30521af8254c3de8b5c58fccc6f1df.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/7d16ce967952350c11dcd839a31e4b8bfa30521af8254c3de8b5c58fccc6f1df.jpg)
-
-![85cc0a0fcd5c39bc3f57a73055dfb5b654ee2e4fbbe91e92b6c5481a2a2056fe.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/85cc0a0fcd5c39bc3f57a73055dfb5b654ee2e4fbbe91e92b6c5481a2a2056fe.jpg)
-
-![867ad4e3503c2867b8ef17f813467f98a5bf362be72399e3114afed4f18df9e1.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/867ad4e3503c2867b8ef17f813467f98a5bf362be72399e3114afed4f18df9e1.jpg)
-
-![91fba6c2eaec96ecd812abea9b184d69b956f8f721a46a0e151a3234a5b50972.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/91fba6c2eaec96ecd812abea9b184d69b956f8f721a46a0e151a3234a5b50972.jpg)
-
-![ad8553d938df596d77ec999c93959d79eccb892e381bd052aa8098abc472c1a3.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/ad8553d938df596d77ec999c93959d79eccb892e381bd052aa8098abc472c1a3.jpg)
-
-![d3fb4b7d4cc161bb45e4e7af6ed34df19eb6bef21b3b4df9819f2c54dda4267f.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/d3fb4b7d4cc161bb45e4e7af6ed34df19eb6bef21b3b4df9819f2c54dda4267f.jpg)
-
-![d76370e70e4c051fbfe5989d1932d7fc7f44233f92fe0195a6d88d5eb4bd0d21.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/d76370e70e4c051fbfe5989d1932d7fc7f44233f92fe0195a6d88d5eb4bd0d21.jpg)
-
-![e4a4d5ff4aa8c528a1c24493080dd835bfc8b69fa0ee115a5713ea42f970e777.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/e4a4d5ff4aa8c528a1c24493080dd835bfc8b69fa0ee115a5713ea42f970e777.jpg)
-
-![f3bbf749e7b238eea55cb5d03236c3dc3e76152a2d918cdf87ad0722ab475981.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/images/f3bbf749e7b238eea55cb5d03236c3dc3e76152a2d918cdf87ad0722ab475981.jpg)
-
-### Tables
-
-![005b81d2064aa53562abf64acc386a80bea91f3d614fec974137f8519da2104c.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/005b81d2064aa53562abf64acc386a80bea91f3d614fec974137f8519da2104c.jpg)
-
-![26e6ebf52b0dfb8d481a3d4dc00321c88436dd83c8d23c763bcc9547f26ea982.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/26e6ebf52b0dfb8d481a3d4dc00321c88436dd83c8d23c763bcc9547f26ea982.jpg)
-
-![439064f3dd41326ce8082e09b1c2007ade1968dc092bb24353e539279aae979a.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/439064f3dd41326ce8082e09b1c2007ade1968dc092bb24353e539279aae979a.jpg)
-
-![51da7973954355ac6e526264c42649a85a75b42b1a3fde22205b4fe9851cde81.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/51da7973954355ac6e526264c42649a85a75b42b1a3fde22205b4fe9851cde81.jpg)
-
-![6b7d101afd9fd651813f9170324197020941341a01aa1c30762610b3b43d0c0b.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/6b7d101afd9fd651813f9170324197020941341a01aa1c30762610b3b43d0c0b.jpg)
-
-![8ca2e6add1bdcd87ca5883c15b69b6b91f660249927c815c571a822b5dfb22a7.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/8ca2e6add1bdcd87ca5883c15b69b6b91f660249927c815c571a822b5dfb22a7.jpg)
-
-![900285f99a8de30f1543331f82f0a2259cdc9807d344a1535c48b14e80eba011.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/900285f99a8de30f1543331f82f0a2259cdc9807d344a1535c48b14e80eba011.jpg)
-
-![9aacd2c2259d1b5ce13a35510019cc79012d6bf18f5c9336246af6b23d27b4ba.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/9aacd2c2259d1b5ce13a35510019cc79012d6bf18f5c9336246af6b23d27b4ba.jpg)
-
-![b4da38c77b1d740bc25b16ef4fd6700265638c4f41f9688110d7f63f6279b20f.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/b4da38c77b1d740bc25b16ef4fd6700265638c4f41f9688110d7f63f6279b20f.jpg)
-
-![b744462d9597b5d29bffbdadc755b57060001f667aad85cb4df5c40c50470f03.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/b744462d9597b5d29bffbdadc755b57060001f667aad85cb4df5c40c50470f03.jpg)
-
-![c288fd929131ce8311bc3586f6bff49eedec7bf298b6b9882a86ab9dbe9200c8.jpg](../iclr_results/1752_PooDLe🐩_ Pooled and dense self-supervised learning from naturalistic videos/tables/c288fd929131ce8311bc3586f6bff49eedec7bf298b6b9882a86ab9dbe9200c8.jpg)
-
-## In-context Time Series Predictor
-
-### Images
-
-![17073ab94ebab672faacb7d70b543f08d1de834c43b0e93376e252ef7e4359a1.jpg](../iclr_results/1753_In-context Time Series Predictor/images/17073ab94ebab672faacb7d70b543f08d1de834c43b0e93376e252ef7e4359a1.jpg)
-
-![33db8f175469dd3e3599979d586670249decb99aa6d2943e5c45606afad7095b.jpg](../iclr_results/1753_In-context Time Series Predictor/images/33db8f175469dd3e3599979d586670249decb99aa6d2943e5c45606afad7095b.jpg)
-
-![53a20c602b92be5762c67b30415cfe9f1861434053ca27969995b60ebcd35017.jpg](../iclr_results/1753_In-context Time Series Predictor/images/53a20c602b92be5762c67b30415cfe9f1861434053ca27969995b60ebcd35017.jpg)
-
-![74448c229af876f56476ac5a2b5c266e58345f9cae3fe488dfd748fac1c9ffac.jpg](../iclr_results/1753_In-context Time Series Predictor/images/74448c229af876f56476ac5a2b5c266e58345f9cae3fe488dfd748fac1c9ffac.jpg)
-
-![79cc7fb52f7387e01052cfa3b4bf233e2a9b87e06df4cbf671b3231691e397ad.jpg](../iclr_results/1753_In-context Time Series Predictor/images/79cc7fb52f7387e01052cfa3b4bf233e2a9b87e06df4cbf671b3231691e397ad.jpg)
-
-![a94d9f9dccaf8420ddc74d280a59687b33088a57e7445c07ce12745db2d37ce2.jpg](../iclr_results/1753_In-context Time Series Predictor/images/a94d9f9dccaf8420ddc74d280a59687b33088a57e7445c07ce12745db2d37ce2.jpg)
-
-![c6a76117f33dd811d6616aba23d670f39d488e1076332fabfad6af0f82e49255.jpg](../iclr_results/1753_In-context Time Series Predictor/images/c6a76117f33dd811d6616aba23d670f39d488e1076332fabfad6af0f82e49255.jpg)
-
-![d83c3fbed0022957395bebeefd7f6b9d81ca0c423a1f8475a5e35bff1fa3b4f4.jpg](../iclr_results/1753_In-context Time Series Predictor/images/d83c3fbed0022957395bebeefd7f6b9d81ca0c423a1f8475a5e35bff1fa3b4f4.jpg)
-
-### Tables
-
-![0395fcbd66f5a83b078bcd7d4206b5505e382ec4f88d864e3092a608518eee4c.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/0395fcbd66f5a83b078bcd7d4206b5505e382ec4f88d864e3092a608518eee4c.jpg)
-
-![0930ba456f2a12f269ada6798855ab7a36704522cc9bd9a29c6d4a2bd1d3bc24.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/0930ba456f2a12f269ada6798855ab7a36704522cc9bd9a29c6d4a2bd1d3bc24.jpg)
-
-![0dd0e8e341f33e8f653817c612b76065c816a0fa861164e0c561666b2c53e9aa.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/0dd0e8e341f33e8f653817c612b76065c816a0fa861164e0c561666b2c53e9aa.jpg)
-
-![14392968ac58b9ea33976cd90039f8c791eb8f3c97499cdcbc280accb55a7fad.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/14392968ac58b9ea33976cd90039f8c791eb8f3c97499cdcbc280accb55a7fad.jpg)
-
-![48362ce61d95c641693b37379a244e16e68ea664547c3bead502359483c828ff.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/48362ce61d95c641693b37379a244e16e68ea664547c3bead502359483c828ff.jpg)
-
-![5092688db38e2d3582d6a3bc72d24407911ace6f1f0b09edaa5e176273a2e859.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/5092688db38e2d3582d6a3bc72d24407911ace6f1f0b09edaa5e176273a2e859.jpg)
-
-![55b47414fc0ce8bfea36aecc73e8f260125cc0bca86fef9c9ca7e713903c9009.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/55b47414fc0ce8bfea36aecc73e8f260125cc0bca86fef9c9ca7e713903c9009.jpg)
-
-![6c826dac905ca49852f93160c5fbdefc0fb7d30b9517e20885f2c7eac7b564ad.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/6c826dac905ca49852f93160c5fbdefc0fb7d30b9517e20885f2c7eac7b564ad.jpg)
-
-![763e602454e7ae7ca3e6b3cdbac37e543fc134d21bcd541e0a50a5c7edc856e1.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/763e602454e7ae7ca3e6b3cdbac37e543fc134d21bcd541e0a50a5c7edc856e1.jpg)
-
-![8b587b4ef18d959aa9809addcd84f5d11a662ad7f2a7f9bd7a17605304371c63.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/8b587b4ef18d959aa9809addcd84f5d11a662ad7f2a7f9bd7a17605304371c63.jpg)
-
-![97ac3b61f762c95e9f867ab053277db4acf07fadabbc21c7313fd2939f7cdad0.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/97ac3b61f762c95e9f867ab053277db4acf07fadabbc21c7313fd2939f7cdad0.jpg)
-
-![a0fbad927b833909d6bb0a244dc5e7965e77bbc6e3e41456d0cbb8d71c32db87.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/a0fbad927b833909d6bb0a244dc5e7965e77bbc6e3e41456d0cbb8d71c32db87.jpg)
-
-![a5549c0d520cfa64edc272fd247f2cccaa5e00b2469a0d95b5c843ada59460a8.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/a5549c0d520cfa64edc272fd247f2cccaa5e00b2469a0d95b5c843ada59460a8.jpg)
-
-![a5ce9b7cbb7ba8101a93edbc41cc3aa3275653d7e895ad3aeb816d1bba6a968c.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/a5ce9b7cbb7ba8101a93edbc41cc3aa3275653d7e895ad3aeb816d1bba6a968c.jpg)
-
-![c056302b89dcda40214c95c6005089adf88d0cd8c23b97dac8d1eefae01a3960.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/c056302b89dcda40214c95c6005089adf88d0cd8c23b97dac8d1eefae01a3960.jpg)
-
-![c28bb58bd7fbacc5bf621a98a0fc30555ea4ceb1db88fe3c209c681b1c649f25.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/c28bb58bd7fbacc5bf621a98a0fc30555ea4ceb1db88fe3c209c681b1c649f25.jpg)
-
-![ea1594fe26826369e4f7c1c0bd7db25947f0834ece820f1137392c2914d70c3d.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/ea1594fe26826369e4f7c1c0bd7db25947f0834ece820f1137392c2914d70c3d.jpg)
-
-![f9de5485cf81356cec4fd84518bd371446ae9464eb51942d23fab30cfff6cdbd.jpg](../iclr_results/1753_In-context Time Series Predictor/tables/f9de5485cf81356cec4fd84518bd371446ae9464eb51942d23fab30cfff6cdbd.jpg)

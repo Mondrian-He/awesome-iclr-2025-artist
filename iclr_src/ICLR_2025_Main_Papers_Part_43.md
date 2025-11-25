@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,243 @@
 
 ## 目录 (Table of Contents)
 
-1. [An Auditing Test to Detect Behavioral Shift in Language Models](#An-Auditing-Test-to-Detect-Behavioral-Shift-in-Language-Models)
-2. [Rethinking the role of frames for SE(3)-invariant crystal structure modeling](#Rethinking-the-role-of-frames-for-SE3-invariant-crystal-structure-modeling)
-3. [Learning to Select Nodes in Branch and Bound with Sufficient Tree Representation](#Learning-to-Select-Nodes-in-Branch-and-Bound-with-Sufficient-Tree-Representation)
-4. [PortLLM: Personalizing Evolving Large Language Models with Training-Free and Portable Model Patches](#PortLLM-Personalizing-Evolving-Large-Language-Models-with-Training-Free-and-Portable-Model-Patches)
-5. [T-JEPA: Augmentation-Free Self-Supervised Learning for Tabular Data](#T-JEPA-Augmentation-Free-Self-Supervised-Learning-for-Tabular-Data)
-6. [Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization](#Drop-Upcycling-Training-Sparse-Mixture-of-Experts-with-Partial-Re-initialization)
-7. [Beyond Surface Structure: A Causal Assessment of LLMs' Comprehension ability](#Beyond-Surface-Structure-A-Causal-Assessment-of-LLMs-Comprehension-ability)
-8. [Unify ML4TSP: Drawing Methodological Principles for TSP and Beyond from Streamlined Design Space of Learning and Search](#Unify-ML4TSP-Drawing-Methodological-Principles-for-TSP-and-Beyond-from-Streamlined-Design-Space-of-Learning-and-Search)
-9. [Minimal Variance Model Aggregation: A principled, non-intrusive, and versatile integration of black box models](#Minimal-Variance-Model-Aggregation-A-principled-non-intrusive-and-versatile-integration-of-black-box-models)
-10. [Rethinking Visual Counterfactual Explanations Through Region Constraint](#Rethinking-Visual-Counterfactual-Explanations-Through-Region-Constraint)
-11. [A Conditional Independence Test in the Presence of Discretization](#A-Conditional-Independence-Test-in-the-Presence-of-Discretization)
-12. [Basis Sharing: Cross-Layer Parameter Sharing for Large Language Model Compression](#Basis-Sharing-Cross-Layer-Parameter-Sharing-for-Large-Language-Model-Compression)
-13. [ClimaQA: An Automated Evaluation Framework for Climate Question Answering Models](#ClimaQA-An-Automated-Evaluation-Framework-for-Climate-Question-Answering-Models)
-14. [Directional Gradient Projection for Robust Fine-Tuning of Foundation Models](#Directional-Gradient-Projection-for-Robust-Fine-Tuning-of-Foundation-Models)
-15. [SCBench: A KV Cache-Centric Analysis of Long-Context Methods](#SCBench-A-KV-Cache-Centric-Analysis-of-Long-Context-Methods)
-16. [Score Forgetting Distillation: A Swift, Data-Free Method for Machine Unlearning in Diffusion Models](#Score-Forgetting-Distillation-A-Swift-Data-Free-Method-for-Machine-Unlearning-in-Diffusion-Models)
-17. [GraphBridge: Towards Arbitrary Transfer Learning in GNNs](#GraphBridge-Towards-Arbitrary-Transfer-Learning-in-GNNs)
-18. [Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation](#Build-A-Scene-Interactive-3D-Layout-Control-for-Diffusion-Based-Image-Generation)
-19. [Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search](#Strategist-Self-improvement-of-LLM-Decision-Making-via-Bi-Level-Tree-Search)
-20. [Precise Parameter Localization for Textual Generation in Diffusion Models](#Precise-Parameter-Localization-for-Textual-Generation-in-Diffusion-Models)
-21. [LIFe-GoM: Generalizable Human Rendering with Learned Iterative Feedback Over Multi-Resolution Gaussians-on-Mesh](#LIFe-GoM-Generalizable-Human-Rendering-with-Learned-Iterative-Feedback-Over-Multi-Resolution-Gaussians-on-Mesh)
-22. [MAI: A Multi-turn Aggregation-Iteration Model for Composed Image Retrieval](#MAI-A-Multi-turn-Aggregation-Iteration-Model-for-Composed-Image-Retrieval)
-23. [A Truncated Newton Method for Optimal Transport](#A-Truncated-Newton-Method-for-Optimal-Transport)
-24. [Depth Any Video with Scalable Synthetic Data](#Depth-Any-Video-with-Scalable-Synthetic-Data)
-25. [Residual-MPPI: Online Policy Customization for Continuous Control](#Residual-MPPI-Online-Policy-Customization-for-Continuous-Control)
-26. [Efficient Biological Data Acquisition through Inference Set Design](#Efficient-Biological-Data-Acquisition-through-Inference-Set-Design)
-27. [Dynamic Loss-Based Sample Reweighting for Improved Large Language Model Pretraining](#Dynamic-Loss-Based-Sample-Reweighting-for-Improved-Large-Language-Model-Pretraining)
-28. [RFWave: Multi-band Rectified Flow for Audio Waveform Reconstruction](#RFWave-Multi-band-Rectified-Flow-for-Audio-Waveform-Reconstruction)
-29. [Rare event modeling with self-regularized normalizing flows: what can we learn from a single failure?](#Rare-event-modeling-with-self-regularized-normalizing-flows-what-can-we-learn-from-a-single-failure)
-30. [DocMIA: Document-Level Membership Inference Attacks against DocVQA Models](#DocMIA-Document-Level-Membership-Inference-Attacks-against-DocVQA-Models)
-31. [Scalable Influence and Fact Tracing for Large Language Model Pretraining](#Scalable-Influence-and-Fact-Tracing-for-Large-Language-Model-Pretraining)
-32. [Towards Auto-Regressive Next-Token Prediction: In-context Learning Emerges from Generalization](#Towards-Auto-Regressive-Next-Token-Prediction-In-context-Learning-Emerges-from-Generalization)
-33. [Safety Representations for Safer Policy Learning](#Safety-Representations-for-Safer-Policy-Learning)
-34. [Integrative Decoding: Improving Factuality via Implicit Self-consistency](#Integrative-Decoding-Improving-Factuality-via-Implicit-Self-consistency)
-35. [CrossMPT: Cross-attention Message-passing Transformer for Error Correcting Codes](#CrossMPT-Cross-attention-Message-passing-Transformer-for-Error-Correcting-Codes)
-36. [Exploring channel distinguishability in local neighborhoods of the model space in quantum neural networks](#Exploring-channel-distinguishability-in-local-neighborhoods-of-the-model-space-in-quantum-neural-networks)
+1. [Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods](#Sharper-Guarantees-for-Learning-Neural-Network-Classifiers-with-Gradient-Methods)
+2. [Sharpness-Aware Black-Box Optimization](#Sharpness-Aware-Black-Box-Optimization)
+3. [Model Risk-sensitive Offline Reinforcement Learning](#Model-Risk-sensitive-Offline-Reinforcement-Learning)
+4. [BANGS: Game-theoretic Node Selection for Graph Self-Training](#BANGS-Game-theoretic-Node-Selection-for-Graph-Self-Training)
+5. [RNNs are not Transformers (Yet):  The Key Bottleneck on In-Context Retrieval](#RNNs-are-not-Transformers-Yet-The-Key-Bottleneck-on-In-Context-Retrieval)
+6. [Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment](#Mix-CPT-A-Domain-Adaptation-Framework-via-Decoupling-Knowledge-Learning-and-Format-Alignment)
+7. [Sensitivity Verification for Additive Decision Tree Ensembles](#Sensitivity-Verification-for-Additive-Decision-Tree-Ensembles)
+8. [An Auditing Test to Detect Behavioral Shift in Language Models](#An-Auditing-Test-to-Detect-Behavioral-Shift-in-Language-Models)
+9. [Rethinking the role of frames for SE(3)-invariant crystal structure modeling](#Rethinking-the-role-of-frames-for-SE3-invariant-crystal-structure-modeling)
+10. [Learning to Select Nodes in Branch and Bound with Sufficient Tree Representation](#Learning-to-Select-Nodes-in-Branch-and-Bound-with-Sufficient-Tree-Representation)
+11. [PortLLM: Personalizing Evolving Large Language Models with Training-Free and Portable Model Patches](#PortLLM-Personalizing-Evolving-Large-Language-Models-with-Training-Free-and-Portable-Model-Patches)
+12. [T-JEPA: Augmentation-Free Self-Supervised Learning for Tabular Data](#T-JEPA-Augmentation-Free-Self-Supervised-Learning-for-Tabular-Data)
+13. [Drop-Upcycling: Training Sparse Mixture of Experts with Partial Re-initialization](#Drop-Upcycling-Training-Sparse-Mixture-of-Experts-with-Partial-Re-initialization)
+14. [Beyond Surface Structure: A Causal Assessment of LLMs' Comprehension ability](#Beyond-Surface-Structure-A-Causal-Assessment-of-LLMs-Comprehension-ability)
+15. [Unify ML4TSP: Drawing Methodological Principles for TSP and Beyond from Streamlined Design Space of Learning and Search](#Unify-ML4TSP-Drawing-Methodological-Principles-for-TSP-and-Beyond-from-Streamlined-Design-Space-of-Learning-and-Search)
+16. [Minimal Variance Model Aggregation: A principled, non-intrusive, and versatile integration of black box models](#Minimal-Variance-Model-Aggregation-A-principled-non-intrusive-and-versatile-integration-of-black-box-models)
+17. [Rethinking Visual Counterfactual Explanations Through Region Constraint](#Rethinking-Visual-Counterfactual-Explanations-Through-Region-Constraint)
+18. [A Conditional Independence Test in the Presence of Discretization](#A-Conditional-Independence-Test-in-the-Presence-of-Discretization)
+19. [Basis Sharing: Cross-Layer Parameter Sharing for Large Language Model Compression](#Basis-Sharing-Cross-Layer-Parameter-Sharing-for-Large-Language-Model-Compression)
+20. [ClimaQA: An Automated Evaluation Framework for Climate Question Answering Models](#ClimaQA-An-Automated-Evaluation-Framework-for-Climate-Question-Answering-Models)
+21. [Directional Gradient Projection for Robust Fine-Tuning of Foundation Models](#Directional-Gradient-Projection-for-Robust-Fine-Tuning-of-Foundation-Models)
+22. [SCBench: A KV Cache-Centric Analysis of Long-Context Methods](#SCBench-A-KV-Cache-Centric-Analysis-of-Long-Context-Methods)
+23. [Score Forgetting Distillation: A Swift, Data-Free Method for Machine Unlearning in Diffusion Models](#Score-Forgetting-Distillation-A-Swift-Data-Free-Method-for-Machine-Unlearning-in-Diffusion-Models)
+24. [GraphBridge: Towards Arbitrary Transfer Learning in GNNs](#GraphBridge-Towards-Arbitrary-Transfer-Learning-in-GNNs)
+25. [Build-A-Scene: Interactive 3D Layout Control for Diffusion-Based Image Generation](#Build-A-Scene-Interactive-3D-Layout-Control-for-Diffusion-Based-Image-Generation)
+26. [Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search](#Strategist-Self-improvement-of-LLM-Decision-Making-via-Bi-Level-Tree-Search)
+27. [Precise Parameter Localization for Textual Generation in Diffusion Models](#Precise-Parameter-Localization-for-Textual-Generation-in-Diffusion-Models)
+28. [LIFe-GoM: Generalizable Human Rendering with Learned Iterative Feedback Over Multi-Resolution Gaussians-on-Mesh](#LIFe-GoM-Generalizable-Human-Rendering-with-Learned-Iterative-Feedback-Over-Multi-Resolution-Gaussians-on-Mesh)
+29. [MAI: A Multi-turn Aggregation-Iteration Model for Composed Image Retrieval](#MAI-A-Multi-turn-Aggregation-Iteration-Model-for-Composed-Image-Retrieval)
+30. [A Truncated Newton Method for Optimal Transport](#A-Truncated-Newton-Method-for-Optimal-Transport)
+31. [Depth Any Video with Scalable Synthetic Data](#Depth-Any-Video-with-Scalable-Synthetic-Data)
+32. [Residual-MPPI: Online Policy Customization for Continuous Control](#Residual-MPPI-Online-Policy-Customization-for-Continuous-Control)
+33. [Efficient Biological Data Acquisition through Inference Set Design](#Efficient-Biological-Data-Acquisition-through-Inference-Set-Design)
+34. [Dynamic Loss-Based Sample Reweighting for Improved Large Language Model Pretraining](#Dynamic-Loss-Based-Sample-Reweighting-for-Improved-Large-Language-Model-Pretraining)
+35. [RFWave: Multi-band Rectified Flow for Audio Waveform Reconstruction](#RFWave-Multi-band-Rectified-Flow-for-Audio-Waveform-Reconstruction)
+36. [Rare event modeling with self-regularized normalizing flows: what can we learn from a single failure?](#Rare-event-modeling-with-self-regularized-normalizing-flows-what-can-we-learn-from-a-single-failure)
+37. [DocMIA: Document-Level Membership Inference Attacks against DocVQA Models](#DocMIA-Document-Level-Membership-Inference-Attacks-against-DocVQA-Models)
 
 ---
 
 
-## An Auditing Test to Detect Behavioral Shift in Language Models
+## Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods
+
+### Images
+
+![0ad64d650149733cf1adbd476ecc629c3f3c1b00bfcf77d99cdd77d77bfe9031.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/0ad64d650149733cf1adbd476ecc629c3f3c1b00bfcf77d99cdd77d77bfe9031.jpg)
+
+![70a1d10726b37ed13ee5d01534f0eedb970a047cb3919646b0e62d54af44c8c3.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/70a1d10726b37ed13ee5d01534f0eedb970a047cb3919646b0e62d54af44c8c3.jpg)
+
+![75bb62d9316560b01e10b523c1e8f9afcf5a09459e7be1bba09ae1b08f2280ea.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/75bb62d9316560b01e10b523c1e8f9afcf5a09459e7be1bba09ae1b08f2280ea.jpg)
+
+![85d5f76336a7bf07946ff555b6258655d97d01f58dd0ce716344eb661fa70864.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/85d5f76336a7bf07946ff555b6258655d97d01f58dd0ce716344eb661fa70864.jpg)
+
+![b10ff10fa07f7cbc0a60f637728cca1dee923c9eaeed8284bc4ca9e72c0b00f8.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/b10ff10fa07f7cbc0a60f637728cca1dee923c9eaeed8284bc4ca9e72c0b00f8.jpg)
+
+![b9611f4e3ea830b4675cbf5cd0aa998649bd54b88b9c898f0e3e1bdec907d866.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/b9611f4e3ea830b4675cbf5cd0aa998649bd54b88b9c898f0e3e1bdec907d866.jpg)
+
+![f787e3b797b2dc424d8aad582168fb200b8b7c629a1234fb1449d3e101474bbb.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/images/f787e3b797b2dc424d8aad582168fb200b8b7c629a1234fb1449d3e101474bbb.jpg)
+
+### Tables
+
+![bcf3c0b7f1d360e9b6b507a92662ef1d41bc30b451dfdfaed3d3de8480494335.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/tables/bcf3c0b7f1d360e9b6b507a92662ef1d41bc30b451dfdfaed3d3de8480494335.jpg)
+
+![c8af5dbe82fca565deda08ebcc76c60bd92242b7fdab74e08af950858eda890b.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/tables/c8af5dbe82fca565deda08ebcc76c60bd92242b7fdab74e08af950858eda890b.jpg)
+
+![d5967ebb8a2a4ef24da25dcfa38cb0cb75b6381a1296a2e485de98104698ac03.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/tables/d5967ebb8a2a4ef24da25dcfa38cb0cb75b6381a1296a2e485de98104698ac03.jpg)
+
+![dd26ad2cf6d6faf7a13d86a6ae0f02014cc9e6aea17dcd0969068dad7ef6e3a0.jpg](../iclr_results/1564_Improving Complex Reasoning with Dynamic Prompt Corruption_ A Soft Prompt Optimization Approach/tables/dd26ad2cf6d6faf7a13d86a6ae0f02014cc9e6aea17dcd0969068dad7ef6e3a0.jpg)
+
+## Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods
+
+
+### Images
+
+![53f54675123252ef694fc0e5e693a1cbad82cb1b6fb6377e33b9c811a5b7bba5.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/images/53f54675123252ef694fc0e5e693a1cbad82cb1b6fb6377e33b9c811a5b7bba5.jpg)
+
+![63d91540444807019dc5af354a7ec08ab0b8b352f760632fd28b43d9ed6f9f82.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/images/63d91540444807019dc5af354a7ec08ab0b8b352f760632fd28b43d9ed6f9f82.jpg)
+
+![c4595e537628479e18192944801b2db67b533fa76d7e9d78ab719704f61afdd4.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/images/c4595e537628479e18192944801b2db67b533fa76d7e9d78ab719704f61afdd4.jpg)
+
+![d3080ed2d910e54448e93531295364f67513dea4569aad0baa29fce3b735712e.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/images/d3080ed2d910e54448e93531295364f67513dea4569aad0baa29fce3b735712e.jpg)
+
+### Tables
+
+![41af06af175dca11b25d99dd06854d8697f9c864b64b0ba99a03253d826fe42d.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/tables/41af06af175dca11b25d99dd06854d8697f9c864b64b0ba99a03253d826fe42d.jpg)
+
+![b605597a1417d3d547953af74184a62b0e0fcb9603d674efbd69b529e9b1d1a1.jpg](../iclr_results/1565_Sharper Guarantees for Learning Neural Network Classifiers with Gradient Methods/tables/b605597a1417d3d547953af74184a62b0e0fcb9603d674efbd69b529e9b1d1a1.jpg)
+
+## Sharpness-Aware Black-Box Optimization
+
+
+### Images
+
+![3404f2e43763315013f53609958737956aac8c8203017f3d687435398e637ec4.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/3404f2e43763315013f53609958737956aac8c8203017f3d687435398e637ec4.jpg)
+
+![422b50be6fbec596745f34eeeeecbec6af3543c77a73fbaf551ebcdd2978debd.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/422b50be6fbec596745f34eeeeecbec6af3543c77a73fbaf551ebcdd2978debd.jpg)
+
+![74594e7a4d55820a14f4dc146ba587083fd60916921dd3ec8c79ee09b90b8ee2.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/74594e7a4d55820a14f4dc146ba587083fd60916921dd3ec8c79ee09b90b8ee2.jpg)
+
+![75a7d564c80f680fb890c8f5ae1ffed1b5b20c25078140c908e33bc568738ddf.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/75a7d564c80f680fb890c8f5ae1ffed1b5b20c25078140c908e33bc568738ddf.jpg)
+
+![9cf61b65fb6cb37745b789c98823f573253deaa17eaa12961fc6526517a54234.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/9cf61b65fb6cb37745b789c98823f573253deaa17eaa12961fc6526517a54234.jpg)
+
+![a11462c30a2efebce72ad0b05bc1bf715f944e4583c6c665f30c4d9a91ec9fcd.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/images/a11462c30a2efebce72ad0b05bc1bf715f944e4583c6c665f30c4d9a91ec9fcd.jpg)
+
+### Tables
+
+![567d725e9c92164bcb187fff0c67a2aa1f02b3d5dbc47d47528b9e9f16ecefa5.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/tables/567d725e9c92164bcb187fff0c67a2aa1f02b3d5dbc47d47528b9e9f16ecefa5.jpg)
+
+![854e70acfc48252d595f8925ca154fb98c1bf3d363c7dcbe489a6b59984d3a14.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/tables/854e70acfc48252d595f8925ca154fb98c1bf3d363c7dcbe489a6b59984d3a14.jpg)
+
+![87868fa2fd51e395e93c1388cda50f2a84a72755ff40619c2f8ea901308fc454.jpg](../iclr_results/1566_Sharpness-Aware Black-Box Optimization/tables/87868fa2fd51e395e93c1388cda50f2a84a72755ff40619c2f8ea901308fc454.jpg)
+
+## Model Risk-sensitive Offline Reinforcement Learning
+
+
+### Images
+
+![21ec35266a68f41e4eb1aa78c8d5980118f32f6d91d4861459574b051da65120.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/21ec35266a68f41e4eb1aa78c8d5980118f32f6d91d4861459574b051da65120.jpg)
+
+![3b2495bbd609954c0903f25f42647c915d09fc81fc748e172ace3a942e991315.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/3b2495bbd609954c0903f25f42647c915d09fc81fc748e172ace3a942e991315.jpg)
+
+![3f6113024fce575deb055bbea0dfcfbf5651df83d7dde961a94ec46def5c2614.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/3f6113024fce575deb055bbea0dfcfbf5651df83d7dde961a94ec46def5c2614.jpg)
+
+![40eb86e33fb0a3ffce871baa7cbe2d8bb3e664008e14cf2761ad7b0f2a0a785b.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/40eb86e33fb0a3ffce871baa7cbe2d8bb3e664008e14cf2761ad7b0f2a0a785b.jpg)
+
+![7928566872b7f245790f0595cdacd8de0cdcd8cacd5e0b2021a180f35a7f6a89.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/7928566872b7f245790f0595cdacd8de0cdcd8cacd5e0b2021a180f35a7f6a89.jpg)
+
+![7ace73445d1de063b9967d8ed48e2a1b702d8f1252ca2a53dbc552bf6a54f1cc.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/7ace73445d1de063b9967d8ed48e2a1b702d8f1252ca2a53dbc552bf6a54f1cc.jpg)
+
+![7c15a72d3d9268c7886fe847ae46fb0bd642450ab969697e39eabc5eb4f02938.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/7c15a72d3d9268c7886fe847ae46fb0bd642450ab969697e39eabc5eb4f02938.jpg)
+
+![8fc40ff4064f2ea0ab2451579d7633501789b63c9c06f31948afa51f00b8793a.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/8fc40ff4064f2ea0ab2451579d7633501789b63c9c06f31948afa51f00b8793a.jpg)
+
+![93db8bbfaa76433c2cbbb6b9a35468e484dcbd44a5ba53e8110f12f17918dda6.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/images/93db8bbfaa76433c2cbbb6b9a35468e484dcbd44a5ba53e8110f12f17918dda6.jpg)
+
+### Tables
+
+![1210029d8d6b807d5a0554729c5e08702b234c109443467f5cbacdb8fc0162c0.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/1210029d8d6b807d5a0554729c5e08702b234c109443467f5cbacdb8fc0162c0.jpg)
+
+![3c04eb111e95b2f1ade1c62aca827c105256e65d65df1107072cc1d469ba09bf.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/3c04eb111e95b2f1ade1c62aca827c105256e65d65df1107072cc1d469ba09bf.jpg)
+
+![69e6136d3482d609dcd029558a5fbcb2fb2e2c7d951e7d1361ba189c27f88706.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/69e6136d3482d609dcd029558a5fbcb2fb2e2c7d951e7d1361ba189c27f88706.jpg)
+
+![7f6f11af1ad2c24a608397b1713d8dbb17390c595a9ed976a98f353d9b614f26.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/7f6f11af1ad2c24a608397b1713d8dbb17390c595a9ed976a98f353d9b614f26.jpg)
+
+![8932606c2e7234767fe47dcd1a5a99788aa9abe3425a6445654d0a9563f0b828.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/8932606c2e7234767fe47dcd1a5a99788aa9abe3425a6445654d0a9563f0b828.jpg)
+
+![961c3c1226d9f3c90cd14b73d50a4f0d8edfc8711b4dd97a83a778698a3aa180.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/961c3c1226d9f3c90cd14b73d50a4f0d8edfc8711b4dd97a83a778698a3aa180.jpg)
+
+![fbdb26c5b9fa6f354ac6c00ae26a9e992a1ea49814d467386e3e6c3366764e0c.jpg](../iclr_results/1568_Model Risk-sensitive Offline Reinforcement Learning/tables/fbdb26c5b9fa6f354ac6c00ae26a9e992a1ea49814d467386e3e6c3366764e0c.jpg)
+
+## BANGS: Game-theoretic Node Selection for Graph Self-Training
+
+
+### Images
+
+![24f0c8b1d67881369293e1856a6c1b223e78327e86ad829d693880c5eaebd757.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/images/24f0c8b1d67881369293e1856a6c1b223e78327e86ad829d693880c5eaebd757.jpg)
+
+![3b575f1d216c7a9615b1befc920ff8a58a9937bb86cf32fac17a9ed2b8202124.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/images/3b575f1d216c7a9615b1befc920ff8a58a9937bb86cf32fac17a9ed2b8202124.jpg)
+
+![66eed1f4609f16c4fe043bb122aa240a2e194fa8bd87a6716397b1b1db5856c7.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/images/66eed1f4609f16c4fe043bb122aa240a2e194fa8bd87a6716397b1b1db5856c7.jpg)
+
+![d1c0e590efd608e9f07735787a0221b0dc011501ed37daa6ff42e32d11e84975.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/images/d1c0e590efd608e9f07735787a0221b0dc011501ed37daa6ff42e32d11e84975.jpg)
+
+### Tables
+
+![0c3f6864d6f4276fbcd7b729bcc3cce8bf726d5c58a446f95070b916fe7624db.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/0c3f6864d6f4276fbcd7b729bcc3cce8bf726d5c58a446f95070b916fe7624db.jpg)
+
+![4359b19fc6c01df3d414e2657b77918544b7b11a5fd17a7a4fb8b6e9a9237891.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/4359b19fc6c01df3d414e2657b77918544b7b11a5fd17a7a4fb8b6e9a9237891.jpg)
+
+![45adcf8c791429c1d92c068aefbeaf0a10778a9989ad5b34bf2115c22cae6878.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/45adcf8c791429c1d92c068aefbeaf0a10778a9989ad5b34bf2115c22cae6878.jpg)
+
+![5b5e84eecebfc7c8d444429c1005a24457db9438e227ff4ea80a0ec233f388aa.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/5b5e84eecebfc7c8d444429c1005a24457db9438e227ff4ea80a0ec233f388aa.jpg)
+
+![61c46f192b8ce1d9fa38842ff390873160895987b33c73d1ca7039b289d02b85.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/61c46f192b8ce1d9fa38842ff390873160895987b33c73d1ca7039b289d02b85.jpg)
+
+![62af174ce2472e7aa6ef218d6f690a4f2bb339cbcc5f2f72e4bcac5a8e5a7911.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/62af174ce2472e7aa6ef218d6f690a4f2bb339cbcc5f2f72e4bcac5a8e5a7911.jpg)
+
+![6bd29c7b7e0f59a5d8041220bc6d0bfa55afef26a4ad483ab1cf6263196d25c6.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/6bd29c7b7e0f59a5d8041220bc6d0bfa55afef26a4ad483ab1cf6263196d25c6.jpg)
+
+![85cd39ca26cbc45108a98618536577540f56b0d4c8587e4c41b619bf480a1d2d.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/85cd39ca26cbc45108a98618536577540f56b0d4c8587e4c41b619bf480a1d2d.jpg)
+
+![85dcfb5e5dfac0f045c599011f3eb6a9dc5c8577db1466c398c7aee87a5af558.jpg](../iclr_results/1569_BANGS_ Game-theoretic Node Selection for Graph Self-Training/tables/85dcfb5e5dfac0f045c599011f3eb6a9dc5c8577db1466c398c7aee87a5af558.jpg)
+
+## RNNs are not Transformers (Yet):  The Key Bottleneck on In-Context Retrieval
+
+
+### Images
+
+![0343f065c250f68c3648582233cb54ba9424e83f68420b5ba75698fcc62daef5.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/0343f065c250f68c3648582233cb54ba9424e83f68420b5ba75698fcc62daef5.jpg)
+
+![4771c5ba7d3ba138af77d8fc1642664a42a6dd4798fd720771d9c170306f3d20.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/4771c5ba7d3ba138af77d8fc1642664a42a6dd4798fd720771d9c170306f3d20.jpg)
+
+![b9fdc2c748b8a8fd3fbea1f60eb5236dd760bf8d9b6a00812f2ec80d829fd777.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/b9fdc2c748b8a8fd3fbea1f60eb5236dd760bf8d9b6a00812f2ec80d829fd777.jpg)
+
+![c635a70329f612d6f3a2685fbf7ce839b12e8246db6f4ccac0a6ae702a6b17e0.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/c635a70329f612d6f3a2685fbf7ce839b12e8246db6f4ccac0a6ae702a6b17e0.jpg)
+
+![d6047b0e484efff2e1bded42948dc452e385bd937dfc140b1cfa58a972515afe.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/d6047b0e484efff2e1bded42948dc452e385bd937dfc140b1cfa58a972515afe.jpg)
+
+![ed7b37d5dbcca044a4bfa0c40b646378f4a75a453b5d0facab423cfdcd20c5f3.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/images/ed7b37d5dbcca044a4bfa0c40b646378f4a75a453b5d0facab423cfdcd20c5f3.jpg)
+
+### Tables
+
+![bd6955c540e9bb532273aec8617821b255e44b382a885558735e4493f00f9748.jpg](../iclr_results/1570_RNNs are not Transformers (Yet)_  The Key Bottleneck on In-Context Retrieval/tables/bd6955c540e9bb532273aec8617821b255e44b382a885558735e4493f00f9748.jpg)
+
+## Mix-CPT: A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment
+
+
+### Images
+
+![46f69d37d523e5d7d53a6703a4cd433ed9b21b2855a49d1ee5af9303c8337079.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/46f69d37d523e5d7d53a6703a4cd433ed9b21b2855a49d1ee5af9303c8337079.jpg)
+
+![58199b5c9cad2b8f493f6048f3eb20367fb93b4424ab32f24f164124b0861c6e.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/58199b5c9cad2b8f493f6048f3eb20367fb93b4424ab32f24f164124b0861c6e.jpg)
+
+![61367f5bfbcfef02b0388c73d45c3b5678b65bfd2bb4a009013b45ab1f66f072.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/61367f5bfbcfef02b0388c73d45c3b5678b65bfd2bb4a009013b45ab1f66f072.jpg)
+
+![6d818a4c67ff51192cabdfc3ed510512491d765f34c38da1bb3d4874d55a25a0.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/6d818a4c67ff51192cabdfc3ed510512491d765f34c38da1bb3d4874d55a25a0.jpg)
+
+![7dd2d8eb4ebd28df21dadcbd371a8318638a51908fdc41d61c5e1dbabf1a7667.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/7dd2d8eb4ebd28df21dadcbd371a8318638a51908fdc41d61c5e1dbabf1a7667.jpg)
+
+![829d3f30b12adee0b29d6855fe06ac70e895e3125c36fabd76af493c77c0842f.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/829d3f30b12adee0b29d6855fe06ac70e895e3125c36fabd76af493c77c0842f.jpg)
+
+![d5c802e52020069d8d9ac555e144dca5f740a953a95247f701a51826d6b2f375.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/images/d5c802e52020069d8d9ac555e144dca5f740a953a95247f701a51826d6b2f375.jpg)
+
+### Tables
+
+![5532131404d01f859c2a0fbf520b9c17ec8e1a542e1e67ad8e98bcefbc4c48b2.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/tables/5532131404d01f859c2a0fbf520b9c17ec8e1a542e1e67ad8e98bcefbc4c48b2.jpg)
+
+![6f2c4e45cd7875ed9a4486416148479c1f36eb499f4980dc593c59aa0a9f8860.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/tables/6f2c4e45cd7875ed9a4486416148479c1f36eb499f4980dc593c59aa0a9f8860.jpg)
+
+![95cfd2a363874f1edf5d4d251af3c52ad14c20faaf135d7866b3367193b81057.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/tables/95cfd2a363874f1edf5d4d251af3c52ad14c20faaf135d7866b3367193b81057.jpg)
+
+![ea72dbeeec1d7fca6d0fbdb3bc1a7e702af2fa2d3eaecabfffe9fb8bc76dca35.jpg](../iclr_results/1571_Mix-CPT_ A Domain Adaptation Framework via Decoupling Knowledge Learning and Format Alignment/tables/ea72dbeeec1d7fca6d0fbdb3bc1a7e702af2fa2d3eaecabfffe9fb8bc76dca35.jpg)
+
+## Sensitivity Verification for Additive Decision Tree Ensembles
+
 
 ### Images
 
@@ -1534,7 +1730,6 @@
 
 ## DocMIA: Document-Level Membership Inference Attacks against DocVQA Models
 
-
 ### Images
 
 ![0a2d61ca3b6916c9845f273d1a66d7c6f2f7bc13afbc71a06c854ab676756170.jpg](../iclr_results/1602_DocMIA_ Document-Level Membership Inference Attacks against DocVQA Models/images/0a2d61ca3b6916c9845f273d1a66d7c6f2f7bc13afbc71a06c854ab676756170.jpg)
@@ -1602,220 +1797,3 @@
 ![d0fd028a1c66b4d4de37451011dce86ee385b8a02ca019ddc8bcb25b29221922.jpg](../iclr_results/1602_DocMIA_ Document-Level Membership Inference Attacks against DocVQA Models/tables/d0fd028a1c66b4d4de37451011dce86ee385b8a02ca019ddc8bcb25b29221922.jpg)
 
 ![e27d50d6839d29a7c5be3709928363e0e7a54cacba152e1d769ba82261c70f49.jpg](../iclr_results/1602_DocMIA_ Document-Level Membership Inference Attacks against DocVQA Models/tables/e27d50d6839d29a7c5be3709928363e0e7a54cacba152e1d769ba82261c70f49.jpg)
-
-## Scalable Influence and Fact Tracing for Large Language Model Pretraining
-
-
-### Images
-
-![7d20550ea961d4570e59d7d4bb3b273e5c999c31b0acc01c39aca5b7fc850c8c.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/images/7d20550ea961d4570e59d7d4bb3b273e5c999c31b0acc01c39aca5b7fc850c8c.jpg)
-
-![e83cb961e39280433d5172bf508feeaf0307a4dfd06fed24a3d8cc71a8fefc7d.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/images/e83cb961e39280433d5172bf508feeaf0307a4dfd06fed24a3d8cc71a8fefc7d.jpg)
-
-![f76729244f9b2e7c2afff4be1fd89e113aa6d8ac8d163facc99d538cb9932cd2.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/images/f76729244f9b2e7c2afff4be1fd89e113aa6d8ac8d163facc99d538cb9932cd2.jpg)
-
-### Tables
-
-![0445c69bc5a567f953bf8dee1a4e6e238e0da05a696f739008fcd74a65fe328d.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/0445c69bc5a567f953bf8dee1a4e6e238e0da05a696f739008fcd74a65fe328d.jpg)
-
-![45e40365ae17839ed660ee02e2ce7a747f3739a756b1825a3d71a7770e5f31e6.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/45e40365ae17839ed660ee02e2ce7a747f3739a756b1825a3d71a7770e5f31e6.jpg)
-
-![5b7f0118bddb6a67d5cc52b110c1b94cbe7c4caec8073f19693203a80fc9d443.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/5b7f0118bddb6a67d5cc52b110c1b94cbe7c4caec8073f19693203a80fc9d443.jpg)
-
-![95325a204bbbeef31435bbebaa36e615db7069a5a7d9c1baaed25c9fa20d9c1a.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/95325a204bbbeef31435bbebaa36e615db7069a5a7d9c1baaed25c9fa20d9c1a.jpg)
-
-![a5bb38c9193d235d159202e25156b94e5a6e924e58d3bf862aca67a1fd7f23c1.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/a5bb38c9193d235d159202e25156b94e5a6e924e58d3bf862aca67a1fd7f23c1.jpg)
-
-![f09f80a7f8dd60adb9449a8045439a1c88eff38ca6896d659578cb38c5ab4fb4.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/f09f80a7f8dd60adb9449a8045439a1c88eff38ca6896d659578cb38c5ab4fb4.jpg)
-
-![f12d1661fe9f165e68854f6b0ca8930d7edc92ff03f8e163da6ba79c547c6436.jpg](../iclr_results/1603_Scalable Influence and Fact Tracing for Large Language Model Pretraining/tables/f12d1661fe9f165e68854f6b0ca8930d7edc92ff03f8e163da6ba79c547c6436.jpg)
-
-## Towards Auto-Regressive Next-Token Prediction: In-context Learning Emerges from Generalization
-
-
-### Images
-
-![0216e07c9df118d879f2339c3005d7c05e80fa8804a12e01af2a29d707f53264.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/0216e07c9df118d879f2339c3005d7c05e80fa8804a12e01af2a29d707f53264.jpg)
-
-![14c8788f6f63ff578da0fd328aad4775c87cce8d4ef096514ff1bdc82f0fb156.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/14c8788f6f63ff578da0fd328aad4775c87cce8d4ef096514ff1bdc82f0fb156.jpg)
-
-![6417d6b010225c088d22b84fbf8539e19356016716f197111048ab8440f45c22.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/6417d6b010225c088d22b84fbf8539e19356016716f197111048ab8440f45c22.jpg)
-
-![bcfd3c7910130d848e1ff435683bf35d66af4b712f959fff978fa6d25a2837e1.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/bcfd3c7910130d848e1ff435683bf35d66af4b712f959fff978fa6d25a2837e1.jpg)
-
-![c92f5d680c374687e393bdf68b5ffb9f450e38b7040d6c06382a0978abd3f54a.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/c92f5d680c374687e393bdf68b5ffb9f450e38b7040d6c06382a0978abd3f54a.jpg)
-
-![d17a957d4ae75b8a15c8539eec0cbeefcd8f4c85197209e400a478451cdd788e.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/d17a957d4ae75b8a15c8539eec0cbeefcd8f4c85197209e400a478451cdd788e.jpg)
-
-![e7ab380a737e737cb4c76cece2df76c6f8abf290394cf0608b0c4ca1c6608b7b.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/images/e7ab380a737e737cb4c76cece2df76c6f8abf290394cf0608b0c4ca1c6608b7b.jpg)
-
-### Tables
-
-![99e0ff4faa6a1d2ee5737607551c0431d627c7e458b361c38ad021db99f63015.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/tables/99e0ff4faa6a1d2ee5737607551c0431d627c7e458b361c38ad021db99f63015.jpg)
-
-![cec7bb1de4566d4a7613a87d662d30ca43e98a848ac256173eb7cb54d71b4e23.jpg](../iclr_results/1604_Towards Auto-Regressive Next-Token Prediction_ In-context Learning Emerges from Generalization/tables/cec7bb1de4566d4a7613a87d662d30ca43e98a848ac256173eb7cb54d71b4e23.jpg)
-
-## Safety Representations for Safer Policy Learning
-
-
-### Images
-
-![1edce8d7f67cf7aad5f5652ac87fea6a00527b054caecde93be74f42f7b80756.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/1edce8d7f67cf7aad5f5652ac87fea6a00527b054caecde93be74f42f7b80756.jpg)
-
-![28a930a8ab713027dbf4c3cbff32ec106f6187d9200095e02ee279fb0fcb76a2.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/28a930a8ab713027dbf4c3cbff32ec106f6187d9200095e02ee279fb0fcb76a2.jpg)
-
-![57d4d5b22b924aded7a7498e719dfe833bf82079ecb71e31f0972b6b6f93a357.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/57d4d5b22b924aded7a7498e719dfe833bf82079ecb71e31f0972b6b6f93a357.jpg)
-
-![5d5ef6e59b10cc2fb9c538d60f145d06e9dc0620da844c7391347eeab2b431a7.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/5d5ef6e59b10cc2fb9c538d60f145d06e9dc0620da844c7391347eeab2b431a7.jpg)
-
-![5e8fae0e854582bd76d24e9e7a4acf506fd84543d54e6d01547e7e1969e20281.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/5e8fae0e854582bd76d24e9e7a4acf506fd84543d54e6d01547e7e1969e20281.jpg)
-
-![6f0e75b77fb2a313e13b85688d9baae755a1b382acb34070635138e258fecf78.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/6f0e75b77fb2a313e13b85688d9baae755a1b382acb34070635138e258fecf78.jpg)
-
-![800e72d9bf152599ad7ef65fcb17b5dcc4a2d775a0ed43fcdb51633b8da4d4c2.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/800e72d9bf152599ad7ef65fcb17b5dcc4a2d775a0ed43fcdb51633b8da4d4c2.jpg)
-
-![855918e0f2e73ea651e5761d41f1d5fab107fc53f322d74c7a97cc943db4a83e.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/855918e0f2e73ea651e5761d41f1d5fab107fc53f322d74c7a97cc943db4a83e.jpg)
-
-![9cc2af5c6696da0c531bbac8bc9dca41fe7ba264d6b98015be555e4aeef94ce9.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/9cc2af5c6696da0c531bbac8bc9dca41fe7ba264d6b98015be555e4aeef94ce9.jpg)
-
-![aba615103cea32eb01c2f8699dfe4a5100e529e025e214f73583562960921473.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/aba615103cea32eb01c2f8699dfe4a5100e529e025e214f73583562960921473.jpg)
-
-![abc398b3e4a75ead9949e3638612eb1f31f5debccdb18b54b8aad69e046271eb.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/abc398b3e4a75ead9949e3638612eb1f31f5debccdb18b54b8aad69e046271eb.jpg)
-
-![b9ec0d6e17a18e274c868e3405b55f3890b00a00b5e7f69f2589c1e1939e67b2.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/b9ec0d6e17a18e274c868e3405b55f3890b00a00b5e7f69f2589c1e1939e67b2.jpg)
-
-![bbf095f362d592872e01621a41a7306a5c6d81b6f785024722a11ac6cec88da3.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/bbf095f362d592872e01621a41a7306a5c6d81b6f785024722a11ac6cec88da3.jpg)
-
-![c61dd66bb3a46e43fb20c5172169b45c67a76f438a437af8167c784e4d2bcc51.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/c61dd66bb3a46e43fb20c5172169b45c67a76f438a437af8167c784e4d2bcc51.jpg)
-
-![ca389325a503f3a560c7d8f5228e490a07517435dd0621b725c4a106eaec678e.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/ca389325a503f3a560c7d8f5228e490a07517435dd0621b725c4a106eaec678e.jpg)
-
-![d9434efbbb7be2d52a881421b250da2f2c36764d01094e97b0cfe4f50c90600f.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/d9434efbbb7be2d52a881421b250da2f2c36764d01094e97b0cfe4f50c90600f.jpg)
-
-![e4ceeed6b5975cdd0bd842bef48c2c7b9fa9e718c706af25e78ef6d712dfb717.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/e4ceeed6b5975cdd0bd842bef48c2c7b9fa9e718c706af25e78ef6d712dfb717.jpg)
-
-![ec122cd4115aeed86a07e9c4d6ad686ed33330233fdd73e55bcdc2dc9289faba.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/ec122cd4115aeed86a07e9c4d6ad686ed33330233fdd73e55bcdc2dc9289faba.jpg)
-
-![f444cb57a4b9a59462dae05d78fcd00347d357683e8736a90887040ce52762b5.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/f444cb57a4b9a59462dae05d78fcd00347d357683e8736a90887040ce52762b5.jpg)
-
-![f6f1fddbc489385269df7524448c9655328ecdadd0cf579e19c609cb9261d48c.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/images/f6f1fddbc489385269df7524448c9655328ecdadd0cf579e19c609cb9261d48c.jpg)
-
-### Tables
-
-![476dcc864a86f341fc2d988abe0510b27a8f3d975661b4aceaee929ff6235e67.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/tables/476dcc864a86f341fc2d988abe0510b27a8f3d975661b4aceaee929ff6235e67.jpg)
-
-![a05b95dee8b856562333beb8e5e0ee6336a78506535a06208ec5c4fe93c98ff3.jpg](../iclr_results/1605_Safety Representations for Safer Policy Learning/tables/a05b95dee8b856562333beb8e5e0ee6336a78506535a06208ec5c4fe93c98ff3.jpg)
-
-## Integrative Decoding: Improving Factuality via Implicit Self-consistency
-
-
-### Images
-
-![1034538b41c40868491563118b2194b1205379086479cba32c6767d0737e28c6.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/1034538b41c40868491563118b2194b1205379086479cba32c6767d0737e28c6.jpg)
-
-![172c0c25a11b90bf8bb5116f1c778aca15be87a282b6855737e53c31604f6f8c.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/172c0c25a11b90bf8bb5116f1c778aca15be87a282b6855737e53c31604f6f8c.jpg)
-
-![1ac0b87a5440afb00df2deda27933b5c0df08ec8344090e62d11cdebb28f43f5.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/1ac0b87a5440afb00df2deda27933b5c0df08ec8344090e62d11cdebb28f43f5.jpg)
-
-![27237246a6944da4e8937c802323c37d02ba416340b6a5ed1dc8108696dd387e.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/27237246a6944da4e8937c802323c37d02ba416340b6a5ed1dc8108696dd387e.jpg)
-
-![2d7f879f9c557fb4ae88e6061bd3f1d98e43f116be8fc12146ee7ad08a888c92.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/2d7f879f9c557fb4ae88e6061bd3f1d98e43f116be8fc12146ee7ad08a888c92.jpg)
-
-![8125ef2cc4b7f411d2a759b55fe13705900875c02c1939de943e779a0821f9f7.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/8125ef2cc4b7f411d2a759b55fe13705900875c02c1939de943e779a0821f9f7.jpg)
-
-![cae402ac219fdb1f3a47912cadaffba89055ed007b4b11da2dd140ae4c7ce9dc.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/cae402ac219fdb1f3a47912cadaffba89055ed007b4b11da2dd140ae4c7ce9dc.jpg)
-
-![d33be17625c3fed5dafb6826318d2c61a451f035110cbb2fb7a7dc2518603a8e.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/images/d33be17625c3fed5dafb6826318d2c61a451f035110cbb2fb7a7dc2518603a8e.jpg)
-
-### Tables
-
-![00e4ce186336ac18420e6b0d27921f4914ad658d8a268267a8b4c3a5e260d9ff.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/00e4ce186336ac18420e6b0d27921f4914ad658d8a268267a8b4c3a5e260d9ff.jpg)
-
-![3223533a540752c91d9545ab4ff3de746b74527b9525c5350dc17eb3f6c09d32.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/3223533a540752c91d9545ab4ff3de746b74527b9525c5350dc17eb3f6c09d32.jpg)
-
-![4c326602177e84e482da732b3484d144e772d6e54ff52b8f16f2f56d46c2f13c.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/4c326602177e84e482da732b3484d144e772d6e54ff52b8f16f2f56d46c2f13c.jpg)
-
-![4cddecf5e129fd62a68d9264a9fc5a6803137d84b3cefea489eb9333d6f8ebb6.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/4cddecf5e129fd62a68d9264a9fc5a6803137d84b3cefea489eb9333d6f8ebb6.jpg)
-
-![7a3f34427d1a8214a2f935d4c734f850f10ea51e5f78b506008039cffee77a30.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/7a3f34427d1a8214a2f935d4c734f850f10ea51e5f78b506008039cffee77a30.jpg)
-
-![88bb7275d9bcb074b0abbdd97c99ec67227d981baa33159112f52f163e436c54.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/88bb7275d9bcb074b0abbdd97c99ec67227d981baa33159112f52f163e436c54.jpg)
-
-![adcd335408705d66c8e961717892fa5f52c1c2c44b156ea906ce5316f14e5c18.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/adcd335408705d66c8e961717892fa5f52c1c2c44b156ea906ce5316f14e5c18.jpg)
-
-![ceadabbfe41ed6e8ba01fe14f34697c2f8ad0df5596ccf0850b5905f563ae6e6.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/ceadabbfe41ed6e8ba01fe14f34697c2f8ad0df5596ccf0850b5905f563ae6e6.jpg)
-
-![d38e32dd2596bb9a9261c1b90e7ab0c75dcd4bdda49b15eb521bbd5c1fd4078f.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/d38e32dd2596bb9a9261c1b90e7ab0c75dcd4bdda49b15eb521bbd5c1fd4078f.jpg)
-
-![d953a01ceb40cb5d052f43e1096535567502bf8a7a0164446be8a96c1d82ae74.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/d953a01ceb40cb5d052f43e1096535567502bf8a7a0164446be8a96c1d82ae74.jpg)
-
-![f2df4659f7fb7daa9128fd8936f66da6fa87b25260d43f768e7ef900bd28cefb.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/f2df4659f7fb7daa9128fd8936f66da6fa87b25260d43f768e7ef900bd28cefb.jpg)
-
-![fd61b1c4e3739331838914e8ea727f96fe584e85f8b201c6ceef78569ead4b3e.jpg](../iclr_results/1606_Integrative Decoding_ Improving Factuality via Implicit Self-consistency/tables/fd61b1c4e3739331838914e8ea727f96fe584e85f8b201c6ceef78569ead4b3e.jpg)
-
-## CrossMPT: Cross-attention Message-passing Transformer for Error Correcting Codes
-
-
-### Images
-
-![23a1ca685c56982a505ca637c43fde01630e55688fd480cf166b3a1c6116c31f.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/23a1ca685c56982a505ca637c43fde01630e55688fd480cf166b3a1c6116c31f.jpg)
-
-![241dc492ef88aa28578a3c00db1d473bc3c773310563ea80012cbecb8c77e6b2.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/241dc492ef88aa28578a3c00db1d473bc3c773310563ea80012cbecb8c77e6b2.jpg)
-
-![41766abed023b4260ebe2a204e1081f04f4028638a5f0f3056492264bb8f1ddf.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/41766abed023b4260ebe2a204e1081f04f4028638a5f0f3056492264bb8f1ddf.jpg)
-
-![4ae7806bbfb2a50550b997dcc578d5ce87cf3c54c5a75b9d1491c0893a09e265.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/4ae7806bbfb2a50550b997dcc578d5ce87cf3c54c5a75b9d1491c0893a09e265.jpg)
-
-![5f8e1b2cd04d2e5af94bb6a2be506656da5d7d166752834a60cb4e5d1ded6682.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/5f8e1b2cd04d2e5af94bb6a2be506656da5d7d166752834a60cb4e5d1ded6682.jpg)
-
-![6a8321d76c252c45627908552a03d0c937fd76407a2d6653171a250075f71933.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/6a8321d76c252c45627908552a03d0c937fd76407a2d6653171a250075f71933.jpg)
-
-![7152c80dec1773412a51eb43645181a52d4d64d25d434491a6b91b659b2af0fc.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/7152c80dec1773412a51eb43645181a52d4d64d25d434491a6b91b659b2af0fc.jpg)
-
-![7cc7554f520186fe98fedfa13e742146eebe576843f23602742131b88fe32df3.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/7cc7554f520186fe98fedfa13e742146eebe576843f23602742131b88fe32df3.jpg)
-
-![b28d8fbcfb578147ed6b4b8d783d5905925c63cde92366caba1464e297f16a8c.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/b28d8fbcfb578147ed6b4b8d783d5905925c63cde92366caba1464e297f16a8c.jpg)
-
-![c13e7523e67d40e7dd3420b691bfaf6a3dff1cb8e972ed51eb6eccd287e83282.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/c13e7523e67d40e7dd3420b691bfaf6a3dff1cb8e972ed51eb6eccd287e83282.jpg)
-
-![c5c047200b3c44aca251bed117baf2932906f17bfaef7022aeb38bf8cb482341.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/c5c047200b3c44aca251bed117baf2932906f17bfaef7022aeb38bf8cb482341.jpg)
-
-![d257ba267bf3880b7146d04992c03acd8365c53e5110fc98d9c3f4caeb2e26f2.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/d257ba267bf3880b7146d04992c03acd8365c53e5110fc98d9c3f4caeb2e26f2.jpg)
-
-![d25ed205b41d433c25235404503a88979a44fbce5e6ba687fb1dc65be517ebf2.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/d25ed205b41d433c25235404503a88979a44fbce5e6ba687fb1dc65be517ebf2.jpg)
-
-![f64bef29df54b5433fd46cd7eb2f91ec44712b83cf8f99d34d768658f0092eaf.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/images/f64bef29df54b5433fd46cd7eb2f91ec44712b83cf8f99d34d768658f0092eaf.jpg)
-
-### Tables
-
-![14c972dedc7bc8f8fd23e4e3574018e9e50b1dcab0ea3a1a1efcf55805904627.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/14c972dedc7bc8f8fd23e4e3574018e9e50b1dcab0ea3a1a1efcf55805904627.jpg)
-
-![172de18bed74ee307d44767751cefa1f3f869ac4c027734b5d2d01fdd03a2450.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/172de18bed74ee307d44767751cefa1f3f869ac4c027734b5d2d01fdd03a2450.jpg)
-
-![2c06e1b7fbd39158ade2afe6a0f39f26fec4a35a0c41784b96b833cc7ac0d09c.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/2c06e1b7fbd39158ade2afe6a0f39f26fec4a35a0c41784b96b833cc7ac0d09c.jpg)
-
-![32c5141d605f67cb8f28e3d15ddc568c53a448b46ed58de1feee0230f6a59ce7.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/32c5141d605f67cb8f28e3d15ddc568c53a448b46ed58de1feee0230f6a59ce7.jpg)
-
-![6d2ad3bd0d2560e326b89f8c992cb89c3900f97abe3574e38b4786a51b16b5ca.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/6d2ad3bd0d2560e326b89f8c992cb89c3900f97abe3574e38b4786a51b16b5ca.jpg)
-
-![faa5bc3170cc251eb4bcb64843ec4c272279cbb46532e99ecefffbfbc864aaf4.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/faa5bc3170cc251eb4bcb64843ec4c272279cbb46532e99ecefffbfbc864aaf4.jpg)
-
-![fb016662838a7ba3556c57bacb52aee327a71e700c840ed95ddc58259116ffd0.jpg](../iclr_results/1607_CrossMPT_ Cross-attention Message-passing Transformer for Error Correcting Codes/tables/fb016662838a7ba3556c57bacb52aee327a71e700c840ed95ddc58259116ffd0.jpg)
-
-## Exploring channel distinguishability in local neighborhoods of the model space in quantum neural networks
-
-### Images
-
-![081dcddc8d37bf34ad5ebf3537f1a45bc886f507cdae0989968bd8c6e0cc775c.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/images/081dcddc8d37bf34ad5ebf3537f1a45bc886f507cdae0989968bd8c6e0cc775c.jpg)
-
-![2b2b07a0b7a0f5d2877e8ca26535c1a5b3ea0145f9efb26b77ef1f5c84b46037.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/images/2b2b07a0b7a0f5d2877e8ca26535c1a5b3ea0145f9efb26b77ef1f5c84b46037.jpg)
-
-![67cf3a0e9d80f5567b6f80ec032df5b47bfd71b9f8c0fd0e31e04e5705ea591b.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/images/67cf3a0e9d80f5567b6f80ec032df5b47bfd71b9f8c0fd0e31e04e5705ea591b.jpg)
-
-![7bcecb4c0958dce088369a051c11158d363b477e9e798dcca392781f430dd71f.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/images/7bcecb4c0958dce088369a051c11158d363b477e9e798dcca392781f430dd71f.jpg)
-
-![a23803379466add23ffe8bfed0b471a3680baa58f94fced6b8f2f94aa34c5867.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/images/a23803379466add23ffe8bfed0b471a3680baa58f94fced6b8f2f94aa34c5867.jpg)
-
-### Tables
-
-![e4f7b0ad8c5d71a244dc07e2dda463bd8c43d8560c052fd502b589e35d0d6859.jpg](../iclr_results/1608_Exploring channel distinguishability in local neighborhoods of the model space in quantum neural net/tables/e4f7b0ad8c5d71a244dc07e2dda463bd8c43d8560c052fd502b589e35d0d6859.jpg)

@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,97 @@
 
 ## 目录 (Table of Contents)
 
-1. [Aligning Human Motion Generation with Human Perceptions](#Aligning-Human-Motion-Generation-with-Human-Perceptions)
-2. [Microcanonical Langevin Ensembles: Advancing the Sampling of Bayesian Neural Networks](#Microcanonical-Langevin-Ensembles-Advancing-the-Sampling-of-Bayesian-Neural-Networks)
-3. [Scale-aware Recognition in Satellite Images under Resource Constraints](#Scale-aware-Recognition-in-Satellite-Images-under-Resource-Constraints)
-4. [MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#MovieDreamer-Hierarchical-Generation-for-Coherent-Long-Visual-Sequences)
-5. [Model-agnostic meta-learners for estimating heterogeneous treatment effects over time](#Model-agnostic-meta-learners-for-estimating-heterogeneous-treatment-effects-over-time)
-6. [Unleashing the Potential of Vision-Language Pre-Training for 3D Zero-Shot Lesion Segmentation via Mask-Attribute Alignment](#Unleashing-the-Potential-of-Vision-Language-Pre-Training-for-3D-Zero-Shot-Lesion-Segmentation-via-Mask-Attribute-Alignment)
-7. [State Space Models are Provably Comparable to Transformers in Dynamic Token Selection](#State-Space-Models-are-Provably-Comparable-to-Transformers-in-Dynamic-Token-Selection)
-8. [ImageFolder: Autoregressive Image Generation with Folded Tokens](#ImageFolder-Autoregressive-Image-Generation-with-Folded-Tokens)
-9. [Model Equality Testing: Which Model is this API Serving?](#Model-Equality-Testing-Which-Model-is-this-API-Serving)
-10. [Demystifying Topological Message-Passing with Relational Structures: A Case Study on Oversquashing in Simplicial Message-Passing](#Demystifying-Topological-Message-Passing-with-Relational-Structures-A-Case-Study-on-Oversquashing-in-Simplicial-Message-Passing)
-11. [From an LLM Swarm to a PDDL-empowered Hive: Planning Self-executed Instructions in a Multi-modal Jungle](#From-an-LLM-Swarm-to-a-PDDL-empowered-Hive-Planning-Self-executed-Instructions-in-a-Multi-modal-Jungle)
-12. [Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence](#Navigating-Neural-Space-Revisiting-Concept-Activation-Vectors-to-Overcome-Directional-Divergence)
-13. [Generalized Behavior Learning from Diverse Demonstrations](#Generalized-Behavior-Learning-from-Diverse-Demonstrations)
-14. [SoftMatcha: A Soft and Fast Pattern Matcher for Billion-Scale Corpus Searches](#SoftMatcha-A-Soft-and-Fast-Pattern-Matcher-for-Billion-Scale-Corpus-Searches)
-15. [Efficient Source-Free Time-Series Adaptation via Parameter Subspace Disentanglement](#Efficient-Source-Free-Time-Series-Adaptation-via-Parameter-Subspace-Disentanglement)
-16. [Do Contemporary Causal Inference Models Capture Real-World Heterogeneity? Findings from a Large-Scale Benchmark](#Do-Contemporary-Causal-Inference-Models-Capture-Real-World-Heterogeneity-Findings-from-a-Large-Scale-Benchmark)
-17. [Towards Self-Supervised Covariance Estimation in Deep Heteroscedastic Regression](#Towards-Self-Supervised-Covariance-Estimation-in-Deep-Heteroscedastic-Regression)
-18. [Underdamped Diffusion Bridges with Applications to Sampling](#Underdamped-Diffusion-Bridges-with-Applications-to-Sampling)
-19. [A Closer Look at Machine Unlearning for Large Language Models](#A-Closer-Look-at-Machine-Unlearning-for-Large-Language-Models)
-20. [A Robust Method to Discover Causal or Anticausal Relation](#A-Robust-Method-to-Discover-Causal-or-Anticausal-Relation)
-21. [Debiasing Mini-Batch Quadratics for Applications in Deep Learning](#Debiasing-Mini-Batch-Quadratics-for-Applications-in-Deep-Learning)
-22. [Scalable Benchmarking and Robust Learning for Noise-Free Ego-Motion and 3D Reconstruction from Noisy Video](#Scalable-Benchmarking-and-Robust-Learning-for-Noise-Free-Ego-Motion-and-3D-Reconstruction-from-Noisy-Video)
-23. [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](#SuperCorrect-Advancing-Small-LLM-Reasoning-with-Thought-Template-Distillation-and-Self-Correction)
-24. [EC-DIT: Scaling Diffusion Transformers with Adaptive Expert-Choice Routing](#EC-DIT-Scaling-Diffusion-Transformers-with-Adaptive-Expert-Choice-Routing)
-25. [Predicting the Energy Landscape of Stochastic Dynamical System via  Physics-informed Self-supervised Learning](#Predicting-the-Energy-Landscape-of-Stochastic-Dynamical-System-via-Physics-informed-Self-supervised-Learning)
-26. [Beyond Random Masking: When Dropout meets Graph Convolutional Networks](#Beyond-Random-Masking-When-Dropout-meets-Graph-Convolutional-Networks)
-27. [Tight Clusters Make Specialized Experts](#Tight-Clusters-Make-Specialized-Experts)
-28. [Domain Guidance: A Simple Transfer Approach for a Pre-trained Diffusion Model](#Domain-Guidance-A-Simple-Transfer-Approach-for-a-Pre-trained-Diffusion-Model)
-29. [RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards](#RAG-DDR-Optimizing-Retrieval-Augmented-Generation-Using-Differentiable-Data-Rewards)
-30. [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](#Magpie-Alignment-Data-Synthesis-from-Scratch-by-Prompting-Aligned-LLMs-with-Nothing)
-31. [Gap Preserving Distillation by Building Bidirectional Mappings with A Dynamic Teacher](#Gap-Preserving-Distillation-by-Building-Bidirectional-Mappings-with-A-Dynamic-Teacher)
-32. [SegLLM: Multi-round Reasoning Segmentation with Large Language Models](#SegLLM-Multi-round-Reasoning-Segmentation-with-Large-Language-Models)
-33. [Should VLMs be Pre-trained with Image Data?](#Should-VLMs-be-Pre-trained-with-Image-Data)
-34. [InfoGS: Efficient Structure-Aware 3D Gaussians via Lightweight Information Shaping](#InfoGS-Efficient-Structure-Aware-3D-Gaussians-via-Lightweight-Information-Shaping)
-35. [Transformers Can Learn Temporal Difference Methods for In-Context Reinforcement Learning](#Transformers-Can-Learn-Temporal-Difference-Methods-for-In-Context-Reinforcement-Learning)
-36. [CL-DiffPhyCon: Closed-loop Diffusion Control of Complex Physical Systems](#CL-DiffPhyCon-Closed-loop-Diffusion-Control-of-Complex-Physical-Systems)
+1. [PEARL: Parallel Speculative Decoding with Adaptive Draft Length](#PEARL-Parallel-Speculative-Decoding-with-Adaptive-Draft-Length)
+2. [Aligning Human Motion Generation with Human Perceptions](#Aligning-Human-Motion-Generation-with-Human-Perceptions)
+3. [Microcanonical Langevin Ensembles: Advancing the Sampling of Bayesian Neural Networks](#Microcanonical-Langevin-Ensembles-Advancing-the-Sampling-of-Bayesian-Neural-Networks)
+4. [Scale-aware Recognition in Satellite Images under Resource Constraints](#Scale-aware-Recognition-in-Satellite-Images-under-Resource-Constraints)
+5. [MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#MovieDreamer-Hierarchical-Generation-for-Coherent-Long-Visual-Sequences)
+6. [Model-agnostic meta-learners for estimating heterogeneous treatment effects over time](#Model-agnostic-meta-learners-for-estimating-heterogeneous-treatment-effects-over-time)
+7. [Unleashing the Potential of Vision-Language Pre-Training for 3D Zero-Shot Lesion Segmentation via Mask-Attribute Alignment](#Unleashing-the-Potential-of-Vision-Language-Pre-Training-for-3D-Zero-Shot-Lesion-Segmentation-via-Mask-Attribute-Alignment)
+8. [State Space Models are Provably Comparable to Transformers in Dynamic Token Selection](#State-Space-Models-are-Provably-Comparable-to-Transformers-in-Dynamic-Token-Selection)
+9. [ImageFolder: Autoregressive Image Generation with Folded Tokens](#ImageFolder-Autoregressive-Image-Generation-with-Folded-Tokens)
+10. [Model Equality Testing: Which Model is this API Serving?](#Model-Equality-Testing-Which-Model-is-this-API-Serving)
+11. [Demystifying Topological Message-Passing with Relational Structures: A Case Study on Oversquashing in Simplicial Message-Passing](#Demystifying-Topological-Message-Passing-with-Relational-Structures-A-Case-Study-on-Oversquashing-in-Simplicial-Message-Passing)
+12. [From an LLM Swarm to a PDDL-empowered Hive: Planning Self-executed Instructions in a Multi-modal Jungle](#From-an-LLM-Swarm-to-a-PDDL-empowered-Hive-Planning-Self-executed-Instructions-in-a-Multi-modal-Jungle)
+13. [Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence](#Navigating-Neural-Space-Revisiting-Concept-Activation-Vectors-to-Overcome-Directional-Divergence)
+14. [Generalized Behavior Learning from Diverse Demonstrations](#Generalized-Behavior-Learning-from-Diverse-Demonstrations)
+15. [SoftMatcha: A Soft and Fast Pattern Matcher for Billion-Scale Corpus Searches](#SoftMatcha-A-Soft-and-Fast-Pattern-Matcher-for-Billion-Scale-Corpus-Searches)
+16. [Efficient Source-Free Time-Series Adaptation via Parameter Subspace Disentanglement](#Efficient-Source-Free-Time-Series-Adaptation-via-Parameter-Subspace-Disentanglement)
+17. [Do Contemporary Causal Inference Models Capture Real-World Heterogeneity? Findings from a Large-Scale Benchmark](#Do-Contemporary-Causal-Inference-Models-Capture-Real-World-Heterogeneity-Findings-from-a-Large-Scale-Benchmark)
+18. [Towards Self-Supervised Covariance Estimation in Deep Heteroscedastic Regression](#Towards-Self-Supervised-Covariance-Estimation-in-Deep-Heteroscedastic-Regression)
+19. [Underdamped Diffusion Bridges with Applications to Sampling](#Underdamped-Diffusion-Bridges-with-Applications-to-Sampling)
+20. [A Closer Look at Machine Unlearning for Large Language Models](#A-Closer-Look-at-Machine-Unlearning-for-Large-Language-Models)
+21. [A Robust Method to Discover Causal or Anticausal Relation](#A-Robust-Method-to-Discover-Causal-or-Anticausal-Relation)
+22. [Debiasing Mini-Batch Quadratics for Applications in Deep Learning](#Debiasing-Mini-Batch-Quadratics-for-Applications-in-Deep-Learning)
+23. [Scalable Benchmarking and Robust Learning for Noise-Free Ego-Motion and 3D Reconstruction from Noisy Video](#Scalable-Benchmarking-and-Robust-Learning-for-Noise-Free-Ego-Motion-and-3D-Reconstruction-from-Noisy-Video)
+24. [SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction](#SuperCorrect-Advancing-Small-LLM-Reasoning-with-Thought-Template-Distillation-and-Self-Correction)
+25. [EC-DIT: Scaling Diffusion Transformers with Adaptive Expert-Choice Routing](#EC-DIT-Scaling-Diffusion-Transformers-with-Adaptive-Expert-Choice-Routing)
+26. [Predicting the Energy Landscape of Stochastic Dynamical System via  Physics-informed Self-supervised Learning](#Predicting-the-Energy-Landscape-of-Stochastic-Dynamical-System-via-Physics-informed-Self-supervised-Learning)
+27. [Beyond Random Masking: When Dropout meets Graph Convolutional Networks](#Beyond-Random-Masking-When-Dropout-meets-Graph-Convolutional-Networks)
+28. [Tight Clusters Make Specialized Experts](#Tight-Clusters-Make-Specialized-Experts)
+29. [Domain Guidance: A Simple Transfer Approach for a Pre-trained Diffusion Model](#Domain-Guidance-A-Simple-Transfer-Approach-for-a-Pre-trained-Diffusion-Model)
+30. [RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards](#RAG-DDR-Optimizing-Retrieval-Augmented-Generation-Using-Differentiable-Data-Rewards)
+31. [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](#Magpie-Alignment-Data-Synthesis-from-Scratch-by-Prompting-Aligned-LLMs-with-Nothing)
+32. [Gap Preserving Distillation by Building Bidirectional Mappings with A Dynamic Teacher](#Gap-Preserving-Distillation-by-Building-Bidirectional-Mappings-with-A-Dynamic-Teacher)
+33. [SegLLM: Multi-round Reasoning Segmentation with Large Language Models](#SegLLM-Multi-round-Reasoning-Segmentation-with-Large-Language-Models)
+34. [Should VLMs be Pre-trained with Image Data?](#Should-VLMs-be-Pre-trained-with-Image-Data)
+35. [InfoGS: Efficient Structure-Aware 3D Gaussians via Lightweight Information Shaping](#InfoGS-Efficient-Structure-Aware-3D-Gaussians-via-Lightweight-Information-Shaping)
+36. [Transformers Can Learn Temporal Difference Methods for In-Context Reinforcement Learning](#Transformers-Can-Learn-Temporal-Difference-Methods-for-In-Context-Reinforcement-Learning)
+37. [CL-DiffPhyCon: Closed-loop Diffusion Control of Complex Physical Systems](#CL-DiffPhyCon-Closed-loop-Diffusion-Control-of-Complex-Physical-Systems)
 
 ---
 
 
-## Aligning Human Motion Generation with Human Perceptions
+## PEARL: Parallel Speculative Decoding with Adaptive Draft Length
+
+### Images
+
+![627c55daa196fa044040e29b8b005b57898c64c21811d1f4d2788a15cefe85d6.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/627c55daa196fa044040e29b8b005b57898c64c21811d1f4d2788a15cefe85d6.jpg)
+
+![7a66db650a34f31a323071d195c524d3c087a76b9285bba324cb69106286c6ba.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/7a66db650a34f31a323071d195c524d3c087a76b9285bba324cb69106286c6ba.jpg)
+
+![a106ff5a9b86c74fafce3dea698953bbb72a48e67a0e9b317d3dc1450ef3c427.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/a106ff5a9b86c74fafce3dea698953bbb72a48e67a0e9b317d3dc1450ef3c427.jpg)
+
+![ae86553dcbbec94bf68687bdaacf128345eed0fd2268874f49434f8564e1bddb.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/ae86553dcbbec94bf68687bdaacf128345eed0fd2268874f49434f8564e1bddb.jpg)
+
+![dba9089c7c6c824eee05bfa62c333ddb2fb127af8f0e538b12f7e9c585a4c178.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/dba9089c7c6c824eee05bfa62c333ddb2fb127af8f0e538b12f7e9c585a4c178.jpg)
+
+![e00a80b741b9c5f696ba30b8a3cec706407c62de54a7024a3f7a396e7fa3ec76.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/e00a80b741b9c5f696ba30b8a3cec706407c62de54a7024a3f7a396e7fa3ec76.jpg)
+
+![f99c66279872430e53c420122303b63784f959f945513802257d083756caec84.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/images/f99c66279872430e53c420122303b63784f959f945513802257d083756caec84.jpg)
+
+### Tables
+
+![09a7f1f7e856bbdf8ebf0ac465275d73c2d3a44a60c490ce1aca482f25db2e54.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/09a7f1f7e856bbdf8ebf0ac465275d73c2d3a44a60c490ce1aca482f25db2e54.jpg)
+
+![12530f41b4242022b2c382b51e110d47bc3324a73cd73c76c4352df932635c21.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/12530f41b4242022b2c382b51e110d47bc3324a73cd73c76c4352df932635c21.jpg)
+
+![24c484a9ec1a3d6e904e588576f21bf00df9823fff433f84be38d4f25e672c84.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/24c484a9ec1a3d6e904e588576f21bf00df9823fff433f84be38d4f25e672c84.jpg)
+
+![3b51c77f00af723bdf8cf3d7ce2935cbf6a8627f401d53626918d9b0c0f33b2b.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/3b51c77f00af723bdf8cf3d7ce2935cbf6a8627f401d53626918d9b0c0f33b2b.jpg)
+
+![4da82aa0e12367236dac9986515a3c48dc3155e8efd87e3d67049ce19eea5351.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/4da82aa0e12367236dac9986515a3c48dc3155e8efd87e3d67049ce19eea5351.jpg)
+
+![74382bfbbecc117363e2723ba5482f1a9d552e4aa10fe977dee5e9a6114c6c3a.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/74382bfbbecc117363e2723ba5482f1a9d552e4aa10fe977dee5e9a6114c6c3a.jpg)
+
+![759552a955da334afd64299293dc0e62ba4d9b1b0317294878bc7ad86cb8a657.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/759552a955da334afd64299293dc0e62ba4d9b1b0317294878bc7ad86cb8a657.jpg)
+
+![9167c1ac8321e041357106a659bd31607976f8db85c9e4771e6528a2bfa693db.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/9167c1ac8321e041357106a659bd31607976f8db85c9e4771e6528a2bfa693db.jpg)
+
+![a8f440a6adc7a083bd122794f5cd52fb09c8e29966badc0ce9eea22f8e1b05dd.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/a8f440a6adc7a083bd122794f5cd52fb09c8e29966badc0ce9eea22f8e1b05dd.jpg)
+
+![aee433737085f2e9b114f2ca93e5a9bb8e4400f7b30ff5aaa805b47631e95dd1.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/aee433737085f2e9b114f2ca93e5a9bb8e4400f7b30ff5aaa805b47631e95dd1.jpg)
+
+![b6ee8e3a19be37e21771258d3a24d29f8d02f4f8f5b567303c0061f220777479.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/b6ee8e3a19be37e21771258d3a24d29f8d02f4f8f5b567303c0061f220777479.jpg)
+
+![cb93967c6a6c3d5c67a06724e703ce40026dd77c6e3b8f4ba5b4e2e8d0f84351.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/cb93967c6a6c3d5c67a06724e703ce40026dd77c6e3b8f4ba5b4e2e8d0f84351.jpg)
+
+![dfe434e4037670884847f500cb657aad83cdd6b100f424192f6b8da405777e17.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/dfe434e4037670884847f500cb657aad83cdd6b100f424192f6b8da405777e17.jpg)
+
+![f1877ebb70754edc8436e9b62838f9e807b74a8c4a90ac43d1078c5d62599223.jpg](../iclr_results/2343_Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning/tables/f1877ebb70754edc8436e9b62838f9e807b74a8c4a90ac43d1078c5d62599223.jpg)
+
+## PEARL: Parallel Speculative Decoding with Adaptive Draft Length
+
 
 ### Images
 

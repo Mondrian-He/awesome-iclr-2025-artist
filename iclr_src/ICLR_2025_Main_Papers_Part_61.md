@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,216 @@
 
 ## 目录 (Table of Contents)
 
-1. [Learning to Adapt Frozen CLIP for Few-Shot Test-Time Domain Adaptation](#Learning-to-Adapt-Frozen-CLIP-for-Few-Shot-Test-Time-Domain-Adaptation)
-2. [MUSE: Machine Unlearning Six-Way Evaluation for Language Models](#MUSE-Machine-Unlearning-Six-Way-Evaluation-for-Language-Models)
-3. [Learning Harmonized Representations for Speculative Sampling](#Learning-Harmonized-Representations-for-Speculative-Sampling)
-4. [You Only Sample Once: Taming One-Step Text-to-Image Synthesis by Self-Cooperative Diffusion GANs](#You-Only-Sample-Once-Taming-One-Step-Text-to-Image-Synthesis-by-Self-Cooperative-Diffusion-GANs)
-5. [PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks](#PARTNR-A-Benchmark-for-Planning-and-Reasoning-in-Embodied-Multi-agent-Tasks)
-6. [CryoFM: A Flow-based Foundation Model for Cryo-EM Densities](#CryoFM-A-Flow-based-Foundation-Model-for-Cryo-EM-Densities)
-7. [ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs](#ZooProbe-A-Data-Engine-for-Evaluating-Exploring-and-Evolving-Large-scale-Training-Data-for-Multimodal-LLMs)
-8. [Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](#Dynamic-Mixture-of-Experts-An-Auto-Tuning-Approach-for-Efficient-Transformer-Models)
-9. [Scaling Offline Model-Based RL via Jointly-Optimized World-Action Model Pretraining](#Scaling-Offline-Model-Based-RL-via-Jointly-Optimized-World-Action-Model-Pretraining)
-10. [Text-to-Image Rectified Flow as Plug-and-Play Priors](#Text-to-Image-Rectified-Flow-as-Plug-and-Play-Priors)
-11. [SpaceGNN: Multi-Space Graph Neural Network for Node Anomaly Detection with Extremely Limited Labels](#SpaceGNN-Multi-Space-Graph-Neural-Network-for-Node-Anomaly-Detection-with-Extremely-Limited-Labels)
-12. [LiveXiv - A Multi-Modal live benchmark based on Arxiv papers content](#LiveXiv-A-Multi-Modal-live-benchmark-based-on-Arxiv-papers-content)
-13. [Data Unlearning in Diffusion Models](#Data-Unlearning-in-Diffusion-Models)
-14. [Adaptive backtracking line search](#Adaptive-backtracking-line-search)
-15. [Fast Training of Sinusoidal Neural Fields via Scaling Initialization](#Fast-Training-of-Sinusoidal-Neural-Fields-via-Scaling-Initialization)
-16. [When Prompt Engineering Meets Software Engineering: CNL-P as Natural and Robust "APIs'' for Human-AI Interaction](#When-Prompt-Engineering-Meets-Software-Engineering-CNL-P-as-Natural-and-Robust-APIs-for-Human-AI-Interaction)
-17. [ComPC: Completing a 3D Point Cloud with 2D Diffusion Priors](#ComPC-Completing-a-3D-Point-Cloud-with-2D-Diffusion-Priors)
-18. [Bridging the Gap between Database Search and \emph{De Novo} Peptide Sequencing with SearchNovo](#Bridging-the-Gap-between-Database-Search-and-emphDe-Novo-Peptide-Sequencing-with-SearchNovo)
-19. [Logical Consistency of Large Language Models in Fact-Checking](#Logical-Consistency-of-Large-Language-Models-in-Fact-Checking)
-20. [Vision-LSTM: xLSTM as Generic Vision Backbone](#Vision-LSTM-xLSTM-as-Generic-Vision-Backbone)
-21. [CTSyn: A Foundation Model for Cross Tabular Data Generation](#CTSyn-A-Foundation-Model-for-Cross-Tabular-Data-Generation)
-22. [P-SPIKESSM: HARNESSING PROBABILISTIC SPIKING STATE SPACE MODELS FOR LONG-RANGE DEPENDENCY TASKS](#P-SPIKESSM-HARNESSING-PROBABILISTIC-SPIKING-STATE-SPACE-MODELS-FOR-LONG-RANGE-DEPENDENCY-TASKS)
-23. [GameArena: Evaluating LLM Reasoning through Live Computer Games](#GameArena-Evaluating-LLM-Reasoning-through-Live-Computer-Games)
-24. [Herald: A Natural Language Annotated Lean 4 Dataset](#Herald-A-Natural-Language-Annotated-Lean-4-Dataset)
-25. [TabM: Advancing tabular deep learning with parameter-efficient ensembling](#TabM-Advancing-tabular-deep-learning-with-parameter-efficient-ensembling)
-26. [UNSURE: self-supervised learning with Unknown Noise level  and Stein's Unbiased Risk Estimate](#UNSURE-self-supervised-learning-with-Unknown-Noise-level-and-Steins-Unbiased-Risk-Estimate)
-27. [Spurious Forgetting in Continual Learning of Language Models](#Spurious-Forgetting-in-Continual-Learning-of-Language-Models)
-28. [Release the Powers of Prompt Tuning: Cross-Modality Prompt Transfer](#Release-the-Powers-of-Prompt-Tuning-Cross-Modality-Prompt-Transfer)
-29. [Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models](#Heavy-Tailed-Diffusion-with-Denoising-Levy-Probabilistic-Models)
-30. [Test-time Adaptation for Regression by Subspace Alignment](#Test-time-Adaptation-for-Regression-by-Subspace-Alignment)
-31. [Accelerated Over-Relaxation Heavy-Ball Method: Achieving Global Accelerated Convergence with Broad Generalization](#Accelerated-Over-Relaxation-Heavy-Ball-Method-Achieving-Global-Accelerated-Convergence-with-Broad-Generalization)
-32. [Locality Sensitive Avatars From Video](#Locality-Sensitive-Avatars-From-Video)
-33. [KOR-Bench: Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks](#KOR-Bench-Benchmarking-Language-Models-on-Knowledge-Orthogonal-Reasoning-Tasks)
-34. [Conservative Contextual Bandits: Beyond Linear Representations](#Conservative-Contextual-Bandits-Beyond-Linear-Representations)
-35. [Is In-Context Learning Sufficient for Instruction Following in LLMs?](#Is-In-Context-Learning-Sufficient-for-Instruction-Following-in-LLMs)
-36. [VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing](#VideoGrain-Modulating-Space-Time-Attention-for-Multi-Grained-Video-Editing)
+1. [Phidias: A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Reference-Augmented  Diffusion](#Phidias-A-Generative-Model-for-Creating-3D-Content-from-Text-Image-and-3D-Conditions-with-Reference-Augmented-Diffusion)
+2. [VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks](#VLM2Vec-Training-Vision-Language-Models-for-Massive-Multimodal-Embedding-Tasks)
+3. [Efficient Model Editing with Task-Localized Sparse Fine-tuning](#Efficient-Model-Editing-with-Task-Localized-Sparse-Fine-tuning)
+4. [Provence: efficient and robust context pruning for retrieval-augmented generation](#Provence-efficient-and-robust-context-pruning-for-retrieval-augmented-generation)
+5. [Learning to Adapt Frozen CLIP for Few-Shot Test-Time Domain Adaptation](#Learning-to-Adapt-Frozen-CLIP-for-Few-Shot-Test-Time-Domain-Adaptation)
+6. [MUSE: Machine Unlearning Six-Way Evaluation for Language Models](#MUSE-Machine-Unlearning-Six-Way-Evaluation-for-Language-Models)
+7. [Learning Harmonized Representations for Speculative Sampling](#Learning-Harmonized-Representations-for-Speculative-Sampling)
+8. [You Only Sample Once: Taming One-Step Text-to-Image Synthesis by Self-Cooperative Diffusion GANs](#You-Only-Sample-Once-Taming-One-Step-Text-to-Image-Synthesis-by-Self-Cooperative-Diffusion-GANs)
+9. [PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks](#PARTNR-A-Benchmark-for-Planning-and-Reasoning-in-Embodied-Multi-agent-Tasks)
+10. [CryoFM: A Flow-based Foundation Model for Cryo-EM Densities](#CryoFM-A-Flow-based-Foundation-Model-for-Cryo-EM-Densities)
+11. [ZooProbe: A Data Engine for Evaluating, Exploring, and Evolving Large-scale Training Data for Multimodal LLMs](#ZooProbe-A-Data-Engine-for-Evaluating-Exploring-and-Evolving-Large-scale-Training-Data-for-Multimodal-LLMs)
+12. [Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](#Dynamic-Mixture-of-Experts-An-Auto-Tuning-Approach-for-Efficient-Transformer-Models)
+13. [Scaling Offline Model-Based RL via Jointly-Optimized World-Action Model Pretraining](#Scaling-Offline-Model-Based-RL-via-Jointly-Optimized-World-Action-Model-Pretraining)
+14. [Text-to-Image Rectified Flow as Plug-and-Play Priors](#Text-to-Image-Rectified-Flow-as-Plug-and-Play-Priors)
+15. [SpaceGNN: Multi-Space Graph Neural Network for Node Anomaly Detection with Extremely Limited Labels](#SpaceGNN-Multi-Space-Graph-Neural-Network-for-Node-Anomaly-Detection-with-Extremely-Limited-Labels)
+16. [LiveXiv - A Multi-Modal live benchmark based on Arxiv papers content](#LiveXiv-A-Multi-Modal-live-benchmark-based-on-Arxiv-papers-content)
+17. [Data Unlearning in Diffusion Models](#Data-Unlearning-in-Diffusion-Models)
+18. [Adaptive backtracking line search](#Adaptive-backtracking-line-search)
+19. [Fast Training of Sinusoidal Neural Fields via Scaling Initialization](#Fast-Training-of-Sinusoidal-Neural-Fields-via-Scaling-Initialization)
+20. [When Prompt Engineering Meets Software Engineering: CNL-P as Natural and Robust "APIs'' for Human-AI Interaction](#When-Prompt-Engineering-Meets-Software-Engineering-CNL-P-as-Natural-and-Robust-APIs-for-Human-AI-Interaction)
+21. [ComPC: Completing a 3D Point Cloud with 2D Diffusion Priors](#ComPC-Completing-a-3D-Point-Cloud-with-2D-Diffusion-Priors)
+22. [Bridging the Gap between Database Search and \emph{De Novo} Peptide Sequencing with SearchNovo](#Bridging-the-Gap-between-Database-Search-and-emphDe-Novo-Peptide-Sequencing-with-SearchNovo)
+23. [Logical Consistency of Large Language Models in Fact-Checking](#Logical-Consistency-of-Large-Language-Models-in-Fact-Checking)
+24. [Vision-LSTM: xLSTM as Generic Vision Backbone](#Vision-LSTM-xLSTM-as-Generic-Vision-Backbone)
+25. [CTSyn: A Foundation Model for Cross Tabular Data Generation](#CTSyn-A-Foundation-Model-for-Cross-Tabular-Data-Generation)
+26. [P-SPIKESSM: HARNESSING PROBABILISTIC SPIKING STATE SPACE MODELS FOR LONG-RANGE DEPENDENCY TASKS](#P-SPIKESSM-HARNESSING-PROBABILISTIC-SPIKING-STATE-SPACE-MODELS-FOR-LONG-RANGE-DEPENDENCY-TASKS)
+27. [GameArena: Evaluating LLM Reasoning through Live Computer Games](#GameArena-Evaluating-LLM-Reasoning-through-Live-Computer-Games)
+28. [Herald: A Natural Language Annotated Lean 4 Dataset](#Herald-A-Natural-Language-Annotated-Lean-4-Dataset)
+29. [TabM: Advancing tabular deep learning with parameter-efficient ensembling](#TabM-Advancing-tabular-deep-learning-with-parameter-efficient-ensembling)
+30. [UNSURE: self-supervised learning with Unknown Noise level  and Stein's Unbiased Risk Estimate](#UNSURE-self-supervised-learning-with-Unknown-Noise-level-and-Steins-Unbiased-Risk-Estimate)
+31. [Spurious Forgetting in Continual Learning of Language Models](#Spurious-Forgetting-in-Continual-Learning-of-Language-Models)
+32. [Release the Powers of Prompt Tuning: Cross-Modality Prompt Transfer](#Release-the-Powers-of-Prompt-Tuning-Cross-Modality-Prompt-Transfer)
+33. [Heavy-Tailed Diffusion with Denoising Levy Probabilistic Models](#Heavy-Tailed-Diffusion-with-Denoising-Levy-Probabilistic-Models)
+34. [Test-time Adaptation for Regression by Subspace Alignment](#Test-time-Adaptation-for-Regression-by-Subspace-Alignment)
+35. [Accelerated Over-Relaxation Heavy-Ball Method: Achieving Global Accelerated Convergence with Broad Generalization](#Accelerated-Over-Relaxation-Heavy-Ball-Method-Achieving-Global-Accelerated-Convergence-with-Broad-Generalization)
+36. [Locality Sensitive Avatars From Video](#Locality-Sensitive-Avatars-From-Video)
+37. [KOR-Bench: Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks](#KOR-Bench-Benchmarking-Language-Models-on-Knowledge-Orthogonal-Reasoning-Tasks)
 
 ---
 
 
-## Learning to Adapt Frozen CLIP for Few-Shot Test-Time Domain Adaptation
+## Phidias: A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Reference-Augmented  Diffusion
+
+### Images
+
+![104a76513cee12a744b0a6f9cc44908208f14f56675688341845ecf72ff3b4e9.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/104a76513cee12a744b0a6f9cc44908208f14f56675688341845ecf72ff3b4e9.jpg)
+
+![22fa0a6c78c97dc541617e31592835d5b5cdafd7b969ac5b1c178262fadf5b6d.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/22fa0a6c78c97dc541617e31592835d5b5cdafd7b969ac5b1c178262fadf5b6d.jpg)
+
+![b8848e85d44d965cd62c5ca95d694ec419ec64f751fdc115dade39d0dcd9cb4d.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/b8848e85d44d965cd62c5ca95d694ec419ec64f751fdc115dade39d0dcd9cb4d.jpg)
+
+![de87f4a33410c44d1bef805a929374a798e84104978bcc5c25790b2a179d569b.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/de87f4a33410c44d1bef805a929374a798e84104978bcc5c25790b2a179d569b.jpg)
+
+![f937c868bd22b3882bf580369ba9139281919da97b4f37c56841cbd0882557fc.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/f937c868bd22b3882bf580369ba9139281919da97b4f37c56841cbd0882557fc.jpg)
+
+![ff0eafc15be95c383e1ce8b2e34d6a5fb93a59085af1a997af0d7f0c6424f120.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/images/ff0eafc15be95c383e1ce8b2e34d6a5fb93a59085af1a997af0d7f0c6424f120.jpg)
+
+### Tables
+
+![0c4ac2b8268551127aa263b68e73be298bc0a711dcd592396493aab15e74ce27.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/0c4ac2b8268551127aa263b68e73be298bc0a711dcd592396493aab15e74ce27.jpg)
+
+![2441131d12e54eb0a90ebdb47b43d97ada8145f2d5f4efdba746bb28414b88fa.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/2441131d12e54eb0a90ebdb47b43d97ada8145f2d5f4efdba746bb28414b88fa.jpg)
+
+![576d0991de1385f35554d24e854ec7d429f81c1ef08840161bd9bb360584355d.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/576d0991de1385f35554d24e854ec7d429f81c1ef08840161bd9bb360584355d.jpg)
+
+![8ae74af4aa5f92f8feb9ce808d3e338885728fc18452ddc5eda05336ece337ce.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/8ae74af4aa5f92f8feb9ce808d3e338885728fc18452ddc5eda05336ece337ce.jpg)
+
+![9dc794bcb8a1ca0f3f7af65d7c8004de94a4cd1d8c6d248e81376bc45356e27d.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/9dc794bcb8a1ca0f3f7af65d7c8004de94a4cd1d8c6d248e81376bc45356e27d.jpg)
+
+![ac25ae1d1e79fd7bac32f2150e7533f4e0a9e87a9cbe0d9d45ccd34a0d58baa0.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/ac25ae1d1e79fd7bac32f2150e7533f4e0a9e87a9cbe0d9d45ccd34a0d58baa0.jpg)
+
+![c22c5ebbf190cb7a3480e375b1725d1691d3b3fe9897eb4b946259fd9b66bd11.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/c22c5ebbf190cb7a3480e375b1725d1691d3b3fe9897eb4b946259fd9b66bd11.jpg)
+
+![ed490830359588a009df186807b2a0db8e42cad3eb386d7210028a04fb5f2e8d.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/ed490830359588a009df186807b2a0db8e42cad3eb386d7210028a04fb5f2e8d.jpg)
+
+![f06f48571daf180cd96aaef69a1e0473157183ab733db1272c9017725a6c20cd.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/f06f48571daf180cd96aaef69a1e0473157183ab733db1272c9017725a6c20cd.jpg)
+
+![f8222df3f9b552fff4a702c354b274c44dae7147fb9f4e83da2f8770e894f42b.jpg](../iclr_results/2231_Improving Neural Network Accuracy by Concurrently Training with a Twin Network/tables/f8222df3f9b552fff4a702c354b274c44dae7147fb9f4e83da2f8770e894f42b.jpg)
+
+## Phidias: A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Reference-Augmented  Diffusion
+
+
+### Images
+
+![0e803bc042dba7463b8744c85727cd6335106d82f41db08877c3b53c3d45e95a.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/0e803bc042dba7463b8744c85727cd6335106d82f41db08877c3b53c3d45e95a.jpg)
+
+![0f463832c5568b40a99c54501517407fbda69d3516b1a785bf83c9b494303c15.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/0f463832c5568b40a99c54501517407fbda69d3516b1a785bf83c9b494303c15.jpg)
+
+![290c001cdb416faa778879413880d522fdb106774b76b134dd988ddc2ad01303.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/290c001cdb416faa778879413880d522fdb106774b76b134dd988ddc2ad01303.jpg)
+
+![44e044eaae70a18d5aff105801b8b8a73a338d1749c2cf27230f23eb6f246c06.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/44e044eaae70a18d5aff105801b8b8a73a338d1749c2cf27230f23eb6f246c06.jpg)
+
+![54533b3032e9a9c21899289df9c07f9dd379b5530b8cb04c5f94bdfe3d810254.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/54533b3032e9a9c21899289df9c07f9dd379b5530b8cb04c5f94bdfe3d810254.jpg)
+
+![5f998fb595be048dc49e9d4620899b310140e6b3525d899f1593db1ef8a0fe7d.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/5f998fb595be048dc49e9d4620899b310140e6b3525d899f1593db1ef8a0fe7d.jpg)
+
+![6430375f35e8e83efa52f25bf8b51313c48a58cba235d920ac7d776148da64d8.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/6430375f35e8e83efa52f25bf8b51313c48a58cba235d920ac7d776148da64d8.jpg)
+
+![718bb487b4a73355b9d0f871088f226decbd293299f24dda8ca6067de39c93fa.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/718bb487b4a73355b9d0f871088f226decbd293299f24dda8ca6067de39c93fa.jpg)
+
+![8a6547548bd98d5279af935c94e4eebf5d4fe854ac181abbe6dbbcaf23ae3e55.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/8a6547548bd98d5279af935c94e4eebf5d4fe854ac181abbe6dbbcaf23ae3e55.jpg)
+
+![90b7af0460ac8ffc148eb3788b1111a1c121a5e101d76d8241bd79768ee22d20.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/90b7af0460ac8ffc148eb3788b1111a1c121a5e101d76d8241bd79768ee22d20.jpg)
+
+![955856a391a05b458ac05923d04df6d905de95bb125d514d7f6e42f4b693296b.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/955856a391a05b458ac05923d04df6d905de95bb125d514d7f6e42f4b693296b.jpg)
+
+![9cdffbcb6659e30c8f5f86da9bb2284a0bba6619c120f07d696520ea36b9eb58.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/9cdffbcb6659e30c8f5f86da9bb2284a0bba6619c120f07d696520ea36b9eb58.jpg)
+
+![af2da43076b51a8168766e31f757bb54345df888abfb3d59efa4201273610ed5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/af2da43076b51a8168766e31f757bb54345df888abfb3d59efa4201273610ed5.jpg)
+
+![b76262fc26d7781dc6a4a1ba3d2b1c4be5ef5e8eaee0e2f5969a3073d0ccbe80.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/b76262fc26d7781dc6a4a1ba3d2b1c4be5ef5e8eaee0e2f5969a3073d0ccbe80.jpg)
+
+![d68301e441c20a78b6a473767503bb3f5d4866ac14affe7cad52a76680c4056f.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/d68301e441c20a78b6a473767503bb3f5d4866ac14affe7cad52a76680c4056f.jpg)
+
+![e7d0ac31c7370c1196c4badca3c6a5a14a2e370fa56386190c79c8b213782f2b.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/e7d0ac31c7370c1196c4badca3c6a5a14a2e370fa56386190c79c8b213782f2b.jpg)
+
+![f604440191367d197160f13b44f5ec52e9da7c86ec7524ebb0991f7743f19fd5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/f604440191367d197160f13b44f5ec52e9da7c86ec7524ebb0991f7743f19fd5.jpg)
+
+![ffbbd39ecdbce8085952f20fe1a0e2f957a00e18ba25ff00997e0c1707fc7675.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/images/ffbbd39ecdbce8085952f20fe1a0e2f957a00e18ba25ff00997e0c1707fc7675.jpg)
+
+### Tables
+
+![113ca18890b1187a7a6892a775544579bbe1ee4b583bc041ac2a6a6e80d0616f.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/113ca18890b1187a7a6892a775544579bbe1ee4b583bc041ac2a6a6e80d0616f.jpg)
+
+![7046f268b78d0939286ac7cfc4b9a3b41529a9864fdf3761e41af991d031a94c.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/7046f268b78d0939286ac7cfc4b9a3b41529a9864fdf3761e41af991d031a94c.jpg)
+
+![7dbff07c37d834c6e9ed884bf7f90bfdfea8ab58daf7a946e98d40b2369e3240.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/7dbff07c37d834c6e9ed884bf7f90bfdfea8ab58daf7a946e98d40b2369e3240.jpg)
+
+![d3570c80eaf994ac1b541173f0c58dccc1ea7318499c26e5bcf646157c1ba3d5.jpg](../iclr_results/2232_Phidias_ A Generative Model for Creating 3D  Content from Text, Image, and 3D Conditions with Refere/tables/d3570c80eaf994ac1b541173f0c58dccc1ea7318499c26e5bcf646157c1ba3d5.jpg)
+
+## VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks
+
+
+### Images
+
+![4bba91029b8037b638cb4acdd253cf459e8b27890b94a799ccbb43f508a6ccc6.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/4bba91029b8037b638cb4acdd253cf459e8b27890b94a799ccbb43f508a6ccc6.jpg)
+
+![79f2d412f84fdcb694d51cc671141030aac82743ad5d24993e5a5c30c5bde64b.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/79f2d412f84fdcb694d51cc671141030aac82743ad5d24993e5a5c30c5bde64b.jpg)
+
+![b41f1cb013af004b9e6badb280532c2a29eb454d6423bae7eab1d0590bd7cd9e.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/b41f1cb013af004b9e6badb280532c2a29eb454d6423bae7eab1d0590bd7cd9e.jpg)
+
+![b623016a9e14bb91e7c40f4c4f1df23fcb7cf9094fe1cdf3c3f7508e0bdc7eca.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/b623016a9e14bb91e7c40f4c4f1df23fcb7cf9094fe1cdf3c3f7508e0bdc7eca.jpg)
+
+![caa6aa0073325a5c238ef5ea86f5f435f0d9dc720aff115ed9cee8c64f06e7ff.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/caa6aa0073325a5c238ef5ea86f5f435f0d9dc720aff115ed9cee8c64f06e7ff.jpg)
+
+![f89d090bde752c01957fb669c4a307f9fd923e4d463b41f2ae41d97b9cd84160.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/images/f89d090bde752c01957fb669c4a307f9fd923e4d463b41f2ae41d97b9cd84160.jpg)
+
+### Tables
+
+![2831cd6415213485d958b90a52f1ae58c0609022aae6f8d3a54012553286ff72.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/2831cd6415213485d958b90a52f1ae58c0609022aae6f8d3a54012553286ff72.jpg)
+
+![3426f290a2b30a01bbc864e1062f7a81681cf77ac72b8e8a0d0eddf629744712.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/3426f290a2b30a01bbc864e1062f7a81681cf77ac72b8e8a0d0eddf629744712.jpg)
+
+![36c54ff9fdb2921495d9a00bab815874a269b8cd092295f4e3379fe30d9f002e.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/36c54ff9fdb2921495d9a00bab815874a269b8cd092295f4e3379fe30d9f002e.jpg)
+
+![43ecbbc56d714ce50dcb8362390d52d3e06d56c5f5c2b87aabb920cde52884eb.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/43ecbbc56d714ce50dcb8362390d52d3e06d56c5f5c2b87aabb920cde52884eb.jpg)
+
+![9877761e54b6b69d8bb21700e5c2a59554cd0112f1b6e1f7a7a2abb2935f458f.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/9877761e54b6b69d8bb21700e5c2a59554cd0112f1b6e1f7a7a2abb2935f458f.jpg)
+
+![aa9a790ad4cf24772f4e8134369a2b6d455363461990c69039a25964140c92eb.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/aa9a790ad4cf24772f4e8134369a2b6d455363461990c69039a25964140c92eb.jpg)
+
+![ac15c94a2e9647aedd383579b681eb62c1078ac2669adc32d0953e61a1e98937.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/ac15c94a2e9647aedd383579b681eb62c1078ac2669adc32d0953e61a1e98937.jpg)
+
+![dc4fd3da99883767c24160d74dee055f69b665e6ffacdddc353f0d799fd28ba6.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/dc4fd3da99883767c24160d74dee055f69b665e6ffacdddc353f0d799fd28ba6.jpg)
+
+![f1de65848a6c56620a3ec8aed4cfde893a5ec397067ddee58bf1225147ad2949.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/f1de65848a6c56620a3ec8aed4cfde893a5ec397067ddee58bf1225147ad2949.jpg)
+
+![ff3dc2dbaa1fd4632e341326912e0ecba23f9990a3231dacfee5d392617405f5.jpg](../iclr_results/2233_VLM2Vec_ Training Vision-Language Models for Massive Multimodal Embedding Tasks/tables/ff3dc2dbaa1fd4632e341326912e0ecba23f9990a3231dacfee5d392617405f5.jpg)
+
+## Efficient Model Editing with Task-Localized Sparse Fine-tuning
+
+
+### Images
+
+![0055dd66b7a01a1941850385abf048dd84b0633a06c37a6b1254c7e1ab50b75d.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/0055dd66b7a01a1941850385abf048dd84b0633a06c37a6b1254c7e1ab50b75d.jpg)
+
+![2ffd9445b8a8334937676e5d48afa308e69454c00136aa7d9b9488a0692523d4.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/2ffd9445b8a8334937676e5d48afa308e69454c00136aa7d9b9488a0692523d4.jpg)
+
+![5c564b0b763b09739ebfd12ae6751ec4c340b303dcf9b6cc858d77046fb40ff1.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/5c564b0b763b09739ebfd12ae6751ec4c340b303dcf9b6cc858d77046fb40ff1.jpg)
+
+![672e636565bb6897c068c979682f45337e120938a070dca1c02404f92c082fbf.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/672e636565bb6897c068c979682f45337e120938a070dca1c02404f92c082fbf.jpg)
+
+![6c87592b757406e1b6aaef8459236df6e7ff051f68117239e7b3c4e581791036.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/6c87592b757406e1b6aaef8459236df6e7ff051f68117239e7b3c4e581791036.jpg)
+
+![9fc5272408bd1e57c81f304e9933a5b1fbf8f0c4308eb378e3011500a991bbca.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/9fc5272408bd1e57c81f304e9933a5b1fbf8f0c4308eb378e3011500a991bbca.jpg)
+
+![b52b61e9fe7becc634f64875b6dcf5be4b2aadad0b3a6889eeb51444684f4b8c.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/b52b61e9fe7becc634f64875b6dcf5be4b2aadad0b3a6889eeb51444684f4b8c.jpg)
+
+![d5e12fbaa476fabf57808c57f94478c301131245d38cc744940ec794492e673a.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/d5e12fbaa476fabf57808c57f94478c301131245d38cc744940ec794492e673a.jpg)
+
+![e64fbe3bc78ec17f7a0d15e8318528d2d0fc7557141d36c1993b097b857615bc.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/e64fbe3bc78ec17f7a0d15e8318528d2d0fc7557141d36c1993b097b857615bc.jpg)
+
+![e96026bbe48de14f86a27a9e4898b49171357a78a0576d3aa8721a8365ea98c4.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/e96026bbe48de14f86a27a9e4898b49171357a78a0576d3aa8721a8365ea98c4.jpg)
+
+![faef4f5efac9a529c6e690e16a57b45da14797b6aa6c47f816ab1e6f698fb26e.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/images/faef4f5efac9a529c6e690e16a57b45da14797b6aa6c47f816ab1e6f698fb26e.jpg)
+
+### Tables
+
+![0d96aa956d2570e3591611a8f3087f6b618a876311bc0971ccfb4073ab0b6e19.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/0d96aa956d2570e3591611a8f3087f6b618a876311bc0971ccfb4073ab0b6e19.jpg)
+
+![43cede2f37446e7b015f55b68e4e9442a9c38932b4a8434632f5f5e9e3a8310e.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/43cede2f37446e7b015f55b68e4e9442a9c38932b4a8434632f5f5e9e3a8310e.jpg)
+
+![5ce271b5e6d252366d4bee4869f69f5cceaa6f28b61d729239805feba7e0d0d8.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/5ce271b5e6d252366d4bee4869f69f5cceaa6f28b61d729239805feba7e0d0d8.jpg)
+
+![63afe876d155d78b3edd88d1d7d7e66472f56fecfe670cce1b5de98b88c36c47.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/63afe876d155d78b3edd88d1d7d7e66472f56fecfe670cce1b5de98b88c36c47.jpg)
+
+![7cf72328857197e5e972bc72a94398ecceae7937e68ac56d6e6797edd56c6b1b.jpg](../iclr_results/2234_Efficient Model Editing with Task-Localized Sparse Fine-tuning/tables/7cf72328857197e5e972bc72a94398ecceae7937e68ac56d6e6797edd56c6b1b.jpg)
+
+## Provence: efficient and robust context pruning for retrieval-augmented generation
+
 
 ### Images
 
@@ -2133,7 +2302,6 @@
 
 ## KOR-Bench: Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks
 
-
 ### Images
 
 ![206c02c8ba1b76a3f5f91aecd3cb700dd7a5c25a970ec5576ef5ebc618f33120.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/206c02c8ba1b76a3f5f91aecd3cb700dd7a5c25a970ec5576ef5ebc618f33120.jpg)
@@ -2211,121 +2379,3 @@
 ![f3319b636677e09793003b9d8abd49322e02268622d0e60331577f1c765a57f7.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/f3319b636677e09793003b9d8abd49322e02268622d0e60331577f1c765a57f7.jpg)
 
 ![f63f9e78248493b78e957d28d19530ab1b7b39bda3fdc72529e6a7504a87ec85.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/f63f9e78248493b78e957d28d19530ab1b7b39bda3fdc72529e6a7504a87ec85.jpg)
-
-## Conservative Contextual Bandits: Beyond Linear Representations
-
-
-### Images
-
-![08991b179b0cdc56cfc9a7cb4ecb06eb99400241e11fc77d6b556f1afdbaf6c0.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/08991b179b0cdc56cfc9a7cb4ecb06eb99400241e11fc77d6b556f1afdbaf6c0.jpg)
-
-![350f4c284a28f051b31e5c6f9957c880fa23f918f7acfe5f91863a94cae5d630.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/350f4c284a28f051b31e5c6f9957c880fa23f918f7acfe5f91863a94cae5d630.jpg)
-
-![510f5598b2567a57f736996c87d627dc93ee33aef993cb28d90826a2157fe949.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/510f5598b2567a57f736996c87d627dc93ee33aef993cb28d90826a2157fe949.jpg)
-
-![67a629ed9efe80ad12a8a8881a920295a9377ca065af46fe7683f27e7cb74f59.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/67a629ed9efe80ad12a8a8881a920295a9377ca065af46fe7683f27e7cb74f59.jpg)
-
-![d2f3bbf15f2f4978b14171fa25c1c7d1efa233961916f586024f8f5918c8764a.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/d2f3bbf15f2f4978b14171fa25c1c7d1efa233961916f586024f8f5918c8764a.jpg)
-
-## Is In-Context Learning Sufficient for Instruction Following in LLMs?
-
-
-### Images
-
-![0ed5de1d527bcbd889f0689716f9d60adeb1c40394db881f56bd314f742ad13a.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/0ed5de1d527bcbd889f0689716f9d60adeb1c40394db881f56bd314f742ad13a.jpg)
-
-![1078706e8a8c1a38e1e6c4844281f77d58b9aec6c32a26ab7fe4e2d3599f8c37.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/1078706e8a8c1a38e1e6c4844281f77d58b9aec6c32a26ab7fe4e2d3599f8c37.jpg)
-
-![2d9276d98574ec88f1f9234649d74d8042c51c9f679aaed9da7e142b193a8603.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/2d9276d98574ec88f1f9234649d74d8042c51c9f679aaed9da7e142b193a8603.jpg)
-
-![36d6c5ed26057fdc28900b7c913692ba2c6ca1c26b8dad4de6cc6ed4f631a649.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/36d6c5ed26057fdc28900b7c913692ba2c6ca1c26b8dad4de6cc6ed4f631a649.jpg)
-
-![4faffbd090124f7427d2509988fc398ad2458f125923d5c1e47ac9bb2fdb30a5.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/4faffbd090124f7427d2509988fc398ad2458f125923d5c1e47ac9bb2fdb30a5.jpg)
-
-![575a3da3ff30c6104e8119cbbd9cf916d7e066da2eacde0b051503e25f37baf8.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/575a3da3ff30c6104e8119cbbd9cf916d7e066da2eacde0b051503e25f37baf8.jpg)
-
-![58e5f27750a83e7c97c0b1a415735ae6642b7a499006b652d2698dece10662bf.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/58e5f27750a83e7c97c0b1a415735ae6642b7a499006b652d2698dece10662bf.jpg)
-
-![6edd42cd4f58de3562fade140927ac9f8090d54f45ffad0413ede93a98e1685b.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/6edd42cd4f58de3562fade140927ac9f8090d54f45ffad0413ede93a98e1685b.jpg)
-
-![9c1d1cbba18ff249c5f9aee7859dfc86582db74b709d63c010f9273d073b38ca.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/9c1d1cbba18ff249c5f9aee7859dfc86582db74b709d63c010f9273d073b38ca.jpg)
-
-![b09cf8757c147f63f1b3bed1537779b83d63e2a16845c85efa8672e2603100da.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/b09cf8757c147f63f1b3bed1537779b83d63e2a16845c85efa8672e2603100da.jpg)
-
-![c0e1a7b9ae13417187768aab39e4c8677bf942c86e997f6330cbad24b69deeb7.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/c0e1a7b9ae13417187768aab39e4c8677bf942c86e997f6330cbad24b69deeb7.jpg)
-
-![d14fc147e1bcee6e1f8f408730eb712049abf063918b27edf8427863eee360c0.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/d14fc147e1bcee6e1f8f408730eb712049abf063918b27edf8427863eee360c0.jpg)
-
-![f13588c4e4af0c0139b03259799b7575299c08e027ffd39f7daf1c91d3c56d5f.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/f13588c4e4af0c0139b03259799b7575299c08e027ffd39f7daf1c91d3c56d5f.jpg)
-
-![fb80f72f5a1aa10adad66922a0c5d981c1319785d7fae81c4d4c06b82293c270.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/fb80f72f5a1aa10adad66922a0c5d981c1319785d7fae81c4d4c06b82293c270.jpg)
-
-### Tables
-
-![53ee4d5b84c15cd7b9bd8a80f744eba36df7674fdc0e7f485ff66eb657b3858e.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/53ee4d5b84c15cd7b9bd8a80f744eba36df7674fdc0e7f485ff66eb657b3858e.jpg)
-
-![5a6c5d65811178856608df4766518397020c88ed74bae287e5d9b24bab5e5756.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/5a6c5d65811178856608df4766518397020c88ed74bae287e5d9b24bab5e5756.jpg)
-
-![947667353b936a204ecee41d6ab605a18f1d013cabd763be5e0235d84c6caaa2.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/947667353b936a204ecee41d6ab605a18f1d013cabd763be5e0235d84c6caaa2.jpg)
-
-![99ac236d4ef066adf1a337e631b2c29123acaa6f31932c2756e0ca0575e2ed59.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/99ac236d4ef066adf1a337e631b2c29123acaa6f31932c2756e0ca0575e2ed59.jpg)
-
-![acf382977ace3d7a41bbb7d284fe02a9e416de72c482d71f044f0a7dfeccba60.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/acf382977ace3d7a41bbb7d284fe02a9e416de72c482d71f044f0a7dfeccba60.jpg)
-
-![c9363b5191fe39a97072c9a59112be601491477d84a9127a308ebe6f8a5cbd8c.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/c9363b5191fe39a97072c9a59112be601491477d84a9127a308ebe6f8a5cbd8c.jpg)
-
-![ce6867e42ac7384220662123b59a82f6f71b8e50e43baea1089ac5910d1e8327.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/ce6867e42ac7384220662123b59a82f6f71b8e50e43baea1089ac5910d1e8327.jpg)
-
-![ebb45117ea8b5cd22984a3352dfb5af0d608e47e68dac0297f50b7b77af12e44.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/ebb45117ea8b5cd22984a3352dfb5af0d608e47e68dac0297f50b7b77af12e44.jpg)
-
-![f0cdc552655f962dad0dc73dd53638e11b1bd40f4df7d0370d67925b64e26b50.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/f0cdc552655f962dad0dc73dd53638e11b1bd40f4df7d0370d67925b64e26b50.jpg)
-
-![f5b7200b848ed8b89e817a65ceb46c761ccd6d8938366b35e59b54f97adbb133.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/f5b7200b848ed8b89e817a65ceb46c761ccd6d8938366b35e59b54f97adbb133.jpg)
-
-![fd2db04ea27bbf2ab844f7018e9ad364ecc2887f66e21fa28131ba0ff919b843.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/fd2db04ea27bbf2ab844f7018e9ad364ecc2887f66e21fa28131ba0ff919b843.jpg)
-
-## VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing
-
-### Images
-
-![039b848006ef7e145bdf26b1c8bc6a3e09fe79d998757f7622693911aec9f31f.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/039b848006ef7e145bdf26b1c8bc6a3e09fe79d998757f7622693911aec9f31f.jpg)
-
-![0eb3570ed790911c574176b5b723fb1bbb35104fe36eff1bc378e49c6894c085.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/0eb3570ed790911c574176b5b723fb1bbb35104fe36eff1bc378e49c6894c085.jpg)
-
-![186412a09f384835e3e1ecc31a4d489bc71a3276e32787ba44396aeaa722e51a.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/186412a09f384835e3e1ecc31a4d489bc71a3276e32787ba44396aeaa722e51a.jpg)
-
-![291402adc738c8c08cd08a7adfeee50eb702d766f0a759417594f78cfe10d328.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/291402adc738c8c08cd08a7adfeee50eb702d766f0a759417594f78cfe10d328.jpg)
-
-![2fd999257a2e85ac117a637fd120534e5b57ad045776f9d6a8224632948fe403.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/2fd999257a2e85ac117a637fd120534e5b57ad045776f9d6a8224632948fe403.jpg)
-
-![334e96122fd7582d242472211d56d17fee9cce48c0dbef8e7a90c1caf6d4a819.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/334e96122fd7582d242472211d56d17fee9cce48c0dbef8e7a90c1caf6d4a819.jpg)
-
-![39baa02ddb6ee26d1e5da45398f0ef472a21d9a97861f143588182b13851c525.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/39baa02ddb6ee26d1e5da45398f0ef472a21d9a97861f143588182b13851c525.jpg)
-
-![3b3bc3b6b87c38adf6ce3c6d2945a8090537468fd0db6000a5172c7ac3af3c5f.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/3b3bc3b6b87c38adf6ce3c6d2945a8090537468fd0db6000a5172c7ac3af3c5f.jpg)
-
-![5bd0c30a9b047f0d6ed0968ac76e1e29ed7bc91478dd1f18a180501b78ad730d.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/5bd0c30a9b047f0d6ed0968ac76e1e29ed7bc91478dd1f18a180501b78ad730d.jpg)
-
-![712dddd506e96798d78750280bd02f3aa68dc76260d612741fbc34ffae6eb47a.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/712dddd506e96798d78750280bd02f3aa68dc76260d612741fbc34ffae6eb47a.jpg)
-
-![8e6bdd99d0387bf73d77be609d85949e601a0117aefc9b14a248e9c8cbc63d2c.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/8e6bdd99d0387bf73d77be609d85949e601a0117aefc9b14a248e9c8cbc63d2c.jpg)
-
-![a1416414f601655eec6bb659938e0f874f130fa4eebb6b378984ee94f2ee3972.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/a1416414f601655eec6bb659938e0f874f130fa4eebb6b378984ee94f2ee3972.jpg)
-
-![b8784b5e67f15ed93edab294cefc0aa6b488644d6b7630983d32627bf17dc878.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/b8784b5e67f15ed93edab294cefc0aa6b488644d6b7630983d32627bf17dc878.jpg)
-
-![b882b5f751d884c4d009eef91408aee121c506ff2d7d0af40ffb6fb5dd43e6d6.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/b882b5f751d884c4d009eef91408aee121c506ff2d7d0af40ffb6fb5dd43e6d6.jpg)
-
-![d37b1600199b30897408bd0ded5592ec1e7eb6b649eb6496f7e1cf0a877c4c6e.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/d37b1600199b30897408bd0ded5592ec1e7eb6b649eb6496f7e1cf0a877c4c6e.jpg)
-
-![f43007e8a90fc3ab183df6181f252b4e6f3dbfaa52ababbd00ac29de86659aaa.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/f43007e8a90fc3ab183df6181f252b4e6f3dbfaa52ababbd00ac29de86659aaa.jpg)
-
-![f440011abbe7d63f0d9ff496288fcacd8a6f76d223f68039798918beb610469f.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/images/f440011abbe7d63f0d9ff496288fcacd8a6f76d223f68039798918beb610469f.jpg)
-
-### Tables
-
-![d4c8126b914f9404e8a571793207d9934f1ee66ed3403b345ae93169af3287a5.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/tables/d4c8126b914f9404e8a571793207d9934f1ee66ed3403b345ae93169af3287a5.jpg)
-
-![df3ef0ed5c2c14cf7cce259f1e3f61af4cd77339be68b434df70d2f77130a5e6.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/tables/df3ef0ed5c2c14cf7cce259f1e3f61af4cd77339be68b434df70d2f77130a5e6.jpg)
-
-![fdec012015005c07a17261a0d569a01550f58e50f3e0fa462baba284b3a65c55.jpg](../iclr_results/2272_VideoGrain_ Modulating Space-Time Attention for Multi-Grained Video Editing/tables/fdec012015005c07a17261a0d569a01550f58e50f3e0fa462baba284b3a65c55.jpg)

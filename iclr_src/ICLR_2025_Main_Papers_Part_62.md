@@ -1,9 +1,9 @@
 # ICLR 2025 Main Conference Papers
 
-**Summary:** 36 papers with extracted content:
-- 📊 Total images: 44031
-- 📋 Total tables: 33468
-- 📄 Total files: 77499
+**Summary:** 37 papers with extracted content:
+- 📊 Total images: 46210
+- 📋 Total tables: 34695
+- 📄 Total files: 80905
 
 *Note: Equations have been filtered out and are not included.*
 
@@ -13,47 +13,201 @@
 
 ## 目录 (Table of Contents)
 
-1. [3D Vision-Language Gaussian Splatting](#3D-Vision-Language-Gaussian-Splatting)
-2. [Fat-to-Thin Policy Optimization: Offline Reinforcement Learning with Sparse Policies](#Fat-to-Thin-Policy-Optimization-Offline-Reinforcement-Learning-with-Sparse-Policies)
-3. [Learning the Optimal Stopping for Early Classification within Finite Horizons via Sequential Probability Ratio Test](#Learning-the-Optimal-Stopping-for-Early-Classification-within-Finite-Horizons-via-Sequential-Probability-Ratio-Test)
-4. [Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF](#Value-Incentivized-Preference-Optimization-A-Unified-Approach-to-Online-and-Offline-RLHF)
-5. [Learnable Expansion of Graph Operators for Multi-Modal Feature Fusion](#Learnable-Expansion-of-Graph-Operators-for-Multi-Modal-Feature-Fusion)
-6. [Language Models Are Implicitly Continuous](#Language-Models-Are-Implicitly-Continuous)
-7. [Towards Understanding Text Hallucination of Diffusion Models via Local Generation Bias](#Towards-Understanding-Text-Hallucination-of-Diffusion-Models-via-Local-Generation-Bias)
-8. [High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders](#High-Dimensional-Bayesian-Optimisation-with-Gaussian-Process-Prior-Variational-Autoencoders)
-9. [Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training](#Learning-to-Clarify-Multi-turn-Conversations-with-Action-Based-Contrastive-Self-Training)
-10. [NExUME: Adaptive Training and Inference for DNNs under Intermittent Power Environments](#NExUME-Adaptive-Training-and-Inference-for-DNNs-under-Intermittent-Power-Environments)
-11. [TorchTitan: One-stop PyTorch native solution for production ready LLM pretraining](#TorchTitan-One-stop-PyTorch-native-solution-for-production-ready-LLM-pretraining)
-12. [Surgical, Cheap, and Flexible: Mitigating False Refusal in Language Models via Single Vector Ablation](#Surgical-Cheap-and-Flexible-Mitigating-False-Refusal-in-Language-Models-via-Single-Vector-Ablation)
-13. [HiSplat: Hierarchical 3D Gaussian Splatting for Generalizable Sparse-View Reconstruction](#HiSplat-Hierarchical-3D-Gaussian-Splatting-for-Generalizable-Sparse-View-Reconstruction)
-14. [GROOT-2: Weakly Supervised Multimodal Instruction Following Agents](#GROOT-2-Weakly-Supervised-Multimodal-Instruction-Following-Agents)
-15. [Redefining the task of Bioactivity Prediction](#Redefining-the-task-of-Bioactivity-Prediction)
-16. [Cafe-Talk: Generating 3D Talking Face Animation with Multimodal Coarse- and Fine-grained Control](#Cafe-Talk-Generating-3D-Talking-Face-Animation-with-Multimodal-Coarse-and-Fine-grained-Control)
-17. [Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-Based Decision-Making Systems](#Can-We-Trust-Embodied-Agents-Exploring-Backdoor-Attacks-against-Embodied-LLM-Based-Decision-Making-Systems)
-18. [Concept-ROT: Poisoning Concepts in Large Language Models with Model Editing](#Concept-ROT-Poisoning-Concepts-in-Large-Language-Models-with-Model-Editing)
-19. [Medium-Difficulty Samples Constitute Smoothed Decision Boundary for Knowledge Distillation on Pruned Datasets](#Medium-Difficulty-Samples-Constitute-Smoothed-Decision-Boundary-for-Knowledge-Distillation-on-Pruned-Datasets)
-20. [Mixture of Attentions For Speculative Decoding](#Mixture-of-Attentions-For-Speculative-Decoding)
-21. [Reframing Structure-Based Drug Design Model Evaluation via Metrics Correlated to Practical Needs](#Reframing-Structure-Based-Drug-Design-Model-Evaluation-via-Metrics-Correlated-to-Practical-Needs)
-22. [Vec2Face: Scaling Face Dataset Generation with Loosely Constrained Vectors](#Vec2Face-Scaling-Face-Dataset-Generation-with-Loosely-Constrained-Vectors)
-23. [A Riemannian Framework for Learning Reduced-order Lagrangian Dynamics](#A-Riemannian-Framework-for-Learning-Reduced-order-Lagrangian-Dynamics)
-24. [CLDyB: Towards Dynamic Benchmarking for Continual Learning with Pre-trained Models](#CLDyB-Towards-Dynamic-Benchmarking-for-Continual-Learning-with-Pre-trained-Models)
-25. [Sensor-Invariant Tactile Representation](#Sensor-Invariant-Tactile-Representation)
-26. [Diffusion Models as Cartoonists: The Curious Case of High Density Regions](#Diffusion-Models-as-Cartoonists-The-Curious-Case-of-High-Density-Regions)
-27. [3DMolFormer: A Dual-channel Framework for Structure-based Drug Discovery](#3DMolFormer-A-Dual-channel-Framework-for-Structure-based-Drug-Discovery)
-28. [Optimality and Adaptivity of Deep Neural Features for Instrumental Variable Regression](#Optimality-and-Adaptivity-of-Deep-Neural-Features-for-Instrumental-Variable-Regression)
-29. [Shape as Line Segments: Accurate and Flexible Implicit Surface Representation](#Shape-as-Line-Segments-Accurate-and-Flexible-Implicit-Surface-Representation)
-30. [HOPE for a Robust Parameterization of Long-memory State Space Models](#HOPE-for-a-Robust-Parameterization-of-Long-memory-State-Space-Models)
-31. [Unleashing the Power of Task-Specific Directions in Parameter Efficient Fine-tuning](#Unleashing-the-Power-of-Task-Specific-Directions-in-Parameter-Efficient-Fine-tuning)
-32. [Kronecker Mask and Interpretive Prompts are Language-Action Video Learners](#Kronecker-Mask-and-Interpretive-Prompts-are-Language-Action-Video-Learners)
-33. [Large Language Models Often Say One Thing and Do Another](#Large-Language-Models-Often-Say-One-Thing-and-Do-Another)
-34. [A Theory of Initialisation's Impact on Specialisation](#A-Theory-of-Initialisations-Impact-on-Specialisation)
-35. [Can a Large Language Model be a Gaslighter?](#Can-a-Large-Language-Model-be-a-Gaslighter)
-36. [Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning](#Closed-Form-Merging-of-Parameter-Efficient-Modules-for-Federated-Continual-Learning)
+1. [Conservative Contextual Bandits: Beyond Linear Representations](#Conservative-Contextual-Bandits-Beyond-Linear-Representations)
+2. [Is In-Context Learning Sufficient for Instruction Following in LLMs?](#Is-In-Context-Learning-Sufficient-for-Instruction-Following-in-LLMs)
+3. [VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing](#VideoGrain-Modulating-Space-Time-Attention-for-Multi-Grained-Video-Editing)
+4. [3D Vision-Language Gaussian Splatting](#3D-Vision-Language-Gaussian-Splatting)
+5. [Fat-to-Thin Policy Optimization: Offline Reinforcement Learning with Sparse Policies](#Fat-to-Thin-Policy-Optimization-Offline-Reinforcement-Learning-with-Sparse-Policies)
+6. [Learning the Optimal Stopping for Early Classification within Finite Horizons via Sequential Probability Ratio Test](#Learning-the-Optimal-Stopping-for-Early-Classification-within-Finite-Horizons-via-Sequential-Probability-Ratio-Test)
+7. [Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF](#Value-Incentivized-Preference-Optimization-A-Unified-Approach-to-Online-and-Offline-RLHF)
+8. [Learnable Expansion of Graph Operators for Multi-Modal Feature Fusion](#Learnable-Expansion-of-Graph-Operators-for-Multi-Modal-Feature-Fusion)
+9. [Language Models Are Implicitly Continuous](#Language-Models-Are-Implicitly-Continuous)
+10. [Towards Understanding Text Hallucination of Diffusion Models via Local Generation Bias](#Towards-Understanding-Text-Hallucination-of-Diffusion-Models-via-Local-Generation-Bias)
+11. [High-Dimensional Bayesian Optimisation with Gaussian Process Prior Variational Autoencoders](#High-Dimensional-Bayesian-Optimisation-with-Gaussian-Process-Prior-Variational-Autoencoders)
+12. [Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training](#Learning-to-Clarify-Multi-turn-Conversations-with-Action-Based-Contrastive-Self-Training)
+13. [NExUME: Adaptive Training and Inference for DNNs under Intermittent Power Environments](#NExUME-Adaptive-Training-and-Inference-for-DNNs-under-Intermittent-Power-Environments)
+14. [TorchTitan: One-stop PyTorch native solution for production ready LLM pretraining](#TorchTitan-One-stop-PyTorch-native-solution-for-production-ready-LLM-pretraining)
+15. [Surgical, Cheap, and Flexible: Mitigating False Refusal in Language Models via Single Vector Ablation](#Surgical-Cheap-and-Flexible-Mitigating-False-Refusal-in-Language-Models-via-Single-Vector-Ablation)
+16. [HiSplat: Hierarchical 3D Gaussian Splatting for Generalizable Sparse-View Reconstruction](#HiSplat-Hierarchical-3D-Gaussian-Splatting-for-Generalizable-Sparse-View-Reconstruction)
+17. [GROOT-2: Weakly Supervised Multimodal Instruction Following Agents](#GROOT-2-Weakly-Supervised-Multimodal-Instruction-Following-Agents)
+18. [Redefining the task of Bioactivity Prediction](#Redefining-the-task-of-Bioactivity-Prediction)
+19. [Cafe-Talk: Generating 3D Talking Face Animation with Multimodal Coarse- and Fine-grained Control](#Cafe-Talk-Generating-3D-Talking-Face-Animation-with-Multimodal-Coarse-and-Fine-grained-Control)
+20. [Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-Based Decision-Making Systems](#Can-We-Trust-Embodied-Agents-Exploring-Backdoor-Attacks-against-Embodied-LLM-Based-Decision-Making-Systems)
+21. [Concept-ROT: Poisoning Concepts in Large Language Models with Model Editing](#Concept-ROT-Poisoning-Concepts-in-Large-Language-Models-with-Model-Editing)
+22. [Medium-Difficulty Samples Constitute Smoothed Decision Boundary for Knowledge Distillation on Pruned Datasets](#Medium-Difficulty-Samples-Constitute-Smoothed-Decision-Boundary-for-Knowledge-Distillation-on-Pruned-Datasets)
+23. [Mixture of Attentions For Speculative Decoding](#Mixture-of-Attentions-For-Speculative-Decoding)
+24. [Reframing Structure-Based Drug Design Model Evaluation via Metrics Correlated to Practical Needs](#Reframing-Structure-Based-Drug-Design-Model-Evaluation-via-Metrics-Correlated-to-Practical-Needs)
+25. [Vec2Face: Scaling Face Dataset Generation with Loosely Constrained Vectors](#Vec2Face-Scaling-Face-Dataset-Generation-with-Loosely-Constrained-Vectors)
+26. [A Riemannian Framework for Learning Reduced-order Lagrangian Dynamics](#A-Riemannian-Framework-for-Learning-Reduced-order-Lagrangian-Dynamics)
+27. [CLDyB: Towards Dynamic Benchmarking for Continual Learning with Pre-trained Models](#CLDyB-Towards-Dynamic-Benchmarking-for-Continual-Learning-with-Pre-trained-Models)
+28. [Sensor-Invariant Tactile Representation](#Sensor-Invariant-Tactile-Representation)
+29. [Diffusion Models as Cartoonists: The Curious Case of High Density Regions](#Diffusion-Models-as-Cartoonists-The-Curious-Case-of-High-Density-Regions)
+30. [3DMolFormer: A Dual-channel Framework for Structure-based Drug Discovery](#3DMolFormer-A-Dual-channel-Framework-for-Structure-based-Drug-Discovery)
+31. [Optimality and Adaptivity of Deep Neural Features for Instrumental Variable Regression](#Optimality-and-Adaptivity-of-Deep-Neural-Features-for-Instrumental-Variable-Regression)
+32. [Shape as Line Segments: Accurate and Flexible Implicit Surface Representation](#Shape-as-Line-Segments-Accurate-and-Flexible-Implicit-Surface-Representation)
+33. [HOPE for a Robust Parameterization of Long-memory State Space Models](#HOPE-for-a-Robust-Parameterization-of-Long-memory-State-Space-Models)
+34. [Unleashing the Power of Task-Specific Directions in Parameter Efficient Fine-tuning](#Unleashing-the-Power-of-Task-Specific-Directions-in-Parameter-Efficient-Fine-tuning)
+35. [Kronecker Mask and Interpretive Prompts are Language-Action Video Learners](#Kronecker-Mask-and-Interpretive-Prompts-are-Language-Action-Video-Learners)
+36. [Large Language Models Often Say One Thing and Do Another](#Large-Language-Models-Often-Say-One-Thing-and-Do-Another)
+37. [A Theory of Initialisation's Impact on Specialisation](#A-Theory-of-Initialisations-Impact-on-Specialisation)
 
 ---
 
 
-## 3D Vision-Language Gaussian Splatting
+## Conservative Contextual Bandits: Beyond Linear Representations
+
+### Images
+
+![206c02c8ba1b76a3f5f91aecd3cb700dd7a5c25a970ec5576ef5ebc618f33120.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/206c02c8ba1b76a3f5f91aecd3cb700dd7a5c25a970ec5576ef5ebc618f33120.jpg)
+
+![2baca0cc2378fef51b2b35c5bbdd976b19a61b8b017a47125703d419cca525fa.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/2baca0cc2378fef51b2b35c5bbdd976b19a61b8b017a47125703d419cca525fa.jpg)
+
+![3b86eefcef05c22575d48793dc81a5200399fb8fdcbc18f47e184c13a7f4b471.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/3b86eefcef05c22575d48793dc81a5200399fb8fdcbc18f47e184c13a7f4b471.jpg)
+
+![4ee09ec76eadb6fa69828963e96465f9f6f2a3a51d75a7d5ba15f3f457f5e4b4.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/4ee09ec76eadb6fa69828963e96465f9f6f2a3a51d75a7d5ba15f3f457f5e4b4.jpg)
+
+![5bc7cdc3225426795987a5931e302e86c89f856498534b049d9c85a11af1c81f.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/5bc7cdc3225426795987a5931e302e86c89f856498534b049d9c85a11af1c81f.jpg)
+
+![718e24531b309ec6eac3df57299cab61c15dce4d4c1300d80f20c6a2aa3c8792.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/718e24531b309ec6eac3df57299cab61c15dce4d4c1300d80f20c6a2aa3c8792.jpg)
+
+![7c181c977e1df1d99200e1fa4721ec7e7918f5468f304aa352f1f515b339bbb1.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/7c181c977e1df1d99200e1fa4721ec7e7918f5468f304aa352f1f515b339bbb1.jpg)
+
+![7f3098edabaed60524645bb86de0f70dbd02ba76b21f0c2c733321fa917ecedd.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/7f3098edabaed60524645bb86de0f70dbd02ba76b21f0c2c733321fa917ecedd.jpg)
+
+![88b2930d4be3d9800a26346607899bc83a33284e201025c2091ba931dce8353a.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/88b2930d4be3d9800a26346607899bc83a33284e201025c2091ba931dce8353a.jpg)
+
+![9d349e860d86e9661b6e851f568673af9fa42023f146891f33f504fb83102a9f.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/9d349e860d86e9661b6e851f568673af9fa42023f146891f33f504fb83102a9f.jpg)
+
+![ac9801965c63027d735c07502f62d2b1f50bb9e7332b593640f84658ff416d2f.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/ac9801965c63027d735c07502f62d2b1f50bb9e7332b593640f84658ff416d2f.jpg)
+
+![acc986c12a7e65f5dee9c6c262a31baacc04e760a4ac678de6ef885e2ddada8a.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/acc986c12a7e65f5dee9c6c262a31baacc04e760a4ac678de6ef885e2ddada8a.jpg)
+
+![d266384e267e37a635055c5508a4b34a0b4b59908c6a66a0ae5a5c71c37fa6cb.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/d266384e267e37a635055c5508a4b34a0b4b59908c6a66a0ae5a5c71c37fa6cb.jpg)
+
+![df28c0c6c44611d793ce209841d0745666af0896a194d106d344298809ccbe51.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/df28c0c6c44611d793ce209841d0745666af0896a194d106d344298809ccbe51.jpg)
+
+![fb8f950a6ee839ed7062ab6e27b6bd24e50cb9ce37b7c8e7466997b90573fac7.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/fb8f950a6ee839ed7062ab6e27b6bd24e50cb9ce37b7c8e7466997b90573fac7.jpg)
+
+![ff10860e78bab15128c439056473a307621c4d35744c3fc139e99c41466800b9.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/images/ff10860e78bab15128c439056473a307621c4d35744c3fc139e99c41466800b9.jpg)
+
+### Tables
+
+![0388daac2159ae04c721bc3dceea94d65c241a91ae71b0d60bf8228207ed7cca.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/0388daac2159ae04c721bc3dceea94d65c241a91ae71b0d60bf8228207ed7cca.jpg)
+
+![08d0e5c09e770aa75246ba4b8ad7a5aaef36153869d4eb79eed1b29332cda2b7.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/08d0e5c09e770aa75246ba4b8ad7a5aaef36153869d4eb79eed1b29332cda2b7.jpg)
+
+![1d22cedb6edff5210cfa183e23415f56af363de6c6af4aba3a250ee1d45b613e.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/1d22cedb6edff5210cfa183e23415f56af363de6c6af4aba3a250ee1d45b613e.jpg)
+
+![2b1c941f2fe468aa02c020a3dc02e7efce1c4a2cb1b84aaa1780c5e66103a2e8.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/2b1c941f2fe468aa02c020a3dc02e7efce1c4a2cb1b84aaa1780c5e66103a2e8.jpg)
+
+![2c93fe62f15a9646067ef0be3fdc240364bd6b5cfbebe189a1c58ac10ed229f3.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/2c93fe62f15a9646067ef0be3fdc240364bd6b5cfbebe189a1c58ac10ed229f3.jpg)
+
+![538df1cf9cf4c94d11e916f77788dd14a4aef71b4ada96a413431ca1ea1f3055.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/538df1cf9cf4c94d11e916f77788dd14a4aef71b4ada96a413431ca1ea1f3055.jpg)
+
+![6732f274e529ba1f5a51554182b1d49bf7dd6b179826a2ac9234312e8d2b8599.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/6732f274e529ba1f5a51554182b1d49bf7dd6b179826a2ac9234312e8d2b8599.jpg)
+
+![678974d3aa3d90dfb89414d07323d01171801b2a844a915ce8c7e1718c374222.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/678974d3aa3d90dfb89414d07323d01171801b2a844a915ce8c7e1718c374222.jpg)
+
+![6c74b0123e071b3e06b1de3b5c5c85438b787f9333e9b6836aaca114ee355342.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/6c74b0123e071b3e06b1de3b5c5c85438b787f9333e9b6836aaca114ee355342.jpg)
+
+![6cb564effc8b443494e4f9412e76426935ab192abd3ef0ba18d32d70072d4537.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/6cb564effc8b443494e4f9412e76426935ab192abd3ef0ba18d32d70072d4537.jpg)
+
+![89276749868c7f6de3b02a0285e18792ffeadcd38ce893bb24abb959d2b095db.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/89276749868c7f6de3b02a0285e18792ffeadcd38ce893bb24abb959d2b095db.jpg)
+
+![94bcbdd92858378f0ddd149c85c0777cad61bd0783364bc6c27a8fea2ff77a44.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/94bcbdd92858378f0ddd149c85c0777cad61bd0783364bc6c27a8fea2ff77a44.jpg)
+
+![a3de88bc6f43a4517a15ef6fcd09aa6cddaf87e751fc366c232ccaae8006b850.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/a3de88bc6f43a4517a15ef6fcd09aa6cddaf87e751fc366c232ccaae8006b850.jpg)
+
+![acba747bc85da779237fbfa68323395ab57fad3d6d696827c10fcbf3a4537b34.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/acba747bc85da779237fbfa68323395ab57fad3d6d696827c10fcbf3a4537b34.jpg)
+
+![af57ea98016db590626dbe680972a856cc3dc25bf785cc5c2dd70ce1273cc185.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/af57ea98016db590626dbe680972a856cc3dc25bf785cc5c2dd70ce1273cc185.jpg)
+
+![b4c2d7cf1e03bfb42ca21dc2c477398302972d6fe120010563c9e5becaf049cb.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/b4c2d7cf1e03bfb42ca21dc2c477398302972d6fe120010563c9e5becaf049cb.jpg)
+
+![bd6e87bbec1f7d9c1a5e8e1d284b33ad89cd2c49b1731a0a7f8daf23ad839b9c.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/bd6e87bbec1f7d9c1a5e8e1d284b33ad89cd2c49b1731a0a7f8daf23ad839b9c.jpg)
+
+![cfea73b252c04b3eb61908704823a7b7ca4c02894877bf398729cf09d1c06071.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/cfea73b252c04b3eb61908704823a7b7ca4c02894877bf398729cf09d1c06071.jpg)
+
+![e5a493a5fb993281ab3296c668bee382fb81c65339112233d76c1a541a348635.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/e5a493a5fb993281ab3296c668bee382fb81c65339112233d76c1a541a348635.jpg)
+
+![f3319b636677e09793003b9d8abd49322e02268622d0e60331577f1c765a57f7.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/f3319b636677e09793003b9d8abd49322e02268622d0e60331577f1c765a57f7.jpg)
+
+![f63f9e78248493b78e957d28d19530ab1b7b39bda3fdc72529e6a7504a87ec85.jpg](../iclr_results/2269_KOR-Bench_ Benchmarking Language Models on Knowledge-Orthogonal Reasoning Tasks/tables/f63f9e78248493b78e957d28d19530ab1b7b39bda3fdc72529e6a7504a87ec85.jpg)
+
+## Conservative Contextual Bandits: Beyond Linear Representations
+
+
+### Images
+
+![08991b179b0cdc56cfc9a7cb4ecb06eb99400241e11fc77d6b556f1afdbaf6c0.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/08991b179b0cdc56cfc9a7cb4ecb06eb99400241e11fc77d6b556f1afdbaf6c0.jpg)
+
+![350f4c284a28f051b31e5c6f9957c880fa23f918f7acfe5f91863a94cae5d630.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/350f4c284a28f051b31e5c6f9957c880fa23f918f7acfe5f91863a94cae5d630.jpg)
+
+![510f5598b2567a57f736996c87d627dc93ee33aef993cb28d90826a2157fe949.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/510f5598b2567a57f736996c87d627dc93ee33aef993cb28d90826a2157fe949.jpg)
+
+![67a629ed9efe80ad12a8a8881a920295a9377ca065af46fe7683f27e7cb74f59.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/67a629ed9efe80ad12a8a8881a920295a9377ca065af46fe7683f27e7cb74f59.jpg)
+
+![d2f3bbf15f2f4978b14171fa25c1c7d1efa233961916f586024f8f5918c8764a.jpg](../iclr_results/2270_Conservative Contextual Bandits_ Beyond Linear Representations/images/d2f3bbf15f2f4978b14171fa25c1c7d1efa233961916f586024f8f5918c8764a.jpg)
+
+## Is In-Context Learning Sufficient for Instruction Following in LLMs?
+
+
+### Images
+
+![0ed5de1d527bcbd889f0689716f9d60adeb1c40394db881f56bd314f742ad13a.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/0ed5de1d527bcbd889f0689716f9d60adeb1c40394db881f56bd314f742ad13a.jpg)
+
+![1078706e8a8c1a38e1e6c4844281f77d58b9aec6c32a26ab7fe4e2d3599f8c37.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/1078706e8a8c1a38e1e6c4844281f77d58b9aec6c32a26ab7fe4e2d3599f8c37.jpg)
+
+![2d9276d98574ec88f1f9234649d74d8042c51c9f679aaed9da7e142b193a8603.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/2d9276d98574ec88f1f9234649d74d8042c51c9f679aaed9da7e142b193a8603.jpg)
+
+![36d6c5ed26057fdc28900b7c913692ba2c6ca1c26b8dad4de6cc6ed4f631a649.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/36d6c5ed26057fdc28900b7c913692ba2c6ca1c26b8dad4de6cc6ed4f631a649.jpg)
+
+![4faffbd090124f7427d2509988fc398ad2458f125923d5c1e47ac9bb2fdb30a5.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/4faffbd090124f7427d2509988fc398ad2458f125923d5c1e47ac9bb2fdb30a5.jpg)
+
+![575a3da3ff30c6104e8119cbbd9cf916d7e066da2eacde0b051503e25f37baf8.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/575a3da3ff30c6104e8119cbbd9cf916d7e066da2eacde0b051503e25f37baf8.jpg)
+
+![58e5f27750a83e7c97c0b1a415735ae6642b7a499006b652d2698dece10662bf.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/58e5f27750a83e7c97c0b1a415735ae6642b7a499006b652d2698dece10662bf.jpg)
+
+![6edd42cd4f58de3562fade140927ac9f8090d54f45ffad0413ede93a98e1685b.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/6edd42cd4f58de3562fade140927ac9f8090d54f45ffad0413ede93a98e1685b.jpg)
+
+![9c1d1cbba18ff249c5f9aee7859dfc86582db74b709d63c010f9273d073b38ca.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/9c1d1cbba18ff249c5f9aee7859dfc86582db74b709d63c010f9273d073b38ca.jpg)
+
+![b09cf8757c147f63f1b3bed1537779b83d63e2a16845c85efa8672e2603100da.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/b09cf8757c147f63f1b3bed1537779b83d63e2a16845c85efa8672e2603100da.jpg)
+
+![c0e1a7b9ae13417187768aab39e4c8677bf942c86e997f6330cbad24b69deeb7.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/c0e1a7b9ae13417187768aab39e4c8677bf942c86e997f6330cbad24b69deeb7.jpg)
+
+![d14fc147e1bcee6e1f8f408730eb712049abf063918b27edf8427863eee360c0.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/d14fc147e1bcee6e1f8f408730eb712049abf063918b27edf8427863eee360c0.jpg)
+
+![f13588c4e4af0c0139b03259799b7575299c08e027ffd39f7daf1c91d3c56d5f.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/f13588c4e4af0c0139b03259799b7575299c08e027ffd39f7daf1c91d3c56d5f.jpg)
+
+![fb80f72f5a1aa10adad66922a0c5d981c1319785d7fae81c4d4c06b82293c270.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/images/fb80f72f5a1aa10adad66922a0c5d981c1319785d7fae81c4d4c06b82293c270.jpg)
+
+### Tables
+
+![53ee4d5b84c15cd7b9bd8a80f744eba36df7674fdc0e7f485ff66eb657b3858e.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/53ee4d5b84c15cd7b9bd8a80f744eba36df7674fdc0e7f485ff66eb657b3858e.jpg)
+
+![5a6c5d65811178856608df4766518397020c88ed74bae287e5d9b24bab5e5756.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/5a6c5d65811178856608df4766518397020c88ed74bae287e5d9b24bab5e5756.jpg)
+
+![947667353b936a204ecee41d6ab605a18f1d013cabd763be5e0235d84c6caaa2.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/947667353b936a204ecee41d6ab605a18f1d013cabd763be5e0235d84c6caaa2.jpg)
+
+![99ac236d4ef066adf1a337e631b2c29123acaa6f31932c2756e0ca0575e2ed59.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/99ac236d4ef066adf1a337e631b2c29123acaa6f31932c2756e0ca0575e2ed59.jpg)
+
+![acf382977ace3d7a41bbb7d284fe02a9e416de72c482d71f044f0a7dfeccba60.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/acf382977ace3d7a41bbb7d284fe02a9e416de72c482d71f044f0a7dfeccba60.jpg)
+
+![c9363b5191fe39a97072c9a59112be601491477d84a9127a308ebe6f8a5cbd8c.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/c9363b5191fe39a97072c9a59112be601491477d84a9127a308ebe6f8a5cbd8c.jpg)
+
+![ce6867e42ac7384220662123b59a82f6f71b8e50e43baea1089ac5910d1e8327.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/ce6867e42ac7384220662123b59a82f6f71b8e50e43baea1089ac5910d1e8327.jpg)
+
+![ebb45117ea8b5cd22984a3352dfb5af0d608e47e68dac0297f50b7b77af12e44.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/ebb45117ea8b5cd22984a3352dfb5af0d608e47e68dac0297f50b7b77af12e44.jpg)
+
+![f0cdc552655f962dad0dc73dd53638e11b1bd40f4df7d0370d67925b64e26b50.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/f0cdc552655f962dad0dc73dd53638e11b1bd40f4df7d0370d67925b64e26b50.jpg)
+
+![f5b7200b848ed8b89e817a65ceb46c761ccd6d8938366b35e59b54f97adbb133.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/f5b7200b848ed8b89e817a65ceb46c761ccd6d8938366b35e59b54f97adbb133.jpg)
+
+![fd2db04ea27bbf2ab844f7018e9ad364ecc2887f66e21fa28131ba0ff919b843.jpg](../iclr_results/2271_Is In-Context Learning Sufficient for Instruction Following in LLMs_/tables/fd2db04ea27bbf2ab844f7018e9ad364ecc2887f66e21fa28131ba0ff919b843.jpg)
+
+## VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing
+
 
 ### Images
 
@@ -1856,7 +2010,6 @@
 
 ## A Theory of Initialisation's Impact on Specialisation
 
-
 ### Images
 
 ![37c552fada599dc39be32105c83f91c5b8c118f30dc242c0d711c0f78cddd066.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/37c552fada599dc39be32105c83f91c5b8c118f30dc242c0d711c0f78cddd066.jpg)
@@ -1884,94 +2037,3 @@
 ![e17689eb892eea0dbe415fc9e0107a264295cacd852104dc093d2999158c20ce.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/e17689eb892eea0dbe415fc9e0107a264295cacd852104dc093d2999158c20ce.jpg)
 
 ![f01c219b63847472325941d084e31e3d967c74fda8defed34d5e7fa2b7198b0e.jpg](../iclr_results/2306_A Theory of Initialisation's Impact on Specialisation/images/f01c219b63847472325941d084e31e3d967c74fda8defed34d5e7fa2b7198b0e.jpg)
-
-## Can a Large Language Model be a Gaslighter?
-
-
-### Images
-
-![05be96eda8cf2dc4ab2bf9dddd370af544ae14fd1dd49cc1bdbaca59930b6adb.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/05be96eda8cf2dc4ab2bf9dddd370af544ae14fd1dd49cc1bdbaca59930b6adb.jpg)
-
-![138e7a04ebf9890a796d90fb94b8c8bafbadcc1cd1762ef95aeac4fe6c6db7cd.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/138e7a04ebf9890a796d90fb94b8c8bafbadcc1cd1762ef95aeac4fe6c6db7cd.jpg)
-
-![4b23c9246a8f122d05bfb5e103465cc938b855b8be80e7b284a31111160fb4d9.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/4b23c9246a8f122d05bfb5e103465cc938b855b8be80e7b284a31111160fb4d9.jpg)
-
-![54fd739ced35acded951a529b1f42ee99cdb42ef340bf8999359901845246d8c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/54fd739ced35acded951a529b1f42ee99cdb42ef340bf8999359901845246d8c.jpg)
-
-![5e443d76f51aab3691ba4e90e9a55763441c09e697c28c553a986d7894074f61.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/5e443d76f51aab3691ba4e90e9a55763441c09e697c28c553a986d7894074f61.jpg)
-
-![b92433c5f2e0b627943ace0d7de1d9eb7fa43c4def97e0bf0833d25fc3dae404.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/b92433c5f2e0b627943ace0d7de1d9eb7fa43c4def97e0bf0833d25fc3dae404.jpg)
-
-![e2ddb79458e42043db032f81cddb30ed15580971eb23ff5669c1ea029c34930c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/e2ddb79458e42043db032f81cddb30ed15580971eb23ff5669c1ea029c34930c.jpg)
-
-![e5f06a022bf2fd4e40f2b46f17b673bb341c1438fefc417c6a406bbc2c178d41.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/images/e5f06a022bf2fd4e40f2b46f17b673bb341c1438fefc417c6a406bbc2c178d41.jpg)
-
-### Tables
-
-![07d0f6eca700e38702cae81e2b8f8ef90a950c1ecc8ff66405f58b4a60c48a7f.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/07d0f6eca700e38702cae81e2b8f8ef90a950c1ecc8ff66405f58b4a60c48a7f.jpg)
-
-![1d67bb941ea4795c30c9192c2a1955dc66db028ed6990c04abf3e64399a462b1.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/1d67bb941ea4795c30c9192c2a1955dc66db028ed6990c04abf3e64399a462b1.jpg)
-
-![29a4a82caddbcee22eeb370f574d2ba149895381bddfa460b9b7bb7c92efdff1.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/29a4a82caddbcee22eeb370f574d2ba149895381bddfa460b9b7bb7c92efdff1.jpg)
-
-![38f739c10c1db0a4a44bb2a945aa9195918d0145676fcb8cf0b420244b306336.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/38f739c10c1db0a4a44bb2a945aa9195918d0145676fcb8cf0b420244b306336.jpg)
-
-![435c9a15208d9bc5ebee3e43c96d9e1e2df808784e31f4a889f98f5ba8ec7b4e.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/435c9a15208d9bc5ebee3e43c96d9e1e2df808784e31f4a889f98f5ba8ec7b4e.jpg)
-
-![4b8da8935aa344b762c5383e3cd3cab5536bca1b686d173529ae5eaf76451e1b.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/4b8da8935aa344b762c5383e3cd3cab5536bca1b686d173529ae5eaf76451e1b.jpg)
-
-![52081924e3d56cf254fa544078894eb28f387436298f05417fc359ce80dd7064.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/52081924e3d56cf254fa544078894eb28f387436298f05417fc359ce80dd7064.jpg)
-
-![571cdfca1b96bf9a2fab3062bdac00eb6ad55ddc90c8b8cb3d0b66092c22625f.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/571cdfca1b96bf9a2fab3062bdac00eb6ad55ddc90c8b8cb3d0b66092c22625f.jpg)
-
-![74623290c23f8f8d84273c7a5f827b87de177bf551fc488eb1d4932f3dbc5427.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/74623290c23f8f8d84273c7a5f827b87de177bf551fc488eb1d4932f3dbc5427.jpg)
-
-![75506cdf7fc63ec1e73c4f61c5b6c701c3c13fa90d591ea4d40e861f30ee5f4c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/75506cdf7fc63ec1e73c4f61c5b6c701c3c13fa90d591ea4d40e861f30ee5f4c.jpg)
-
-![a042e1fab596a17ab9aec722c538125992e8ba50b1ada083718efe3ac1ce004c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/a042e1fab596a17ab9aec722c538125992e8ba50b1ada083718efe3ac1ce004c.jpg)
-
-![ae83d6e67de49dbdd804d062320896971012e5d35d0412347cd67e356240332c.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/ae83d6e67de49dbdd804d062320896971012e5d35d0412347cd67e356240332c.jpg)
-
-![e9496ee59127b5f6d16dbfdd4b616ad704b85b3bca3970e271538188e6cda65a.jpg](../iclr_results/2307_Can a Large Language Model be a Gaslighter_/tables/e9496ee59127b5f6d16dbfdd4b616ad704b85b3bca3970e271538188e6cda65a.jpg)
-
-## Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning
-
-### Images
-
-![198e9c29af7a55da564790ff16072453ed0ad0eb0de979e51c6ef3157b173ad4.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/images/198e9c29af7a55da564790ff16072453ed0ad0eb0de979e51c6ef3157b173ad4.jpg)
-
-![57efa1c631d4f552f9bbfac55e26d0e17b14ffcf2706f01dc58002defdff194a.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/images/57efa1c631d4f552f9bbfac55e26d0e17b14ffcf2706f01dc58002defdff194a.jpg)
-
-![a8ab7d5b1afdc06bd6df1c75775fa4a572d584d4bb6257d16a69dfc81168a4a9.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/images/a8ab7d5b1afdc06bd6df1c75775fa4a572d584d4bb6257d16a69dfc81168a4a9.jpg)
-
-### Tables
-
-![1ccac3add9515a39ee7730e1d43befdb42fd8861b4b407b37d225b3427641396.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/1ccac3add9515a39ee7730e1d43befdb42fd8861b4b407b37d225b3427641396.jpg)
-
-![4321a972350b6bd6500c6142b55bc74ee9f134fc4b0f61b43d51ff1d3d5d2e5f.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/4321a972350b6bd6500c6142b55bc74ee9f134fc4b0f61b43d51ff1d3d5d2e5f.jpg)
-
-![632d7798110eb55229576cdf6aa169494b47c235e5896f93a1bd73bf63949082.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/632d7798110eb55229576cdf6aa169494b47c235e5896f93a1bd73bf63949082.jpg)
-
-![67fa49f7e7464cb951bb1f2d2e4bac04678c11c1d086bbfd856927f63a788ef5.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/67fa49f7e7464cb951bb1f2d2e4bac04678c11c1d086bbfd856927f63a788ef5.jpg)
-
-![76ceebc2a29fe03b6927d43f02d6341969300ee6208250af8cfe7b03b5400f99.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/76ceebc2a29fe03b6927d43f02d6341969300ee6208250af8cfe7b03b5400f99.jpg)
-
-![76e0c754b6683bc574c0e4d36a5e4f252e5ceca0448868d737cb44a259554b36.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/76e0c754b6683bc574c0e4d36a5e4f252e5ceca0448868d737cb44a259554b36.jpg)
-
-![7ea5a1ce73f1e21875393f794797166512502850ba97636bfcd0ee904f70dfe5.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/7ea5a1ce73f1e21875393f794797166512502850ba97636bfcd0ee904f70dfe5.jpg)
-
-![824a463d8a166b02a8b090698016df0cec38dceddb4fcb67f317110cade2cfad.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/824a463d8a166b02a8b090698016df0cec38dceddb4fcb67f317110cade2cfad.jpg)
-
-![8349c43541a5b99d9f00cb84ef9981ab7da4bf5103c99af7ee5d909b0b85a237.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/8349c43541a5b99d9f00cb84ef9981ab7da4bf5103c99af7ee5d909b0b85a237.jpg)
-
-![902ddd40a4c1a97a33ed39404fe0be2441710649c2c81b5a022ef310c5656c7d.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/902ddd40a4c1a97a33ed39404fe0be2441710649c2c81b5a022ef310c5656c7d.jpg)
-
-![9050095930281aadff597c608f1b96b3d65d9276c6b9fdc3b6f19ccb69b9dcc7.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/9050095930281aadff597c608f1b96b3d65d9276c6b9fdc3b6f19ccb69b9dcc7.jpg)
-
-![9e000becb1687ae70569ab320fdc24ab21eeb7024fac58e5c6589cf23f4f4b5e.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/9e000becb1687ae70569ab320fdc24ab21eeb7024fac58e5c6589cf23f4f4b5e.jpg)
-
-![ac1467f3b3a2a0ac48813747b07036840d7b565e151fbd03c407b37008be495e.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/ac1467f3b3a2a0ac48813747b07036840d7b565e151fbd03c407b37008be495e.jpg)
-
-![d020a2e95e6c8df8433fbfea1ac4d35c12e075f94c39410c46405c1f442e7af9.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/d020a2e95e6c8df8433fbfea1ac4d35c12e075f94c39410c46405c1f442e7af9.jpg)
-
-![d69a1c7dc8675ce838c44ab8af6d24c688797c0ffc24d95d409de0121056321c.jpg](../iclr_results/2308_Closed-Form Merging of Parameter-Efficient Modules for Federated Continual Learning/tables/d69a1c7dc8675ce838c44ab8af6d24c688797c0ffc24d95d409de0121056321c.jpg)
