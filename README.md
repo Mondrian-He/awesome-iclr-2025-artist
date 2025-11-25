@@ -9,7 +9,7 @@
 
 > [!warning]
 >
-> **The README shown on the repository homepage may be automatically truncated. To view the full version, you can open the README file directly.**🤨
+> **The README shown on the repository homepage may be automatically truncated. To view the full version, you can open the README file directly.** 🤨
 ---
 
 ## 📚 Complete Paper Index
