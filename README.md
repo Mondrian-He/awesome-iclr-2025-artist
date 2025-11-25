@@ -12,6 +12,12 @@
 > **The README shown on the repository homepage may be automatically truncated. To view the full version, you can open the README file directly.** 🤨
 ---
 
+> [!IMPORTANT]
+> **Papers 1 to 211 are Oral.  
+> Papers 212 to 586 are Spotlight.  
+> The rest are Poster.**
+---
+
 ## 📚 Complete Paper Index
 
 Total Papers: 3687
