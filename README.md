@@ -7,6 +7,11 @@
 > This project repository contains the long papers from ICLR 2025. Each paper’s framework diagrams, experimental figures, and other visuals are extracted to study their presentation techniques. Since the content is extensive and a single Markdown file cannot render everything reliably, **we split it into 100 separate Markdown files**, each covering approximately thirty-two papers. The following section indexes where each paper is located😁😁. Hope we can make progress together!
 ---
 
+> [!warning]
+>
+> **The README shown on the repository homepage may be automatically truncated. To view the full version, you can open the README file directly.**🤨
+---
+
 ## 📚 Complete Paper Index
 
 Total Papers: 3687
