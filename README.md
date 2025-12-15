@@ -1,5 +1,7 @@
 # awesome-iclr-2025-artist
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Mondrian-He/Awesome-artist)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Mondrian-He/awesome-iclr-2025-artist)](https://github.com/Mondrian-He/awesome-iclr-2025-artist)
 <img src="https://img.shields.io/badge/ICLR 2025-green"> <img src="https://img.shields.io/badge/Artist-purple"> <img src="https://img.shields.io/badge/Long Paper-orange"> <img src="https://img.shields.io/badge/WorkFlow, Framwork, Table, etc.-pink">
 
 >[!important]
